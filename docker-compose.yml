@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./src/onboarding:/var/www/html/onboarding
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - php
+
+  php:
+    build:
+      context: ./docker/php
+    container_name: php
+    volumes:
+      - ./src/onboarding:/var/www/html/onboarding
+    environment:
+      DB_NAME: fmbasste_onboarding_live
+      DB_USER: fmbasste_ch2020
+      DB_PASSWORD: 0mD0W*{Uq[6u
+      DB_HOST: db
+
+  db:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 0mD0W*{Uq[6u
+      MYSQL_DATABASE: fmbasste_onboarding_live
+      MYSQL_USER: fmbasste_ch2020
+      MYSQL_PASSWORD: 0mD0W*{Uq[6u
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql/initdb.d:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mysql_data:

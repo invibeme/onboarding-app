@@ -1,0 +1,4 @@
+"logo" => '',
+"contentTitle" =>__( 'TEXTHERE', 'chekin2020' ),
+"contentVideo" => 'iFrameHERE',
+"content" => '<p>'.__( 'TEXTHERE', 'chekin2020' ).'</p><p><a href="LINK" target="_blank">LINK</a></p>',

@@ -1,0 +1,380 @@
+/* Casos de exito */
+
+.wp-block-group.banner-area {
+  padding-top: 90px;
+  background: url("../images/legales-back.png") center top / 100% 100% no-repeat;
+  z-index: 1;
+  position: relative;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.banner-area .wp-block-group__inner-container {
+  position: relative;
+  margin-top: 70px;
+}
+
+body {
+  background: linear-gradient(180deg, #f3f8ff 9.5%, #fff 63.55%) !important;
+}
+
+.promo-area > .wp-block-group__inner-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 260px;
+  left: 46%;
+  width: 131px;
+  height: 67px;
+  background: 0% 0% no-repeat padding-box padding-box rgb(173, 204, 244);
+  border-radius: 13px;
+  transform: rotate(105deg);
+  animation-name: smalltobig;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+.promo-area > .wp-block-group__inner-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 180px;
+  left: 96%;
+  width: 104px;
+  height: 50px;
+  background: 0% 0% no-repeat padding-box padding-box rgb(202, 220, 243);
+  border-radius: 13px;
+  transform: rotate(58deg);
+  animation-name: smalltobig;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+.promo-area h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.promo-area p {
+  max-width: 455px;
+  font-size: 18px;
+}
+
+.promo-area .curve-arrow {
+  position: absolute;
+  top: 57%;
+  left: 54%;
+}
+
+.promo-area .box-text {
+  position: absolute;
+  top: 70%;
+  left: 52%;
+  display: flex;
+  width: 239px;
+  height: 104px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: var(--White, #fff);
+  box-shadow: rgba(3, 24, 43, 0.16) 0px 20px 25px 0px;
+  color: var(--Gray-2, #9696b9);
+  text-align: center;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.legal-title {
+  max-width: 845px;
+  margin: 100px auto;
+}
+
+.legal-title h4 {
+  color: rgb(33, 72, 255);
+}
+
+.legal-title p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.legal-filter .nav-pms {
+  margin-top: 100px;
+  justify-content: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0px 0px 10px;
+}
+
+.legal-filter .nav-pms li {
+  border: none;
+  padding: 5px !important;
+}
+
+.legal-filter .nav-pms li a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: rgb(107, 107, 149);
+  padding: 8px 15px;
+}
+
+.legal-filter .nav-pms li.active a {
+  border-radius: 24px;
+  border: 2px solid rgb(25, 25, 75);
+  color: rgb(25, 25, 75);
+}
+
+.legal-filter .nav-pms li:hover a,
+.legal-filter .nav-pms li.active:hover a {
+  border-radius: 24px;
+  border: 2px solid rgb(222, 222, 235);
+}
+
+.main-service-success {
+  width: calc(100% - 4rem);
+  margin: 0 auto;
+  max-width: 1130px;
+  justify-content: flex-start;
+  margin-bottom: 160px !important;
+  flex-wrap: wrap !important;
+}
+
+.main-service-success .wp-block-column {
+  position: relative;
+  padding: 0px;
+  max-width: 22.1875rem;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.main-service-success .wp-block-column .see-block {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.main-service-success #spain,
+#international,
+#france,
+#austria,
+#croatia,
+#dubai {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px 0px rgba(26, 148, 255, 0.1);
+     min-height: 400px;
+    padding-bottom:45px;
+}
+
+.main-service-success .wp-block-column .colum-img img {
+  height: 10em;
+  width: 23em;
+  display: block;
+  margin: 0px auto;
+  border-radius: 16px 16px 0px 0px;
+  transition: all 0.6s;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main-service-success h5 {
+  font-size: 20px;
+}
+
+.main-service-success p {
+  margin: 16px;
+}
+
+.main-service-success p.link-hover {
+  margin: -10px 0px 0px -15px;
+  white-space: nowrap;
+}
+
+.main-service-success .legal-place {
+  padding: 5px;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #f4f4fd;
+  color: #6b6b95;
+  border-radius: 24px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.main-service-success .legal-place.spain,
+.main-service-success .legal-place.france,
+.main-service-success .legal-place.austria,
+.main-service-success .legal-place.croatia {
+  width: 90px;
+}
+
+.international .legal-place.spain {
+  width: 140px;
+}
+
+.main-service-success .see-more {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  margin-left: 15px !important;
+}
+
+.main-service-success .integraciones-blocks .see-more {
+  padding: 16px 16px;
+}
+
+.main-service-success .see-more a {
+  color: rgb(56, 92, 248);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.main-service-success .img-more {
+  margin-bottom: 8px !important;
+}
+
+.review-title-wrap {
+  margin-bottom: 80px !important;
+}
+
+.contact-form button {
+  margin-top: 35px;
+}
+
+.callto-action {
+  background: rgb(244, 248, 255);
+  margin-top: 50px !important;
+}
+
+@media only screen and (max-width: 1159px) {
+  .promo-area .curve-arrow {
+    display: none;
+  }
+
+  .promo-area > .wp-block-group__inner-container::before {
+    display: none;
+  }
+
+  .promo-area > .wp-block-group__inner-container::after {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .promo-area .left-column {
+    padding: 66px 0px;
+  }
+
+  .main-service-success .wp-block-column {
+    flex-basis: 100% !important;
+  }
+
+  .wp-block-columns.see-block {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-service-success .wp-block-column {
+    margin: 0px auto;
+  }
+
+  .promo-area .box-text {
+    top: 90%;
+    left: 50%;
+    font-size: 15px;
+    width: 220px;
+    height: 85px;
+    transform: translateX(-50%);
+  }
+
+  .wp-block-columns.see-block {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .review-title-wrap {
+    margin-bottom: 0px !important;
+  }
+
+  .banner-area .wp-block-group__inner-container {
+    margin-top: 90px !important;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .main-service-success .wp-block-column .colum-img img {
+    height: 13em;
+    width: 23em;
+    display: block;
+    margin: 0px auto;
+    border-radius: 16px 16px 0px 0px;
+    transition: all 0.6s;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .main-service-success .see-more {
+    display: none;
+    align-items: center;
+    align-self: stretch;
+    margin-left: 15px !important;
+  }
+
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .main-service-success .integraciones-blocks .see-more {
+    padding: 16px 16px;
+    opacity: 0;
+    animation: aparecer 0.6s ease forwards;
+  }
+
+  .main-service-success .integraciones-blocks:hover .see-more {
+    display: flex;
+  }
+
+  .main-service-success .integraciones-blocks:hover .link-hover {
+    display: flex;
+  }
+
+  .main-service-success .integraciones-blocks .see-block {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    transition: border-color 0.2s;
+  }
+
+  .main-service-success .integraciones-blocks:hover .colum-img img {
+    height: 10em;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.6s;
+  }
+}

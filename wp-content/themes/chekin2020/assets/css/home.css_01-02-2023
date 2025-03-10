@@ -1,0 +1,283 @@
+.home-services .wp-block-group.home-service-title {
+	margin-bottom: 100px !important;
+    position: relative;
+}
+.home-service-title h4 {
+	color: #2148FF;
+	font-weight: bold;
+	font-size: 20px;
+}
+.service-area-image .wp-image-24386.lazy-loaded {
+	margin: 0 auto;
+}
+.service-area-image img {
+	display: block;
+	margin: 0 auto;
+}
+.service-area-image .wp-block-columns {
+	margin-top: -100px !important;
+	margin-bottom: 100px !important;
+}
+.service-area-image .wp-block-columns p {
+	margin-right: 150px;
+}
+.home-services-item {
+	align-items: flex-start;
+}
+.home-services-item:nth-child(even) {
+	align-items: flex-end;
+}
+.home-services-item.home-services-item-1,
+.home-services-item.home-services-item-3,
+.home-services-item.home-services-item-5,
+.home-services-item.home-services-item-7 {
+	margin-bottom: 175px !important;
+}
+.home-services-item-1 img,
+.home-services-item-3 img, 
+.home-services-item-5 img,
+.home-services-item-7 img {
+	position: relative;
+	transform: scale(1.7) translate(-17%, 18%);
+    left: unset;
+}
+.home-services-item-3 img {
+	transform: scale(1.6) translate(-16%, 18%);
+}
+.home-services-item-5 img {
+	transform: scale(1.4) translate(-14%, 18%);
+}
+.home-services-item.home-services-item-2, .home-services-item.home-services-item-4, 
+.home-services-item.home-services-item-6, .home-services-item.home-services-item-8 {
+	padding-top: 175px !important;
+	margin-bottom: 100px !important;
+}
+.home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+	position: relative;
+	transform: scale(1.4) translate(9%, -10%);
+}
+.home-services-item-6 img {
+	transform: scale(1.2) translate(2%, 3%);
+}
+.home-services-item-2 p {
+	margin-right: 85px;
+}
+.home-services-item-4 p {
+	margin-right: 90px;
+}
+.service-area-image .wp-block-columns {
+	margin-top: -100px !important;
+	margin-bottom: 100px !important;
+}
+
+
+.wp-block-cover.has-background-dim {
+	padding: 150px 0 180px;
+}
+.our-app {
+	background: none;
+}
+.our-app h2 {
+	font-size: 42px;
+}
+.our-app h2, .our-app p {
+	text-shadow: 0px 3px 4px #0000009B;
+}
+.our-app-image-wrap img {
+	position: absolute;
+	bottom: -130px;
+	right: 0;
+}
+
+.home .home-services {
+	padding: 135px 0 70px 0 !important;
+	margin-top: 0 !important;
+	background: none !important;
+}
+.home .home-service-title::before {
+	display: none !important;
+}
+.home-services-item.home-services-item-8 {
+	align-items: center !important;
+}
+.wp-block-columns.home-services-item.home-services-item-7 {
+	align-items: flex-end;
+}
+.home-services-item-7 .wp-block-column:first-child {
+	margin-bottom: -170px !important;
+}
+.home-services-item-8 img {
+	position: relative;
+	transform: scale(1.1) translate(-2%, 0) !important;
+}
+.home-services-item.home-services-item-6 {
+	padding-top: 40px !important;
+	margin-bottom: 50px !important;
+}
+
+.home-service-intro img {
+	width: 330px;
+	margin-left: 101px !important;
+	margin-top: -405px !important;
+    opacity: 0;
+}
+.home-service-intro img.show{
+    opacity: 1 !important;
+}
+.wp-block-group.home-services-wrapper .home-services-item-1{
+	margin-top: 145px !important;
+}
+.home-service-intro .wp-block-column:last-child {
+	margin-right: 64px;
+	flex-basis: 425px !important;
+	flex-grow: 0;
+	margin-right: 80px;
+}
+.home-service-intro p {
+	font-size: 18px;
+}
+.main-service .wp-block-button__link {
+	font-size: 18px;
+	box-shadow: 0px 3px 4px #00020333;
+	margin: 10px;
+	padding: 22px 40px;
+}
+.home-services-wrapper .wp-block-button__link {
+	font-size: 18px;
+	padding: 22px 40px;
+}
+.pms-del-text {
+	padding-left: 0 !important;
+}
+.pms-del-image img {
+	width: 95% !important;
+}
+.banner-text-wrap p {
+	font-size: 19px !important;
+}
+.main-service .home-service-title h4{
+    color: #161643;
+}
+.home-service-intro h3 {
+	/*text-align: right;*/
+	padding-right: 10px;
+}
+.home-services {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
+@media only screen and (max-width: 1159px) {
+    .home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+        left: 0;
+        margin-left: 0;
+    }
+    .home-service-intro img {
+        margin-left: 14% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .service-area-image .wp-block-columns p {
+        margin-right: 25px;
+    }
+    .home-services-item p {
+        margin-right: 0px !important;
+    }
+    .home-services-item-1 img, .home-services-item-3 img, .home-services-item-5 img, .home-services-item-7 img {
+        position: relative;
+        transform: scale(1.4) translate(-10%, 10%);
+        left: unset;
+    }
+    .home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+        position: relative;
+        transform: scale(1.2) translate(2%, 0%);
+    }
+    .wp-block-columns.home-services-item {
+        margin-bottom: 15% !important;
+        padding: 0 !important;
+    }
+    .home-services-item-7 .wp-block-column:first-child {
+        margin-bottom: 0px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .home-services {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .home-services .wp-block-group.home-service-title {
+        margin-bottom: 50px !important;
+    }
+    .service-area-image .wp-image-24386.lazy-loaded {
+        margin: 0 auto;
+        min-width: calc(100% + 40px) !important;
+        margin-left: -20px;
+    }
+    .service-area-image .wp-block-columns {
+        margin-top: 0 !important;
+        margin-bottom: 100px !important;
+    }
+    .home-services-item img {
+        transform: scale(1) translate(0) !important;
+    }
+    .wp-block-columns.home-services-item {
+        padding-bottom: 35px !important;
+    }
+    .wp-block-cover.has-background-dim {
+        padding: 80px 0 370px;
+    }
+    .our-app-image-wrap img {
+        bottom: -100px;
+    }
+    .home-service-intro .wp-block-column:last-child {
+        flex-basis: 100% !important;
+        margin-right: 0px;
+    }
+    .home-service-intro img {
+        margin-top: -80% !important;
+    }
+    .home-services-item .wp-block-column {
+        width: 100%;
+        margin: 0;
+    }
+    .home-services-item img {
+        margin: 0 auto;
+    }
+    .our-app .wp-block-column.our-app-text-wrap {
+        flex-basis: 100% !important;
+    }
+    .home .home-services {
+        padding: 80px 0 70px 0 !important;
+    }
+    .home-service-intro h3 {
+        text-align: left;
+        padding-right: 0px;
+    }
+    .wp-block-group.home-services-wrapper .home-services-item-1 {
+        margin-top: 90px !important;
+    }
+    .home .home-service-title::after {
+        display: none;
+    }
+    .owl-carousel .owl-item img {
+        height: 50px;
+    }
+
+}
+@media only screen and (max-width: 599px) {
+    .home-service-intro img {
+        margin-left: 0% !important;
+    }
+    .home-service-intro img {
+        margin-top: -100px !important;
+        width: 300px;
+    }
+    .home-service-intro p {
+        font-size: 16px;
+    }
+}

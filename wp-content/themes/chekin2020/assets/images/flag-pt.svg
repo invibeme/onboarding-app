@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="portugal-icon" transform="translate(0.276 -0.576)">
+    <ellipse id="Ellipse_1654" data-name="Ellipse 1654" cx="9.51" cy="9.424" rx="9.51" ry="9.424" transform="translate(0.214 1.152)" fill="#f0f0f0"/>
+    <g id="portugal" transform="translate(-0.276 0.576)">
+      <path id="Path_31515" data-name="Path 31515" d="M0,25.3a10,10,0,0,0,6.522,9.378l.87-9.378-.87-9.378A10,10,0,0,0,0,25.3Z" transform="translate(0 -15.301)" fill="#78b948"/>
+      <path id="Path_31516" data-name="Path 31516" d="M180.433,10A10.006,10.006,0,0,0,166.955.622V19.378A10.006,10.006,0,0,0,180.433,10Z" transform="translate(-160.433)" fill="#fa0b54"/>
+      <circle id="Ellipse_1656" data-name="Ellipse 1656" cx="3.478" cy="3.478" r="3.478" transform="translate(3.044 6.522)" fill="#ffda44"/>
+      <path id="Path_31517" data-name="Path 31517" d="M116.87,211.478v2.174a1.957,1.957,0,0,0,3.913,0v-2.174Z" transform="translate(-112.305 -203.217)" fill="#fa0b54"/>
+      <path id="Path_31518" data-name="Path 31518" d="M150.913,246.392a.653.653,0,0,1-.652-.652v-.87h1.3v.87A.653.653,0,0,1,150.913,246.392Z" transform="translate(-144.391 -235.305)" fill="#f0f0f0"/>
+    </g>
+  </g>
+</svg>

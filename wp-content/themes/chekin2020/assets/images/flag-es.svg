@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="spain-icon" transform="translate(-0.005 -0.001)">
+    <ellipse id="Ellipse_1654" data-name="Ellipse 1654" cx="9.596" cy="9.424" rx="9.596" ry="9.424" transform="translate(0.214 1.152)" fill="#f0f0f0"/>
+    <g id="Group_14093" data-name="Group 14093" transform="translate(0.005 0.001)">
+      <g id="spain">
+        <path id="Path_31519" data-name="Path 31519" d="M0,9.914a9.816,9.816,0,0,0,.622,3.448L10,14.224l9.378-.862a9.869,9.869,0,0,0,0-6.9L10,5.6.622,6.465A9.816,9.816,0,0,0,0,9.914Z" transform="translate(0 0.086)" fill="#ffda44"/>
+        <g id="Group_14095" data-name="Group 14095" transform="translate(0.617)">
+          <path id="Path_31520" data-name="Path 31520" d="M19.383,6.465a10.042,10.042,0,0,0-18.767,0Z" transform="translate(-0.617)" fill="#fa0b54"/>
+          <path id="Path_31521" data-name="Path 31521" d="M.617,13.362a10.042,10.042,0,0,0,18.767,0Z" transform="translate(-0.617 0.173)" fill="#fa0b54"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,573 @@
+# Translation of Plugins - Instant Indexing for Google - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Instant Indexing for Google - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-20 09:34:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Instant Indexing for Google - Stable (latest release)\n"
+
+#. translators: %s is a link to the plugin settings tab.
+#: views/console.php:20
+msgid "To use the Google Indexing API, please navigate to the %s tab and configure the API."
+msgstr "Для использования Google Indexing API перейдите на вкладку %s и настройте API."
+
+#: views/bing-settings.php:46
+msgid "API Key Location:"
+msgstr "Расположение ключа API:"
+
+#: views/bing-settings.php:34
+msgid "The IndexNow API key proves the ownership of the site. It is generated automatically. You can change the key if it becomes known to third parties."
+msgstr "Ключ API IndexNow подтверждает право собственности на сайт. Он генерируется автоматически. Вы можете изменить ключ, если он станет известен третьим лицам."
+
+#: views/bing-settings.php:33
+msgid "API Key:"
+msgstr "Ключ API:"
+
+#: views/bing-settings.php:14
+msgid "Change Key"
+msgstr "Изменить ключ"
+
+#. Translators: %s is the words "Check Key".
+#: views/bing-settings.php:11
+msgid "Use the %1$s button to verify that the key is accessible for search engines. Clicking on it should open the key file in your browser and show the API key."
+msgstr "Используйте кнопку %1$s, чтобы убедиться, что ключ доступен для поисковых систем. При нажатии на неё в браузере должен открыться файл ключа API."
+
+#: views/bing-settings.php:8
+msgid "Check Key"
+msgstr "Проверить ключ"
+
+#: views/indexnow-history.php:59
+msgid "Too Many Requests (potential Spam)."
+msgstr "Слишком много запросов (потенциальный спам)."
+
+#: views/indexnow-history.php:59
+msgid "Too Many Requests"
+msgstr "Слишком много запросов"
+
+#: views/indexnow-history.php:58
+msgid "The URLs don't belong to the host or the key is not matching the schema in the protocol."
+msgstr "URL не принадлежат хосту или ключ не соответствует схеме в протоколе."
+
+#: views/indexnow-history.php:58
+msgid "Unprocessable Entity"
+msgstr "Необрабатываемый объект"
+
+#: views/indexnow-history.php:57
+msgid "The key was invalid (e.g. key not found, file found but key not in the file)."
+msgstr "Ключ недействителен (например: ключ не найден, ключ отсутствует в файле)."
+
+#: views/indexnow-history.php:57
+msgid "Forbidden"
+msgstr "Запрещено"
+
+#: views/indexnow-history.php:56
+msgid "The request was invalid."
+msgstr "Запрос недействителен."
+
+#: views/indexnow-history.php:56
+msgid "Bad Request"
+msgstr "Неверный запрос"
+
+#: views/indexnow-history.php:55
+msgid "The URL was successfully submitted to the IndexNow API, but the API key will be checked later."
+msgstr "URL успешно отправлен в API IndexNow, но ключ API будет проверен позже."
+
+#: views/indexnow-history.php:55
+msgid "Accepted"
+msgstr "Принято"
+
+#: views/indexnow-history.php:54
+msgid "The URL was successfully submitted to the IndexNow API."
+msgstr "URL успешно отправлен в API IndexNow."
+
+#: views/indexnow-history.php:54
+msgid "OK"
+msgstr "OK"
+
+#: views/indexnow-history.php:53
+msgid "Reasons"
+msgstr "Причины"
+
+#: views/indexnow-history.php:53
+msgid "Response Message"
+msgstr "Ответное сообщение"
+
+#: views/indexnow-history.php:53
+msgid "Response Code"
+msgstr "Код ответа"
+
+#: views/indexnow-history.php:51
+msgid "IndexNow Response Code Help"
+msgstr "Код помощи IndexNow Response."
+
+#: views/indexnow-history.php:28
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: views/indexnow-history.php:17
+msgid "Submission"
+msgstr "Отправка"
+
+#: views/indexnow-history.php:11
+msgid "Here you can see a list of the most recent IndexNow URL submissions, and their status. To clear all items, scroll down to the bottom of the page and click on the \"Clear History\" button."
+msgstr "Здесь вы можете увидеть список последних отправленных IndexNow URL и их статус. Чтобы очистить все элементы, прокрутите страницу вниз и нажмите на кнопку \"Очистить историю\"."
+
+#: views/dashboard.php:440
+msgid "For your video content, a Video Sitemap is a recommended step for better rankings and inclusion in the Video search."
+msgstr "При размещении на сайте видеоконтента карта сайта для видео рекомендуемым методом повышения рейтинга и включения в поисковый индекс видеозаписей."
+
+#: views/dashboard.php:438
+msgid "Video Sitemap"
+msgstr "Карта сайта для видео"
+
+#: views/dashboard.php:302
+msgid "Create a News Sitemap for your news-related content. You only need a News sitemap if you plan on posting news-related content on your website."
+msgstr "Создание карты сайта для новостного контента. Карта сайта для новостей нужна только в том случае, если вы планируете размещать на сайте новостной контент."
+
+#: views/dashboard.php:300
+msgid "News Sitemap"
+msgstr "Карта новостей сайта"
+
+#: views/dashboard.php:186
+msgid "Get sophisticated AI suggestions for related Keywords, Questions &amp; Links to include in the SEO meta &amp; Content Area. Supports 80+ Countries."
+msgstr "Получайте утонченные AI-предложения для связанных ключевых слов, вопросов и ссылок, которые можно включить в SEO-мета и область содержимого. Поддерживает более 80 стран."
+
+#: views/dashboard.php:184
+msgid "NEW!"
+msgstr "НОВОЕ!"
+
+#: views/dashboard.php:184
+msgid "Content AI"
+msgstr "Контентный ИИ"
+
+#: views/indexnow-history.php:35
+msgid "No submissions yet."
+msgstr "Отправок пока не было."
+
+#. Translators: placeholder is human-readable time, e.g. "1 hour".
+#: views/indexnow-history.php:23
+msgid "%s ago"
+msgstr "%s назад"
+
+#: views/indexnow-history.php:17
+msgid "Response"
+msgstr "Ответ"
+
+#: views/indexnow-history.php:17
+msgid "URL"
+msgstr "URL"
+
+#: views/indexnow-history.php:17
+msgid "Time"
+msgstr "Время"
+
+#: views/indexnow-history.php:29
+msgid "Manual"
+msgstr "Вручную"
+
+#: views/indexnow-history.php:47
+msgid "Clear History"
+msgstr "Очистить историю"
+
+#. Translators: placeholder is "IndexNow API".
+#: includes/class-instant-indexing.php:1002 views/dashboard.php:233
+msgid "IndexNow API"
+msgstr "IndexNow API"
+
+#. Translators: placeholder is "IndexNow API".
+#: includes/class-instant-indexing.php:1002 views/dashboard.php:233
+msgid "Directly notify search engines like Bing & Yandex using the %s when pages are added, updated and removed, or submit URLs manually."
+msgstr "Уведомляйте напрямую поисковые системы, такие как Яндекс и Bing, используя %s, когда страницы добавляются, обновляются и удаляются, или отправляйте URL-адреса вручную."
+
+#: includes/class-instant-indexing.php:167 views/indexnow-history.php:10
+msgid "IndexNow History"
+msgstr "История IndexNow"
+
+#: views/console.php:53
+msgid "<strong>IndexNow</strong>: Submit URL"
+msgstr "<strong>IndexNow</strong>: URL-адрес отправки"
+
+#: views/bing-settings.php:26
+msgid "Submit Posts IndexNow:"
+msgstr "Отправить записи IndexNow:"
+
+#: views/bing-settings.php:20
+msgid "The IndexNow API allows you to submit URLs to Bing and Yandex for indexing."
+msgstr "API IndexNow позволяет вам отправлять URL-адреса в Bing и Yandex для индексации."
+
+#: includes/class-instant-indexing.php:338
+msgid "Instant Indexing: Submit to IndexNow"
+msgstr "Мгновенное индексирование: Отправить в IndexNow"
+
+#: includes/class-instant-indexing.php:143 views/bing-settings.php:19
+msgid "IndexNow API Settings"
+msgstr "Настройки IndexNow API"
+
+#: views/google-settings.php:38
+msgid "Submit posts from these post types automatically to the Google Instant Indexing API when a post is published, edited, or deleted."
+msgstr "Отправляйте записи из этих типов записей автоматически в API мгновенной индексации Google при публикации, редактировании или удалении записи."
+
+#: views/google-settings.php:37
+msgid "Submit Posts to Google:"
+msgstr "Отправить записи в Google:"
+
+#: views/google-settings.php:16
+msgid "Google JSON Key:"
+msgstr "Google JSON Key:"
+
+#: views/google-settings.php:10
+msgid "Google Instant Indexing API Settings"
+msgstr "Настройки API мгновенной индексации Google"
+
+#: views/dashboard.php:486
+msgid "Optimize WooCommerce Pages for Search Engines by adding required metadata and Product Schema which will make your site stand out in the SERPs."
+msgstr "Оптимизируйте страницы WooCommerce для поисковых систем, добавив необходимые метаданные и Schema для продукта, которые выделят ваш сайт в результатах поиска."
+
+#: views/dashboard.php:463
+msgid "Make any Story created with the Web Stories WordPress plugin SEO-Ready with automatic support for Schema and Meta tags."
+msgstr "Сделайте любую историю, созданную с помощью плагина Web Stories WordPress, SEO Ready с автоматической поддержкой Schema и метатегов."
+
+#: views/dashboard.php:461
+msgid "Google Web Stories"
+msgstr "Google Web Stories"
+
+#: views/dashboard.php:417
+msgid "Enable Rank Math's sitemap feature, which helps search engines intelligently crawl your website's content. It also supports hreflang tag."
+msgstr "Включите функцию карты сайта Rank Math, которая помогает поисковым системам качественно сканировать содержимое сайта. Он также поддерживает тег hreflang."
+
+#: views/dashboard.php:371
+msgid "The Role Manager allows you to use WordPress roles to control which of your site users can have edit or view access to Rank Math's settings."
+msgstr "Диспетчер ролей позволяет использовать роли WordPress для управления тем, кто из пользователей вашего сайта может редактировать или просматривать доступ к настройкам Rank Math."
+
+#: views/dashboard.php:348
+msgid "Enable support for the structured data, which adds Schema code in your website, resulting in rich search results, better CTR and more traffic."
+msgstr "Включите поддержку структурированных данных, которые добавляют Schema код на ваш сайт, что приводит к показы расширенных результатов в поиске, повышению CTR и увеличению трафика."
+
+#: views/dashboard.php:346
+msgid "Schema (Structured Data)"
+msgstr "Schema (структурированные данные)"
+
+#: views/dashboard.php:325
+msgid "Redirect non-existent content easily with 301 and 302 status code. This can help improve your site ranking. Also supports many other response codes."
+msgstr "Легко переадресуйте URL на несуществующие страницы с помощью статусов 301 и 302. Это может помочь улучшить рейтинг вашего сайта. Также поддерживается множество других кодов ответов сервера."
+
+#: views/dashboard.php:279
+msgid "Dominate the search results for the local audiences by optimizing your website for Local SEO and it also helps you to add code related to Knowledge Graph."
+msgstr "Доминируйте в результатах поиска для местной аудитории, оптимизируя свой сайт для локального SEO, а также добавляя код, связанный с Knowledge Graph."
+
+#: views/dashboard.php:277
+msgid "Local SEO &amp; Knowledge Graph"
+msgstr "Локальная SEO и Knowledge Graph"
+
+#: views/dashboard.php:256
+msgid "Counts the total number of internal, external links, to and from links inside your posts. You can also see the same count in the Posts List Page."
+msgstr "Подсчитывает общее количество внутренних и внешних ссылок, ссылок на и из ваших записей. Вы также можете увидеть то же самое количество на странице списка записей."
+
+#: views/dashboard.php:209
+msgid "Advanced Image SEO options to supercharge your website. Automate the task of adding the ALT and Title tags to your images on the fly."
+msgstr "Расширенные возможности SEO для изображений, чтобы улучшить ваш сайт. Автоматизируйте процесс добавления тегов Alt и Title к вашим изображениям на лету."
+
+#: views/dashboard.php:207
+msgid "Image SEO"
+msgstr "SEO изображений"
+
+#: views/dashboard.php:163
+msgid "Enable the BuddyPress module for Rank Math SEO to make your BuddyPress forum SEO friendly by adding proper meta tags to all forum pages."
+msgstr "Включите модуль BuddyPress для Rank Math SEO, чтобы сделать форум BuddyPress SEO-оптимизированным, добавив соответствующие метатеги на все страницы форума."
+
+#: views/dashboard.php:161
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: views/dashboard.php:140
+msgid "Add proper Meta tags to your bbPress forum posts, categories, profiles, etc. Get more options to take control of what search engines see and how they see it."
+msgstr "Добавьте правильные метатеги в записи, рубрики, профили и т.д. bbPress форума. Получите больше возможностей для управления тем, что видят поисковые системы и как они это видят."
+
+#: views/dashboard.php:115
+msgid "Analytics"
+msgstr "Аналитика"
+
+#: views/dashboard.php:94
+msgid "Install AMP plugin to make Rank Math work with Accelerated Mobile Pages. Rank Math automatically adds required meta tags in all the AMP pages."
+msgstr "Установите плагин AMP, чтобы сделать Rank Math совместимым с ускоренными мобильными страницами. Rank Math автоматически добавляет необходимые мета-теги на всех страницах AMP."
+
+#: views/dashboard.php:71
+msgid "ACF support helps Rank Math SEO read and analyze content written in the Advanced Custom Fields. If your theme uses ACF, you should enable this option."
+msgstr "Поддержка ACF помогает Rank Math SEO читать и анализировать текст, созданный в Advanced Custom Fields. Если ваша тема использует ACF, необходимо включить данную опцию."
+
+#: views/dashboard.php:69
+msgid "ACF"
+msgstr "ACF"
+
+#: views/dashboard.php:30 views/dashboard.php:31
+msgid "Help"
+msgstr "Помощь"
+
+#: views/dashboard.php:15
+msgid "Rank Math Knowledge Base"
+msgstr "База знаний Rank Math"
+
+#: views/console.php:50
+msgid "<strong>Google</strong>: Get URL status"
+msgstr "<strong>Google</strong>: Получить статус URL"
+
+#: views/console.php:49
+msgid "<strong>Google</strong>: Remove URL"
+msgstr "<strong>Google</strong>: Удалить URL"
+
+#: views/console.php:48
+msgid "<strong>Google</strong>: Publish/update URL"
+msgstr "<strong>Google</strong>: Опубликовать/обновить URL"
+
+#: views/console.php:43
+msgid "URLs (one per line, up to 100 for Google and 10,000 for IndexNow):"
+msgstr "URL-адреса (по одному на строку, до 100 для Google и до 10 000 для IndexNow):"
+
+#: views/console.php:35
+msgid "MetadataRequestsPerMinutePerProject"
+msgstr "Запросы метаданных в минуту на проект"
+
+#: views/console.php:34
+msgid "RequestsPerMinutePerProject"
+msgstr "Запросы в минуту на проект"
+
+#: views/console.php:33
+msgid "PublishRequestsPerDayPerProject"
+msgstr "Количество запросов на публикацию в день на проект"
+
+#: views/console.php:32
+msgid "Google API Remaining Quota:"
+msgstr "Оставшаяся квота Google API:"
+
+#: views/bing-settings.php:27
+msgid "Submit posts from these post types automatically to the IndexNow API when a post is published or edited."
+msgstr "Отправляйте записи из этих типов автоматически в IndexNow API при публикации или редактировании записи."
+
+#: includes/class-instant-indexing.php:1097
+#: includes/class-instant-indexing.php:1130
+msgid "A recently published post has been automatically submitted to the Instant Indexing API."
+msgstr "Недавно опубликованная запись была автоматически отправлена в API мгновенной индексации."
+
+#: includes/class-instant-indexing.php:1007
+msgid "You cannot deactivate this module because the Instant Indexing plugin is active on this site."
+msgstr "Вы не можете деактивировать этот модуль, потому что плагин Instant Indexing активен на этом сайте."
+
+#: includes/class-instant-indexing.php:811
+#: includes/class-instant-indexing.php:815
+#: includes/class-instant-indexing.php:827
+msgid "Settings could not be updated."
+msgstr "Настройки не могут быть обновлены."
+
+#: includes/class-instant-indexing.php:247
+msgid "Instant Indexing: Bing Submit"
+msgstr "Мгновенная индексация: Bing Submit"
+
+#: includes/class-instant-indexing.php:235
+#: includes/class-instant-indexing.php:335
+msgid "Instant Indexing: Google Get Status"
+msgstr "Мгновенная индексация: Google получает статус"
+
+#: includes/class-instant-indexing.php:234
+#: includes/class-instant-indexing.php:334
+msgid "Instant Indexing: Google Update"
+msgstr "Мгновенное индексирование: Обновление Google"
+
+#: includes/class-instant-indexing.php:142
+msgid "Google API Settings"
+msgstr "Настройки API Google"
+
+#. Plugin URI of the plugin
+#: instant-indexing.php
+msgid "https://rankmath.com/wordpress/plugin/instant-indexing/"
+msgstr "https://rankmath.com/wordpress/plugin/instant-indexing/"
+
+#: views/dashboard.php:552
+msgid "with your version of WordPress"
+msgstr "с вашей версией WordPress"
+
+#: views/dashboard.php:552
+msgid "Compatible"
+msgstr "Совместим"
+
+#: views/dashboard.php:547
+msgid "Rank Math is a revolutionary SEO plugin that combines the features of many SEO tools in a single package & helps you multiply your traffic."
+msgstr "Rank Math - это революционный плагин для SEO, который сочетает в себе функции многих инструментов SEO в одном пакете и помогает увеличить трафик."
+
+#: views/dashboard.php:529
+msgid "WordPress SEO Plugin – Rank Math"
+msgstr "Плагин WordPress для SEO – Rank Math"
+
+#: views/dashboard.php:516
+msgid "Install for Free"
+msgstr "Установить бесплатно"
+
+#: views/dashboard.php:511
+msgid "Activate Now"
+msgstr "Активировать сейчас"
+
+#: views/dashboard.php:484
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: views/dashboard.php:415
+msgid "Sitemap"
+msgstr "Карта сайта"
+
+#: views/dashboard.php:394
+msgid "Let Rank Math analyze your website and your website's content using 70+ different tests to provide tailor-made SEO Analysis to you."
+msgstr "Позвольте Rank Math проанализировать ваш сайт и его содержимое, используя более 70 различных тестов, чтобы предоставить вам индивидуальный SEO-анализ."
+
+#: views/dashboard.php:392
+msgid "SEO Analysis"
+msgstr "SEO-анализ"
+
+#: views/dashboard.php:117
+msgid "Connect Rank Math with Google Search Console to see the most important information from Google directly in your WordPress dashboard."
+msgstr "Подключите Rank Math к Google Search Console, чтобы просматривать самую важную информацию от Google прямо в консоли WordPress."
+
+#: views/dashboard.php:369
+msgid "Role Manager"
+msgstr "Диспетчер ролей"
+
+#: views/dashboard.php:323
+msgid "Redirections"
+msgstr "Переадресации"
+
+#: views/dashboard.php:254
+msgid "Link Counter"
+msgstr "Счётчик ссылок"
+
+#: views/dashboard.php:138
+msgid "bbPress"
+msgstr "bbPress"
+
+#: views/dashboard.php:92
+msgid "AMP"
+msgstr "AMP"
+
+#: views/dashboard.php:48
+msgid "Records the URLs on which visitors &amp; search engines run into 404 Errors. You can also turn on Redirections to redirect the error causing URLs to other URLs."
+msgstr "Записывает URL-адреса, по которым посетители и поисковые системы сталкиваются с ошибками 404. Вы также можете включить переадресацию, чтобы перенаправлять ошибку, вызывающую URL-адреса, на другие URL-адреса."
+
+#: views/dashboard.php:46
+msgid "404 Monitor"
+msgstr "Мониторинг 404"
+
+#: views/dashboard.php:36 views/dashboard.php:37
+msgid "Import &amp; Export"
+msgstr "Импорт и экспорт"
+
+#: views/dashboard.php:33 views/dashboard.php:34
+msgid "Setup Wizard"
+msgstr "Мастер установки"
+
+#: views/dashboard.php:21 views/dashboard.php:27 views/dashboard.php:28
+msgid "Modules"
+msgstr "Модули"
+
+#: views/console.php:70
+msgid "Response..."
+msgstr "Ответ..."
+
+#: views/console.php:66
+msgid "Show Raw Response"
+msgstr "Показать необработанный ответ"
+
+#: views/console.php:56
+msgid "Send to API"
+msgstr "Отправить в API"
+
+#: views/console.php:46
+msgid "Action:"
+msgstr "Действие:"
+
+#: views/google-settings.php:29
+msgid "Or upload JSON file: "
+msgstr "Или загрузите файл JSON:"
+
+#: views/google-settings.php:24
+msgid "<code>rank-math-835b6feb842b.json</code> file found in the plugin folder. You cannot change the JSON key from here until you delete or remame this file."
+msgstr "<code>rank-math-835b6feb842b.json</code> найденный в файле, находящемся в папке плагина. Вы не сможете изменить JSON-ключ отсюда, пока не удалите или не переименуете этот файл."
+
+#: views/google-settings.php:17
+msgid "Upload the Service Account JSON key file you obtained from Google API Console or paste its contents in the field."
+msgstr "Загрузите файл ключа JSON служебного аккаунта, полученный из консоли Google API, или вставьте его содержимое в это поле."
+
+#: includes/class-instant-indexing.php:1160
+msgid "A deleted post has been automatically submitted to the Instant Indexing for deletion."
+msgstr "Удаленная запись была автоматически отправлена на мгновенную индексацию для удаления."
+
+#. translators: %s is a link to Rank Math plugin page
+#: includes/class-instant-indexing.php:1060 views/dashboard.php:530
+msgid "Rank Math SEO"
+msgstr "Rank Math SEO"
+
+#. translators: %s is a link to Rank Math plugin page
+#: includes/class-instant-indexing.php:1060
+msgid "It is recommended to use %s along with the Instant Indexing plugin."
+msgstr "Рекомендуется использовать %s вместе с плагином мгновенного индексирования."
+
+#: views/google-settings.php:18
+msgid "Read our setup guide"
+msgstr "Прочитайте наше руководство по установке"
+
+#: includes/class-instant-indexing.php:832
+msgid "Settings updated."
+msgstr "Настройки обновлены."
+
+#: includes/class-instant-indexing.php:767
+msgid "See response for details."
+msgstr "Подробности смотрите в ответе."
+
+#: includes/class-instant-indexing.php:766
+msgid "Last updated "
+msgstr "Последнее обновление"
+
+#: includes/class-instant-indexing.php:765
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/class-instant-indexing.php:764
+msgid "Success"
+msgstr "Готово"
+
+#: includes/class-instant-indexing.php:669 views/dashboard.php:19
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: includes/class-instant-indexing.php:144
+#: includes/class-instant-indexing.php:158
+#: includes/class-instant-indexing.php:165
+msgid "Console"
+msgstr "Консоль"
+
+#: includes/class-instant-indexing.php:1170 views/console.php:21
+msgid "Settings"
+msgstr "Настройки"
+
+#. Author URI of the plugin
+#: instant-indexing.php
+msgid "https://s.rankmath.com/home"
+msgstr "https://s.rankmath.com/home"
+
+#. Author of the plugin
+#: instant-indexing.php
+msgid "Rank Math"
+msgstr "Rank Math"
+
+#. Description of the plugin
+#: instant-indexing.php
+msgid "Get your website crawled immediately by Google using their NEW Indexing APIs."
+msgstr "Получите мгновенное индексирование вашего веб-сайта Google с помощью их НОВЫХ API индексации."
+
+#. Plugin Name of the plugin
+#: instant-indexing.php includes/class-instant-indexing.php:670
+#: includes/class-instant-indexing.php:675
+#: includes/class-instant-indexing.php:1001 views/dashboard.php:230
+msgid "Instant Indexing"
+msgstr "Мгновенная индексация"

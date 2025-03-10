@@ -1,0 +1,52 @@
+# Translation of Plugins - The Icon Block - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - The Icon Block - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-16 15:52:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - The Icon Block - Stable (latest release)\n"
+
+#. Description of the plugin
+#: icon-block.php
+msgid "Easily add SVG icons and graphics to the WordPress block editor."
+msgstr "Aggiungi facilmente icone e grafiche SVG all'editor a blocchi di WordPress."
+
+#. Plugin Name of the plugin
+#: icon-block.php
+msgid "The Icon Block"
+msgstr "The Icon Block"
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "icon"
+msgstr "icona"
+
+#: build/block.json
+msgctxt "block description"
+msgid "Insert an SVG icon or graphic."
+msgstr "Inserisci un'icona o grafica SVG."
+
+#: build/block.json
+msgctxt "block title"
+msgid "Icon"
+msgstr "Icona"
+
+#. Author URI of the plugin
+#: icon-block.php
+msgid "https://www.nickdiego.com"
+msgstr "https://www.nickdiego.com"
+
+#. Author of the plugin
+#: icon-block.php
+msgid "Nick Diego"
+msgstr "Nick Diego"

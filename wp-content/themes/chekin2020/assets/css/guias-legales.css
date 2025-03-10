@@ -1,0 +1,501 @@
+/* Guias Legales */
+.wp-block-group.banner-area {
+  padding-top: 70px;
+  background: url(../images/legales-back.png) no-repeat top center / 100% 100%;
+  z-index: 1;
+  position: relative;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.banner-area .wp-block-group__inner-container {
+  position: relative;
+  margin-top: 120px;
+}
+
+body {
+  background: linear-gradient(180deg, #f3f8ff 9.61%, #ffffff 61.1%) !important;
+}
+
+.promo-area > .wp-block-group__inner-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 230px;
+  left: 51%;
+  width: 131px;
+  height: 67px;
+  background: #adccf4 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  -webkit-transform: rotate(105deg);
+  -ms-transform: rotate(105deg);
+  transform: rotate(105deg);
+  -webkit-animation-name: smalltobig;
+  animation-name: smalltobig;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+.promo-area > .wp-block-group__inner-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 180px;
+  left: 96%;
+  width: 104px;
+  height: 50px;
+  background: #cadcf3 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  -webkit-transform: rotate(58deg);
+  -ms-transform: rotate(58deg);
+  transform: rotate(58deg);
+  -webkit-animation-name: smalltobig;
+  animation-name: smalltobig;
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+.promo-area h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.promo-area p {
+  max-width: 455px;
+  font-size: 18px;
+}
+
+/* Legal title */
+.legal-title {
+  max-width: 845px;
+  margin: 100px auto;
+}
+.legal-title h4 {
+  color: #2148ff;
+}
+.legal-title p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Main Service */
+.main-service-success {
+  width: calc(100% - 4rem);
+  max-width: 1130px;
+  margin-bottom: 160px !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.main-service-success .wp-block-column {
+  position: relative;
+  padding: 0;
+  max-width: 355px;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.main-service-success #canarias,
+#andalucia,
+#catalunya,
+#espana{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px 0px rgba(26, 148, 255, 0.1);
+  height: 400px;
+}
+
+.main-service-success .wp-block-column .download-block {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.main-service-success p {
+  margin: 16px;
+}
+
+.main-service-success p.link-hover {
+  margin: -10px 0 0 0;
+}
+
+.main-service-success .wp-block-column .download-block {
+  display: flex;
+}
+
+.main-service-success .wp-block-column .colum-img img {
+  height: 9em;
+  width: 23em;
+  display: block;
+  margin: 0px auto;
+  border-radius: 16px 16px 0px 0px;
+  transition: all 0.6s;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main-service-success .legal-place {
+  padding: 5px;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #f4f4fd;
+  border-radius: 24px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #6b6b95;
+}
+
+.main-service-success .legal-place.canarias {
+  width: 140px;
+}
+.main-service-success .legal-place.andalucia {
+  width: 103px;
+}
+.main-service-success .legal-place.catalunya {
+  width: 96px;
+}
+
+.main-service-success .integraciones-blocks .link-hover {
+  margin-left: -20px;
+}
+
+.main-service-success .legal-download {
+  display: flex;
+  align-items: center;
+  align-self: start;
+}
+
+.main-service-success .img-download {
+  margin-top: -10px !important;
+  margin-right: 3px;
+}
+
+.main-service-success .integraciones-blocks .legal-download {
+  padding: 16px 16px;
+}
+
+/* Legal filter */
+.legal-filter .nav-pms {
+  justify-content: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0 0 10px;
+}
+
+.legal-filter .nav-pms li {
+  border: none;
+  padding: 5px !important;
+}
+
+.legal-filter .nav-pms li a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #6b6b95;
+  padding: 8px 15px;
+}
+
+.legal-filter .nav-pms li.active a {
+  border-radius: 24px;
+  border: 2px solid #19194b;
+  color: #19194b;
+}
+
+.legal-filter .nav-pms li:hover a,
+.legal-filter .nav-pms li.active:hover a {
+  border-radius: 24px;
+  border: 2px solid #dedeeb;
+}
+
+.review-title-wrap {
+  margin-bottom: 80px;
+}
+
+/* Logo area */
+.wp-block-group.logo-area {
+  padding: 20px 0;
+}
+.logo-area > .wp-block-group__inner-container {
+  width: 770px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo-area .wp-block-image.size-large {
+  flex-basis: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 0 !important;
+}
+.logo-area .wp-block-image.size-large img {
+  width: 140px;
+}
+.logo-area .wp-block-image.size-large:first-child {
+  border-left: 0;
+  border-top: 0;
+  border: 0;
+}
+.logo-area .wp-block-image.size-large:nth-child(2n) {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.logo-area .wp-block-image.size-large:nth-child(4n) {
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.logo-area .wp-block-image.size-large:nth-child(6n) {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-right: 0;
+  border-left: 0;
+}
+.logo-area .wp-block-image.size-large:nth-child(5n) {
+  border: 1px solid #eee;
+}
+.logo-area .wp-block-image.size-large:nth-child(8n) {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.pms-button a {
+  padding: 17px 5px !important;
+  width: 212px;
+  margin-bottom: 160px;
+}
+
+.wp-block-group.contact-area {
+  width: 100%;
+  overflow-x: hidden;
+}
+.contact-area > .wp-block-group__inner-container {
+  width: 870px;
+}
+.contact-area h3 {
+  text-align: center;
+}
+.wp-block-group.contact-form {
+  padding: 50px 50px;
+  box-shadow: 0px 0px 16px #1a94ff2c;
+  border-radius: 6px;
+  margin: 35px 0 120px !important;
+}
+.contact-area form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-field {
+  flex-basis: 50%;
+  border-right: 1px solid #eee;
+  padding-right: 7%;
+}
+.right-field {
+  flex-basis: 50%;
+  padding-left: 7%;
+}
+.left-field > label,
+.left-field > input {
+  display: none;
+}
+.single-field {
+  position: relative;
+}
+.single-field-3 {
+  z-index: 3;
+}
+.single-field-4 {
+  z-index: 2;
+}
+.single-field label {
+  font-size: 15px;
+  font-weight: bold;
+  color: #161643;
+  margin-top: 20px;
+}
+.single-field input {
+  height: 40px;
+  background: #f4f6f8;
+  border-radius: 7px;
+}
+.single-field input:focus {
+  background: #f4f6f8;
+  outline: 1px solid #ddd;
+}
+.dropdown {
+  height: 40px;
+  background: #f4f6f8;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.dropdown-toggle {
+  color: #8181a3;
+  font-size: 15px;
+}
+.contact-form button {
+  margin-top: 35px;
+}
+
+.callto-action {
+  margin-top: 100px !important;
+  background: #f4f8ff;
+}
+
+@media only screen and (max-width: 767px) {
+  .main-service-success .wp-block-column {
+    margin: 0 auto;
+  }
+
+  .wp-block-columns.download-block,
+  .banner-area .wp-block-group__inner-container {
+    margin-top: 0px;
+  }
+  .wp-block-group.banner-area {
+    margin-top: 90px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .promo-area .left-column {
+    padding: 66px 0;
+  }
+
+  .wp-block-columns.download-block {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .main-service-success #canarias,
+  #andalucia,
+  #catalunya {
+    height: 380px;
+  }
+}
+
+@media only screen and (min-width: 782px) and (max-width: 1168px) {
+  .wp-block-columns.main-service-success {
+    flex-wrap: wrap !important;
+  }
+
+  .wp-block-columns.main-service-success .wp-block-column {
+    flex-basis: 100% !important;
+  }
+
+  .main-service-success .wp-block-column {
+    position: relative;
+    padding: 0;
+    max-width: 355px;
+    border-radius: 16px;
+    text-align: left;
+  }
+
+  .main-service-success p {
+    margin: 16px;
+  }
+
+  .wp-block-group.banner-area {
+    margin-top: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .logo-area > .wp-block-group__inner-container {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .brand-area {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+	.main-service-success .wp-block-column {
+		flex-basis: calc(100%/3 - 2rem) !important;!i;!;!;!I;!;
+	}
+
+  .main-service-success .wp-block-column .colum-img img {
+    height: 13em;
+    width: 23em;
+    display: block;
+    margin: 0px auto;
+    border-radius: 16px 16px 0px 0px;
+    transition: all 0.6s;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .main-service-success #canarias,
+  #andalucia,
+  #catalunya {
+    height: 400px;
+  }
+
+  .main-service-success .legal-download {
+    display: none;
+    align-items: center;
+    align-self: stretch;
+  }
+
+  .main-service-success .img-download {
+    margin-top: -10px !important;
+    margin-right: 3px;
+  }
+
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .main-service-success .integraciones-blocks .legal-download {
+    padding: 16px 16px;
+    opacity: 0;
+    animation: aparecer 0.6s ease forwards;
+  }
+
+  .main-service-success .integraciones-blocks:hover .legal-download {
+    display: flex;
+  }
+
+  .main-service-success .integraciones-blocks:hover .link-hover {
+    display: flex;
+  }
+
+  .main-service-success .integraciones-blocks:hover .colum-img img {
+    height: 10em;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.6s;
+  }
+}

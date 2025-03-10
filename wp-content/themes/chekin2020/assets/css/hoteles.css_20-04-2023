@@ -1,0 +1,474 @@
+.banner-area{
+    position: relative;
+}
+.banner-area .wp-block-group__inner-container .has-background-dim {
+    min-width: 100%;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-area .wp-block-group__inner-container {
+	min-width: 100% !important;
+}
+.banner-area .wp-block-group__inner-container .has-background-dim, .banner-area .wp-block-group__inner-container > .wp-block-cover {
+	min-width: 100%;
+	padding-top: 280px;
+	padding-bottom: 160px;
+}
+.banner-area .wp-block-cover__inner-container {
+	width: 1216px !important;
+	padding-right: 28%;
+}
+.wp-block-cover.has-background-dim:not(.has-background-gradient)::before{
+    opacity: 0;
+}
+.banner-area h1 {
+	font-size: 95px;
+	text-shadow: 0px 3px 34px #000000BE;
+	margin: 0 !important;
+	line-height: 1;
+	margin-left: -7px !important;
+}
+.banner-area p {
+	font-size: 20px;
+	text-shadow: 0px 3px 34px #000000BE;
+	margin: 15px 0 30px 0;
+}
+.banner-area .wp-block-button {
+	margin-right: 15px !important;
+}
+.banner-area .is-style-outline .wp-block-button__link {
+	border: 1px solid #fff;
+	background: #F3F8FF4F 0% 0% no-repeat padding-box;
+	color: #fff !important;
+}
+
+.banner-area .sign-up-free .wp-block-button__link:hover {
+    border: 1px solid #fff !important;
+	background: #F3F8FF4F 0% 0% no-repeat padding-box !important;
+	color: #fff !important;
+}
+
+
+.home-services {
+	padding-top: 200px;
+	background: url(../images/background.svg) no-repeat top center / 101% auto;
+	margin-top: -150px !important;
+	z-index: 1;
+	position: relative;
+}
+.home-services .wp-block-group.home-service-title {
+	margin-bottom: 60px !important;
+	position: relative;
+}
+.home-service-title::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 27%;
+	width: 296px;
+	height: 510px;
+	background: #EBF4FF 0% 0% no-repeat padding-box;
+	border-radius: 43px;
+	-webkit-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	transform: rotate(15deg);
+	-webkit-animation-name: bigtosmall;
+	animation-name: bigtosmall;
+	-webkit-animation-duration: 10s;
+	animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	z-index: -1;
+}
+.home-service-title::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 390px;
+	left: 48%;
+	width: 200px;
+	height: 332px;
+	background: #EBF4FF 0% 0% no-repeat padding-box;
+	border-radius: 43px;
+	-webkit-transform: rotate(-58deg);
+	-ms-transform: rotate(-58deg);
+	transform: rotate(-58deg);
+	-webkit-animation-name: smalltobig;
+	animation-name: smalltobig;
+	-webkit-animation-duration: 15s;
+	animation-duration: 15s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	z-index: -1;
+}
+@-webkit-keyframes bigtosmall {
+    0%   {-webkit-transform: scale(1) rotate(15deg);transform: scale(1) rotate(15deg);}
+    50%  {-webkit-transform: scale(1.2) rotate(10deg);transform: scale(1.2) rotate(10deg);}
+    100% {-webkit-transform: scale(1) rotate(15deg);transform: scale(1) rotate(15deg);}
+  }
+  
+  @keyframes bigtosmall {
+    0%   {-webkit-transform: scale(1) rotate(15deg);transform: scale(1) rotate(15deg);}
+    50%  {-webkit-transform: scale(1.2) rotate(10deg);transform: scale(1.2) rotate(10deg);}
+    100% {-webkit-transform: scale(1) rotate(15deg);transform: scale(1) rotate(15deg);}
+  }
+
+
+.home-services {
+	width: 100%;
+	overflow-x: hidden;
+}
+.home-service-title h4 {
+	color: #2148FF;
+	font-weight: bold;
+	font-size: 20px;
+}
+.service-area-image .wp-image-24386.lazy-loaded {
+	margin: 0 auto;
+}
+.service-area-image img {
+	display: block;
+	margin: 0 auto;
+}
+.service-area-image .wp-block-columns {
+	margin-top: 0px !important;
+	margin-bottom: 100px !important;
+}
+.service-area-image .wp-block-columns p {
+	margin-right: 0 !important;
+}
+.home-services-item {
+	align-items: flex-start;
+}
+.home-services-item:nth-child(even) {
+	align-items: flex-end;
+}
+.home-services-item.home-services-item-1,
+.home-services-item.home-services-item-3,
+.home-services-item.home-services-item-5,
+.home-services-item.home-services-item-7 {
+	margin-bottom: 175px !important;
+}
+.home-services-item-1 img,
+.home-services-item-3 img, 
+.home-services-item-5 img {
+	position: relative;
+	transform: scale(1.7) translate(-17%, 18%);
+    left: unset;
+}
+.home-services-item-7 img {
+	position: relative;
+	transform: scale(1.7) translate(-17%, 13%);
+	left: unset;
+}
+.home-services-item-3 img {
+	transform: scale(1.6) translate(-16%, 18%);
+}
+.home-services-item-5 img {
+	transform: scale(1.4) translate(-14%, 10%);
+}
+.home-services-item.home-services-item-2, .home-services-item.home-services-item-4{
+	padding-top: 175px !important;
+	margin-bottom: 100px !important;
+}
+.home-services-item.home-services-item-8 {
+	padding-top: 140px !important;
+	margin-bottom: 50px !important;
+}
+.home-services-item-2 img, .home-services-item-6 img, .home-services-item-8 img {
+	position: relative;
+	transform: scale(1.4) translate(9%, -10%);
+}
+
+.home-services-item-4 img{
+	position: relative;
+	transform: scale(1.4) translate(9%, -15%);
+}
+.home-services-item-6 img {
+	transform: scale(1.2) translate(-4%, 3%);
+}
+.home-services-item-2 p {
+	margin-right: 0;
+}
+.home-services-item-4 p {
+	margin-right: 0;
+}
+html[lang=pt-PT] body.home .home-services-item.home-services-item-2 .wp-block-column:nth-child(2){
+    transform:translateY(20px);
+}
+html[lang=pt-PT] body.hotels .home-services-item.home-services-item-4 .wp-block-column:nth-child(2),
+html[lang=pt-PT] body.apartamentos .home-services-item.home-services-item-4 .wp-block-column:nth-child(2),
+html[lang=pt-PT] body.villas .home-services-item.home-services-item-4 .wp-block-column:nth-child(2),
+html[lang=pt-PT] body.campings .home-services-item.home-services-item-4 .wp-block-column:nth-child(2),
+html[lang=pt-PT] body.hotels .home-services-item.home-services-item-7 .wp-block-column:nth-child(1),
+html[lang=pt-PT] body.apartamentos .home-services-item.home-services-item-7 .wp-block-column:nth-child(1),
+html[lang=pt-PT] body.villas .home-services-item.home-services-item-7 .wp-block-column:nth-child(1),
+html[lang=pt-PT] body.campings .home-services-item.home-services-item-7 .wp-block-column:nth-child(1){
+    transform:translateY(20px);
+}
+.review-section h3 {
+	color: #fff !important;
+    margin-bottom: 60px;
+}
+
+
+.wp-block-cover.has-background-dim {
+	padding: 150px 0 180px;
+}
+.our-app {
+	background: none;
+}
+.our-app h2, .our-app p {
+	text-shadow: 0px 3px 4px #0000009B;
+}
+.our-app-image-wrap img {
+	position: absolute;
+	bottom: -144px;
+	right: 40px;
+	width: 380px;
+}
+
+
+.campings .home-services-item-4 img {
+	transform: scale(1.2) translate(4%, 3%);
+}
+.campings .home-services-item.home-services-item-8 {
+	padding-top: 45px !important;
+}
+
+
+.hotels .home-service-intro h3,
+.apartamentos .home-service-intro h3,
+.campings .home-service-intro h3,
+.villas .home-service-intro h3 {
+	text-align: left;
+}
+.campings .home-service-intro img {
+	margin-left: 0px !important;
+}
+
+html[lang="it-IT"] body.apartamentos .home-services-item-4 h3,
+html[lang="it-IT"] body.home .home-services-item-2 h3,
+html[lang="it-IT"] body.home .home-services-item-4 h3,
+html[lang="it-IT"] body.hotels .home-services-item-2 h3,
+html[lang="it-IT"] body.hotels .home-services-item-4 h3,
+html[lang="it-IT"] body.villas .home-services-item-4 h3{
+    width: 110%;
+}
+html[lang="it-IT"] body.apartamentos .home-services-item-4 .wp-block-column:nth-child(2),
+html[lang="it-IT"] body.home .home-services-item-2 .wp-block-column:nth-child(2),
+html[lang="it-IT"] body.home .home-services-item-4 .wp-block-column:nth-child(2),
+html[lang="it-IT"] body.hotels .home-services-item-2 .wp-block-column:nth-child(2),
+html[lang="it-IT"] body.hotels .home-services-item-4 .wp-block-column:nth-child(2),
+html[lang="it-IT"] body.villas .home-services-item-4 .wp-block-column:nth-child(2){
+    transform: translateY(20px);
+}
+.fix-button, .callto-action .fix-button .wp-block-button__link, .banner-area .fix-button .wp-block-button__link {
+    min-width: 212px;
+    width: auto;
+}
+
+.callto-action .fix-button .wp-block-button__link, .banner-area .fix-button .wp-block-button__link {
+    padding: 17px 20px !important;
+}
+
+@media only screen and (min-width: 992px) {
+	.home-services-item.home-services-item-2 {
+		padding-top: 250px !important;
+	}
+
+	.home-services-item-2 img {
+		transform: scale(1.4) translate(9%, -20%);
+	}
+}
+
+
+
+@media only screen and (min-width: 1600px) {
+    .home-services {
+		margin-top: -185px !important;
+    }
+    .review-section {
+        /*padding-top: 300px !important;*/
+        padding-top: 330px !important;
+    }
+}
+@media only screen and (min-width: 2000px) {
+.wp-block-group.promo-area, .wp-block-group.home-services:not(.homepage-services) {
+    padding-top: 330px;
+    margin-top: -225px !important;
+}
+}
+@media only screen and (min-width: 2400px) {
+.wp-block-group.promo-area, .wp-block-group.home-services:not(.homepage-services) {
+    padding-top: 360px;
+    margin-top: -275px !important;
+}
+}
+@media only screen and (min-width: 3000px) {
+.wp-block-group.promo-area, .wp-block-group.home-services:not(.homepage-services) {
+    padding-top: 400px;
+    margin-top: -310px !important;
+}
+}
+@media only screen and (min-width: 3500px) {
+.wp-block-group.promo-area, .wp-block-group.home-services:not(.homepage-services) {
+    padding-top: 480px;
+    margin-top: -330px !important;
+}
+}
+@media only screen and (min-width: 4000px) {
+.wp-block-group.promo-area, .wp-block-group.home-services:not(.homepage-services) {
+    padding-top: 580px;
+    margin-top: -440px !important;
+}
+}
+@media only screen and (max-width: 1159px) {
+    .banner-area .wp-block-cover__inner-container {
+        width: 100% !important;
+        padding-left: 30px;
+    }
+    .home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+        left: 0;
+        margin-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .banner-area .wp-block-group__inner-container .has-background-dim, .banner-area .wp-block-group__inner-container > .wp-block-cover {
+		padding-top: 250px;
+		padding-bottom: 150px;
+		min-height: auto;
+	}
+    .home-services {
+        padding-top: 150px;
+        margin-top: -100px !important;
+    }
+    .service-area-image .wp-block-columns p {
+        margin-right: 25px;
+    }
+    .home-services-item p {
+        margin-right: 0px !important;
+    }
+    .home-services-item-1 img, .home-services-item-3 img, .home-services-item-5 img, .home-services-item-7 img {
+        position: relative;
+        transform: scale(1.4) translate(-10%, 10%);
+        left: unset;
+    }
+    .home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+        position: relative;
+        transform: scale(1.2) translate(2%, 0%);
+    }
+    .wp-block-columns.home-services-item {
+        margin-bottom: 15% !important;
+        padding: 0 !important;
+    }
+    .home-services-item-1 img, .home-services-item-3 img, .home-services-item-5 img, .home-services-item-7 img {
+        transform: scale(1) translate(-10%, 10%);
+    }
+    .home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+        transform: scale(1) translate(2%, 0%) ;
+    }
+    html[lang=pt-PT] .home-services-item.home-services-item-2 .wp-block-column:nth-child(2),
+    html[lang=pt-PT] .home-services-item.home-services-item-4 .wp-block-column:nth-child(2),
+    html[lang=pt-PT] .home-services-item.home-services-item-7 .wp-block-column:nth-child(1){
+        transform: translateY(0) !important;
+    }
+    html[lang="it-IT"] body.apartamentos .home-services-item-4 h3,
+    html[lang="it-IT"] body.home .home-services-item-2 h3,
+    html[lang="it-IT"] body.home .home-services-item-4 h3,
+    html[lang="it-IT"] body.hotels .home-services-item-2 h3,
+    html[lang="it-IT"] body.hotels .home-services-item-4 h3,
+    html[lang="it-IT"] body.villas .home-services-item-4 h3{
+        width: 100%;
+    }
+    html[lang="it-IT"] body.apartamentos .home-services-item-4 .wp-block-column:nth-child(2),
+    html[lang="it-IT"] body.home .home-services-item-2 .wp-block-column:nth-child(2),
+    html[lang="it-IT"] body.home .home-services-item-4 .wp-block-column:nth-child(2),
+    html[lang="it-IT"] body.hotels .home-services-item-2 .wp-block-column:nth-child(2),
+    html[lang="it-IT"] body.hotels .home-services-item-4 .wp-block-column:nth-child(2),
+    html[lang="it-IT"] body.villas .home-services-item-4 .wp-block-column:nth-child(2){
+        transform: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .home-services {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .home-services {
+        padding-top: 110px;
+		margin-top: -15% !important;
+    }
+    .banner-area .wp-block-cover__inner-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-area h1 {
+        font-size: 68px;
+        margin-left: -5px !important;
+    }
+    .banner-area p {
+        font-size: 18px;
+        margin: 0 auto 20px;
+    }
+    .banner-area .wp-block-button {
+        margin-top: 15px !important;
+    }
+    .home-services .wp-block-group.home-service-title {
+        margin-bottom: 50px !important;
+    }
+    .service-area-image .wp-image-24386.lazy-loaded {
+        margin: 0 auto;
+        min-width: calc(100% + 40px) !important;
+        margin-left: -20px;
+    }
+    .service-area-image .wp-block-columns {
+        margin-top: 0 !important;
+        margin-bottom: 100px !important;
+    }
+    .home-services-item img {
+        transform: scale(1) translate(0) !important;
+        margin: 0 auto;
+    }
+    .wp-block-columns.home-services-item {
+        padding-bottom: 35px !important;
+    }
+    .wp-block-cover.has-background-dim {
+        padding: 80px 0 370px;
+    }
+    .our-app-image-wrap img {
+        bottom: -100px;
+    }
+    .our-app-image-wrap img {
+        bottom: -140px;
+        margin: -140px auto 0 !important;
+        right: 10px;
+        position: relative;
+    }
+    .wp-block-cover.has-background-dim {
+        padding: 80px 0 0px;
+    }
+    .home-service-title::after {
+        top: 675px;
+    }
+    .apartamentos  .banner-area h1 {
+        font-size: 50px;
+    }
+    .review-section h3{
+        margin-bottom: 20px;
+    }
+}
+
+

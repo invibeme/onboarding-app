@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="italy-icon" transform="translate(0.088 -0.51)">
+    <ellipse id="Ellipse_1654" data-name="Ellipse 1654" cx="9.51" cy="9.424" rx="9.51" ry="9.424" transform="translate(0.214 1.152)" fill="#f0f0f0"/>
+    <g id="italy" transform="translate(-0.088 0.51)">
+      <circle id="Ellipse_1679" data-name="Ellipse 1679" cx="10" cy="10" r="10" fill="#f0f0f0"/>
+      <path id="Path_38043" data-name="Path 38043" d="M351.565,25.3a10,10,0,0,0-6.522-9.378V34.679A10,10,0,0,0,351.565,25.3Z" transform="translate(-331.565 -15.301)" fill="#fa0b54"/>
+      <path id="Path_38044" data-name="Path 38044" d="M0,25.3a10,10,0,0,0,6.522,9.378V15.923A10,10,0,0,0,0,25.3Z" transform="translate(0 -15.301)" fill="#5ab915"/>
+    </g>
+  </g>
+</svg>

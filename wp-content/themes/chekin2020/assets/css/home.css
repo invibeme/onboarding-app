@@ -1,0 +1,559 @@
+.home-services .wp-block-group.home-service-title {
+	margin-bottom: 100px !important;
+    position: relative;
+}
+.home-service-title .wp-block-group__inner-container h4 {
+	color: #2148FF;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0px !important;
+}
+.service-area-image .wp-image-24386.lazy-loaded {
+	margin: 0 auto;
+}
+.service-area-image img {
+	display: block;
+	margin: 0 auto;
+}
+.service-area-image .wp-block-columns {
+	margin-top: -100px !important;
+	margin-bottom: 100px !important;
+}
+.service-area-image .wp-block-columns p {
+	margin-right: 150px;
+}
+.home-services-item {
+	align-items: flex-start;
+}
+.home-services-item:nth-child(even) {
+	align-items: flex-end;
+}
+
+
+.home-services-item.home-services-item-1,
+.home-services-item.home-services-item-2,
+.home-services-item.home-services-item-3,
+.home-services-item.home-services-item-4, 
+.home-services-item.home-services-item-5,
+.home-services-item.home-services-item-6,
+.home-services-item.home-services-item-7 {
+	margin-bottom: 100px !important;
+}
+
+.home-services-item-2 p {
+	margin-right: 85px;
+}
+.home-services-item-4 p {
+	margin-right: 90px;
+}
+.service-area-image .wp-block-columns {
+	margin-top: -100px !important;
+	margin-bottom: 100px !important;
+}
+
+
+.wp-block-cover.has-background-dim {
+	padding: 150px 0 180px;
+}
+.our-app {
+	background: none;
+}
+.our-app h2 {
+	font-size: 42px;
+}
+.our-app h2, .our-app p {
+	text-shadow: 0px 3px 4px #0000009B;
+}
+.our-app-image-wrap img {
+	position: absolute;
+	bottom: -130px;
+	right: 0;
+}
+
+.home .home-services {
+	/* padding: 100px 0 70px 0 !important; */
+	margin-top: 100px !important;
+	background: none !important;
+}
+.home .home-service-title::before {
+	display: none !important;
+}
+
+.home-services-item.home-services-item-8 {
+	align-items: center !important;
+}
+.wp-block-columns.home-services-item.home-services-item-7 {
+	align-items: flex-end;
+}
+.home-services-item-7 .wp-block-column:first-child {
+	margin-bottom: -170px !important;
+}
+.home-services-item-8 img {
+	position: relative;
+	transform: scale(1.1) translate(-2%, 0) !important;
+}
+
+
+.home-service-intro img {
+	width: 330px;
+	margin-left: 101px !important;
+	margin-top: -405px !important;
+}
+
+
+.wp-block-group.home-services-wrapper .home-services-item-1{
+	margin-top: 100px !important;
+}
+
+.home-service-intro .wp-block-column:last-child {
+	margin-right: 64px;
+	flex-basis: 425px !important;
+	flex-grow: 0;
+	margin-right: 80px;
+}
+.home-service-intro p {
+	font-size: 18px;
+}
+.main-service .wp-block-button__link {
+	font-size: 18px;
+	box-shadow: 0px 3px 4px #00020333;
+	margin: 10px;
+	padding: 22px 40px;
+	min-width: 250px;
+}
+.home-services-wrapper .wp-block-button__link {
+	font-size: 18px;
+	padding: 22px 40px;
+	margin-bottom: 100px;
+}
+
+.wp-block-column.is-vertically-aligned-bottom{
+	align-self: flex-start;
+}
+
+
+.pms-del-text {
+	padding-left: 0 !important;
+}
+.pms-del-image img {
+	width: 95% !important;
+}
+.banner-text-wrap p {
+	font-size: 19px !important;
+}
+.main-service .home-service-title h4, .main-service .home-service-title .sub-title{
+    color: #161643;
+	margin-top: 0px !important;
+	font-weight: bold;
+    font-size: 20px;
+}
+.home-service-intro h3 {
+	/*text-align: right;*/
+	padding-right: 10px;
+}
+.home-services {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/* New header */
+.banner-wrapper.v4 h1 {
+    font-size: 40px;
+}
+.banner-wrapper.v4 h1 .rotate-words{
+	display: inline-block;
+	width: 210px;
+    vertical-align: middle;
+}
+.banner-wrapper.v4 h1 strong {
+    color: #294DF1;
+}
+
+.banner-wrapper.v4 ul {
+    padding: 0;
+}
+
+.banner-wrapper.v4 ul li {
+    margin: 0 0 0.5rem !important;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 0 25px !important;
+}
+
+.banner-wrapper.v4 ul li:before {
+    content: '';
+    background-color: rgb(35 35 93 / 15%);
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='6' viewBox='0 0 9 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.87292 0.382799C7.73723 0.265785 7.56063 0.207442 7.38193 0.220568C7.20323 0.233694 7.03706 0.317222 6.91992 0.452807L3.78992 4.09581L2.06492 2.2628C1.94186 2.13192 1.77184 2.05529 1.59228 2.04976C1.41271 2.04423 1.2383 2.11023 1.10742 2.23329C0.976535 2.35635 0.899897 2.52638 0.894365 2.70595C0.888832 2.88552 0.954856 3.05993 1.07792 3.19081L3.31792 5.56682C3.38135 5.63376 3.45782 5.687 3.5426 5.72328C3.62738 5.75957 3.7187 5.77814 3.81092 5.77782H3.82692C3.92211 5.77607 4.01586 5.75423 4.10202 5.71373C4.18819 5.67323 4.26482 5.61497 4.32692 5.5428L7.94592 1.32982C8.06138 1.1944 8.11879 1.0189 8.10568 0.841418C8.09258 0.66394 8.01002 0.498782 7.87592 0.381792L7.87292 0.382799Z' fill='%2323235D'/%3E%3C/svg%3E%0A");
+    width:15px;
+    height:15px;
+    display: block;
+    border-radius:100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 9px 6px;
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+}
+.home .banner-wrapper.v4  .watch-video-button a {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    color: #274BF0;
+    font-size: 12px;
+}
+
+.home .banner-wrapper.v4  .watch-video-button a span {
+    border: 0;
+    box-shadow: none;
+    width: inherit;
+    height: inherit;
+    margin-right: 3px;
+}
+
+.banner-wrapper.v4  .watch-video-button {
+    font-size: 12px;
+    font-weight: 700;
+}
+.banner-wrapper.v4 .screenshot {
+    margin-bottom: -8vw !important;
+}
+.bannar-brands.v3 .wp-block-group__inner-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+.bannar-brands img[src*="novasol"] {
+    width: 120px;
+}
+.bannar-brands.v3 .wp-block-image {
+    max-width: 100%;
+    height: auto;
+}
+.wp-block-group.bannar-brands.v3 {
+  width: auto;
+  padding: 15px 20px;
+  margin-top: 10px !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.banner .pms-title{
+	margin-top: 10px !important;
+	font-weight: 700;
+	font-size: 20px;
+	color: #274BF0;
+	position: relative;
+	z-index:9;
+	font-family: 'proxima_novabold', sans-serif;
+	line-height: 1.25;
+}
+.greystar{
+    width: 120px !important;
+}
+
+.interhome{
+    width: 150px !important;
+}
+#brand_carousel .sa_hover_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brand_carousel .sa_hover_container p {
+    margin: 0;
+}
+
+.wp-block-group.homepage-success-cases {
+    background: #FBFBFF;
+}
+
+.homepage-success-cases .home-service-title h4 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    padding-top: 100px !important;
+    margin-top: 0px !important;
+}
+
+.homepage-success-wrapper {
+	width: calc(100% - 4rem);
+	max-width: 1115px;
+	margin: 100px auto !important;
+}
+
+.homepage-success-wrapper .wp-block-column {
+	padding: 0;
+	margin: 0;
+	max-width: 355px;
+	border-radius: 16px;
+	text-align: left;
+	box-shadow: 0px 0px 5px #1A94FF2C !important;
+}
+.homepage-success-wrapper .wp-block-column#smartrental {
+	background-color: white !important;
+	background: url('../images/success-smartrental.jpg') no-repeat top center / 100% 196px;
+}
+.homepage-success-wrapper .wp-block-column#sweet {
+	background-color: white !important;
+	background: url('../images/success-sweet.jpg') no-repeat top center / 100% 196px;
+}
+.homepage-success-wrapper .wp-block-column#r2r {
+	background-color: white !important;
+	background: url('../images/success-r2r.jpg') no-repeat top center / 100% 196px;
+}
+
+.homepage-success-wrapper .wp-block-column#hostmacher {
+	background-color: white !important;
+	background: url('https://chekin.com/wp-content/uploads/2023/09/hostmacher.jpg') no-repeat top center / 100% 196px;
+}
+.homepage-success-wrapper .wp-block-column#sunspalato {
+	background-color: white !important;
+	background: url('https://chekin.com/wp-content/uploads/2023/09/sun_spalato.png') no-repeat top center / 100% 196px;
+}
+
+.homepage-success-wrapper h5, .homepage-success-wrapper h3 {
+	margin: 212px 16px 0 16px;
+	font-size: 20px;
+}
+.homepage-success-wrapper p {
+	margin: 16px;
+    font-size: 18px;
+    height: 100px;
+}
+.homepage-success-wrapper .see-more-block {
+    border-top: 1px solid #00000014;
+	margin: 0 16px;
+}
+.homepage-success-wrapper .see-more {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    align-self: stretch;
+    margin: 24px 0;
+	box-shadow: none !important;
+}
+.homepage-success-wrapper .see-more p {
+	margin: 0;
+	height: auto;
+}
+.homepage-success-wrapper .see-more p.link-hover a {
+	font-size: 18px;
+}
+.success-button {
+	margin-bottom: 65px;
+}
+
+@media (min-width: 782px){
+	
+	.banner-wrapper.v4 ul li:before {
+		top: 0.35em;
+	}
+	.banner-wrapper.v4 .screenshot {
+		margin-bottom: -2rem !important;
+	}
+	.banner .pms-title {
+		margin-top: 30px !important;
+	}
+	.home .banner {
+		/*padding: 180px 0 90px 0;*/
+        padding: 130px 0 90px 0;
+	}
+	html[lang="es-ES"] .home .banner,
+	html[lang="de-DE"] .home .banner{
+		/*padding: 220px 0 90px 0;*/
+	}	
+}
+@media (min-width: 1200px){
+	.banner-wrapper.v4 .screenshot {
+		margin-bottom: -4rem !important;
+	}
+	.banner-wrapper.v4 .banner-text-wrap ul {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1680px) {
+	.home .banner {
+		/*padding: 180px 0 90px 0;*/
+        padding: 130px 0 90px 0;
+	}
+	html[lang="es-ES"] .home .banner,
+	html[lang="de-DE"] .home .banner{
+		/*padding: 220px 0 90px 0;*/
+	}
+	.banner-wrapper.v4 .screenshot {
+		width: 626px;
+	}
+	.banner-wrapper.v4 .banner-text-wrap p, .banner-wrapper.v4 .banner-text-wrap ul {
+		font-size: 20px !important;
+	}
+	.banner .pms-title{
+		margin-top: 98px !important;
+	}
+}
+@media only screen and (max-width: 1159px) {
+    .home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+        left: 0;
+        margin-left: 0;
+    }
+    .home-service-intro img {
+        margin-left: 14% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .service-area-image .wp-block-columns p {
+        margin-right: 25px;
+    }
+    .home-services-item p {
+        margin-right: 0px !important;
+    }
+    .home-services-item-1 img, .home-services-item-3 img, .home-services-item-5 img, .home-services-item-7 img {
+        position: relative;
+        transform: scale(1.4) translate(-10%, 10%);
+        left: unset;
+    }
+    .home-services-item-2 img, .home-services-item-4 img, .home-services-item-6 img, .home-services-item-8 img {
+        position: relative;
+        transform: scale(1.2) translate(2%, 0%);
+    }
+    .wp-block-columns.home-services-item {
+        margin-bottom: 15% !important;
+        padding: 0 !important;
+    }
+    .home-services-item-7 .wp-block-column:first-child {
+        margin-bottom: 0px !important;
+    }
+	.home .home-services {
+        padding: 0 0 0 0 !important;
+    }
+	.home-service-title h4 {
+	margin-bottom: 16px;
+	}
+}
+
+@media only screen and (max-width: 782px) {
+    .homepage-success-wrapper > .wp-block-column {
+		margin: 0 auto;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	.banner .pms-title {
+    	font-size: 16px !important;
+	}
+    .home-services {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .home-services .wp-block-group.home-service-title {
+        margin-bottom: 50px !important;
+    }
+    .service-area-image .wp-image-24386.lazy-loaded {
+        margin: 0 auto;
+        min-width: calc(100% + 40px) !important;
+        margin-left: -20px;
+    }
+    .service-area-image .wp-block-columns {
+        margin-top: 0 !important;
+        margin-bottom: 100px !important;
+    }
+    .home-services-item img {
+        transform: scale(1) translate(0) !important;
+    }
+    .wp-block-columns.home-services-item {
+        padding-bottom: 35px !important;
+    }
+    .wp-block-cover.has-background-dim {
+        padding: 80px 0 370px;
+    }
+    .our-app-image-wrap img {
+        bottom: -100px;
+    }
+    .home-service-intro .wp-block-column:last-child {
+        flex-basis: 100% !important;
+        margin-right: 0px;
+    }
+	.home-service-intro{
+		padding-bottom: 35px !important;
+		border-bottom: 1px solid #eee;
+	}
+    .home-service-intro img {
+        margin-top: -80% !important;
+    }
+    .home-services-item .wp-block-column {
+        width: 100%;
+        margin: 0;
+    }
+    .home-services-item img {
+        margin: 0 auto;
+    }
+    .our-app .wp-block-column.our-app-text-wrap {
+        flex-basis: 100% !important;
+    }
+    .home-service-intro h3 {
+        text-align: left;
+        padding-right: 0px;
+    }
+    .wp-block-group.home-services-wrapper .home-services-item-1 {
+        margin-top: 90px !important;
+    }
+    .home .home-service-title::after {
+        display: none;
+    }
+    .owl-carousel .owl-item img {
+        height: 50px;
+    }
+	.banner-wrapper.v4 h1 {
+        font-size: 32px;
+    }
+	html[lang="es-ES"] .home .banner,
+	html[lang="de-DE"] .home .banner{
+		padding: 150px 0 90px 0 !important;
+	}
+	
+}
+
+@media only screen and (max-width: 599px) {
+    .home-service-intro img {
+        margin-left: 0% !important;
+    }
+    .home-service-intro img {
+        margin-top: -100px !important;
+        width: 200px;
+    }
+    .home-service-intro p {
+        font-size: 16px;
+    }
+	.home .is-layout-flex.wp-block-buttons {
+        justify-content: center;
+    }
+	.homepage-success-wrapper {
+        margin: 50px auto !important;
+    }
+	.home-service-intro{
+		padding-bottom: 35px !important;
+		border-bottom: 1px solid #eee;
+	}
+    .home .home-services {
+        margin-top: 100px !important;
+    }
+	.home-service-title h4 {
+		margin-bottom: 16px;
+	}
+	.banner-wrapper.v4 h1 {
+        font-size: 29px;
+		text-wrap: nowrap;
+	}
+}
+
+@media only screen and (max-width: 599px) and (min-width: 320px) {
+	.banner{
+		padding: 100px 0 90px 0 !important;
+	}
+}
+

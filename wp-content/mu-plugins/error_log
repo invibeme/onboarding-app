@@ -1,0 +1,20 @@
+[01-Oct-2024 22:37:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php on line 69
+[04-Oct-2024 19:25:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php on line 69
+[06-Oct-2024 15:23:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php on line 69
+[06-Oct-2024 19:47:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php on line 69
+[10-Oct-2024 11:28:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/wp-content/mu-plugins/sso.php on line 69

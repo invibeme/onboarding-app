@@ -1,0 +1,3195 @@
+# Translation of Plugins - Really Simple SSL &#8211; Simple and Lightweight Security - Stable (latest release) in Catalan
+# This file is distributed under the same license as the Plugins - Really Simple SSL &#8211; Simple and Lightweight Security - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-09-02 10:04:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Really Simple SSL &#8211; Simple and Lightweight Security - Stable (latest release)\n"
+
+#: onboarding/class-onboarding.php:429
+msgid "Vulnerability Measures"
+msgstr "Mesures de vulnerabilitats"
+
+#: onboarding/class-onboarding.php:372
+msgid "Advanced Hardening Features"
+msgstr "Característiques avançades d'enduriment"
+
+#: onboarding/class-onboarding.php:365 onboarding/class-onboarding.php:402
+msgid "Advanced Security Headers"
+msgstr "Capçaleres de seguretat avançades"
+
+#: onboarding/class-onboarding.php:345
+msgid "Run System Health Scan"
+msgstr "Executa l'exploració de la salut del sistema"
+
+#: onboarding/class-onboarding.php:339
+msgid "Recommended Hardening Features"
+msgstr "Característiques recomanades d'enduriment"
+
+#: onboarding/class-onboarding.php:333
+#: modal/build/index.dfb590895b2465568630.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:72
+#: modal/src/components/DeactivationModal/DeactivationModal.js:114
+msgid "Vulnerability Detection"
+msgstr "Detecció de vulnerabilitats"
+
+#: onboarding/class-onboarding.php:327
+#: modal/build/index.dfb590895b2465568630.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:124
+msgid "Mixed Content Fixer"
+msgstr "Correcció de contingut mixt"
+
+#: onboarding/class-onboarding.php:277
+msgid "Privacy-friendly analytics tool."
+msgstr "Eina d'anàlisi respectuosa amb la privadesa."
+
+#: onboarding/class-onboarding.php:241
+msgid "You may need to login in again, have your credentials prepared."
+msgstr "És possible que hàgiu d'iniciar sessió de nou, tingueu les credencials preparades."
+
+#: onboarding/class-onboarding.php:209
+msgid "Really Simple Security Pro"
+msgstr "Really Simple Security Pro"
+
+#: onboarding/class-onboarding.php:202
+msgid "Free plugins"
+msgstr "Extensions gratuïtes"
+
+#: onboarding/class-onboarding.php:182
+msgid "Really Simple SSL & Security"
+msgstr "Really Simple SSL & Security"
+
+#: onboarding/class-onboarding.php:416 settings/config/menu.php:365
+#: settings/config/menu.php:371 modal/build/index.dfb590895b2465568630.js:1
+#: modal/build/index.f0747a4e3a76f14cbb01.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:97
+msgid "Password security"
+msgstr "Seguretat de la contrasenya"
+
+#: settings/config/menu.php:313 settings/config/menu.php:321
+#: modal/build/index.dfb590895b2465568630.js:1
+#: modal/build/index.f0747a4e3a76f14cbb01.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:92
+msgid "Two-step verification"
+msgstr "Verificació en dos passos"
+
+#: onboarding/class-onboarding.php:358 onboarding/class-onboarding.php:395
+msgid "Two Factor Authentication"
+msgstr "Autenticació de doble factor"
+
+#: settings/config/menu.php:516 settings/config/menu.php:587
+msgid "Continents"
+msgstr "Continents"
+
+#: settings/config/menu.php:504 settings/config/menu.php:524
+#: settings/config/menu.php:573 settings/config/menu.php:574
+msgid "Regions"
+msgstr "Regions"
+
+#: settings/config/menu.php:488 settings/config/menu.php:675
+msgid "Warnings"
+msgstr "Avisos"
+
+#: settings/config/menu.php:480 settings/config/menu.php:496
+msgid "Event Log"
+msgstr "Registre d'esdeveniments"
+
+#: settings/config/menu.php:446 settings/config/menu.php:466
+msgid "IP Addresses"
+msgstr "Adreces IP"
+
+#: settings/config/menu.php:427 settings/config/menu.php:462
+msgid "Temporary block"
+msgstr "Blocatge temporal"
+
+#: settings/config/menu.php:419 settings/config/menu.php:454
+msgid "Permanent block"
+msgstr "Blocatge permanent"
+
+#: settings/config/menu.php:403
+msgid "Limit Attempts"
+msgstr "Limita els intents"
+
+#: onboarding/class-onboarding.php:351 onboarding/class-onboarding.php:388
+#: settings/config/menu.php:382 settings/config/menu.php:390
+#: modal/build/index.dfb590895b2465568630.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:102
+msgid "Limit Login Attempts"
+msgstr "Limita els intents d'inici de sessió"
+
+#: settings/config/menu.php:375
+msgid "Passwords"
+msgstr "Contrasenyes"
+
+#: settings/config/menu.php:303
+msgid "Login Protection"
+msgstr "Protecció d'inici de sessió"
+
+#: settings/config/menu.php:261
+msgid "XML-RPC with Learning Mode"
+msgstr "XML-RPC en mode d'aprenentatge"
+
+#: settings/config/menu.php:245
+msgid "Advanced"
+msgstr "Avançat"
+
+#: settings/config/menu.php:239
+msgid "Basic"
+msgstr "Bàsic"
+
+#: settings/config/menu.php:224
+msgid "Automated Measures"
+msgstr "Mesures automatitzades"
+
+#: settings/config/menu.php:106
+msgid "The Essentials"
+msgstr "Els imprescindibles"
+
+#: settings/config/menu.php:98 modal/build/index.dfb590895b2465568630.js:1
+#: modal/build/index.f0747a4e3a76f14cbb01.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:77
+msgid "Security Headers"
+msgstr "Capçaleres de seguretat"
+
+#: settings/config/menu.php:76
+msgid "Redirection"
+msgstr "Redirecció"
+
+#: settings/config/menu.php:69
+msgid "Let's Encrypt."
+msgstr "Let's Encrypt."
+
+#: settings/config/menu.php:55
+msgid "Why Premium Support?"
+msgstr "Per què el suport prèmium?"
+
+#: settings/config/fields/access-control.php:63
+msgid "Change passwords every"
+msgstr "Canvia les contrasenyes cada"
+
+#: settings/config/fields/access-control.php:61
+msgid "2 years"
+msgstr "2 anys"
+
+#: settings/config/fields/access-control.php:60
+msgid "1 year"
+msgstr "1 any"
+
+#: settings/config/fields/access-control.php:59
+msgid "6 months"
+msgstr "6 mesos"
+
+#: settings/config/fields/access-control.php:44
+msgid "User roles for password change"
+msgstr "Rols d'usuari per al canvi de contrasenya"
+
+#: settings/config/fields/access-control.php:20
+msgid "Improve the default WordPress password strength check. You can also enforce frequent password changes for user roles."
+msgstr "Millora la comprovació per defecte de força de la contrasenya del WordPress. També podeu forçar canvis freqüents de contrasenya per als rols d'usuari."
+
+#: settings/config/fields/access-control.php:12
+#: settings/config/fields/access-control.php:19
+msgid "Enforce strong passwords"
+msgstr "Imposa contrasenyes fortes."
+
+#: settings/config/fields/hardening-xml.php:37
+msgid "About XML-RPC"
+msgstr "Quant al XML-RPC"
+
+#: settings/config/fields/firewall.php:123
+#: settings/config/fields/limit-login-attempts.php:76
+msgid "Lockout duration"
+msgstr "Durada del blocatge"
+
+#: settings/config/fields/limit-login-attempts.php:58
+#: settings/config/fields/limit-login-attempts.php:82
+msgid "%s day"
+msgstr "%s dia"
+
+#: settings/config/fields/limit-login-attempts.php:57
+#: settings/config/fields/limit-login-attempts.php:81
+msgid "%s hours"
+msgstr "%s hores"
+
+#: settings/config/fields/limit-login-attempts.php:56
+#: settings/config/fields/limit-login-attempts.php:80
+msgid "%s hour"
+msgstr "%s hora"
+
+#: settings/config/fields/limit-login-attempts.php:54
+#: settings/config/fields/limit-login-attempts.php:55
+#: settings/config/fields/limit-login-attempts.php:78
+#: settings/config/fields/limit-login-attempts.php:79
+msgid "%s minutes"
+msgstr "%s minuts"
+
+#: security/sync-settings.php:34
+msgid "Debug.log"
+msgstr "Debug.log"
+
+#: mailer/class-mail.php:218
+msgid "Email notification error"
+msgstr "Error de notificació per correu electrònic"
+
+#: mailer/class-mail.php:81 mailer/class-mail.php:98
+msgid "Email verification error"
+msgstr "Error de verificació del correu electrònic"
+
+#: mailer/class-mail.php:59
+msgid "Test notification email error"
+msgstr "Error de correu electrònic de notificació de prova"
+
+#: settings/config/fields/firewall.php:31
+#: settings/config/fields/firewall.php:71
+#: settings/config/fields/firewall.php:236
+#: settings/config/fields/limit-login-attempts.php:182
+#: settings/config/fields/limit-login-attempts.php:306
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/GeoBlockList/TrustIpAddressModal.js:86
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:81
+msgid "IP Address"
+msgstr "Adreça IP"
+
+#: settings/config/menu.php:347
+msgid "Active"
+msgstr "Activa"
+
+#: settings/config/menu.php:331
+msgid "Two-step verification will enhance the authentication process by adding an additional layer. Selected users will be required to enter their correct credentials first, and then they must provide a one-time code sent to their email as an extra step."
+msgstr "La verificació en dos passos millorarà el procés d'autenticació afegint una capa de seguretat addicional. Els usuaris seleccionats hauran d'introduir primer les credencials correctes i després proporcionar un codi d'un sol ús enviat al seu correu electrònic com a pas addicional."
+
+#: settings/config/menu.php:322
+msgid "Enhancing the authentication process and optimizing user management makes Login Protection a foundational element in securing your website."
+msgstr "Millorar el procés d'autenticació i optimitzar la gestió d'usuaris fa de la protecció d'inici de sessió un element fonamental per assegurar el lloc web."
+
+#: settings/config/menu.php:311
+msgid "Get two-factor authentication with Really Simple SSL Pro"
+msgstr "Obteniu l'autenticació de doble factor amb el Really Simple SSL Pro"
+
+#: settings/config/disable-fields-filter.php:66
+msgid "Email not verified yet. Verify your email address to get the most out of Really Simple SSL"
+msgstr "Encara no s'ha verificat el correu electrònic. Verifiqueu l'adreça de correu electrònic per treure el màxim profit del Really Simple SSL"
+
+#: settings/config/disable-fields-filter.php:65
+msgid "You're using a feature where email is an essential part of the functionality. Please validate that you can send emails on your server."
+msgstr "Esteu utilitzant una característica on el correu electrònic és una part essencial de la funcionalitat. Valideu que podeu enviar correus electrònics des del servidor."
+
+#: settings/config/disable-fields-filter.php:63
+msgid "Email validation completed"
+msgstr "S'ha completat la validació del correu electrònic"
+
+#: settings/config/disable-fields-filter.php:60
+msgid "Email validation"
+msgstr "Validació del correu electrònic"
+
+#: settings/config/fields/two-fa.php:109
+msgid "User role"
+msgstr "Rol de l'usuari"
+
+#: settings/config/fields/two-fa.php:88 settings/config/menu.php:339
+#: settings/config/menu.php:411 settings/config/menu.php:431
+msgid "Users"
+msgstr "Usuaris"
+
+#: settings/config/fields/two-fa.php:74
+msgid "These user roles are forced to enter the authentication code."
+msgstr "Aquests rols d'usuari es veuen obligats a introduir el codi d'autenticació."
+
+#: settings/config/fields/two-fa.php:73
+msgid "Force on:"
+msgstr "Força a:"
+
+#: settings/config/fields/two-fa.php:56
+msgid "Two-step verification will be optional for these user roles, and they can disable it on first login."
+msgstr "La verificació en dos passos serà opcional per a aquests rols d'usuari, i el poden desactivar en el primer inici de sessió."
+
+#: settings/config/fields/two-fa.php:55
+msgid "Optional for:"
+msgstr "Opcional per a:"
+
+#: settings/config/fields/two-fa.php:36
+msgid "By enabling this feature you understand that email validation is required, and you can send email from your server reliably."
+msgstr "Si habiliteu aquesta funció, enteneu que la validació del correu electrònic és necessària, i podeu enviar correus electrònics des del servidor de manera fiable."
+
+#: settings/config/fields/two-fa.php:35
+msgid "Enable two-step verification"
+msgstr "Activa la verificació en dos passos"
+
+#: settings/config/fields/two-fa.php:18
+msgid "Two-step verification is the first feature we regard as login protection. Want to know more about this feature, and what is to come?"
+msgstr "La verificació en dos passos és la principal característica que considerem com a protecció d'inici de sessió. Voleu saber més sobre aquesta característica, i què vindrà?"
+
+#: settings/config/fields/two-fa.php:17
+msgid "About Login Protection"
+msgstr "Quant a la protecció d'inici de sessió"
+
+#: settings/config/fields/two-fa.php:13
+msgid "Enable login protection"
+msgstr "Activa la protecció d'inici de sessió"
+
+#: settings/config/fields/firewall.php:250
+#: settings/config/fields/limit-login-attempts.php:314
+msgid "Event"
+msgstr "Esdeveniment"
+
+#: settings/config/fields/limit-login-attempts.php:298
+msgid "User"
+msgstr "Usuari"
+
+#: settings/config/fields/firewall.php:219
+#: settings/config/fields/limit-login-attempts.php:275
+msgid "IP address overview"
+msgstr "Resum de l'adreça IP"
+
+#: settings/config/fields/firewall.php:192
+#: settings/config/fields/limit-login-attempts.php:242
+msgid "Continent"
+msgstr "Continent"
+
+#: settings/config/fields/firewall.php:185
+#: settings/config/fields/firewall.php:230
+#: settings/config/fields/limit-login-attempts.php:234
+#: settings/config/fields/limit-login-attempts.php:286
+msgid "Country"
+msgstr "País"
+
+#: settings/config/fields/limit-login-attempts.php:171
+msgid "Enable open source blocklist API etc."
+msgstr "Activa l'API de la llista de bloqueigs de codi obert, etc."
+
+#: settings/config/fields/firewall.php:166
+#: settings/config/fields/limit-login-attempts.php:124
+#: settings/config/fields/limit-login-attempts.php:169
+#: settings/config/fields/limit-login-attempts.php:215
+#: settings/config/menu.php:423 settings/config/menu.php:458
+msgid "Trusted"
+msgstr "De confiança"
+
+#: settings/config/fields/firewall.php:165
+#: settings/config/fields/limit-login-attempts.php:123
+#: settings/config/fields/limit-login-attempts.php:168
+#: settings/config/fields/limit-login-attempts.php:214
+msgid "Locked-out"
+msgstr "Blocat"
+
+#: settings/config/fields/firewall.php:127
+msgid "1 hour"
+msgstr "1 hora"
+
+#: settings/config/fields/limit-login-attempts.php:52
+msgid "Interval"
+msgstr "Interval"
+
+#: settings/config/fields/limit-login-attempts.php:31
+#: settings/config/fields/limit-login-attempts.php:32
+#: settings/config/fields/limit-login-attempts.php:33
+#: settings/config/fields/limit-login-attempts.php:34
+msgid "attempts"
+msgstr "intents"
+
+#: settings/config/fields/limit-login-attempts.php:29
+msgid "Login attempts"
+msgstr "Intents d'inici de sessió"
+
+#: settings/config/fields/limit-login-attempts.php:17
+msgid "About Limit Login Attempts"
+msgstr "Quant al limitador d'intents d'inici de sessió"
+
+#: settings/config/fields/limit-login-attempts.php:13
+msgid "Enable Limit Login Attempts"
+msgstr "Activa el limitador d'intents d'inici de sessió"
+
+#: settings/config/fields/general.php:93
+msgid "Verify your email address to get the most out of Really Simple SSL."
+msgstr "Verifiqueu l'adreça de correu electrònic per treure el màxim profit del Really Simple SSL."
+
+#: mailer/class-mail.php:205 settings/config/fields/general.php:91
+msgid "Email verification"
+msgstr "Verificació per correu electrònic"
+
+#: security/firewall-manager.php:616
+msgid "Please check if the advanced-headers.php file is included in the wp-config.php, and exists in the wp-content folder."
+msgstr "Comproveu si el fitxer advanced-headers.php està inclòs a wp-config.php, i existeix a la carpeta wp-content."
+
+#: security/firewall-manager.php:616
+msgid "A firewall rule was enabled, but the firewall does not seem to get loaded correctly."
+msgstr "S'ha activat una regla del tallafoc, però sembla que el tallafoc no es carrega correctament."
+
+#: mailer/class-mail.php:120
+msgid "Click the button below to confirm your email address, or copy the following URL: %s"
+msgstr "Feu clic al botó de sota per confirmar la vostra adreça de correu electrònic, o copieu l'URL següent: %s"
+
+#: mailer/class-mail.php:117
+msgid "Verify email"
+msgstr "Verifica el correu electrònic"
+
+#: mailer/class-mail.php:115
+msgid "Please verify your email"
+msgstr "Verifiqueu el correu electrònic"
+
+#: mailer/class-mail.php:114
+msgid "Really Simple SSL - Verify your email address"
+msgstr "Really Simple SSL - Verifiqueu l'adreça de correu electrònic"
+
+#: class-multisite.php:257 class-multisite.php:258 settings/settings.php:179
+#: settings/settings.php:180
+msgid "SSL & Security"
+msgstr "SSL i seguretat"
+
+#: class-admin.php:2380
+msgid "Email address successfully verified"
+msgstr "L'adreça de correu electrònic s'ha verificat correctament"
+
+#: class-admin.php:2372
+msgid "Email verification has not been completed yet. Check your email and click the link"
+msgstr "La verificació per correu electrònic encara no s'ha completat. Comproveu el correu electrònic i feu clic a l'enllaç"
+
+#: settings/config/fields/hardening-extended.php:46
+msgid "Restrict creation of administrator roles"
+msgstr "Restringeix la creació de rols d'administrador"
+
+#: settings/config/fields/hardening-extended.php:43
+msgid "Unauthorized administrators"
+msgstr "Administradors no autoritzats"
+
+#: security/wordpress/vulnerabilities.php:1571
+msgid "You have %s low-risk vulnerability"
+msgid_plural "You have %s low-risk vulnerabilities"
+msgstr[0] "Teniu 1 vulnerabilitat de risc baix"
+msgstr[1] "Teniu %s vulnerabilitats de risc baix"
+
+#: security/wordpress/vulnerabilities.php:1568
+msgid "You have %s medium-risk vulnerability"
+msgid_plural "You have %s medium-risk vulnerabilities"
+msgstr[0] "Teniu 1 vulnerabilitat de risc mitjà"
+msgstr[1] "Teniu %s vulnerabilitats de risc mitjà"
+
+#: security/wordpress/vulnerabilities.php:1565
+msgid "You have %s high-risk vulnerability"
+msgid_plural "You have %s high-risk vulnerabilities"
+msgstr[0] "Teniu 1 vulnerabilitat de risc alt"
+msgstr[1] "Teniu %s vulnerabilitats de risc alt"
+
+#: security/wordpress/vulnerabilities.php:1562
+msgid "You have %s critical vulnerability"
+msgid_plural "You have %s critical vulnerabilities"
+msgstr[0] "Teniu 1 vulnerabilitat crítica"
+msgstr[1] "Teniu %s vulnerabilitats crítiques"
+
+#: security/wordpress/vulnerabilities.php:346
+msgid "Please take appropriate action."
+msgstr "Preneu les mesures oportunes."
+
+#: security/notices.php:221
+msgid "Really Simple SSL has a new feature! Introducing Vulnerability Detection, enable it now."
+msgstr "El Really Simple SSL té una nova característica. Us presentem la detecció de vulnerabilitats, activeu-la ara."
+
+#: security/wordpress/vulnerabilities.php:304
+msgid "View vulnerabilities"
+msgstr "Visualitza les vulnerabilitats"
+
+#: security/wordpress/vulnerabilities.php:299
+msgid "Please check the vulnerabilities overview for more information and take appropriate action."
+msgstr "Comproveu la visió general de vulnerabilitats per a més informació i prengueu les mesures adequades."
+
+#: security/wordpress/vulnerabilities.php:298
+msgid "%s vulnerability has been detected."
+msgid_plural "%s vulnerabilities have been detected."
+msgstr[0] "S'ha detectat %s vulnerabilitat."
+msgstr[1] "S'han detectat %s vulnerabilitats."
+
+#: security/wordpress/vulnerabilities.php:290
+msgid "Vulnerabilities detected"
+msgstr "S'han detectat vulnerabilitats."
+
+#: security/wordpress/vulnerabilities.php:270
+#: security/wordpress/vulnerabilities.php:278
+msgid "No known vulnerabilities detected"
+msgstr "No s'han detectat vulnerabilitats conegudes"
+
+#: settings/config/fields/encryption.php:80
+msgid "Only enable this if you experience mixed content in the admin environment of your WordPress website."
+msgstr "Activeu això només si experimenteu contingut mixt a l'entorn d'administració del lloc web del WordPress."
+
+#: settings/config/fields/encryption.php:65
+msgid "Only enable if the default mixed content fixer does not fix your front-end mixed content."
+msgstr "Activeu-ho només si el solucionador de contingut mixt predeterminat no corregeix el contingut mixt del frontal."
+
+#: settings/config/menu.php:221
+msgid "You can choose to automate the most common actions for a vulnerability. Each action is set to a minimum risk level, similar to the notifications. Please read the instructions to learn more about the process."
+msgstr "Podeu triar automatitzar les accions més comunes per a una vulnerabilitat. Cada acció s'estableix en un nivell de risc mínim, similar a les notificacions. Llegiu les instruccions per obtenir més informació sobre el procés."
+
+#: settings/config/menu.php:220
+msgid "Measures"
+msgstr "Mesures"
+
+#: settings/config/menu.php:200
+msgid "This is the vulnerability overview. Here you will find current known vulnerabilities on your system. You can find more information and helpful, actionable insights for every vulnerability under details."
+msgstr "Aquest és el resum de les vulnerabilitats. Aquí trobareu vulnerabilitats conegudes actualment al sistema. Podeu trobar més informació i perspectives útils i executables per a cada vulnerabilitat, en els detalls."
+
+#: settings/config/menu.php:214
+msgid "These notifications are set to the minimum risk level that triggers a notification. For example, the default site-wide notification triggers on high-risk and critical vulnerabilities."
+msgstr "Aquestes notificacions estan establertes al nivell de risc mínim que activa una notificació. Per exemple, la notificació per defecte per a tot el lloc web s'activa en vulnerabilitats crítiques i d'alt risc."
+
+#: settings/config/menu.php:193
+msgid "Here you can configure vulnerability detection, notifications and measures. To learn more about the features displayed, please use the instructions linked in the top-right corner."
+msgstr "Aquí podeu configurar la detecció de vulnerabilitats, notificacions i mesures. Per a obtenir més informació sobre les característiques mostrades, utilitzeu les instruccions enllaçades a la cantonada superior dreta."
+
+#: settings/config/fields/vulnerability-detection.php:237
+msgid "I have read and understood the risks to intervene with these measures."
+msgstr "He llegit i entès els riscos de dur a terme aquestes mesures."
+
+#: settings/config/fields/firewall.php:44
+#: settings/config/fields/firewall.php:244
+#: settings/config/fields/limit-login-attempts.php:149
+#: settings/config/fields/limit-login-attempts.php:195
+#: settings/config/fields/limit-login-attempts.php:292
+#: settings/config/fields/vulnerability-detection.php:167
+msgid "Date"
+msgstr "Data"
+
+#: settings/config/fields/vulnerability-detection.php:174
+#: settings/config/fields/vulnerability-detection.php:217
+msgid "Risk"
+msgstr "Risc"
+
+#: settings/config/fields/vulnerability-detection.php:159
+msgid "Component"
+msgstr "Component"
+
+#: settings/config/fields/vulnerability-detection.php:147
+msgid "Vulnerabilities Overview"
+msgstr "Resum de vulnerabilitats"
+
+#: settings/config/fields/vulnerability-detection.php:130
+msgid "Test notifications can be used to test email delivery and shows how vulnerabilities will be reported on your WordPress installation."
+msgstr "Les notificacions de prova es poden utilitzar per provar el lliurament de correu electrònic i mostra com es notificaran les vulnerabilitats a la vostra instal·lació del WordPress."
+
+#: settings/config/fields/vulnerability-detection.php:129
+#: settings/config/fields/vulnerability-detection.php:132
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/RiskConfiguration/NotificationTester.js:39
+msgid "Test notifications"
+msgstr "Notificacions de prova"
+
+#: settings/config/fields/vulnerability-detection.php:109
+msgid "This will send emails about vulnerabilities directly from your server. Make sure you can receive emails by the testing a preview below. If this feature is disabled, please enable notifications under general settings."
+msgstr "Això enviarà correus electrònics sobre vulnerabilitats directament des del servidor. Assegureu-vos que podeu rebre correus electrònics provant una previsualització a continuació. Si aquesta característica està desactivada, activeu les notificacions a la configuració general."
+
+#: settings/config/fields/vulnerability-detection.php:108
+#: settings/config/menu.php:35 settings/config/menu.php:330
+msgid "Email"
+msgstr "Correu electrònic"
+
+#: settings/config/fields/vulnerability-detection.php:106
+msgid "Critical (default)"
+msgstr "Crític (per defecte)"
+
+#: settings/config/fields/vulnerability-detection.php:103
+#: settings/config/fields/vulnerability-detection.php:196
+msgid "Low-risk"
+msgstr "Risc baix"
+
+#: settings/config/fields/vulnerability-detection.php:86
+msgid "Site-wide, admin notification"
+msgstr "En tot el lloc web, notificació d'administrador"
+
+#: settings/config/fields/vulnerability-detection.php:83
+msgid "High-risk (default)"
+msgstr "Risc alt (per defecte)"
+
+#: settings/config/fields/vulnerability-detection.php:81
+msgid "Low-risk "
+msgstr "Risc baix "
+
+#: settings/config/fields/vulnerability-detection.php:64
+msgid "Really Simple SSL dashboard"
+msgstr "Tauler del Really Simple SSL"
+
+#: settings/config/fields/vulnerability-detection.php:62
+#: settings/config/fields/vulnerability-detection.php:84
+#: settings/config/fields/vulnerability-detection.php:199
+msgid "Critical"
+msgstr "Crític"
+
+#: settings/config/fields/vulnerability-detection.php:61
+#: settings/config/fields/vulnerability-detection.php:105
+#: settings/config/fields/vulnerability-detection.php:198
+msgid "High-risk"
+msgstr "Risc alt"
+
+#: settings/config/fields/vulnerability-detection.php:60
+#: settings/config/fields/vulnerability-detection.php:82
+#: settings/config/fields/vulnerability-detection.php:104
+#: settings/config/fields/vulnerability-detection.php:197
+msgid "Medium-risk"
+msgstr "Risc mitjà"
+
+#: settings/config/fields/vulnerability-detection.php:59
+msgid "Low-risk (default)"
+msgstr "Risc baix (per defecte)"
+
+#: settings/config/fields/vulnerability-detection.php:58
+#: settings/config/fields/vulnerability-detection.php:80
+#: settings/config/fields/vulnerability-detection.php:102
+#: settings/config/fields/vulnerability-detection.php:195
+msgid "None"
+msgstr "Cap"
+
+#: settings/config/fields/vulnerability-detection.php:41
+msgid "Feedback in plugin overview"
+msgstr "Comentaris al resum de l'extensió"
+
+#: settings/config/fields/vulnerability-detection.php:38
+msgid "If there's a vulnerability, you will also get feedback on the themes and plugin overview."
+msgstr "Si hi ha una vulnerabilitat, obtindreu comentaris en el resum general de temes i extensions."
+
+#: settings/config/fields/vulnerability-detection.php:22
+msgid "Really Simple SSL collects information about plugins, themes, and core vulnerabilities from our database powered by WPVulnerability. Anonymized data about these vulnerable components will be sent to Really Simple SSL for statistical analysis to improve open-source contributions. For more information, please read our privacy statement."
+msgstr "El Really Simple SSL recull informació sobre extensions, temes i vulnerabilitats del nucli de la nostra base de dades alimentada pel WPVulnerability. Les dades anònimes sobre aquests components vulnerables s'enviaran a Really Simple SSL per a l'anàlisi estadística amb la finalitat de millorar les contribucions de codi obert. Per a més informació, llegiu la nostra declaració de privadesa."
+
+#: settings/config/fields/vulnerability-detection.php:21
+msgid "About Vulnerabilities"
+msgstr "Quant a vulnerabilitats"
+
+#: settings/config/fields/vulnerability-detection.php:14
+msgid "This feature depends on multiple standard background processes. If a process fails or is unavailable on your system, detection might not work. We run frequent tests for this purpose. We will notify you accordingly if there are any issues."
+msgstr "Aquesta característica depèn de múltiples processos estàndard en segon pla. Si un procés falla o no està disponible al sistema, la detecció podria no funcionar. Fem proves freqüents amb aquesta finalitat. Si hi ha algun problema, us ho notificarem en conseqüència."
+
+#: security/wordpress/vulnerabilities.php:1548
+msgid "Get more information from the Really Simple SSL dashboard on %s"
+msgstr "Obteniu més informació del tauler del Really Simple SSL a %s"
+
+#: security/wordpress/vulnerabilities.php:1547
+msgid "Based on your settings, Really Simple SSL will take appropriate action, or you will need to solve it manually."
+msgstr "Segons la vostra configuració, Really Simple SSL prendrà les accions apropiades, o haureu de resoldre-ho manualment."
+
+#: security/wordpress/vulnerabilities.php:1542
+msgid "Multiple %s vulnerabilities have been found."
+msgstr "S'han trobat múltiples vulnerabilitats %s."
+
+#: security/wordpress/vulnerabilities.php:1542
+msgid "A %s vulnerability is found in %s."
+msgstr "S'ha trobat una vulnerabilitat %s a %s."
+
+#: security/wordpress/vulnerabilities.php:1509
+msgid "This is a vulnerability alert from Really Simple SSL for %s. "
+msgstr "Això és una alerta de vulnerabilitat del Really Simple SSL per a %s. "
+
+#: security/wordpress/vulnerabilities.php:1508
+msgid "%s: %s vulnerability found"
+msgid_plural "%s: %s vulnerabilities found"
+msgstr[0] "%s: %s vulnerabilitat trobada"
+msgstr[1] "%s: %s vulnerabilitats trobades"
+
+#: security/wordpress/vulnerabilities.php:1507
+msgid "Vulnerability Alert: %s"
+msgstr "Avís de vulnerabilitat: %s"
+
+#: security/wordpress/vulnerabilities.php:1161
+msgid "Vulnerability: %s"
+msgstr "Vulnerabilitat: %s"
+
+#: security/wordpress/vulnerabilities.php:705
+#: security/wordpress/vulnerabilities.php:1178
+msgid "Quarantined"
+msgstr "En quarantena"
+
+#: security/wordpress/vulnerabilities.php:621
+msgid "Components will be quarantined if the update process fails."
+msgstr "Els components es posaran en quarantena si el procés d'actualització falla."
+
+#: security/wordpress/vulnerabilities.php:619
+msgid "Quarantine"
+msgstr "Quarantena"
+
+#: security/wordpress/vulnerabilities.php:615
+msgid "Will run a frequent update process on vulnerable components."
+msgstr "Executarà un procés d'actualització freqüent en els components vulnerables."
+
+#: security/wordpress/vulnerabilities.php:613
+msgid "Force update"
+msgstr "Força l'actualització"
+
+#: security/wordpress/vulnerabilities.php:598 settings/config/menu.php:182
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Vulnerabilities"
+msgstr "Vulnerabilitats"
+
+#: security/wordpress/vulnerabilities.php:397
+msgid "Dashboard - Test Notification"
+msgstr "Tauler - Notificació de prova"
+
+#: security/wordpress/vulnerabilities.php:376
+#: security/wordpress/vulnerabilities.php:398
+msgid "This is a test notification from Really Simple SSL. You can safely dismiss this message."
+msgstr "Aquesta és una notificació de prova del Really Simple SSL. Podeu descartar aquest missatge amb seguretat."
+
+#: security/wordpress/vulnerabilities.php:375
+msgid "Site wide - Test Notification"
+msgstr "En tot el lloc web - Notificació de prova"
+
+#: security/hardening.php:16 security/wordpress/vulnerabilities.php:54
+msgid "critical"
+msgstr "crític"
+
+#: security/hardening.php:15 security/wordpress/vulnerabilities.php:53
+msgid "high-risk"
+msgstr "risc alt"
+
+#: security/hardening.php:14 security/wordpress/vulnerabilities.php:52
+msgid "medium-risk"
+msgstr "risc mitjà"
+
+#: security/hardening.php:13 security/wordpress/vulnerabilities.php:51
+msgid "low-risk"
+msgstr "risc baix"
+
+#: security/cron.php:98
+msgid "Every three hours"
+msgstr "Cada tres hores"
+
+#: mailer/class-mail.php:140
+msgid "Email could not be sent. No message or subject set."
+msgstr "No s'ha pogut enviar el correu electrònic. No s'ha definit cap missatge o assumpte."
+
+#: mailer/class-mail.php:38
+msgid "Why did I receive this email?"
+msgstr "Per què heu rebut aquest correu electrònic?"
+
+#: class-admin.php:2160
+msgid "The 301 redirect with .htaccess to HTTPS is now enabled."
+msgstr "La redirecció 301 a HTTPS, al fitxer .htaccess, està habilitada."
+
+#: onboarding/class-onboarding.php:198
+#: settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Settings/Settings.js:153
+msgid "Save and continue"
+msgstr "Desa i continua"
+
+#: settings/config/fields/encryption.php:27
+msgid "Settings update: .htaccess redirect"
+msgstr "Actualització de la configuració: redirecció .htaccess"
+
+#: onboarding/class-onboarding.php:197
+msgid "Add your email address below."
+msgstr "Afegiu la vostra adreça de correu electrònic a continuació."
+
+#: onboarding/class-onboarding.php:197
+msgid "We use email notification to explain important updates in plugin settings."
+msgstr "Utilitzem notificacions per correu electrònic per explicar actualitzacions importants a la configuració del connector."
+
+#: onboarding/class-onboarding.php:196
+msgid "Get notified!"
+msgstr "Rebeu notificacions!"
+
+#: class-admin.php:2358
+msgid "Our vulnerability reporting is in beta. Signup for the beta to discover the new features!"
+msgstr "La nostra informació de vulnerabilitat està en fase beta. Registreu-vos a la beta per descobrir les noves característiques!"
+
+#: settings/config/fields/firewall.php:103
+#: settings/config/fields/firewall.php:106
+#: settings/config/fields/security-headers.php:14 settings/config/menu.php:355
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:167
+#: settings/src/Settings/DynamicDataTable/DynamicDataTable.js:168
+#: settings/src/Settings/EventLog/EventLogDataTable.js:232
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:343
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:506
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:402
+#: settings/src/Settings/LearningMode/LearningMode.js:340
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:451
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:319
+#: settings/src/Settings/LimitLoginAttempts/UserDatatable.js:281
+#: settings/src/Settings/PermissionsPolicy.js:205
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesOverview.js:128
+#: settings/src/Settings/RolesDropDown.js:94
+#: settings/src/Settings/TwoFA/TwoFaDataTable.js:290
+#: settings/src/Settings/TwoFA/TwoFaRolesDropDown.js:112
+msgid "Disabled"
+msgstr "Deshabilitat"
+
+#: settings/config/fields/hardening-extended.php:126
+msgid "Users trying to enter via /wp-admin or /wp-login.php will be redirected to this URL."
+msgstr "Els usuaris que intentin entrar via /wp-admin o /wp-login.php seran redirigits a aquest URL."
+
+#: settings/config/fields/hardening-extended.php:109
+msgid "Custom login URL"
+msgstr "URL d'inici de sessió personalitzat"
+
+#: settings/config/fields/hardening-extended.php:108
+msgid "Example: If you want to change your login page from /wp-admin/ to /control/ answer: control"
+msgstr "Exemple: Si voleu canviar la pàgina d'inici de sessió de /wp-admin/ a /control/ responeu: control"
+
+#: settings/config/fields/hardening-extended.php:107
+msgid "Enter a custom login URL. This allows you to log in via this custom URL instead of /wp-admin or /wp-login.php"
+msgstr "Introduïu un URL d'inici de sessió personalitzat. Això us permet iniciar la sessió mitjançant aquest URL personalitzat en lloc de /wp-admin o /wp-login.php"
+
+#: settings/config/fields/hardening-extended.php:96
+msgid "Your login URL has changed to {login_url} to prevent common bot attacks on standard login URLs. Learn more about this feature, common questions and measures to prevent any issues."
+msgstr "L'URL d'inici de sessió ha canviat a {login_url} per evitar atacs comuns de robots en URLs d'inici de sessió estàndard. Més informació sobre aquesta característica, preguntes i mesures comunes per evitar qualsevol problema."
+
+#: settings/config/fields/hardening-extended.php:95
+msgid "You have changed your login URL"
+msgstr "Heu canviat l'URL d'inici de sessió"
+
+#: settings/config/fields/hardening-extended.php:93
+msgid "Enable Custom login URL"
+msgstr "Activa l'URL d'inici de sessió personalitzat"
+
+#: settings/config/fields/hardening-extended.php:92
+msgid "Allows you to enter a custom login URL."
+msgstr "Permet introduir un URL d'inici de sessió personalitzat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:222
+msgid "Please adjust the CAA records via your DNS provider to allow Let’s Encrypt SSL certificates"
+msgstr "Ajusteu els registres CAA a través del vostre proveïdor DNS per permetre els certificats del Let's Encrypt SSL"
+
+#: mailer/class-mail.php:31
+msgid "This email is part of the Really Simple SSL Notification System"
+msgstr "Aquest correu electrònic forma part del sistema de notificacions del Really Simple SSL"
+
+#: mailer/class-mail.php:36
+msgid "This email was sent to"
+msgstr "Aquest correu electrònic s'ha enviat a"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1600
+msgid "This is a multisite configuration with subdomains. You should generate a wildcard certificate on the root domain."
+msgstr "Aquesta és una configuració multilloc amb subdominis. Hauríeu de generar un certificat wildcard al domini arrel."
+
+#: settings/config/fields/encryption.php:28
+msgid "The .htaccess redirect has been enabled on your site. If the server configuration is non-standard, this might cause issues. Please check if all pages on your site are functioning properly."
+msgstr "S'ha habilitat la redirecció .htaccess al vostre lloc web. Si la configuració del servidor no és estàndard, això podria causar problemes. Comproveu que totes les pàgines del lloc web funcionin correctament."
+
+#: settings/config/disable-fields-filter.php:19
+msgid "Enable .htaccess only if you know how to regain access in case of issues."
+msgstr "Activeu .htaccess només si sabeu com recuperar l'accés en cas de problemes."
+
+#: settings/config/disable-fields-filter.php:15
+msgid "On Apache you can use a .htaccess redirect, which is usually faster, but may cause issues on some configurations. Read the instructions in the sidebar first."
+msgstr "A Apache podeu utilitzar una redirecció .htaccess, que normalment és més ràpida, però pot causar problemes en algunes configuracions. Llegiu primer les instruccions a la barra lateral."
+
+#: settings/config/fields/hardening-extended.php:17
+msgid "From now on, the debug.log won’t be publicly accessible whenever wp-debugging is enabled. The debug log will be stored in a randomly named folder in /wp-content/. This prevents possible leakage of sensitive debugging information."
+msgstr "A partir d'ara, el debug.log no serà accessible públicament sempre que s'activi la depuració del WordPress. El registre de depuració s'emmagatzemarà en una carpeta amb nom aleatori a /wp-content/. Això evita possibles fuites d'informació sensible de depuració."
+
+#: settings/config/fields/hardening-extended.php:16
+msgid "Settings update: Debug.log file relocated"
+msgstr "Actualització de la configuració: S'ha reubicat el fitxer debug.log"
+
+#: settings/config/fields/hardening-extended.php:14
+msgid "A debug.log is publicly accessibile and has a standard location. This will change the location to a randomly named folder in /wp-content/"
+msgstr "Un fitxer debug.log és accessibile públicament i té una ubicació estàndard. Això canviarà la ubicació a una carpeta amb nom aleatori a /wp-content/"
+
+#: settings/config/fields/hardening-extended.php:69
+#: settings/config/fields/hardening-extended.php:70
+msgid "This will permanently change your database prefixes and you can NOT rollback this feature. Please make sure you have a back-up."
+msgstr "Això canviarà permanentment els prefixos de la base de dades. No podreu desfer aquesta característica. Assegureu-vos que teniu una còpia de seguretat."
+
+#: settings/config/fields/hardening-extended.php:66
+msgid "Security through obscurity. Your site is no longer using the default wp_ prefix for database tables. The process has been designed to only complete and replace the tables after all wp_ tables are successfully renamed. In the unlikely event that this does lead to database issues on your site, please navigate to our troubleshooting article."
+msgstr "Seguretat per obscuritat. El lloc web ja no utilitza el prefix wp_ predeterminat per a les taules de la base de dades. El procés ha estat dissenyat per completar i reemplaçar les taules després que totes les taules wp_ siguin reanomenades amb èxit. En el cas poc probable que això generi problemes de base de dades al lloc web, visiteu el nostre article de resolució de problemes."
+
+#: settings/config/fields/hardening-extended.php:65
+msgid "Settings update: Database prefix changed"
+msgstr "Actualització de la configuració: s'ha canviat el prefix de la base de dades"
+
+#: settings/config/fields/hardening-extended.php:55
+msgid "This will limit or fully disable HTTP requests that are not needed, but could be used with malicious intent."
+msgstr "Això limitarà o desactivarà completament les sol·licituds HTTP que no siguin necessàries, però podrien ser utilitzades amb intencions malicioses."
+
+#: settings/config/fields/hardening-basic.php:108
+msgid "If the username 'admin' currently exists, you can rename it here. Please note that you can no longer use this username, and should use the new username or an email address"
+msgstr "Si existeix actualment el nom d'usuari «admin», podeu canviar-li el nom des d'aquí. Tingueu en compte que ja no podeu utilitzar aquest nom d'usuari, i que hauríeu d'utilitzar el nom d'usuari nou o una adreça de correu electrònic."
+
+#: settings/config/fields/hardening-basic.php:104
+msgid "As a security precaution, the username ‘admin’ has been changed on %s. From now on, you can login with '%s' or an email address."
+msgstr "Com a precaució de seguretat, el nom d'usuari «admin» s'ha canviat per %s. A partir d'ara, podeu iniciar la sessió amb «%s» o amb una adreça de correu electrònic."
+
+#: settings/config/fields/hardening-basic.php:103
+msgid "Settings update: Username 'admin' renamed"
+msgstr "Actualització de la configuració: S'ha reanomenat el nom d'usuari 'admin'"
+
+#: settings/config/fields/hardening-basic.php:101
+msgid "Block the username 'admin'"
+msgstr "Bloca l'usuari 'admin'"
+
+#: settings/config/fields/hardening-basic.php:60
+msgid "Prevent login feedback"
+msgstr "Evita la resposta a l'inici de sessió"
+
+#: settings/config/fields/hardening-basic.php:59
+msgid "By default, WordPress shows if a username or email address exists when a login fails. This will change it to generic feedback."
+msgstr "Per defecte, el WordPress mostra si existeix un nom d'usuari o una adreça electrònica quan falla l'inici de sessió. Això ho canviarà per una resposta genèrica."
+
+#: settings/config/fields/general.php:50
+msgid "Dismiss all notifications"
+msgstr "Descarta totes les notificacions"
+
+#: settings/config/fields/general.php:101
+msgid "Get notified of important changes, updates and settings. Recommended when using security features."
+msgstr "Rebeu notificacions de canvis, actualitzacions i paràmetres importants. Recomanat quan s'utilitzin funcions de seguretat."
+
+#: settings/config/fields/general.php:100
+msgid "Notifications by email"
+msgstr "Notificacions per correu electrònic"
+
+#: settings/config/disable-fields-filter.php:19
+#: settings/config/fields/encryption.php:24
+msgid "Redirects your site to https with a SEO friendly 301 redirect if it is requested over http."
+msgstr "Redirigeix el lloc web a https, si se sol·licita a través d'http, amb una redirecció 301 amigable amb el SEO."
+
+#: settings/config/fields/encryption.php:19
+msgid "301 .htaccess redirect (read instructions first)"
+msgstr "Redirecció 301 per .htaccess (llegiu abans les instruccions)"
+
+#: settings/config/fields/encryption.php:13
+msgid "Changing redirect methods should be done with caution. Please make sure you have read our instructions beforehand at the right-hand side."
+msgstr "El canvi de mètodes de redirecció s'ha de fer amb precaució. Assegureu-vos que heu llegit les instruccions que apareixen al costat dret."
+
+#: mailer/class-mail.php:35
+msgid "Learn more about our features!"
+msgstr "Més informació sobre les característiques."
+
+#: mailer/class-mail.php:213 upgrade/upgrade-to-pro.php:372
+#: upgrade/upgrade-to-pro.php:373
+msgid "An error occurred:"
+msgstr "S'ha produït un error:"
+
+#: mailer/class-mail.php:211
+msgid "Email could not be sent."
+msgstr "El correu electrònic no s'ha pogut enviar."
+
+#: mailer/class-mail.php:206
+msgid "Email sent! Please check your mail"
+msgstr "Correu electrònic enviat. Comproveu el correu"
+
+#: mailer/class-mail.php:68
+msgid "Email notifications are only sent for important updates, security notices or when certain features are enabled."
+msgstr "Les notificacions per correu electrònic només s'envien quan hi ha actualitzacions importants, avisos de seguretat o quan certes funcions estan habilitades."
+
+#: mailer/class-mail.php:67
+msgid "About notifications"
+msgstr "Quant a les notificacions"
+
+#: mailer/class-mail.php:32
+msgid "Notification by Really Simple SSL"
+msgstr "Notificació del Really Simple SSL"
+
+#: mailer/class-mail.php:64
+msgid "This email is confirmation that any security notices are likely to reach your inbox."
+msgstr "Aquest correu electrònic confirma que qualsevol avís de seguretat pot arribar a la vostra bústia d'entrada."
+
+#: mailer/class-mail.php:63
+msgid "Really Simple SSL - Notification Test"
+msgstr "Really Simple SSL - Prova de notificació"
+
+#: mailer/class-mail.php:60 mailer/class-mail.php:99 mailer/class-mail.php:144
+msgid "Email address not valid"
+msgstr "Adreça de correu electrònic no vàlida"
+
+#: class-admin.php:2345
+msgid "Please check if your REST API is loading correctly. Your site currently is using the slower Ajax fallback method to load the settings."
+msgstr "Comproveu si la vostra API REST s'està carregant correctament. El lloc està utilitzant el mètode alternatiu Ajax fallback per carregar la configuració."
+
+#: mailer/class-mail.php:41
+msgid "You have enabled a feature on %s. We think it's important to let you know a little bit more about this feature so you can use it without worries."
+msgstr "Heu habilitat una funció a %s. És important que tingueu una mica més d'informació sobre aquesta funció perquè pugueu utilitzar-la sense preocupacions."
+
+#: lets-encrypt/config/notices.php:144
+msgid "You are using the Really Simple SSL Shell Exec add on, but your current version needs to be updated."
+msgstr "Esteu utilitzant l'extensió Shell Exec pel Really Simple SSL, però cal actualitzar la versió actual."
+
+#: settings/config/fields/security-headers.php:15
+msgid "(recommended)"
+msgstr "(recomanat)"
+
+#: class-admin.php:2013
+msgid "SSL is now activated. Follow the three steps in this article to check if your website is secure."
+msgstr "L'SSL està activat. Seguiu els tres passos d'aquest article per a comprovar si el lloc web és segur."
+
+#: security/wordpress/file-editing.php:28
+msgid "The DISALLOW_FILE_EDIT constant is defined and set to false. You can remove it from your wp-config.php."
+msgstr "La constant «DISALLOW_FILE_EDIT» està definida i establerta en «false». Podeu eliminar la constant del fitxer wp-config.php."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:113
+msgid "Login credentials incorrect. Please check your login credentials for cPanel."
+msgstr "Les credencials d'inici de sessió són incorrectes. Comproveu les credencials d'inici de sessió per al cPanel."
+
+#: lets-encrypt/class-letsencrypt-handler.php:870
+msgid "Failed retrieving account."
+msgstr "La recuperació del compte ha fallat."
+
+#: security/notices.php:176
+msgid "Rename admin user enabled: Please choose a new username of at least 3 characters, which is not in use yet."
+msgstr "S'ha habilitat el canvi de nom de l'usuari administrador: Trieu un nom d'usuari nou, d'almenys 3 caràcters, que no s'estigui utilitzant."
+
+#: upgrade/upgrade-to-pro.php:450
+msgid "Could not rename folder!"
+msgstr "No s'ha pogut esborrar la carpeta."
+
+#: settings/config/fields/hardening-basic.php:118
+msgid "Choose new username to replace 'admin'"
+msgstr "Trieu un nou nom d'usuari per a reemplaçar 'admin'"
+
+#: settings/config/menu.php:104
+msgid "Recommended Security Headers"
+msgstr "Capçaleres de seguretat recomanades"
+
+#: lets-encrypt/config/fields.php:111 onboarding/class-onboarding.php:289
+msgid "Terms & Conditions"
+msgstr "Termes i condicions"
+
+#: settings/config/fields/general.php:89
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/Support.js:45
+msgid "Send"
+msgstr "Envia"
+
+#: class-admin.php:595 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/TaskElement.js:58
+#: settings/src/Dashboard/TaskElement.js:62
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:80
+msgid "View"
+msgstr "Visualitza"
+
+#: settings/config/fields/firewall.php:164
+#: settings/config/fields/limit-login-attempts.php:122
+#: settings/config/fields/limit-login-attempts.php:167
+#: settings/config/fields/limit-login-attempts.php:213
+#: settings/config/menu.php:512 settings/config/menu.php:583
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:141
+msgid "Blocked"
+msgstr "Bloquejat"
+
+#: settings/config/menu.php:520 settings/config/menu.php:591
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:140
+msgid "Allowed"
+msgstr "Permès"
+
+#: settings/config/menu.php:492 settings/config/menu.php:634
+#: settings/config/menu.php:671 settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:151
+#: settings/src/Settings/EventLog/EventLogDataTable.js:213
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:326
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:488
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:385
+#: settings/src/Settings/LearningMode/LearningMode.js:139
+#: settings/src/Settings/LearningMode/LearningMode.js:285
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:432
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:298
+msgid "All"
+msgstr "Tot"
+
+#: settings/config/fields/firewall.php:199
+#: settings/config/fields/limit-login-attempts.php:143
+#: settings/config/fields/limit-login-attempts.php:189
+#: settings/config/fields/limit-login-attempts.php:249
+#: settings/config/fields/two-fa.php:101
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/SslLabs/SslLabsHeader.js:5
+msgid "Status"
+msgstr "Estat"
+
+#: settings/config/fields/security-headers.php:400
+msgid "Source"
+msgstr "Font"
+
+#: settings/config/fields/security-headers.php:393
+msgid "Directive"
+msgstr "Directiva"
+
+#: settings/config/fields/security-headers.php:347
+msgid "Add additional domains which can embed your website, if needed. Comma seperated."
+msgstr "Afegiu dominis addicionals que puguin incrustar el lloc web, si cal. Separats per coma."
+
+#: settings/config/fields/security-headers.php:338
+msgid "Allow your domain to be embedded"
+msgstr "Permet que el domini sigui incrustat"
+
+#: settings/config/fields/security-headers.php:319
+msgid "The content security policy has many options, so we always recommend starting in ‘learning mode’ to see what files and scripts are loaded."
+msgstr "La política de seguretat del contingut té moltes opcions, de manera que sempre recomanem començar en el «mode d'aprenentatge» per a veure quins fitxers i scripts s'han carregat."
+
+#: settings/config/fields/security-headers.php:318
+msgid "About the Content Security Policy"
+msgstr "Quant a la política de seguretat del contingut"
+
+#: settings/config/fields/security-headers.php:312
+msgid "Serve encrypted and authenticated responses"
+msgstr "Serviu respostes xifrades i autenticades"
+
+#: settings/config/fields/security-headers.php:303
+msgid "Enable Permissions Policy"
+msgstr "Activa la política de permisos"
+
+#: settings/config/fields/security-headers.php:225
+msgid "Feature"
+msgstr "Característica"
+
+#: settings/config/fields/access-control.php:20
+#: settings/config/fields/security-headers.php:221
+msgid "They might be misused if you don’t actively tell the browser to disable these features."
+msgstr "Podrien ser mal utilitzades si no se li diu activament al navegador que desactivi aquestes funcions."
+
+#: settings/config/fields/security-headers.php:221
+msgid "Browser features are plentiful, but most are not needed on your website."
+msgstr "Les funcions del navegador són abundants, però la majoria no són necessàries per al vostre lloc web."
+
+#: settings/config/fields/security-headers.php:220
+msgid "About the Permission Policy"
+msgstr "Quant a la política de permisos"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/config/fields/security-headers.php:336
+msgid "Self (Default)"
+msgstr "Auto (per defecte)"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:298
+#: settings/src/Settings/LearningMode/LearningMode.js:304
+#: settings/src/Settings/PermissionsPolicy.js:200
+msgid "Disable"
+msgstr "Desactiva"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:266
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:283
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:460
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:471
+#: settings/src/Settings/LearningMode/ChangeStatus.js:7
+#: settings/src/Settings/LearningMode/LearningMode.js:241
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:307
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:318
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:327
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:398
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:409
+msgid "Allow"
+msgstr "Permet"
+
+#: settings/config/fields/encryption.php:113
+#: settings/config/fields/security-headers.php:386
+msgid "Location"
+msgstr "Ubicació"
+
+#: settings/config/fields/encryption.php:107
+#: settings/config/fields/vulnerability-detection.php:223
+msgid "Description"
+msgstr "Descripció"
+
+#: settings/config/fields/encryption.php:100
+msgid "Type"
+msgstr "Tipus"
+
+#: settings/config/fields/encryption.php:96 settings/config/menu.php:91
+msgid "The extensive mixed content scan will list all current and future issues and provide a fix, or instructions to fix manually."
+msgstr "L'exploració extensa de contingut mixt llistarà tots els problemes actuals i futurs i proporcionarà una correcció, o instruccions per a solucionar-ho manualment."
+
+#: settings/config/fields/encryption.php:95
+msgid "About the Mixed Content Scan"
+msgstr "Quant a l'exploració de contingut mixt"
+
+#: settings/config/fields/encryption.php:91
+#: modal/build/index.f0747a4e3a76f14cbb01.js:1
+msgid "Mixed content scan"
+msgstr "Escaneig de contingut mixt"
+
+#: settings/config/fields/security-headers.php:204
+msgid "Cross Origin Embedder Policy"
+msgstr "Cross Origin Embedder Policy"
+
+#: settings/config/fields/security-headers.php:189
+msgid "Cross Origin Resource Policy"
+msgstr "Cross Origin Resource Policy"
+
+#: settings/config/fields/security-headers.php:174
+msgid "Cross Origin Opener Policy"
+msgstr "Cross Origin Opener Policy"
+
+#: settings/config/fields/security-headers.php:171
+msgid "One of the most powerful features, and therefore the most complex are the Cross-Origin headers that can isolate your website so any data leaks are minimized."
+msgstr "Una de les característiques més potents i, per tant, les més complexes, són les capçaleres Cross-Origin que poden aïllar el lloc web de manera que es minimitzi qualsevol fuita de dades."
+
+#: settings/config/fields/security-headers.php:170
+msgid "About Cross Origin Policies"
+msgstr "Quant a les polítiques d'origen creuat"
+
+#: settings/config/fields/security-headers.php:146
+msgid "Choose the max-age for HSTS"
+msgstr "Trieu el valor max-age per al HSTS"
+
+#: settings/config/fields/security-headers.php:144
+msgid "Two years (required for preload)"
+msgstr "Dos anys (necessari per a la precàrrega)"
+
+#: settings/config/fields/security-headers.php:143
+msgid "One year"
+msgstr "Un any"
+
+#: settings/config/fields/security-headers.php:142
+msgid "One day (for testing only)"
+msgstr "Un dia (només per a proves)"
+
+#: settings/config/fields/security-headers.php:126
+msgid "Include subdomains"
+msgstr "Inclou els subdominis"
+
+#: settings/config/fields/security-headers.php:102
+msgid "After enabling this feature, you can submit your site to %shstspreload.org%s"
+msgstr "Després d'activar aquesta funció, podeu enviar el lloc a %shstspreload.org%s"
+
+#: settings/config/fields/security-headers.php:101
+msgid "Include preload"
+msgstr "Inclou la precàrrega"
+
+#: settings/config/fields/security-headers.php:86
+msgid "Leveraging your SSL certificate with HSTS is a staple for every website. Force your website over SSL, mitigating risks of malicious counterfeit websites in your name."
+msgstr "El certificat SSL amb HSTS és un element bàsic per a qualsevol lloc web. Forceu el lloc web a través del SSL, atenuant els riscos de llocs web maliciosos falsificats en nom vostre."
+
+#: settings/config/fields/security-headers.php:85
+msgid "About HTTP Strict Transport Security"
+msgstr "Quant a HTTP Strict Transport Security"
+
+#: settings/config/fields/security-headers.php:60
+msgid "recommended"
+msgstr "recomanat"
+
+#: settings/config/fields/security-headers.php:44
+#: settings/config/fields/security-headers.php:59
+#: settings/config/fields/security-headers.php:162
+#: settings/config/fields/security-headers.php:184
+#: settings/config/fields/security-headers.php:199
+msgid "Off"
+msgstr "Desactivat"
+
+#: settings/config/fields/security-headers.php:25
+msgid "These security headers are the fundamental security measures to protect your website visitors while visiting your website."
+msgstr "Aquestes capçaleres de seguretat són mesures de seguretat fonamentals per protegir els visitants del lloc web mentre us visiten."
+
+#: settings/config/fields/security-headers.php:24
+msgid "About Recommended Security Headers"
+msgstr "Quant a les capçaleres de seguretat recomanades"
+
+#: settings/config/fields/vulnerability-detection.php:211
+msgid "Action"
+msgstr "Acció"
+
+#: settings/config/fields/hardening-xml.php:61
+msgid "Count"
+msgstr "Recompte"
+
+#: settings/config/fields/hardening-xml.php:55
+msgid "Login status"
+msgstr "Estat d'inici de sessió"
+
+#: settings/config/fields/hardening-xml.php:48
+msgid "Method"
+msgstr "Mètode"
+
+#: security/notices.php:31 settings/config/fields/hardening-extended.php:29
+msgid "Disable application passwords"
+msgstr "Desactiva les contrasenyes de les aplicacions"
+
+#: settings/config/fields/hardening-extended.php:20
+msgid "Change debug.log file location"
+msgstr "Canvia la ubicació del fitxer debug.log"
+
+#: settings/config/fields/hardening-extended.php:72
+msgid "Rename and randomize your database prefix"
+msgstr "Canvia el nom i aleatoritza el prefix de la base de dades"
+
+#: settings/config/fields/hardening-extended.php:56
+msgid "Disable HTTP methods"
+msgstr "Desactiva els mètodes HTTP"
+
+#: settings/config/fields/hardening-basic.php:151
+msgid "Block user registrations when login and display name are the same"
+msgstr "Bloca els registres d'usuari quan l'inici de sessió i el nom a mostrar siguin els mateixos"
+
+#: settings/config/fields/hardening-basic.php:142
+msgid "Disable XML-RPC"
+msgstr "Desactiva l'XML-RPC"
+
+#: settings/config/fields/hardening-basic.php:80
+msgid "Disable user enumeration"
+msgstr "Desactiva l'enumeració dels usuaris"
+
+#: settings/config/fields/hardening-basic.php:70
+msgid "Disable directory browsing"
+msgstr "Desactiva la navegació per directoris"
+
+#: settings/config/fields/hardening-basic.php:49
+msgid "Hide your WordPress version"
+msgstr "Amaga la versió del WordPress"
+
+#: settings/config/fields/hardening-basic.php:39
+msgid "Prevent code execution in the public 'Uploads' folder"
+msgstr "Evita l'execució de codi a la carpeta pública «uploads»"
+
+#: settings/config/fields/hardening-basic.php:29
+msgid "Disable the built-in file editors"
+msgstr "Desactiva els editors de fitxers integrats"
+
+#: settings/config/fields/hardening-basic.php:20
+msgid "Hardening features limit the possibility of potential weaknesses and vulnerabilities which can be misused."
+msgstr "L'enduriment de les característiques limita la possibilitat que existeixin febleses i vulnerabilitats potencials de les quals es pugui abusar."
+
+#: settings/config/fields/hardening-basic.php:19
+msgid "About Hardening"
+msgstr "Quant a l'enduriment"
+
+#: settings/config/fields/hardening-basic.php:13
+msgid "Disable \"anyone can register\""
+msgstr "Desactiva l'opció de permetre registrar-se a qualsevol persona"
+
+#: settings/config/fields/general.php:70
+msgid "Delete all data on plugin deletion"
+msgstr "Suprimeix totes les dades de l'extensió en suprimir-la"
+
+#: lets-encrypt/config/fields.php:8 settings/config/fields/general.php:61
+#: settings/config/menu.php:700
+msgid "System status"
+msgstr "Estat del sistema"
+
+#: settings/config/fields/encryption.php:79
+msgid "Mixed content fixer - back-end"
+msgstr "Corrector de contingut mixt - rerefons"
+
+#: settings/config/fields/encryption.php:55
+#: settings/config/fields/encryption.php:58
+msgid "Mixed content fixer - init hook"
+msgstr "Corrector de contingut mixt - ganxo d'inici"
+
+#: class-admin.php:2159 class-admin.php:2165
+msgid "301 .htaccess redirect"
+msgstr "redirecció 301 al fitxer .htaccess"
+
+#: settings/config/fields/encryption.php:18
+msgid "301 PHP redirect"
+msgstr "Redirecció 301 mitjançant PHP"
+
+#: settings/config/fields/encryption.php:17
+msgid "No redirect"
+msgstr "Sense redirecció"
+
+#: settings/config/disable-fields-filter.php:18
+#: settings/config/fields/encryption.php:14
+#: settings/config/fields/encryption.php:23
+msgid "Redirect method"
+msgstr "Mètode de redirecció"
+
+#: lets-encrypt/config/fields.php:21 settings/config/menu.php:723
+msgid "DNS verification"
+msgstr "Verificació del DNS"
+
+#: lets-encrypt/config/fields.php:12 settings/config/menu.php:708
+msgid "General Settings"
+msgstr "Configuració general"
+
+#: settings/config/menu.php:68 settings/build/index.1afbe80747ffa9b218c6.js:1
+#: settings/src/Header.js:32
+msgid "Let's Encrypt"
+msgstr "Let's Encrypt"
+
+#: settings/config/menu.php:133
+msgid "Content Security Policy Headers"
+msgstr "Capçaleres de la política de seguretat del contingut"
+
+#: settings/config/menu.php:132
+msgid "Content Security Policy"
+msgstr "Política de seguretat del contingut"
+
+#: settings/config/fields/security-headers.php:215
+msgid "Permissions Policy"
+msgstr "Política de permisos"
+
+#: settings/config/fields/security-headers.php:79
+msgid "HTTP Strict Transport Security"
+msgstr "Seguretat de transport estricta d'HTTP"
+
+#: settings/config/menu.php:88 settings/config/menu.php:90
+msgid "Mixed Content Scan"
+msgstr "Exploració de contingut mixt"
+
+#: settings/config/menu.php:264
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: onboarding/class-onboarding.php:422 settings/config/menu.php:254
+#: modal/build/index.dfb590895b2465568630.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:82
+msgid "Advanced Hardening"
+msgstr "Enduriment avançat"
+
+#: settings/config/menu.php:233 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Hardening"
+msgstr "Enduriment"
+
+#: settings/config/menu.php:57
+msgid "Debugging with Really Simple SSL"
+msgstr "Depuració amb el Really Simple SSL"
+
+#: settings/config/menu.php:52
+msgid "The following information is attached when you send this form: license key, scan results, your domain, .htaccess file, debug log and a list of active plugins."
+msgstr "En enviar aquest formulari s'adjuntarà la següent informació: clau de llicència, resultats de l'exploració, el domini, el fitxer .htaccess, el registre de depuració i una llista d'extensions actives."
+
+#: settings/config/menu.php:11
+msgid "Dashboard"
+msgstr "Tauler"
+
+#: security/wordpress/user-enumeration.php:10
+msgid "forbidden - number in author name not allowed = %s"
+msgstr "prohibit - no està permès l'ús de números en el nom d'autor = %s"
+
+#: security/wordpress/rename-admin-user.php:15
+msgid "Username 'admin' has been changed to %s"
+msgstr "S'ha canviat el nom d'usuari 'admin' a %s"
+
+#: security/wordpress/prevent-login-info-leakage.php:9
+msgid "Invalid login details."
+msgstr "No són vàlids els detalls d'inici de sessió"
+
+#: security/wordpress/block-code-execution-uploads.php:37
+msgid "The code to block code execution in the uploads folder cannot be added automatically on nginx. Add the following code to your nginx.conf file:"
+msgstr "El codi per bloquejar l'execució del codi a la carpeta de pujades no es pot afegir automàticament a nginx. Afegiu el codi següent al fitxer nginx.conf:"
+
+#: security/wordpress/block-code-execution-uploads.php:24
+msgid "Could not copy code execution test file."
+msgstr "No s'ha pogut copiar el fitxer de prova d'execució de codi."
+
+#: security/wordpress/block-code-execution-uploads.php:19
+msgid "Uploads folder not writable."
+msgstr "No es pot escriure a la carpeta de pujades."
+
+#: security/wordpress/block-code-execution-uploads.php:14
+msgid "Could not find code execution test file."
+msgstr "No s'ha pogut trobar el fitxer de prova d'execució de codi."
+
+#: security/sync-settings.php:35
+msgid "Changed debug.log location to:"
+msgstr "S'ha canviat la ubicació del fitxer debug.log a:"
+
+#: security/notices.php:281
+msgid "Your WordPress version is visible to others."
+msgstr "La versió del WordPress és visible per als altres."
+
+#: security/notices.php:267
+msgid "Anyone can register an account on your site. Consider disabling this option in the WordPress general settings."
+msgstr "Qualsevol pot registrar un compte al lloc web. Considereu desactivar aquesta opció a la configuració general del WordPress."
+
+#: security/notices.php:253
+msgid "The built-in file editors are accessible to others."
+msgstr "Els editors de fitxers integrats són accessibles per als altres."
+
+#: security/notices.php:207
+msgid "Your database prefix is set to the default 'wp_'."
+msgstr "El prefix de la base de dades està definit per defecte com a «wp_»."
+
+#: security/notices.php:202
+msgid "Your database prefix is renamed and randomized. Awesome!"
+msgstr "S'ha reanomenat i aleatoritzat el prefix de la base de dades."
+
+#: security/notices.php:191
+msgid "Code execution is allowed in the public 'Uploads' folder."
+msgstr "Està permesa l'execució de codi a la carpeta pública «uploads»."
+
+#: security/notices.php:159
+msgid "Your site registered a user with the name 'admin'."
+msgstr "El lloc web ha registrat un usuari amb el nom 'admin'."
+
+#: security/notices.php:158 security/notices.php:175
+#: settings/config/fields/limit-login-attempts.php:136
+#: settings/config/fields/two-fa.php:93
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:60
+msgid "Username"
+msgstr "Nom d'usuari"
+
+#: security/notices.php:140
+msgid "Prevent user enumeration"
+msgstr "Evita l'enumeració d'usuaris"
+
+#: security/notices.php:138
+msgid "Your site is vulnerable to user enumeration attacks."
+msgstr "El lloc web és vulnerable als atacs d'enumeració d'usuaris."
+
+#: security/notices.php:121
+msgid "Your site logs information to a public debugging file."
+msgstr "El lloc registra la informació de depuració en un fitxer públic."
+
+#: security/notices.php:120
+msgid "Debugging"
+msgstr "Depuració"
+
+#: security/notices.php:106
+msgid "We have detected administrator roles where the login and display names are the same."
+msgstr "S'han detectat rols d'administrador on els noms d'inici de sessió i de visualització són els mateixos."
+
+#: security/notices.php:92
+msgid "It is currently possible to create an administrator user with the same login and display name."
+msgstr "Actualment és possible crear un usuari administrador amb el mateix nom d'inici de sessió i de visualització."
+
+#: security/notices.php:73
+msgid "An option that requires the .htaccess file in the uploads directory is enabled, but the file is not writable."
+msgstr "Una opció que requereix el fitxer .htaccess al directori de pujades (uploads) està activada, però no es pot escriure en el fitxer."
+
+#: security/notices.php:72
+msgid ".htaccess in uploads not writable"
+msgstr "No es pot escriure en el fitxer .htaccess de la carpeta de pujades (uploads)"
+
+#: security/notices.php:54
+msgid "An option that requires the .htaccess file is enabled, but the file does not exist."
+msgstr "Una opció que requereix el fitxer .htaccess està activada, però el fitxer no existeix."
+
+#: security/notices.php:53
+msgid ".htaccess does not exist"
+msgstr "No existeix el fitxer .htaccess"
+
+#: security/notices.php:46 security/notices.php:54 security/notices.php:73
+msgid "Please add the following lines to your .htaccess, or set it to writable:"
+msgstr "Afegiu les línies següents al vostre fitxer .htaccess, o establiu-lo a escrivible:"
+
+#: security/notices.php:46
+msgid "An option that requires the .htaccess file is enabled, but the file is not writable."
+msgstr "Una opció que requereix el fitxer .htaccess està activada, però no es pot escriure en el fitxer."
+
+#: security/notices.php:45
+msgid ".htaccess not writable"
+msgstr "No es pot escriure en el fitxer .htaccess"
+
+#: security/firewall-manager.php:600
+msgid "Please set the wp-content folder to writable:"
+msgstr "Establiu la carpeta wp-content com a escrivible:"
+
+#: security/firewall-manager.php:600
+msgid "A firewall rule was enabled, but /the wp-content/ folder is not writable."
+msgstr "S'ha activat una regla del tallafoc, però la carpeta /wp-content/ no té permisos d'escriptura."
+
+#: security/firewall-manager.php:594
+msgid "Please set the wp-config.php to writable until the rule has been written."
+msgstr "Establiu permisos d'escriptura per al fitxer wp-config.php fins que s'hagi escrit la regla."
+
+#: security/firewall-manager.php:594
+msgid "A firewall rule was enabled, but the wp-config.php is not writable."
+msgstr "S'ha activat una regla del tallafoc, però el fitxer wp-config.php no té permisos d'escriptura."
+
+#: security/firewall-manager.php:593 security/firewall-manager.php:599
+#: security/firewall-manager.php:615 settings/config/menu.php:535
+#: settings/config/menu.php:553
+msgid "Firewall"
+msgstr "Tallafocs"
+
+#: rlrsssl-really-simple-ssl.php:178
+msgid "Visit the plugins overview or %srenew your license%s."
+msgstr "Visiteu el resum de les extensions o %srenoveu la vostra llicència%s."
+
+#: rlrsssl-really-simple-ssl.php:176
+msgid "Update Really Simple SSL Pro: the plugin needs to be updated to the latest version to be compatible."
+msgstr "Actualitzeu Really Simple SSL Pro: s'ha d'actualitzar l'extensió a l'última versió per a ser compatible."
+
+#: placeholders/class-placeholder.php:436
+msgid "Widget with mixed content"
+msgstr "Giny amb contingut mixt"
+
+#: placeholders/class-placeholder.php:431
+msgid "Widget area"
+msgstr "Àrea de ginys"
+
+#: placeholders/class-placeholder.php:410
+msgid "Mixed content in the postmeta table"
+msgstr "Contingut mixt a la taula postmeta"
+
+#: placeholders/class-placeholder.php:385
+msgid "Mixed content in post: %s"
+msgstr "Contingut mixt a l'entrada: %s"
+
+#: placeholders/class-placeholder.php:368
+msgid "Mixed content in CSS/JS file from other domain"
+msgstr "Contingut mixt en un fitxer CSS/JS d'un altre domini"
+
+#: placeholders/class-placeholder.php:357
+#: placeholders/class-placeholder.php:398
+#: placeholders/class-placeholder.php:424
+#: placeholders/class-placeholder.php:449
+msgid "Copyright warning!"
+msgstr "Avís de copyright."
+
+#: placeholders/class-placeholder.php:356
+#: placeholders/class-placeholder.php:397
+#: placeholders/class-placeholder.php:423
+#: placeholders/class-placeholder.php:448
+msgid "Import and insert file"
+msgstr "Importa i insereix un fitxer"
+
+#: placeholders/class-placeholder.php:343
+msgid "Mixed content in %s"
+msgstr "Contingut mixt a %s"
+
+#: placeholders/class-placeholder.php:331
+#: placeholders/class-placeholder.php:348
+#: placeholders/class-placeholder.php:372
+#: placeholders/class-placeholder.php:389
+#: placeholders/class-placeholder.php:415
+#: placeholders/class-placeholder.php:440
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:90
+#: settings/src/Settings/RiskConfiguration/RiskData.js:115
+msgid "Details"
+msgstr "Detalls"
+
+#: placeholders/class-placeholder.php:327
+msgid "Mixed content in PHP file in %s"
+msgstr "Contingut mixt al fitxer PHP a %s"
+
+#: settings/config/menu.php:738 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:74
+#: settings/src/Settings/License/License.js:71
+msgid "Activate"
+msgstr "Activa"
+
+#: settings/settings.php:555
+msgid "Complianz - Consent Management as it should be"
+msgstr "Gestió del consentiment de les galetes com hauria de ser"
+
+#: onboarding/class-onboarding.php:188
+msgid "Congratulations!"
+msgstr "Felicitacions"
+
+#: onboarding/class-onboarding.php:188
+msgid "Thanks for updating!"
+msgstr "Gràcies per actualitzar."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:108
+#: lets-encrypt/integrations/cpanel/cpanel.php:192
+msgid "Your website's ip address is blocked. Please add your domain's ip address to the security policy in CPanel"
+msgstr "L'adreça IP del lloc web està bloquejada. Afegiu l'adreça IP del vostre domini a la política de seguretat del CPanel"
+
+#: lets-encrypt/config/notices.php:169 lets-encrypt/config/notices.php:172
+msgid "Renew certificate"
+msgstr "Renova el certificat"
+
+#: lets-encrypt/config/notices.php:166
+msgid "Renew installation"
+msgstr "Renova la instal·lació"
+
+#: lets-encrypt/config/fields.php:396
+msgid "Do you want to store these credentials for renewal purposes?"
+msgstr "Voleu emmagatzemar aquestes credencials amb finalitats de renovació?"
+
+#: lets-encrypt/config/fields.php:356
+msgid "Plesk username and password"
+msgstr "Nom d'usuari i contrasenya del Plesk"
+
+#: lets-encrypt/config/fields.php:332
+msgid "Plesk admin URL"
+msgstr "URL d'administració del Plesk"
+
+#: lets-encrypt/config/fields.php:307 lets-encrypt/config/fields.php:312
+msgid "CloudWays API key"
+msgstr "Clau de l'API del CloudWays"
+
+#: lets-encrypt/config/fields.php:231
+msgid "Direct Admin URL"
+msgstr "URL del Direct Admin"
+
+#: lets-encrypt/config/fields.php:145 lets-encrypt/config/fields.php:148
+msgid "Include alias"
+msgstr "Inclou àlies"
+
+#: lets-encrypt/config/fields.php:123 lets-encrypt/config/fields.php:126
+msgid "Disable OCSP stapling"
+msgstr "Desactiva l'engrapat OCSP"
+
+#: lets-encrypt/config/fields.php:110
+msgid "I agree to the Terms & Conditions from Let's Encrypt."
+msgstr "Estic d'acord amb els termes i condicions del Let's Encrypt."
+
+#: lets-encrypt/class-le-restapi.php:234
+msgid "Test not found."
+msgstr "No s'ha trobat la prova."
+
+#: lets-encrypt/class-le-restapi.php:165 lets-encrypt/class-le-restapi.php:226
+msgid "Permission denied."
+msgstr "Permís denegat."
+
+#: class-site-health.php:112
+msgid "Read more about security concerns with debug display enabled"
+msgstr "Més informació sobre els problemes de seguretat amb la visualització de depuració activada"
+
+#: class-site-health.php:106
+msgid "The value, WP_DEBUG_DISPLAY, has either been enabled by WP_DEBUG or added to your configuration file. This will make errors display on the front end of your site."
+msgstr "El valor WP_DEBUG_DISPLAY, o bé està habilitat per WP_DEBUG o bé s'ha afegit al fitxer de configuració. Això farà que els errors es mostrin al frontal del lloc web."
+
+#: class-site-health.php:98
+msgid "Your site is set to display errors on your website"
+msgstr "El lloc web està configurat per mostrar errors al mateix lloc web"
+
+#. translators: Accessibility text.
+#: class-site-health.php:84 class-site-health.php:114
+msgid "(opens in a new tab)"
+msgstr "(s'obre en una pestanya nova)"
+
+#: class-site-health.php:82
+msgid "Remove from public location with Really Simple SSL"
+msgstr "Suprimir de la ubicació pública amb el Really Simple SSL"
+
+#: class-site-health.php:76
+msgid "The value, WP_DEBUG_LOG, has been added to this website’s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
+msgstr "S'ha afegit al fitxer de configuració d'aquest lloc web el valor, WP_DEBUG_LOG. Això vol dir que qualsevol error del lloc web s'escriurà en un fitxer que estarà potencialment disponible per a tots els usuaris."
+
+#: class-site-health.php:68
+msgid "Your site is set to log errors to a potentially public file"
+msgstr "El lloc s'ha configurat per a registrar els errors en un fitxer potencialment públic"
+
+#: class-multisite.php:143
+msgid "A networkwide SSL activation process has been started, but has not been completed. Please go to the SSL settings page to complete the process."
+msgstr "S'ha iniciat un procés d'activació del SSL per a tota la xarxa, però no s'ha completat. Aneu a la pàgina de configuració del SSL per a completar el procés."
+
+#: class-multisite.php:142
+msgid "SSL activation in progress"
+msgstr "Activació del SSL en curs"
+
+#: class-multisite.php:115
+msgid "SSL is not enabled on your network"
+msgstr "L'SSL no està habilitat a la vostra xarxa"
+
+#: class-admin.php:160
+msgid "Improve security - Upgrade"
+msgstr "Millora la seguretat - Actualitza"
+
+#: class-admin.php:2259
+msgid "See which recommended security headers are not present on your website."
+msgstr "Vegeu quines capçaleres de seguretat recomanades no estan presents al lloc web."
+
+#: class-admin.php:1961
+msgid "To safely enable SSL on your server configuration, you should add the following line of code to your wp-config.php."
+msgstr "Per a habilitar de forma segura SSL a la configuració del servidor, hauríeu d'afegir la següent línia de codi al vostre fitxer wp-config.php."
+
+#: class-admin.php:1894 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
+msgid "Upgrade"
+msgstr "Actualitza"
+
+#. Description of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "Lightweight SSL & Hardening Plugin"
+msgstr "Extensió lleugera d'enduriment i SSL"
+
+#: upgrade/upgrade-to-pro.php:579
+msgid "Your license key has reached its activation limit."
+msgstr "La clau de llicència ha arribat al límit d’activació."
+
+#: upgrade/upgrade-to-pro.php:576
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "Sembla que aquesta clau de llicència d'aquesta extensió no és vàlida."
+
+#: upgrade/upgrade-to-pro.php:573
+msgid "Your license is not active for this URL."
+msgstr "La llicència no està activa per a aquest URL."
+
+#: upgrade/upgrade-to-pro.php:570
+msgid "Invalid license."
+msgstr "Llicència no vàlida."
+
+#: upgrade/upgrade-to-pro.php:567
+msgid "Missing license."
+msgstr "Falta la llicència."
+
+#: upgrade/upgrade-to-pro.php:564
+msgid "Your license key has been disabled."
+msgstr "La clau de llicència s'ha desactivat."
+
+#: upgrade/upgrade-to-pro.php:558
+msgid "Your license key expired on %s."
+msgstr "La clau de llicència ha caducat el %s."
+
+#: upgrade/upgrade-to-pro.php:550 upgrade/upgrade-to-pro.php:582
+msgid "An error occurred, please try again."
+msgstr "S'ha produït un error, torneu-ho a provar."
+
+#: upgrade/upgrade-to-pro.php:373
+msgid "Check your %slicense%s."
+msgstr "Comproveu la vostra %sllicència%s."
+
+#: upgrade/upgrade-to-pro.php:372
+msgid "Install %sManually%s."
+msgstr "Instal·la %smanualment%s."
+
+#: upgrade/upgrade-to-pro.php:367
+msgid "Visit Dashboard"
+msgstr "Visita el tauler"
+
+#: upgrade/upgrade-to-pro.php:356
+msgid "Installing"
+msgstr "S'està instal·lant"
+
+#: upgrade/upgrade-to-pro.php:331
+msgid "Recommended by Really Simple Plugins"
+msgstr "Recomanat per Really Simple Plugins"
+
+#: upgrade/upgrade-to-pro.php:233
+msgid "Installation finished"
+msgstr "Instal·lació finalitzada"
+
+#: upgrade/upgrade-to-pro.php:178
+msgid "Really Simple SSL automatically detects your settings and configures your website to run over HTTPS. To keep it lightweight, we kept the options to a minimum. Your website will move to SSL with one click."
+msgstr "El Really Simple SSL detecta automàticament els paràmetres i configura el lloc web per a executar-se a través d'HTTPS. Per mantenir-lo lleuger, vam establir les opcions al mínim. El vostre lloc web es mourà a SSL en un clic."
+
+#: upgrade/upgrade-to-pro.php:174
+msgid "One click SSL optimization"
+msgstr "Optimització del SSL en un clic"
+
+#: upgrade/upgrade-to-pro.php:161
+msgid "Configure your Cookie Notice, Consent Management and Cookie Policy with our Wizard and Cookie Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
+msgstr "Configureu el vostre avís de galetes, gestioneu el consentiment i la política de galetes amb el nostre assistent i l'explorador de galetes. És compatible amb el GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA i PIPEDA."
+
+#: upgrade/upgrade-to-pro.php:157
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "Conjunt de privadesa GDPR/CCPA"
+
+#: upgrade/upgrade-to-pro.php:148
+msgid "Get detailed insights into visitors' behaviour with Burst Statistics, the privacy-friendly analytics dashboard from Really Simple Plugins."
+msgstr "Obteniu informació detallada sobre el comportament dels visitants amb el Burst Statistics, el tauler d'anàlisis de privadesa del Really Simple Plugins."
+
+#: settings/settings.php:547 upgrade/upgrade-to-pro.php:144
+msgid "Self-hosted and privacy-friendly analytics tool."
+msgstr "Eina d'anàlisi auto-allotjada i amigable amb la privadesa"
+
+#: upgrade/upgrade-to-pro.php:111
+msgid "Failed to activate plugin"
+msgstr "No s'ha pogut activar l'extensió"
+
+#: upgrade/upgrade-to-pro.php:110
+msgid "Plugin activated"
+msgstr "S'ha activat l'extensió."
+
+#: upgrade/upgrade-to-pro.php:109
+msgid "Activating plugin..."
+msgstr "Activant l'extensió."
+
+#: upgrade/upgrade-to-pro.php:104
+msgid "Failed to install plugin"
+msgstr "No s'ha pogut instal·lar l'extensió"
+
+#: upgrade/upgrade-to-pro.php:103
+msgid "Plugin installed"
+msgstr "Extensió instal·lada"
+
+#: upgrade/upgrade-to-pro.php:102
+msgid "Installing plugin..."
+msgstr "S'està instal·lant l'extensió..."
+
+#: upgrade/upgrade-to-pro.php:97
+msgid "Failed to gather package information"
+msgstr "No s'ha pogut recollir la informació del paquet"
+
+#: upgrade/upgrade-to-pro.php:96
+msgid "Package information retrieved"
+msgstr "S'ha recuperat la informació del paquet"
+
+#: upgrade/upgrade-to-pro.php:95
+msgid "Retrieving package information..."
+msgstr "S'està recuperant la informació del paquet..."
+
+#: upgrade/upgrade-to-pro.php:90
+msgid "License invalid"
+msgstr "Llicència no vàlida"
+
+#: upgrade/upgrade-to-pro.php:89
+msgid "License valid"
+msgstr "Llicència vàlida"
+
+#: upgrade/upgrade-to-pro.php:88
+msgid "Validating license..."
+msgstr "S'està validant la llicència..."
+
+#: upgrade/upgrade-to-pro.php:83
+msgid "Destination folder already exists"
+msgstr "La carpeta de destinació ja existeix"
+
+#: upgrade/upgrade-to-pro.php:82
+msgid "Able to create destination folder"
+msgstr "Capacitat de crear la carpeta de destinació"
+
+#: upgrade/upgrade-to-pro.php:81
+msgid "Checking if plugin folder exists..."
+msgstr "S'està comprovant si existeix la carpeta d'extensions..."
+
+#: class-admin.php:2277
+msgid "Improve security with Really Simple SSL Pro."
+msgstr "Milloreu la seguretat amb el Really Simple SSL Pro."
+
+#: class-admin.php:2065
+msgid "Check manually"
+msgstr "Comprova manualment"
+
+#: class-admin.php:2060 onboarding/class-onboarding.php:255
+msgid "Could not test certificate"
+msgstr "No s'ha pogut provar el certificat"
+
+#: class-admin.php:2061 onboarding/class-onboarding.php:255
+msgid "Automatic certificate detection is not possible on your server."
+msgstr "No és possible la detecció automàtica del certificat al servidor."
+
+#: lets-encrypt/config/fields.php:422
+msgid "Checking host..."
+msgstr "S'està comprovant el servidor..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1209
+msgid "After completing the installation, you can let Really Simple SSL automatically configure your site for SSL by using the 'Activate SSL' button."
+msgstr "Després de completar la instal·lació, podeu permetre que Really Simple SSL configuri automàticament el lloc web per a SSL, utilitzant el botó 'Activa SSL'."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1194
+msgid "We have not detected any known hosting limitations."
+msgstr "No hem detectat cap limitació coneguda a l'allotjament."
+
+#: class-admin.php:2046
+msgid "The wp-config.php file is not writable, and needs to be edited. Please set this file to writable."
+msgstr "El fitxer wp-config.php no es pot escriure i s'ha d'editar. Establiu permisos d'escriptura per aquest fitxer."
+
+#: class-site-health.php:150
+msgid "Your website does not send all recommended security headers."
+msgstr "El lloc web no envia totes les capçaleres de seguretat recomanades."
+
+#: class-site-health.php:71 class-site-health.php:101 class-site-health.php:132
+#: class-site-health.php:172 security/wordpress/vulnerabilities.php:273
+#: security/wordpress/vulnerabilities.php:293
+msgid "Security"
+msgstr "Seguretat"
+
+#: class-admin.php:2265
+msgid "Recommended security headers enabled."
+msgstr "Capçaleres de seguretat recomanades activades."
+
+#: lets-encrypt/config/fields.php:124
+msgid "OCSP stapling is configured as enabled by default. You can disable this option if this is not supported by your hosting provider."
+msgstr "Per defecte, l'esquema OCSP està configurat com habilitat. Podeu desactivar aquesta opció si el proveïdor d'allotjament no ho permet."
+
+#: lets-encrypt/functions.php:12
+msgid "For more information, please read this %sarticle%s"
+msgstr "Per a més informació, llegiu aquest %sarticle%s"
+
+#: class-admin.php:2330
+msgid "Black Friday sale! Get 40% Off Really Simple SSL Pro"
+msgstr "Oferta pel Black Friday. Obtén un 40% de descompte en el Really Simple SSL Pro."
+
+#: lets-encrypt/config/fields.php:506
+msgid "Checking if Terms & Conditions are accepted..."
+msgstr "S'està comprovant si s'han acceptat els termes i condicions..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1051
+msgid "The Terms & Conditions were not accepted. Please accept in the general settings."
+msgstr "No s'han acceptat els termes i condicions. Accepteu-los a la configuració general."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1047
+msgid "Terms & Conditions are accepted."
+msgstr "S'han acceptat els termes i condicions."
+
+#: class-admin.php:2225
+msgid "HttpOnly Secure cookies have been set automatically!"
+msgstr "S'han configurat automàticament les galetes HttpOnly Secure."
+
+#. translators: %s is replaced with the plugin name.
+#: class-admin.php:2316
+msgid "As Really Simple SSL handles all the functionality this plugin provides, we recommend to disable this plugin to prevent unexpected behavior."
+msgstr "Com que el Really Simple SSL gestiona totes les funcionalitats que proporciona aquesta extensió, us recomanem desactivar aquesta extensió per a evitar un comportament inesperat."
+
+#. translators: %s is replaced with the plugin name.
+#: class-admin.php:2316
+msgid "We have detected the %s plugin on your website."
+msgstr "Hem detectat l'extensió %s al lloc web."
+
+#: onboarding/class-onboarding.php:261
+msgid "Please refresh the SSL status if a certificate has been installed recently."
+msgstr "Si s'ha instal·lat un certificat recentment, actualitzeu l'estat del SSL."
+
+#: onboarding/class-onboarding.php:261
+msgid "No SSL certificate has been detected."
+msgstr "No s'ha detectat cap certificat SSL."
+
+#: lets-encrypt/config/notices.php:128
+msgid "Your server provides shell functionality, which offers additional methods to install SSL. If installing SSL using the default methods is not possible, you can install the shell add on."
+msgstr "El vostre servidor proporciona funcionalitats d'intèrpret d'ordres, que ofereix mètodes addicionals per instal·lar el certificat SSL. Si no és possible instal·lar el certificat SSL utilitzant els mètodes predeterminats, podeu instal·lar l'intèrpret d'ordres «add on»."
+
+#: lets-encrypt/class-letsencrypt-handler.php:477
+msgid "If you entered your DNS records before, they need to be changed."
+msgstr "Si anteriorment heu introduït els registres DNS, cal canviar-los."
+
+#: lets-encrypt/class-letsencrypt-handler.php:474
+msgid "Order ID mismatch, regenerate order."
+msgstr "L'identificador de la comanda no coincideix, regenera l'ordre."
+
+#: settings/config/fields/general.php:60
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/LetsEncrypt/Installation.js:95
+#: settings/src/LetsEncrypt/Installation.js:100
+#: settings/src/LetsEncrypt/Installation.js:104
+msgid "Download"
+msgstr "Baixa"
+
+#: settings/config/menu.php:213 settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Settings/Settings.js:164
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: lets-encrypt/config/notices.php:28
+msgid "Your Key and Certificate directories are not properly protected."
+msgstr "Els directoris de claus i certificats no estan ben protegits."
+
+#: lets-encrypt/config/notices.php:111
+msgid "Your certificate will be renewed and installed automatically."
+msgstr "El certificat es renovarà i s'instal·larà automàticament."
+
+#: lets-encrypt/config/notices.php:104
+msgid "Automatic renewal of your certificate was not possible. The SSL certificate should be %srenewed%s manually."
+msgstr "No s'ha pogut renovar automàticament el certificat. El certificat SSL hauria de ser %srenovat%s manualment."
+
+#: lets-encrypt/config/notices.php:97
+msgid "The SSL certificate has been renewed, and requires manual %sinstallation%s in your hosting dashboard."
+msgstr "El certificat SSL s'ha renovat i requereix la instal·lació manual %sinstallation%s al tauler de l'allotjament."
+
+#: lets-encrypt/config/notices.php:90
+msgid "The automatic installation of your certificate has failed. Please check your credentials, and retry the %sinstallation%s."
+msgstr "La instal·lació automàtica del certificat ha fallat. Comproveu les vostres credencials i torneu a provar la %sinstal·lació%s."
+
+#: lets-encrypt/config/notices.php:75
+msgid "Your certificate will expire on %s. You can renew it %shere%s."
+msgstr "El certificat expirarà el %s. Podeu renovar-lo %saquí%s."
+
+#: lets-encrypt/config/notices.php:71
+msgid "Your certificate is valid until: %s"
+msgstr "El certificat és vàlid fins: %s"
+
+#: lets-encrypt/config/notices.php:43
+msgid "The www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "La versió www del lloc web no apunta a aquest lloc web. Això és recomanable, ja que també us permetrà afegir-lo al certificat."
+
+#: lets-encrypt/config/notices.php:41
+msgid "The non-www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "La versió sense www del lloc web no apunta a aquest lloc web. Això és recomanable, ja que també us permetrà afegir-lo al certificat."
+
+#: lets-encrypt/config/fields.php:532
+msgid "Searching for link to SSL installation page on your server..."
+msgstr "S'està cercant l'enllaç a la pàgina d'instal·lació del certificat SSL del servidor..."
+
+#: lets-encrypt/config/fields.php:29 settings/config/menu.php:733
+msgid "Installation"
+msgstr "Instal·lació"
+
+#: lets-encrypt/config/fields.php:25 settings/config/menu.php:728
+msgid "Generation"
+msgstr "Generació"
+
+#: lets-encrypt/config/fields.php:480
+msgid "Retrieving DNS verification token..."
+msgstr "S'està recuperant el testimoni de verificació DNS..."
+
+#: lets-encrypt/config/fields.php:474 lets-encrypt/config/fields.php:512
+msgid "Creating account..."
+msgstr "S'està creant el compte..."
+
+#: lets-encrypt/config/fields.php:453
+msgid "Checking challenge directory reachable over http..."
+msgstr "S'està comprovant que el directori de reptes de verificació  sigui accessible a través d'http..."
+
+#: lets-encrypt/config/fields.php:446
+msgid "Checking permissions..."
+msgstr "S'estan comprovant els permisos..."
+
+#: lets-encrypt/config/fields.php:440
+msgid "Checking certs directory..."
+msgstr "S'està comprovant el directori de certificats..."
+
+#: lets-encrypt/config/fields.php:434
+msgid "Checking key directory..."
+msgstr "S'està comprovant el directori de claus..."
+
+#: lets-encrypt/config/fields.php:428
+msgid "Checking challenge directory..."
+msgstr "S'està comprovant el directori de reptes de verificació..."
+
+#: lets-encrypt/config/fields.php:17 settings/config/menu.php:718
+msgid "Directories"
+msgstr "Directoris"
+
+#: settings/config/menu.php:713
+msgid "Below you will find the instructions for different hosting environments and configurations. If you start the process with the necessary instructions and credentials the next steps will be done in no time."
+msgstr "A continuació trobareu les instruccions per a diferents entorns i configuracions d'allotjament. Si inicieu el procés amb les instruccions i credencials necessàries, els passos següents de la vista es faran en poc temps."
+
+#: settings/config/menu.php:712
+msgid "Hosting"
+msgstr "Allotjament"
+
+#: settings/config/menu.php:701
+msgid "Letʼs Encrypt is a free, automated and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG)."
+msgstr "El Letʼs Encrypt és una autoritat de certificació gratuïta, automatitzada i oberta que us ha portat l'ONG Internet Security Research Group (ISRG)."
+
+#: settings/config/menu.php:693
+msgid " Please note that you can always save and finish the wizard later, use our %sdocumentation%s for additional information or log a %ssupport ticket%s if you need our assistance."
+msgstr " Recordeu que sempre podreu desar i finalitzar l'assistent més tard, utilitzeu la %sdocumentació%s per a informació addicional o registreu un %s tiquet de suport%s si necessiteu la nostra ajuda."
+
+#: settings/config/menu.php:691
+msgid "We have tried to make our Wizard as simple and fast as possible. Although these questions are all necessary, if there’s any way you think we can improve the plugin, please let us %sknow%s!"
+msgstr "Hem intentat que el nostre assistent sigui el més senzill i ràpid possible. Tot i que aquestes preguntes són necessàries, si hi ha alguna manera que creguis que podem millorar l'extensió, feu-nos-ho %saber%s."
+
+#: lets-encrypt/config/fields.php:76
+msgid "Checking for website configuration..."
+msgstr "S'està comprovant la configuració del lloc web..."
+
+#: lets-encrypt/config/fields.php:70
+msgid "Checking alias domain..."
+msgstr "S'està comprovant l'àlies del domini..."
+
+#: lets-encrypt/config/fields.php:64
+msgid "Checking server software..."
+msgstr "S'està comprovant el programari del servidor..."
+
+#: lets-encrypt/config/fields.php:58
+msgid "Checking if CURL is available..."
+msgstr "S'està comprovant si el CURL està disponible..."
+
+#: lets-encrypt/config/fields.php:52
+msgid "Checking SSL certificate..."
+msgstr "S'està comprovant el certificat SSL..."
+
+#: lets-encrypt/config/fields.php:47
+msgid "Detected status of your setup."
+msgstr "S'ha detectat l'estat de la vostra configuració."
+
+#: lets-encrypt/config/fields.php:400
+msgid "Store for renewal purposes. If not stored, renewal may need to be done manually."
+msgstr "Emmagatzema amb finalitats de renovació. Si no s'emmagatzema, la renovació pot haver de fer-se manualment."
+
+#: lets-encrypt/config/fields.php:377
+msgid "Plesk password"
+msgstr "Contrasenya del Plesk"
+
+#: lets-encrypt/config/fields.php:357
+msgid "You can find your Plesk username and password in %s"
+msgstr "Podeu trobar el vostre nom d'usuari i contrasenya del Plesk a %s"
+
+#: lets-encrypt/config/fields.php:353
+msgid "Plesk username"
+msgstr "Usuari del Plesk"
+
+#: lets-encrypt/config/fields.php:333
+msgid "The URL you use to access your Plesk dashboard. Ends on :8443."
+msgstr "L'URL que utilitzeu per a accedir al tauler del Plesk. Finalitza el :8443."
+
+#: lets-encrypt/config/fields.php:329
+msgid "Plesk host"
+msgstr "Servidor del Plesk"
+
+#: lets-encrypt/config/fields.php:313
+msgid "You can find your api key %shere%s (make sure you're logged in with your main account)."
+msgstr "Podeu trobar la clau api %saquí%s (assegureu-vos que heu iniciat una sessió amb el vostre compte principal)."
+
+#: lets-encrypt/config/fields.php:291
+msgid "CloudWays user email"
+msgstr "Correu electrònic d'usuari del CloudWays"
+
+#: lets-encrypt/config/fields.php:271
+msgid "DirectAdmin password"
+msgstr "Contrasenya del DirectAdmin"
+
+#: lets-encrypt/config/fields.php:252
+msgid "DirectAdmin username"
+msgstr "Usuari del DirectAdmin"
+
+#: lets-encrypt/config/fields.php:232
+msgid "The URL you use to access your DirectAdmin dashboard. Ends on :2222."
+msgstr "L'URL que utilitzeu per accedir al tauler del DirectAdmin. Finalitza el :2222."
+
+#: lets-encrypt/config/fields.php:228
+msgid "DirectAdmin host"
+msgstr "Servidor del DirectAdmin"
+
+#: lets-encrypt/config/fields.php:209
+msgid "CPanel password"
+msgstr "Contrasenya del cPanel"
+
+#: lets-encrypt/config/fields.php:190
+msgid "CPanel username"
+msgstr "Usuari del cPanel"
+
+#: lets-encrypt/config/fields.php:170
+msgid "The URL you use to access your cPanel dashboard. Ends on :2083."
+msgstr "L'URL que utilitzeu per a accedir al tauler del cPanel. Finalitza el :2083."
+
+#: lets-encrypt/config/fields.php:166 lets-encrypt/config/fields.php:169
+msgid "CPanel host"
+msgstr "Servidor CPanel"
+
+#: settings/config/fields/general.php:32
+msgid "Hosting provider"
+msgstr "Proveïdor d'allotjament"
+
+#: lets-encrypt/config/fields.php:150
+msgid "You should have the www domain pointed to the same website as the non-www domain."
+msgstr "Hauríeu de tenir el domini www indicat al mateix lloc web que el domini sense www."
+
+#: lets-encrypt/config/fields.php:149
+msgid "This will include both the www. and non-www. version of your domain."
+msgstr "Això inclourà la versió amb www. i la versió sense www. al vostre domini."
+
+#: lets-encrypt/config/fields.php:134 lets-encrypt/config/notices.php:51
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/LetsEncrypt/DnsVerification.js:62
+msgid "Domain"
+msgstr "Domini"
+
+#: settings/settings.php:562
+msgid "Terms and Conditions"
+msgstr "Termes i condicions"
+
+#: lets-encrypt/config/fields.php:94 lets-encrypt/config/fields.php:97
+#: settings/config/fields/general.php:79
+msgid "Email address"
+msgstr "Adreça electrònica"
+
+#: lets-encrypt/config/fields.php:98
+msgid "This email address is used to create a Let's Encrypt account. This is also where you will receive renewal notifications."
+msgstr "Aquesta adreça electrònica s'utilitza per a crear un compte de Let's Encrypt. Aquí rebreu les notificacions de renovació."
+
+#: lets-encrypt/config/class-hosts.php:603
+msgid "I don't know, or not listed, proceed with installation"
+msgstr "No ho sé, o no apareix a la llista, continuar amb la instal·lació"
+
+#: lets-encrypt/config/fields.php:550
+msgid "Checking for subdomain setup..."
+msgstr "S'està comprovant la configuració del subdomini..."
+
+#: lets-encrypt/config/fields.php:518
+msgid "Generating SSL certificate..."
+msgstr "S'està generant el certificat SSL..."
+
+#: lets-encrypt/integrations/plesk/plesk.php:90
+msgid "Successfully installed SSL"
+msgstr "S'ha instal·lat correctament el certificat SSL"
+
+#: lets-encrypt/integrations/plesk/functions.php:33
+msgid "Installing SSL certificate using PLESK API..."
+msgstr "S'està instal·lant el certificat SSL utilitzant l'API PLESK..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:107
+#: lets-encrypt/integrations/directadmin/functions.php:35
+msgid "Attempting to install certificate..."
+msgstr "S'està intentant instal·lar el certificat..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:100
+msgid "Attempting to set DNS txt record..."
+msgstr "S'està intentant establir el registre txt de DNS..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:91
+msgid "Attempting to install certificate using AutoSSL..."
+msgstr "S'està intentant instal·lar el certificat utilitzant l'AutoSSL..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:63
+msgid "The system is not ready for the DNS verification yet. Please run the wizard again."
+msgstr "El sistema encara no està preparat per a la verificació DNS. Torneu a executar l'assistent."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:310
+#: lets-encrypt/integrations/cpanel/cpanel.php:329
+msgid "Could not automatically add TXT record. Please proceed manually, following the steps below."
+msgstr "No s'ha pogut afegir automàticament el registre TXT. Procediu manualment, seguint els passos següents."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:306
+#: lets-encrypt/integrations/cpanel/cpanel.php:325
+msgid "Successfully added TXT record."
+msgstr "Registre TXT afegit correctament."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:298
+msgid "Login credentials incorrect"
+msgstr "Credencials d'inici de sessió incorrectes"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:294
+msgid "Unable to connect to cPanel"
+msgstr "No s'ha pogut connectar al cPanel"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:128
+#: lets-encrypt/integrations/cpanel/cpanel.php:207
+msgid "Errors were reported during installation."
+msgstr "S'han informat d'errors durant la instal·lació."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:123
+#: lets-encrypt/integrations/directadmin/directadmin.php:124
+msgid "SSL successfully installed on %s"
+msgstr "El certificat SSL s'ha instal·lat correctament a %s"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:66
+#: lets-encrypt/integrations/directadmin/directadmin.php:66
+msgid "No valid list of domains."
+msgstr "No hi ha cap llista vàlida de dominis."
+
+#: lets-encrypt/integrations/cloudways/functions.php:49
+msgid "Enabling auto renew..."
+msgstr "S'està activant la renovació automàtica..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:43
+msgid "Installing SSL certificate..."
+msgstr "S'està instal·lant el certificat SSL..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:37
+msgid "Retrieving Cloudways server data..."
+msgstr "S'estan recuperant les dades del servidor Cloudways..."
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:252
+msgid "Could not retrieve server list"
+msgstr "No s'ha pogut recuperar la llista de servidors"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:212
+#: lets-encrypt/integrations/cloudways/cloudways.php:245
+msgid "Successfully retrieved server id and app id"
+msgstr "S'ha recuperat correctament l'identificador del servidor i l'identificador de l'aplicació"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:196
+msgid "Error enabling auto renew for Let's Encrypt"
+msgstr "Error en habilitar la renovació automàtica per Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:181
+#: lets-encrypt/integrations/cloudways/cloudways.php:187
+msgid "Successfully installed Let's Encrypt"
+msgstr "S'ha instal·lat correctament Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:161
+msgid "Failed retrieving access token"
+msgstr "Ha fallat en recuperar el testimoni d'accés"
+
+#: lets-encrypt/functions.php:412
+msgid "You can follow these %sinstructions%s."
+msgstr "Podeu seguir aquestes %sindicacions%s."
+
+#: lets-encrypt/functions.php:410
+msgid "Your hosting environment does not allow automatic SSL installation."
+msgstr "El vostre entorn d'allotjament no permet la instal·lació SSL automàtica."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1201
+#: lets-encrypt/functions.php:407
+msgid "According to our information, your hosting provider does not allow any kind of SSL installation, other then their own paid certificate. For an alternative hosting provider with SSL, see this %sarticle%s."
+msgstr "D'acord amb la nostra informació, el vostre proveïdor d'allotjament no permet cap tipus d'instal·lació SSL, a part del seu propi certificat de pagament. Per a un proveïdor d'allotjament alternatiu amb SSL, vegeu aquest %sarticle%s."
+
+#: lets-encrypt/functions.php:401
+msgid "You already have free SSL on your hosting environment."
+msgstr "Ja teniu SSL gratuït al vostre entorn d'allotjament."
+
+#: lets-encrypt/functions.php:399 lets-encrypt/functions.php:403
+#: lets-encrypt/functions.php:413
+msgid "After completing the installation, you can continue to the next step to complete your configuration."
+msgstr "Després de completar la instal·lació, podeu continuar amb el següent pas per completar totalment la configuració."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1208
+#: lets-encrypt/functions.php:397
+msgid "According to our information, your hosting provider supplies your account with an SSL certificate by default. Please contact your %shosting support%s if this is not the case."
+msgstr "D'acord amb la nostra informació, el vostre proveïdor d'allotjament proporciona el vostre compte amb un certificat SSL per defecte. Contacteu amb l'àrea de %ssuport de l'allotjament%s si aquest no és el cas."
+
+#: lets-encrypt/functions.php:392
+msgid "Go to installation"
+msgstr "Ves a la instal·lació"
+
+#: lets-encrypt/functions.php:391
+msgid "Go to activation"
+msgstr "Ves a l'activació"
+
+#: lets-encrypt/functions.php:390
+msgid "Please activate it on your dashboard %smanually%s"
+msgstr "Activeu-lo al tauler %smanualment%s"
+
+#: lets-encrypt/functions.php:389
+msgid "Please complete %smanually%s"
+msgstr "Completeu %smanualment%s"
+
+#: lets-encrypt/functions.php:387
+msgid "Please activate it manually on your hosting dashboard."
+msgstr "Activeu-lo manualment al tauler de l'allotjament."
+
+#: lets-encrypt/functions.php:386
+msgid "Please complete manually in your hosting dashboard."
+msgstr "Completeu-lo manualment al tauler de l'allotjament."
+
+#: lets-encrypt/download.php:49
+msgid "File missing. Please retry the previous steps."
+msgstr "Falta el fitxer. Torneu a provar els passos anteriors."
+
+#: security/cron.php:90
+msgid "Once every 5 minutes"
+msgstr "Un cop cada 5 minuts"
+
+#: security/cron.php:94
+msgid "Once every day"
+msgstr "Un cop cada dia"
+
+#: security/cron.php:102
+msgid "Once every week"
+msgstr "Un cop cada setmana"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1824
+#: lets-encrypt/integrations/cloudways/functions.php:22
+#: lets-encrypt/integrations/cpanel/functions.php:17
+#: lets-encrypt/integrations/cpanel/functions.php:35
+#: lets-encrypt/integrations/directadmin/functions.php:16
+#: lets-encrypt/integrations/plesk/functions.php:16
+msgid "The system is not ready for the installation yet. Please run the wizard again."
+msgstr "El sistema encara no està preparat per a la instal·lació. Torneu a executar l'assistent."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1819
+msgid "Installation failed."
+msgstr "La instal·lació ha fallat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1814
+msgid "Not recognized server."
+msgstr "Servidor no reconegut."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1784
+msgid "The certificate installation was rate limited. Please try again later."
+msgstr "La instal·lació del certificat estava limitada. Torneu-ho a provar més tard."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1356
+#: lets-encrypt/class-letsencrypt-handler.php:1360
+#: lets-encrypt/class-letsencrypt-handler.php:1705
+msgid "Error code %s"
+msgstr "Codi de l'error %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1688
+msgid "Please create a folder 'rsssl' in the uploads directory, with 644 permissions."
+msgstr "Creeu una carpeta «rsssl» al directori de pujades, amb permisos 644."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1687
+msgid "Could not create test folder and file."
+msgstr "No s'ha pogut crear la carpeta i el fitxer de prova."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1658
+msgid "If this is not the case, don't add this alias to your certificate."
+msgstr "Si aquest no és el cas, no afegiu aquest àlies al vostre certificat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1658
+msgid "Could not verify alias domain."
+msgstr "No s'ha pogut verificar el domini d'àlies."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1656
+msgid "Please check if the www version of your site also points to this website."
+msgstr "Comproveu si la versió www del vostre lloc web també apunta a aquest lloc web."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1654
+msgid "Please check if the non www version of your site also points to this website."
+msgstr "Comproveu si la versió sense www del vostre lloc web també apunta a aquest lloc web."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1635
+msgid "Alias domain check is not relevant for a subdomain"
+msgstr "La comprovació del domini d'àlies no és rellevant per a un subdomini"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1605
+msgid "No subdomain setup detected."
+msgstr "No s'ha detectat cap configuració del subdomini."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1367
+#: lets-encrypt/class-letsencrypt-handler.php:1665
+#: lets-encrypt/class-letsencrypt-handler.php:1716
+msgid "Successfully verified alias domain."
+msgstr "Domini d'àlies verificat correctament."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1342
+msgid "Challenge directory not writable."
+msgstr "No es pot escriure al directori del repte."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1336
+msgid "Could not reach challenge directory over %s."
+msgstr "No s'ha pogut accedir al directori del repte de verificacions a %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1332
+#: lets-encrypt/class-letsencrypt-handler.php:1642
+msgid "no response"
+msgstr "sense resposta"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1273
+msgid "The certs directory was successfully created."
+msgstr "S'ha creat correctament el directori de certificats."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1269
+msgid "The certs directory is not created yet."
+msgstr "Encara no s'ha creat el directori de certificats."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1254
+msgid "The key directory was successfully created."
+msgstr "S'ha creat correctament el directori de claus."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1246
+msgid "Trying to create directory in root of website."
+msgstr "S'està intentant crear el directori arrel del lloc web."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1242
+msgid "The key directory is not created yet."
+msgstr "Encara no s'ha creat el directori de claus."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1229
+msgid "The challenge directory was successfully created."
+msgstr "S'ha creat correctament el directori del repte de verificacions."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1225
+msgid "The challenge directory is not created yet."
+msgstr "Encara no s'ha creat el directori del repte de verificacions."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1182
+msgid "The required directories have the necessary writing permissions."
+msgstr "Els directoris necessaris tenen els permisos d'escriptura necessaris."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1175
+msgid "Set permissions to 644 to enable SSL generation."
+msgstr "Per habilitar la generació SSL, establiu els permisos a 644."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1175
+msgid "The following directories do not have the necessary writing permissions."
+msgstr "Els directoris següents no tenen els permisos d'escriptura necessaris."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1159
+msgid "Please complete the following step(s) first: %s"
+msgstr "Completeu primer els passos següents: %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:895
+msgid "Order successfully retrieved."
+msgstr "La comanda s'ha recuperat correctament."
+
+#: lets-encrypt/class-letsencrypt-handler.php:879
+msgid "Order successfully created."
+msgstr "La comanda s'ha creat correctament."
+
+#: lets-encrypt/class-letsencrypt-handler.php:786
+msgid "Bundle not available yet..."
+msgstr "El paquet encara no està disponible..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:702
+#: lets-encrypt/class-letsencrypt-handler.php:778
+msgid "Files not created yet..."
+msgstr "Encara no s'han creat els fitxers..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:772
+msgid "Successfully generated certificate."
+msgstr "S'ha generat correctament el certificat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:758
+msgid "OCSP not supported, the certificate will be generated without OCSP."
+msgstr "OCSP no suportat, el certificat es generarà sense OCSP."
+
+#: lets-encrypt/class-letsencrypt-handler.php:750
+msgid "As your order will be regenerated, you'll need to update your DNS text records."
+msgstr "Com que la vostra comanda es regenerarà, haureu d'actualitzar els vostres registres de text DNS."
+
+#: lets-encrypt/class-letsencrypt-handler.php:470
+#: lets-encrypt/class-letsencrypt-handler.php:747
+msgid "The order is invalid, possibly due to too many failed authorization attempts. Please start at the previous step."
+msgstr "La comanda no és vàlida, possiblement a causa de massa intents d'autorització fallits. Comenceu pel pas anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:726
+msgid "Authorization not completed yet."
+msgstr "Encara no s'ha completat l'autorització."
+
+#: lets-encrypt/class-letsencrypt-handler.php:696
+msgid "Certificate already generated. It was renewed if required."
+msgstr "El certificat ja s'ha generat. Es va renovar si cal."
+
+#: lets-encrypt/class-letsencrypt-handler.php:657
+msgid "DNS records were not verified yet. Please complete the previous step."
+msgstr "Encara no s'han verificat els registres DNS. Completeu el pas anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:643
+msgid "Please double check your DNS txt record."
+msgstr "Comproveu el registre txt del DNS."
+
+#: lets-encrypt/class-letsencrypt-handler.php:641
+msgid "The certificate generation was rate limited for 5 minutes because the authorization failed."
+msgstr "La generació del certificat s'ha limitat durant 5 minuts perquè l'autorització ha fallat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:581
+msgid "Could not verify TXT record for domain %s"
+msgstr "No s'ha pogut verificar el registre TXT del domini %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:571
+msgid "The DNS response for %s was %s, while it should be %s."
+msgstr "La resposta DNS de %s era %s, mentre que hauria de ser %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:561
+msgid "Successfully verified DNS records"
+msgstr "Verificats correctament els registres DNS"
+
+#: lets-encrypt/class-letsencrypt-handler.php:547
+#: lets-encrypt/integrations/cpanel/functions.php:47
+msgid "Token not generated. Please complete the previous step."
+msgstr "No s'ha generat el testimoni. Completeu el pas anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:505
+msgid "Configured for HTTP challenge"
+msgstr "Configurat per al repte de verificacions HTTP"
+
+#: lets-encrypt/class-letsencrypt-handler.php:455
+msgid "Token not received yet."
+msgstr "Encara no s'ha rebut el testimoni."
+
+#: lets-encrypt/class-letsencrypt-handler.php:403
+msgid "The email address was not set. Please set the email address"
+msgstr "No s'ha definit l'adreça electrònica. Establiu l'adreça electrònica"
+
+#: lets-encrypt/class-letsencrypt-handler.php:395
+msgid "Please change your email address %shere%s and try again."
+msgstr "Canvieu la vostra adreça electrònica %saquí%s i torneu-ho a provar."
+
+#: lets-encrypt/class-letsencrypt-handler.php:394
+msgid "The used domain for your email address is not allowed."
+msgstr "No està permès el domini utilitzat per a la vostra adreça electrònica."
+
+#: lets-encrypt/class-letsencrypt-handler.php:387
+msgid "Successfully retrieved account"
+msgstr "Compte recuperat correctament."
+
+#: lets-encrypt/class-letsencrypt-handler.php:367
+msgid "The PHP function CURL has successfully been detected."
+msgstr "S'ha detectat correctament la funció PHP CURL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:363
+msgid "The PHP function CURL is not available on your server, which is required. Please contact your hosting provider."
+msgstr "No està disponible al servidor la funció PHP CURL, la qual cosa és necessària. Contacteu amb el vostre proveïdor d'allotjament."
+
+#: lets-encrypt/class-letsencrypt-handler.php:347
+msgid "DirectAdmin recognized. Possibly the certificate can be installed automatically."
+msgstr "S'ha reconegut el DirectAdmin. Possiblement es pot instal·lar automàticament el certificat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:344
+msgid "Plesk recognized. Possibly the certificate can be installed automatically."
+msgstr "S'ha reconegut el Plesk. Possiblement es pot instal·lar automàticament el certificat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:341
+msgid "CPanel recognized. Possibly the certificate can be installed automatically."
+msgstr "S'ha reconegut el CPanel. Possiblement es pot instal·lar automàticament el certificat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:337
+msgid "The Hosting Panel software was not recognized. Depending on your hosting provider, the generated certificate may need to be installed manually."
+msgstr "No s'ha reconegut el programari del quadre d'allotjament. Depenent del vostre proveïdor d'allotjament, és possible que el certificat generat s'hagi d'instal·lar manualment."
+
+#: lets-encrypt/class-letsencrypt-handler.php:306
+msgid "SSL certificate should be generated and installed."
+msgstr "S'ha de generar i instal·lar el certificat SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:300
+msgid "You already have a valid SSL certificate."
+msgstr "Ja teniu un certificat SSL vàlid."
+
+#: lets-encrypt/class-letsencrypt-handler.php:296
+msgid "Continue to renew."
+msgstr "Continua renovant."
+
+#: lets-encrypt/class-letsencrypt-handler.php:296
+msgid "Your certificate will expire on %s."
+msgstr "El certificat expirarà el %s."
+
+#: class-admin.php:1950 lets-encrypt/class-letsencrypt-handler.php:290
+msgid "(unknown)"
+msgstr "(desconegut)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:226
+msgid "Your domain meets the requirements for Let's Encrypt."
+msgstr "El vostre domini compleix amb els requisits del Let's Encrypt."
+
+#: lets-encrypt/class-letsencrypt-handler.php:208
+msgid "It is not possible to install Let's Encrypt on a localhost environment."
+msgstr "No és possible instal·lar el Let's Encrypt en un entorn localhost."
+
+#: lets-encrypt/class-letsencrypt-handler.php:218
+msgid "It is not possible to install Let's Encrypt on a subfolder configuration."
+msgstr "No és possible instal·lar el Let's Encrypt en una configuració de subcarpetes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:213
+msgid "It is not possible to install Let's Encrypt on a subsite. Please go to the main site of your website."
+msgstr "No és possible instal·lar el Let's Encrypt en un sublloc web. Aneu al lloc principal del vostre lloc web."
+
+#: class-admin.php:2304
+msgid "You have the Really Simple SSL Let's Encrypt beta add-on activated. This functionality has now been integrated in core, so you can deactivate the add-on."
+msgstr "Teniu activat el complement beta del Really Simple SSL Let's Encrypt. Aquesta funcionalitat s'ha integrat al nucli, de manera que podeu desactivar el complement."
+
+#: class-admin.php:2085 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/TaskElement.js:52
+msgid "Re-check"
+msgstr "Torna a comprovar"
+
+#. translators: %1$ and %2$s are replaced with the opening and closing tag with
+#. link.
+#: class-admin.php:2080
+msgid "Depending on your hosting provider, %1$smanual installation%2$s may be required."
+msgstr "Depenent del vostre proveïdor d'allotjament, pot ser que calgui una %1$sinstal·lació manual%2$s."
+
+#. translators: %s is replaced with date.
+#: class-admin.php:2078
+msgid "If your hosting provider auto-renews your certificate, no action is required. Alternatively, you have the option to generate an SSL certificate with Really Simple SSL."
+msgstr "Si el vostre proveïdor d'allotjament renova automàticament el vostre certificat, no es requereix cap acció. Alternativament, teniu l'opció de generar un certificat SSL amb el Really Simple SSL."
+
+#. translators: %s is replaced with date.
+#: class-admin.php:2078
+msgid "SSL certificate will expire on %s."
+msgstr "El certificat SSL expirarà el %s."
+
+#: class-admin.php:2075
+msgid "Your SSL certificate will expire soon."
+msgstr "El certificat SSL caducarà aviat."
+
+#: class-admin.php:2051
+msgid "No SSL detected. Use the retry button to check again."
+msgstr "No s'ha detectat cap certificat SSL. Utilitzeu el botó de reintentar per a tornar-ho a comprovar."
+
+#: class-admin.php:2054 class-admin.php:2064 class-admin.php:2084
+msgid "Install SSL certificate"
+msgstr "Instal·la el certificat SSL"
+
+#: class-admin.php:2055
+msgid "Retry"
+msgstr "Reintenta"
+
+#: onboarding/class-onboarding.php:249
+msgid "An SSL certificate has been detected"
+msgstr "S'ha detectat un certificat SSL"
+
+#: class-admin.php:2245
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "O bé configureu el fitxer wp-config.php perquè pugui ser escrit i torneu a carregar aquesta pàgina."
+
+#: class-admin.php:2237
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "Afegiu les següents línies de codi al fitxer wp-config.php."
+
+#: class-admin.php:2237
+msgid "To set the httponly secure cookie settings, your wp-config.php has to be edited, but the file is not writable."
+msgstr "Per a establir la configuració de galetes segura httponly, cal editar el fitxer wp-config.php, però actualment el fitxer no té permisos d'escriptura."
+
+#: class-admin.php:2230
+msgid "HttpOnly Secure cookies not set."
+msgstr "No s'han establert les galetes HttpOnly Secure."
+
+#: class-admin.php:2291
+msgid "Due to a recent update by WP Engine, we have changed your settings automatically to adapt."
+msgstr "A causa d'una actualització recent del WP Engine, hem canviat la configuració automàticament per adaptar-la."
+
+#: class-site-health.php:149
+msgid "Not all recommended security headers are installed"
+msgstr "No totes les capçaleres de seguretat recomanades estan instal·lades"
+
+#: onboarding/class-onboarding.php:283
+msgid "Consent Management as it should be."
+msgstr "Gestió del consentiment tal com hauria de ser."
+
+#: class-site-health.php:137
+msgid "The recommended security headers are detected on your site."
+msgstr "Les capçaleres de seguretat recomanades es detecten al vostre lloc."
+
+#: class-site-health.php:129
+msgid "Recommended security headers installed"
+msgstr "Instal·lades les capçaleres de seguretat recomanades"
+
+#: class-site-health.php:34
+msgid "Security Headers Test"
+msgstr "Prova de capçaleres de seguretat"
+
+#: class-site-health.php:29
+msgid "SSL Status Test"
+msgstr "Prova de l'estat SSL"
+
+#: class-admin.php:2050 class-site-health.php:201
+msgid "No SSL detected"
+msgstr "No s'ha detectat cap SSL"
+
+#: class-site-health.php:154
+msgid "Learn more about security headers"
+msgstr "Obteniu més informació sobre les capçaleres de seguretat"
+
+#: class-site-health.php:218
+msgid "Enable 301 redirect"
+msgstr "Activeu la redirecció 301"
+
+#: class-site-health.php:213
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "Per assegurar-vos que tot el trànsit passa per SSL, activeu una redirecció 301."
+
+#: class-site-health.php:210
+msgid "No 301 redirect to SSL enabled."
+msgstr "No hi ha cap redirecció 301 a SSL activada."
+
+#: class-site-health.php:204
+msgid "Really Simple SSL is installed, but no valid SSL certificate is detected."
+msgstr "S'ha instal·lat Really Simple SSL, però no es detecta cap certificat SSL vàlid."
+
+#: class-site-health.php:189
+msgid "Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
+msgstr "Really Simple SSL ha detectat un certificat SSL, però no s'ha configurat per aplicar SSL."
+
+#: class-site-health.php:186
+msgid "SSL is not enabled."
+msgstr "SSL no està habilitat."
+
+#: class-admin.php:1893 settings/config/menu.php:351
+msgid "Open"
+msgstr "Obre"
+
+#: class-admin.php:1892 settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:58
+msgid "Warning"
+msgstr "Avís"
+
+#: class-admin.php:1891
+msgid "Completed"
+msgstr "Completat"
+
+#: upgrade/upgrade-to-pro.php:190 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:24
+msgid "Installed"
+msgstr "Instal·lat"
+
+#: onboarding/class-onboarding.php:205 onboarding/class-onboarding.php:212
+#: upgrade/upgrade-to-pro.php:146 upgrade/upgrade-to-pro.php:159
+#: upgrade/upgrade-to-pro.php:176 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:73
+msgid "Install"
+msgstr "Instal·la"
+
+#: class-admin.php:2209
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "El vostre lloc utilitza Divi. Això pot requerir alguns passos addicionals abans d'obtenir el pany segur."
+
+#: class-admin.php:2195
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "El vostre lloc utilitza Elementor. Això pot requerir alguns passos addicionals abans d'obtenir el pany segur."
+
+#: class-admin.php:2180
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on PHP redirect."
+msgstr "Les regles de redirecció .htaccess seleccionades per aquest complement han fallat a la prova. Establiu manualment o ignoreu per deixar la redirecció de PHP."
+
+#: class-admin.php:2166
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "La redirecció de WordPress 301 està habilitada. Us recomanem que activeu una redirecció 301 .htaccess."
+
+#: class-admin.php:2120
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "El corrector de contingut mixt no està habilitat. Activeu l'opció per corregir contingut mixt al vostre lloc."
+
+#: class-admin.php:2109
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "El corrector de contingut mixt està actiu, però no s'ha detectat a la pàgina principal."
+
+#: class-admin.php:2102
+msgid "Really Simple SSL has received no response from the webpage."
+msgstr "Really Simple SSL no ha rebut cap resposta de la pàgina web."
+
+#: class-admin.php:2029
+msgid "SSL is not enabled yet."
+msgstr "SSL encara no està habilitat."
+
+#: class-admin.php:1935
+msgid "No recommended redirect rules detected."
+msgstr "No s'han detectat regles de redirecció recomanades."
+
+#: settings/config/menu.php:23 settings/config/menu.php:29
+#: settings/config/menu.php:392
+msgid "General"
+msgstr "General"
+
+#: class-admin.php:155 settings/build/index.1afbe80747ffa9b218c6.js:1
+#: settings/src/Header.js:45
+msgid "Support"
+msgstr "Assistència"
+
+#: class-multisite.php:111
+msgid "SSL is enabled networkwide."
+msgstr "SSL està habilitat a tota la xarxa."
+
+#: class-site-health.php:197 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:24
+#: settings/src/Onboarding/OnboardingControls.js:151
+msgid "Activate SSL"
+msgstr "Activeu SSL"
+
+#: progress/class-progress.php:96
+msgid "SSL is not yet enabled on this site."
+msgstr "SSL encara no està habilitat en aquest lloc."
+
+#: progress/class-progress.php:90
+msgid "Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+msgstr "S'ha acabat la configuració bàsica SSL! Milloreu la vostra puntuació amb %sReally Simple SSL Pro%s."
+
+#: progress/class-progress.php:85
+msgid "SSL configuration finished!"
+msgstr "S'ha acabat la configuració SSL!"
+
+#: progress/class-progress.php:83
+msgid "You still have %s task open."
+msgid_plural "You still have %s tasks open."
+msgstr[0] "Encara teniu la tasca %s oberta."
+msgstr[1] "Encara teniu les tasques %s obertes."
+
+#: progress/class-progress.php:83
+msgid "SSL is activated on your site."
+msgstr "SSL està activat al vostre lloc."
+
+#: settings/config/menu.php:82 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:34
+msgid "Mixed content"
+msgstr "Contingut mixt"
+
+#: settings/config/fields/vulnerability-detection.php:238
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/src/Dashboard/SslLabs/SslLabs.js:320
+#: settings/src/LetsEncrypt/DnsVerification.js:57
+msgid "Read more"
+msgstr "Llegeix més"
+
+#. Author of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "Really Simple Plugins"
+msgstr "Really Simple Plugins"
+
+#. translators: %1$ and %2$ are replaced with opening and closing a tag
+#. containing hyperlink
+#: class-admin.php:1693
+msgid "Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %1$smessage%2$s."
+msgstr "Hola, Really Simple SSL ha mantingut el lloc web segur des de fa algun temps. Si teniu un moment, considereu deixar una ressenya a WordPress.org per fer córrer la veu. Estaríem molt contents! Si teniu qualsevol dubte o opinió, deixeu-nos un %1$smissatge%2$s."
+
+#: onboarding/class-onboarding.php:176
+msgid "Check out Really Simple SSL Pro"
+msgstr "Doneu un cop d'ull a Really Simple SSL Pro"
+
+#: class-admin.php:1716
+msgid "Don't show again"
+msgstr "No m'ho tornis a mostrar"
+
+#. translators: %s is replaced with the error description.
+#: class-admin.php:2127
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "El corrector de contingut mixt no s'ha pogut detectar a causa d'un error de cURL: %s. Els errors cURL solen ser causats per una versió obsoleta de PHP o cURL i no afecten la part frontal del lloc. Poseu-vos en contacte amb el vostre proveïdor d’allotjament per solucionar-ho."
+
+#: class-admin.php:2114
+msgid "Error occurred when retrieving the webpage."
+msgstr "S'ha produït un error en obtenir la pàgina web."
+
+#: class-site-health.php:225
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "La redirecció 301 del fitxer .htaccess és sovint la més ràpida i fiable."
+
+#: class-site-health.php:222
+msgid "301 .htaccess redirect is not enabled."
+msgstr "La redirecció 301 del fitxer .htaccess no està habilitada."
+
+#: class-site-health.php:177
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "Heu configurat la redirecció 301 a SSL. És important per motius de SEO."
+
+#: class-site-health.php:169
+msgid "301 SSL redirect enabled"
+msgstr "Redirecció 301 a SSL activada"
+
+#: class-admin.php:592
+msgid "Dismiss"
+msgstr "descarta"
+
+#: onboarding/class-onboarding.php:192
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:116
+msgid "Enable"
+msgstr "Activa"
+
+#: class-admin.php:1996
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "El fitxer 'force-deactivate.php' s'ha de reanomenar a .txt. Si no, l'ssl es podrà desactivar per qualsevol a internet."
+
+#: security/cron.php:106
+msgid "Once every month"
+msgstr "Una vegada al mes"
+
+#: class-admin.php:1713
+msgid "Maybe later"
+msgstr "Potser més tard"
+
+#: class-admin.php:1708
+msgid "Leave a review"
+msgstr "Deixeu una ressenya"
+
+#. translators: %1$ and %2$ are replaced with opening and closing a tag
+#. containing hyperlink
+#: class-admin.php:1700
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %1$smessage%2$s."
+msgstr "Hola, Really Simple SSL ha mantingut el lloc web segur des de fa algun temps. Si teniu un moment, considereu deixar una ressenya a WordPress.org per fer córrer la veu. Estaríem molt contents! Si teniu qualsevol dubte o opinió, deixeu-nos un %1$smissatge%2$s."
+
+#: class-multisite.php:160
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "Activa SSL per el lloc web o instal·la un certificat multidomini per arreglar-ho."
+
+#: class-multisite.php:159
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "Això porta problemes quan s'activa l'SSL a tota la xarxa perquè els subdominis estaran obligats a anar amb SSL encara que no tinguin un certificat vàlid."
+
+#: class-multisite.php:158
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "Esteu executant una instal·lació multilloc amb subdominis, però el domini no té un certificat multidomini."
+
+#: upgrade/upgrade-to-pro.php:370 modal/build/433.c979d76891c58ebf0fd9.js:1
+#: modal/src/components/Modal/RssslModal.js:46
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Settings/GeoBlockList/TrustIpAddressModal.js:137
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:110
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:90
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: class-admin.php:595 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Dashboard/TaskElement.js:51 settings/src/Settings/Help.js:24
+msgid "More info"
+msgstr "Més informació"
+
+#. translators: %s is replaced with the hyperlink
+#: class-admin.php:194
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>."
+msgstr "Really Simple SSL i els complements de Really Simple SSL no processen cap informació personal identificable, per tant, el RGPD no s'aplica a aquestes extensions ni a l'ús d'aquestes extensions al lloc web. Podeu trobar la nostra política de privadesa <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">aquí</a>."
+
+#. Author URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: mailer/class-mail.php:33 mailer/class-mail.php:37
+#: settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "Més informació"
+
+#: settings/config/fields/encryption.php:59
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer."
+msgstr "Si aquesta opció està configurada com a certa, el reparador de contingut mixt executarà el codi inicial en lloc del codi template_redirect. Utilitzeu aquesta opció només quan tingueu problemes amb el reparador de contingut mixt."
+
+#: onboarding/class-onboarding.php:176
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "També podeu deixar que l'escaneig automàtic de la versió pro us gestioni això, i obtenir suport prèmium, seguretat incrementada amb HSTS i més!"
+
+#: class-site-health.php:230
+msgid "Enable 301 .htaccess redirect"
+msgstr "Habilita la redirecció 301 al fitxer .htaccess"
+
+#: class-admin.php:2144
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "No s'ha definit cap redirecció 301. Habiliteu la redirecció 301 del WordPress a la configuració per obtenir una redirecció 301 permanent."
+
+#: class-admin.php:2173
+msgid "Enable a .htaccess redirect or PHP redirect in the settings to create a 301 redirect."
+msgstr "Habiliteu una redirecció via .htaccess o una redirecció de PHP a la configuració per crear una redirecció 301."
+
+#: class-admin.php:2178
+msgid ".htaccess redirect."
+msgstr "redirecció .htaccess."
+
+#: class-admin.php:2140
+msgid "301 redirect to https set."
+msgstr "S'ha definit la redirecció 301."
+
+#: class-multisite.php:144
+msgid "View settings page"
+msgstr "Mostra la pàgina de configuració"
+
+#: settings/config/fields/general.php:211 settings/config/menu.php:51
+msgid "Premium Support"
+msgstr "Suport premium"
+
+#: lets-encrypt/functions.php:382 lets-encrypt/functions.php:383
+#: settings/build/778.1cc24e8aa09719269ad5.js:1
+#: settings/src/Settings/SettingsGroup.js:99
+msgid "Instructions"
+msgstr "Instruccions"
+
+#: class-admin.php:2025
+msgid "SSL is enabled on your site."
+msgstr "L'SSL està habilitat al lloc."
+
+#: class-admin.php:1959
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "El fitxer wp-config.php s'ha d'editar, però no es pot escriure."
+
+#: class-admin.php:1960 class-admin.php:1981
+msgid "Set your wp-config.php to writable and reload this page."
+msgstr "Permeteu l'escriptura del fitxer wp-config.php i torneu a carregar aquesta pàgina."
+
+#: class-admin.php:1981
+msgid "A definition of a site url or home url was detected in your wp-config.php, but the file is not writable."
+msgstr "Al fitxer wp-config.php s'ha detectat una definició d'un siteurl o homeurl, però el fitxer no es pot escriure."
+
+#: onboarding/class-onboarding.php:15 security/hardening.php:9
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s és una classe singletó i no podeu crear una segona instància."
+
+#: class-admin.php:2097
+msgid "Mixed content fixer was successfully detected on the front-end."
+msgstr "S'ha detectat correctament el reparador de contingut mixt al lloc web"
+
+#. Plugin URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#. Plugin Name of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#: settings/config/fields/general.php:221
+msgid "Stop editing the .htaccess file"
+msgstr "Deixa d’editar el fitxer .htaccess"
+
+#: class-admin.php:2070
+msgid "An SSL certificate was detected on your site."
+msgstr "S'ha detectat un certificat SSL al lloc."
+
+#: class-admin.php:148 class-admin.php:150 class-admin.php:1833
+#: class-multisite.php:84 settings/config/menu.php:17
+#: settings/config/menu.php:400 settings/build/43.7284bbc570a57053a399.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "Configuració"
+
+#: settings/config/menu.php:208
+msgid "Configuration"
+msgstr "Configuració"
+
+#: settings/config/fields/encryption.php:46
+#: modal/build/index.f0747a4e3a76f14cbb01.js:1
+msgid "Mixed content fixer"
+msgstr "Reparador de contingut mixt"
+
+#: class-multisite.php:130
+msgid "Activate networkwide to fix this."
+msgstr "Activa a tota la xarxa per solucionar-ho."
+
+#: class-multisite.php:129
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Com que la variable $_SERVER[\"HTTPS\"] no està configurada, el lloc web pot presentar bucles de redirecció."
+
+#: class-multisite.php:128
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Esteu executant una instal·lació de diversos llocs amb subcarpetes, la qual cosa impedeix que aquesta extensió corregeixi la variable de servidor que falta al fitxer wp-config.php."
+
+#: class-admin.php:1997 settings/build/381.9b8465294454b49768a3.js:1
+#: settings/build/814.eeaa575fc49ec4cd3d36.js:1
+#: settings/src/Onboarding/Items/ListItem.js:46
+msgid "Check again"
+msgstr "Comprova de nou"

@@ -1,0 +1,37 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore log and backup files
+*.log
+*.sql
+*.tar.gz
+*.zip
+*.bak
+*.swp
+*.tmp
+*.old
+
+# Ignore node & vendor folders (if applicable)
+node_modules/
+vendor/
+
+# Ignore cache, upgrade, and uploads directories
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Ignore all plugins except specific ones
+wp-content/plugins/*
+!wp-content/plugins/wp-rocket/
+!wp-content/plugins/advanced-custom-fields-pro/
+!wp-content/plugins/sitepress-multilingual-cms/
+!wp-content/plugins/wp-postviews/
+!wp-content/plugins/wp-seo-multilingual/
+!wp-content/plugins/wpml-media-translation/
+!wp-content/plugins/wpml-string-translation/
+
+# Ignore WordPress core files (optional, if using Git for custom development)
+wp-admin/
+wp-includes/

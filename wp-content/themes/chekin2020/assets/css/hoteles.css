@@ -1,0 +1,363 @@
+.banner-area {
+  position: relative;
+}
+.banner-area .wp-block-group__inner-container .has-background-dim {
+  min-width: 100%;
+  padding-top: 250px;
+  padding-bottom: 150px;
+  display: flex;
+  align-items: center;
+  background-color: transparent !important;
+}
+.banner-area .wp-block-group__inner-container {
+  min-width: 100% !important;
+}
+.banner-area .wp-block-group__inner-container .has-background-dim,
+.banner-area .wp-block-group__inner-container > .wp-block-cover {
+  min-width: 100%;
+  padding-top: 280px;
+  padding-bottom: 160px;
+}
+.banner-area .wp-block-cover__inner-container {
+  width: 1216px !important;
+  padding-right: 28%;
+}
+.wp-block-cover.has-background-dim:not(.has-background-gradient)::before {
+  opacity: 0;
+}
+.banner-area h1 {
+  color: #ffffff !important;
+  font-size: 95px;
+  text-shadow: 0px 3px 34px #000000be;
+  margin: 0 !important;
+  line-height: 1;
+  margin-left: -7px !important;
+}
+.banner-area p {
+  color: #ffffff !important;
+  font-size: 20px;
+  text-shadow: 0px 3px 34px #000000be;
+  margin: 15px 0 30px 0;
+}
+.banner-area .wp-block-button {
+  margin-right: 15px !important;
+}
+.banner-area .is-style-outline .wp-block-button__link {
+  border: 1px solid #fff;
+  background: #f3f8ff4f 0% 0% no-repeat padding-box;
+  color: #fff !important;
+}
+
+.banner-area .sign-up-free .wp-block-button__link:hover {
+  border: 1px solid #fff !important;
+  background: #f3f8ff4f 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+}
+
+.home-services {
+  /* padding-top: 200px; */
+  background: url(../images/background.svg) no-repeat top center / 101% auto;
+  /* margin-top: -150px !important; */
+  z-index: 1;
+  position: relative;
+}
+.home-services .wp-block-group.accommodations-services-title {
+  margin-bottom: 60px !important;
+  position: relative;
+}
+
+@-webkit-keyframes bigtosmall {
+  0% {
+    -webkit-transform: scale(1) rotate(15deg);
+    transform: scale(1) rotate(15deg);
+  }
+  50% {
+    -webkit-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(15deg);
+    transform: scale(1) rotate(15deg);
+  }
+}
+
+@keyframes bigtosmall {
+  0% {
+    -webkit-transform: scale(1) rotate(15deg);
+    transform: scale(1) rotate(15deg);
+  }
+  50% {
+    -webkit-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(15deg);
+    transform: scale(1) rotate(15deg);
+  }
+}
+
+.home-services {
+  width: 100%;
+  overflow: hidden;
+}
+.accommodations-services-title h4 {
+      margin-bottom: 15px;
+ }
+.accommodations-services-title h2 {
+      margin-bottom: 15px;
+ }
+.accommodations-services-title h4 {
+  color: #2148ff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 250px;
+}
+.service-area-image .wp-image-24386.lazy-loaded {
+  margin: 0 auto;
+}
+.service-area-image img {
+  display: block;
+  margin: 0 auto;
+}
+.service-area-image .wp-block-columns {
+  margin-top: 0px !important;
+  margin-bottom: 100px !important;
+}
+.service-area-image .wp-block-columns p {
+  margin-right: 0 !important;
+}
+.home-services-wrapper .wp-block-columns.property-block {
+  margin: 50px 0;
+}
+.home-services-wrapper
+  .wp-block-columns.property-block.property-image-left
+  img {
+  margin-left: -15px;
+}
+.review-section h3 {
+  color: #161643 !important;
+  margin-bottom: 80px;
+}
+.wp-block-cover.has-background-dim {
+  padding: 150px 0 180px;
+}
+.our-app {
+  background: none;
+}
+.our-app h2,
+.our-app p {
+  color: #fff !important;
+  text-shadow: 0px 3px 4px #0000009b;
+}
+.our-app-image-wrap img {
+  position: absolute;
+  bottom: -144px;
+  right: 40px;
+  width: 380px;
+}
+
+.campings .home-services-item-4 img {
+  transform: none;
+  width: 100%;
+}
+.campings .home-services-item.home-services-item-8 {
+  padding-top: 45px !important;
+}
+
+.hotels .home-service-intro h3,
+.apartamentos .home-service-intro h3,
+.campings .home-service-intro h3,
+.villas .home-service-intro h3 {
+  text-align: left;
+}
+
+.fix-button,
+.callto-action .fix-button .wp-block-button__link,
+.banner-area .fix-button .wp-block-button__link {
+  min-width: 212px;
+  width: auto;
+}
+
+.callto-action .fix-button .wp-block-button__link,
+.banner-area .fix-button .wp-block-button__link {
+  padding: 17px 20px !important;
+}
+
+.clear-both {
+  clear: both;
+}
+@media only screen and (min-width: 1600px) {
+  .home-services {
+    margin-top: -185px !important;
+  }
+  .accommodations-services-title h4 {
+    margin-top: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 1159px) {
+  .banner-area .wp-block-cover__inner-container {
+    width: 100% !important;
+    padding-left: 30px;
+  }
+  .home-service-intro img {
+    margin-left: 14% !important;
+    margin-top: -250px !important; 
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1600px) {
+  .accommodations-services-title h4 {
+    margin-top: 185px !important;
+  }
+}
+
+@media only screen and (min-width: 782px) {
+  .info-title {
+    float: right;
+    width: 40%;
+    margin-top: -100px;
+    z-index: 99;
+  }
+}
+
+@media only screen and (max-width: 781px) {
+  .home-services-wrapper .wp-block-columns.property-block.property-image-right {
+    flex-wrap: wrap-reverse !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+    .home-service-intro img {
+        margin-top: -100px !important;
+        margin-left: 4% !important;
+        width: 180px !important;
+    } 
+}
+
+@media only screen and (max-width: 425px) {
+    .home-service-intro img {
+        margin-top: -130px !important;
+        margin-left: 4% !important;
+        width: 120px !important;
+    } 
+}
+
+@media only screen and (max-width: 767px) {
+  .home-services {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .home-services {
+    padding-top: 110px;
+    margin-top: -15% !important;
+  }
+  .banner-area .wp-block-cover__inner-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner-area h1 {
+    font-size: 68px;
+    margin-left: -5px !important;
+  }
+  .banner-area p {
+    font-size: 18px;
+    margin: 0 auto 20px;
+  }
+  .banner-area .wp-block-button {
+    margin-top: 15px !important;
+  }
+  .home-services .wp-block-group.accommodations-services-title {
+    margin-bottom: 50px !important;
+  }
+  .service-area-image .wp-image-24386.lazy-loaded {
+    margin: 0 auto;
+    min-width: calc(100% + 40px) !important;
+    margin-left: -20px;
+  }
+  .service-area-image .wp-block-columns {
+    margin-top: 0 !important;
+    margin-bottom: 100px !important;
+  }
+  .wp-block-cover.has-background-dim {
+    padding: 80px 0 370px;
+  }
+  .our-app-image-wrap img {
+    bottom: -100px;
+  }
+  .our-app-image-wrap img {
+    bottom: -140px;
+    margin: -140px auto 0 !important;
+    right: 10px;
+    position: relative;
+  }
+  .wp-block-cover.has-background-dim {
+    padding: 80px 0 0px;
+  }
+  .accommodations-services-title::after {
+    top: 675px;
+  }
+  .apartamentos .banner-area h1 {
+    font-size: 40px;
+    margin-bottom: 10px !important;
+  }
+  .review-section h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 781px) and (min-width: 600px) {
+  .home-service-intro img {
+    width: 250px !important;
+    margin-top: -300px !important;
+    margin-left: 4% !important;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+  .home-services {
+    margin-top: -185px !important;
+  }
+  .accommodations-services-title h4 {
+    margin-top: 180px !important;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .accommodations-services-title h4 {
+    margin-top: -40px !important;
+}
+  .wp-block-group.promo-area,
+  .wp-block-group.home-services:not(.homepage-services) {
+    padding-top: 330px;
+    margin-top: -225px !important;
+  }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 991px) {
+  .home-services {
+    margin-top: -185px !important;
+  }
+  .accommodations-services-title h4 {
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner-area .wp-block-group__inner-container .has-background-dim,
+  .banner-area .wp-block-group__inner-container > .wp-block-cover {
+    padding-top: 250px;
+    padding-bottom: 150px;
+    min-height: auto;
+  }
+  .home-services {
+    padding-top: 130px;
+    margin-top: -120px !important;
+  }
+  .service-area-image .wp-block-columns p {
+    margin-right: 25px;
+  }
+    .accommodations-services-title h4 {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,167 @@
+.booking-image {
+	max-width: 380px;
+}
+
+.banner-wrapper.v4 .banner-text-wrap .chekbooxtext {
+	font-size: 20px !important;
+}
+
+.banner-wrapper.v4 .chekbooxtext p {
+	font-size: 18px !important;
+}
+
+.banner-wrapper.v4 .banner-image-wrap2-booking {
+	max-width: 380px;
+	margin-right: 80px;
+}
+
+.banner-text-wrap-booking {
+	max-width: 100%;
+}
+
+.banner::before {
+	display: none !important;
+}
+
+.banner::after {
+	display: none !important;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title-integrations {
+	font-size: 36px;
+}
+
+.sec {
+	padding: 50px;
+	margin-bottom: 100px;
+}
+
+.ctas {
+	margin: 16px 0 5%;
+	max-width: 1234px;
+	color: white;
+	border-radius: 16px;
+	padding: 40px 40px;
+	margin: 0 auto;
+}
+
+.ctas p {
+	margin-bottom: 40px;
+}
+
+.ctas .title {
+	color: white;
+	font-size: 36px;
+	margin-bottom: 2%;
+}
+
+.faq>.sub-title {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1232px) {
+    .ctas {
+        max-width: 1024px;
+        margin: 16px auto 5%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+	.ctas {
+		padding: 10px;
+		margin: 16px
+	}
+
+	.ctas .title {
+		font-size: 36px !important;
+		line-height: normal;
+	}
+
+	.ctas p {
+		font-size: 18px;
+		line-height: normal;
+	}
+
+	.faq {
+		background: url(../images/waves-faq.svg) no-repeat left top / 250% 220px, #fafaff !important;
+	}
+
+	.banner-wrapper.v4 {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.banner-text-wrap-booking {
+		order: 1;
+	}
+
+	.banner-image-wrap2-booking {
+		order: 2;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.booking-buttons .is-layout-flex{
+		justify-content: center;
+	}
+
+	.banner-wrapper.v4 .title-home {
+		font-size: 40px;
+		text-wrap: wrap;
+		text-align: center;
+	}
+
+	.banner-wrapper.v4 .title {
+		font-size: 24px !important;
+		text-wrap: wrap;
+		text-align: center
+	}
+
+	.chekbooxtext {
+		text-align: center;
+		font-size: 18px !important;
+	}
+
+	.banner-wrapper.v4 .sub-title {
+		font-size: 14px !important;
+		text-align: center;
+
+	}
+
+	.banner-wrapper.v4 .banner-image-wrap2-booking {
+		margin-right: 0px;
+	}
+
+	.sub-title {
+		font-size: 14px !important;
+		text-align: center;
+	}
+
+	.ctas {
+		padding: 40px 16px;
+		margin: 16px
+	}
+
+	.ctas .title {
+		font-size: 24px !important;
+	}
+
+	.title-integrations {
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.sec {
+		padding: 0px;
+		margin-bottom: 50px;
+	}
+
+	.faq-title .sub-title {
+		font-size: 15px !important;
+	}
+}

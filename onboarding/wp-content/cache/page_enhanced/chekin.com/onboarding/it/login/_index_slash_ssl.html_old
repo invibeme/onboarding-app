@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="it-IT">
+
+	<head><style>img.lazy{min-height:1px}</style><link rel="preload" href="https://chekin.com/onboarding/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
+		<meta charset="UTF-8">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0" >-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" >
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+		<meta name='robots' content='noindex, nofollow' />
+<link rel="alternate" hreflang="en" href="https://chekin.com/onboarding/en/login/" />
+<link rel="alternate" hreflang="es" href="https://chekin.com/onboarding/login/" />
+<link rel="alternate" hreflang="it" href="https://chekin.com/onboarding/it/login/" />
+<link rel="alternate" hreflang="de" href="https://chekin.com/onboarding/de/login/" />
+<link rel="alternate" hreflang="pt" href="https://chekin.com/onboarding/pt/login/" />
+<link rel="alternate" hreflang="x-default" href="https://chekin.com/onboarding/login/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<link media="all" href="https://chekin.com/onboarding/wp-content/cache/autoptimize/css/autoptimize_e18895f9ca10e2fd905b36d72616867e.css" rel="stylesheet"><link media="print" href="https://chekin.com/onboarding/wp-content/cache/autoptimize/css/autoptimize_4a8bc5d490127fba1e504524cfa205e6.css" rel="stylesheet"><title>Login - CheKin</title>
+	<meta property="og:locale" content="it_IT" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Login - CheKin" />
+	<meta property="og:description" content="Bentornati! Accedete al vostro account e continuate a offrire ai vostri ospiti la miglior esperienza di Check in." />
+	<meta property="og:url" content="https://chekin.com/onboarding/it/login/" />
+	<meta property="og:site_name" content="CheKin" />
+	<meta property="article:modified_time" content="2023-07-19T10:23:58+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Tempo di lettura stimato" />
+	<meta name="twitter:data1" content="1 minuto" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://chekin.com/onboarding/it/login/","url":"https://chekin.com/onboarding/it/login/","name":"Login - CheKin","isPartOf":{"@id":"https://chekin.com/onboarding/pt/#website"},"datePublished":"2021-05-06T06:42:57+00:00","dateModified":"2023-07-19T10:23:58+00:00","breadcrumb":{"@id":"https://chekin.com/onboarding/it/login/#breadcrumb"},"inLanguage":"it-IT","potentialAction":[{"@type":"ReadAction","target":["https://chekin.com/onboarding/it/login/"]}]},{"@type":"BreadcrumbList","@id":"https://chekin.com/onboarding/it/login/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://chekin.com/onboarding/it/"},{"@type":"ListItem","position":2,"name":"Login"}]},{"@type":"WebSite","@id":"https://chekin.com/onboarding/pt/#website","url":"https://chekin.com/onboarding/pt/","name":"CheKin","description":"","publisher":{"@id":"https://chekin.com/onboarding/pt/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://chekin.com/onboarding/pt/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"it-IT"},{"@type":"Organization","@id":"https://chekin.com/onboarding/pt/#organization","name":"CheKin","url":"https://chekin.com/onboarding/pt/","logo":{"@type":"ImageObject","inLanguage":"it-IT","@id":"https://chekin.com/onboarding/pt/#/schema/logo/image/","url":"https://chekin.com/onboarding/wp-content/uploads/2021/02/chekin-logo-new.svg","contentUrl":"https://chekin.com/onboarding/wp-content/uploads/2021/02/chekin-logo-new.svg","width":82,"height":24,"caption":"CheKin"},"image":{"@id":"https://chekin.com/onboarding/pt/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel="alternate" type="application/rss+xml" title="CheKin &raquo; Feed" href="https://chekin.com/onboarding/it/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CheKin &raquo; Feed dei commenti" href="https://chekin.com/onboarding/it/comments/feed/" />
+
+
+
+
+
+<link rel='stylesheet' id='font-awesome-style-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css?ver=1.5' media='all' />
+
+
+
+
+
+<script src="https://chekin.com/onboarding/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://chekin.com/onboarding/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://chekin.com/onboarding/wp-content/themes/chekin2020/assets/js/googleapi.js?ver=1699636890" id="googleapi-js-js"></script>
+<script id="wpml-browser-redirect-js-extra">
+var wpml_browser_redirect_params = {"pageLanguage":"it","languageUrls":{"en_us":"https:\/\/chekin.com\/onboarding\/en\/login\/","en":"https:\/\/chekin.com\/onboarding\/en\/login\/","us":"https:\/\/chekin.com\/onboarding\/en\/login\/","es_es":"https:\/\/chekin.com\/onboarding\/login\/","es":"https:\/\/chekin.com\/onboarding\/login\/","it_it":"https:\/\/chekin.com\/onboarding\/it\/login\/","it":"https:\/\/chekin.com\/onboarding\/it\/login\/","de_de":"https:\/\/chekin.com\/onboarding\/de\/login\/","de":"https:\/\/chekin.com\/onboarding\/de\/login\/","pt":"https:\/\/chekin.com\/onboarding\/pt\/login\/"},"cookie":{"name":"_icl_visitor_lang_js","domain":"chekin.com","path":"\/onboarding\/","expiration":24}};
+</script>
+<script src="https://chekin.com/onboarding/wp-content/plugins/sitepress-multilingual-cms/dist/js/browser-redirect/app.js?ver=4.6.7" id="wpml-browser-redirect-js"></script>
+<link rel="https://api.w.org/" href="https://chekin.com/onboarding/it/wp-json/" /><link rel="alternate" type="application/json" href="https://chekin.com/onboarding/it/wp-json/wp/v2/pages/960" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chekin.com/onboarding/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.1" />
+<link rel='shortlink' href='https://chekin.com/onboarding/it/?p=960' />
+<link rel="alternate" type="application/json+oembed" href="https://chekin.com/onboarding/it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchekin.com%2Fonboarding%2Fit%2Flogin%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://chekin.com/onboarding/it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchekin.com%2Fonboarding%2Fit%2Flogin%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.6.7 stt:1,3,27,66,2;" />
+	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	<link rel="icon" href="https://chekin.com/onboarding/wp-content/uploads/2021/02/favicon-web-checkin-2021.png" sizes="32x32" />
+<link rel="icon" href="https://chekin.com/onboarding/wp-content/uploads/2021/02/favicon-web-checkin-2021.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://chekin.com/onboarding/wp-content/uploads/2021/02/favicon-web-checkin-2021.png" />
+<meta name="msapplication-TileImage" content="https://chekin.com/onboarding/wp-content/uploads/2021/02/favicon-web-checkin-2021.png" />
+		<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+		
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PK7Q9R9');</script>
+		<!-- End Google Tag Manager -->
+		
+		<script>
+		var site_url = "https://chekin.com/onboarding/";
+		var register_page_url = "https://chekin.com/onboarding/it/";
+		
+		//var chekinforms = ;
+		var chekinforms = {"API_END":"https:\/\/api-ng.chekintest.xyz","PMS_TITLE":"Connetti il tuo Gestionale","Guesty":{"config":{"path":"pms-integrations\/guesty","form_field":{"client_secret":"client_secret","client_id":"client_id","email":"text-gE8dLd","password":"text-1hJwzr","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-Guesty \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Integration token<\/label><input type=\"text\" data-testid=\"input\" name=\"integration_token\" placeholder=\"Integration token\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connettiti a Guesty<\/button><\/div><\/div><\/div> \n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>In un'altra finestra del browser, entra in <a href=\"https:\/\/app.guesty.com\/auth\/login\" target=\"_blank\"><strong>Guesty<\/strong><\/a><\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Vai alla pagina di <a href=\"https:\/\/app.guesty.com\/account\/integrations\/g\/chekin?applicationId=5ca45f693608af06d75cc35f\" target=\"_blank\"><strong>integrazione con Chekin<\/strong><\/a><\/p> \n\t\t\t<p>o naviga su  <br> <strong>MARKETPLACE> Chekin > CONNECT<\/strong><\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Clicca su <strong>copia accanto<\/strong> all'<strong>API Key<\/strong><\/p> \n\t\t\t<p>Il campo dell'API Key \u00e8 vuoto?  <strong>Genera una nuova chiave<\/strong><\/p>\n\t\t<\/div>\n\t","logo":"https:\/\/onboarding.chekin.com\/wp-content\/uploads\/2023\/10\/Guesty_2.0_Logo_Dark@2x.svg","contentTitle":"How to connect Guesty with Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Z3eAVpF5xkY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>La gestione di un\u2019attivit\u00e0 ricettiva \u00e8 complessa. Guesty \u00e8 il vostro partner per renderla pi\u00f9 semplice. Grazie alla nostra piattaforma all-in-one, la tecnologia di Guesty ottimizza e automatizza ogni aspetto delle operazioni quotidiane, consentendovi di risparmiare tempo, massimizzare i ricavi e rimanere sempre all\u2019avanguardia.<\/p><p>La nostra esperienza nel settore, il nostro ampio reparto R&D composto da oltre 200 ingegneri e il nostro approccio orientato alla tecnologia garantiscono alle aziende del settore hospitality, la possibilit\u00e0 di semplificare le operazioni e di crescere, offrendo nel contempo il massimo valore ai loro ospiti. Con una suite completa di funzionalit\u00e0 e oltre 150 partner, Guesty sta rivoluzionando il settore dell\u2019ospitalit\u00e0 con soluzioni innovative che vi aiuteraano ad avere successo nel vostro business.<\/p><p><a href=\"https:\/\/www.guesty.com\" target=\"_blank\">https:\/\/www.guesty.com<\/a><\/p>"},"365Villas":{"config":{"path":"villas-365","form_field":{"key_token":"key_token","pass_token":"pass_token","owner_token":"owner_token","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-365Villas\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">365villas API Key<\/label><input type=\"text\" data-testid=\"input\" name=\"key_token\" placeholder=\"Inserisci la tua API Key\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">365villas API Password: <\/label><input type=\"text\" data-testid=\"input\" name=\"pass_token\" placeholder=\" Inserisci la tua API Password\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">365villas API Owner Token<\/label><input type=\"text\" data-testid=\"input\" name=\"owner_token\" placeholder=\"Inserisci l'API Owner Token\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con 365villas<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>In un'altra finestra del browser accedi a <a href=\"https:\/\/secure.365villas.com\/home\/login\" target=\"_blank\">365villas<\/a><\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Trovi tutto nel tuo account > <a href=\"https:\/\/secure.365villas.com\/config\/account\/api\" target=\"_blank\">API & Third-party Integrations<\/a><\/p>\n\t\t<\/div>\n\t","helpInitiator":"Come trovare  le mie API keys?","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/365villas-logo.svg","contentTitle":"Come effettuare la connessione tra 365 Villas e Chekin?","content":"<p>365villas \u00e8 il software all-in-one leader nel settore delle case vacanza. Progettato per qualsiasi dispositivo.  Inoltre, 365Villas Gen-4 - \u00e8 l'ultima versione della nostra piattaforma che include la soluzione mobile pi\u00f9 potente e completa del settore.<\/p><p><a href=\"https:\/\/www.365villas.com\" target=\"_blank\">https:\/\/www.365villas.com<\/a><\/p>"},"Channex":{"config":{"path":"channex","form_field":{"channex_email":"channex_email","channex_password":"channex_password","core_email":"text-gE8dLd","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-channex\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Inserisci la tua mail di Channex<\/label><input type=\"text\" data-testid=\"input\" name=\"channex_email\" placeholder=\"Email\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Inserisci la tua password di Channex<\/label><input type=\"password\" data-testid=\"input\" name=\"channex_password\" placeholder=\"Password\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Channex<\/button><\/div><\/div><\/div> \n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/channex_Logo.svg","contentTitle":"Come effettuare la connessione tra Channex e Chekin?","content":"<p>Channex aiuta le aziende tecnologiche, come i sistemi di gestione delle propriet\u00e0 (PMS) e i motori di prenotazione, a connettersi con le agenzie di viaggio online come Booking, Airbnb ed Expedia.<\/p><p><a href=\"https:\/\/channex.io\" target=\"_blank\">https:\/\/channex.io<\/a><\/p>"},"Eviivo":{"config":{"path":"eviivo","form_field":{"client_secret":"client_secret","client_id":"client_id","shortnames":"shortnames","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-eviivo\"><div class=\"form-fields\"><div class=\"sc-kNZoFW drYvvf\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Secret del cliente<\/label><input type=\"text\" data-testid=\"input\" name=\"client_secret\" placeholder=\"Inserisci il secret\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">ID del cliente<\/label><input type=\"text\" data-testid=\"input\" name=\"client_id\" placeholder=\"Inserisci l'ID\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"multi-field-wrapper\"> <div class=\"multi-fields\"><div class=\"form-group shortnames multi-field\"><div class=\"sc-qXhiz cvmVKB field\"><label class=\"sc-pItiW PQBAt\">Short name dell'alloggio<\/label><input type=\"text\" data-testid=\"input\" name=\"shortnames[]\" placeholder=\"Inserisci lo short name\" class=\"form-control\" value=\"\"><\/div><a href=\"javascript:void(0)\" class=\"remove-field\">X<\/a><\/div><\/div><p class=\" mt-0 mb-0\"><a class=\"add-field\" href=\"javascript:void(0)\">Aggiungi campo<\/a><\/p><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con eviivo<\/button><\/div><\/div><\/div> \n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione su <a href=\"https:\/\/on.eviivo.com\/\" target=\"_blank\">eviivo suite<\/a><\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Fai click su \"Aiuto\"<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Nella sezione \u2018Invia una richiesta per aiutarmi...\u2019 seleziona \u2018Integrando eviivo suite con un altro software API\u2019<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-4\">\n\t\t\t<p>Scrivi \"Chekin\" nella sezione dei commenti<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-5\">\n\t\t\t<p>Inserisci qui le credenziali che eviivo ti inoltrer\u00e0.<\/p>\n\t\t<\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/eviivo-logo.svg","contentTitle":"Come effettuare la connessione tra Eviivo e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/C7ikaOb2LXc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Eviivo \u00e8 un software per l'ospitalit\u00e0 che aiuta hotel, case vacanza e B&B a gestire ospiti, prenotazioni e piattaforme di prenotazione<\/p><p><a href=\"https:\/\/eviivo.com\" target=\"_blank\">https:\/\/eviivo.com<\/a><\/p>"},"Eviivo_2":{"config":{"path":"pms-integrations\/eviivo","form_field":{"client_secret":"client_secret","client_id":"client_id","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-eviivo\"><div class=\"form-fields\"><div class=\"sc-kNZoFW drYvvf\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Secret del cliente<\/label><input type=\"text\" data-testid=\"input\" name=\"client_secret\" placeholder=\"Inserisci il secret\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">ID del cliente<\/label><input type=\"text\" data-testid=\"input\" name=\"client_id\" placeholder=\"Inserisci l'ID\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"multi-field-wrapper d-none\"> <div class=\"multi-fields\"><div class=\"form-group shortnames multi-field \"><div class=\"sc-qXhiz cvmVKB field\"><label class=\"sc-pItiW PQBAt\">Short name dell'alloggio<\/label><input type=\"text\" data-testid=\"input\" name=\"shortnames[]\" placeholder=\"Inserisci lo short name\" class=\"form-control\" value=\"\"><\/div><a href=\"javascript:void(0)\" class=\"remove-field\">X<\/a><\/div><\/div><p class=\" mt-0 mb-0\"><a class=\"add-field\" href=\"javascript:void(0)\">Aggiungi campo<\/a><\/p><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con eviivo<\/button><\/div><\/div><\/div> \n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione su <a href=\"https:\/\/on.eviivo.com\/\" target=\"_blank\">eviivo suite<\/a><\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Fai click su \"Aiuto\"<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Nella sezione \u2018Invia una richiesta per aiutarmi...\u2019 seleziona \u2018Integrando eviivo suite con un altro software API\u2019<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-4\">\n\t\t\t<p>Scrivi \"Chekin\" nella sezione dei commenti<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-5\">\n\t\t\t<p>Inserisci qui le credenziali che eviivo ti inoltrer\u00e0.<\/p>\n\t\t<\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/eviivo-logo.svg","contentTitle":"Come effettuare la connessione tra Eviivo e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/C7ikaOb2LXc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Eviivo \u00e8 un software per l'ospitalit\u00e0 che aiuta hotel, case vacanza e B&B a gestire ospiti, prenotazioni e piattaforme di prenotazione<\/p><p><a href=\"https:\/\/eviivo.com\" target=\"_blank\">https:\/\/eviivo.com<\/a><\/p>"},"Ezee":{"config":{"path":"ezeetechnosys","form_field":{"external_auth_key":"external_auth_key","external_hotel_code":"external_hotel_code","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-ezee\"><div class=\"form-fields\"><div class=\"sc-kNZoFW drYvvf\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">External Auth Key<\/label><input type=\"text\" data-testid=\"input\" name=\"external_auth_key\" placeholder=\"Inserisci l'Auth Key\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">External Hotel Code<\/label><input type=\"text\" data-testid=\"input\" name=\"external_hotel_code\" placeholder=\"Inserisci il codice\" class=\"form-control\" value=\"\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Ezee<\/button><\/div><\/div><\/div> \n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Contatta con il team di support di eZee<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Invia la seguente informazione: <br> \n\t\t\t\"Integration with Chekin via Open API <br> \n\t\t\teZee Hotel Code : (codice dell'hotel)<br> <br><span class=\"d-inline-block text-left\">\n\t\t\tAPI List<br> \n\t\t\t- Retrieve Hotel Information<br> \n\t\t\t- Booking Received Notification<br> \n\t\t\t- Retrieve all Bookings<br> \n\t\t\t- Retrieve a Booking<br> \n\t\t\t- Retrieve Room Information\" <\/span>\n\t\t\t<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Completa questo formulario con l'informazione che eZee ti consegner\u00e0.<\/p>\n\t\t<\/div> \n\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/07\/ezeeabsolute.png","contentTitle":"Come effettuare la connessione tra eZee e Chekin?","contentVideo":"","content":"<p>eZee \u00e8 una delle poche aziende che offrono davvero una suite completa di soluzioni tecnologiche per il settore alberghiero, con prodotti come il gestionale per hotel e ristoranti, motore di prenotazione, channel manager, website booking engine, sistema di distribuzione dell'inventario, website builder sia per hotel che per ristoranti, revenue e reputation management.<\/p><p><a href=\"https:\/\/www.ezeeabsolute.com\" target=\"_blank\">https:\/\/www.ezeeabsolute.com<\/a><\/p>"},"Fantasticstay":{"config":{"path":"fantasticstay","form_field":{"api_key":"api_key","email":"text-gE8dLd","password":"text-1hJwzr","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-fantasticstay\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">API token<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"Inserisci l'API Token\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con FantasticStay<\/button><\/div><\/div><\/div> \n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione nel tuo account di FantasticStay <\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Vai alla sezione \"Impostazioni\"<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Troverai la tua API Key, copiala<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-4\">\n\t\t\t<p>Incolla qui la API Key.<\/p>\n\t\t<\/div> \n\n\t"},"Hostaway":{"config":{"path":"hostaway","form_field":{"external_client_secret":"external_client_secret","external_client_id":"external_client_id","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-hostaway\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">API secret key di Hostaway<\/label><input type=\"text\" data-testid=\"input\" name=\"external_client_secret\" placeholder=\"Inserisci la tua API Key\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Hostaway Account ID<\/label><input type=\"text\" data-testid=\"input\" name=\"external_client_id\" placeholder=\"Inserisci l'Account ID\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Hostaway<\/button><\/div><\/div><\/div> \n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p><a target=\"_blank\" href=\"https:\/\/dashboard.hostaway.com\/login\" > Accedi a Hostaway <\/a><\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Vai su \"Hostaway API\" in \"Setting\" nel men\u00f9 a sinistra<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Se non ricordi la tua API secret key, genera una nuova cliccando su \"Generate API secret key\". Copia e incolla la tua \"API secret key\" e l' \"Account ID\" nei campi corrispondenti in questa pagina.<\/p>\n\t\t<\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/hostay.svg","contentTitle":"Come effettuare la connessione tra Hostaway e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/lsqJOm-TsIg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Il software per case vacanza Hostaway vi aiuta a far crescere la vostra attivit\u00e0 di gestione di case vacanza automatizzando e semplificando tutti gli aspetti della vostra attivit\u00e0 su Airbnb, Vrbo, Booking.com, Expedia e altri.<\/p><p><a href=\"https:\/\/www.hostaway.com\" target=\"_blank\">https:\/\/www.hostaway.com<\/a><\/p>"},"Hostaway_2":{"config":{"path":"pms-integrations\/hostaway","form_field":{"client_secret":"external_client_secret","client_id":"external_client_id","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n        <div class=\"form-custom form-hostaway\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">API secret key di Hostaway<\/label><input type=\"text\" data-testid=\"input\" name=\"external_client_secret\" placeholder=\"Inserisci la tua API Key\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Hostaway Account ID<\/label><input type=\"text\" data-testid=\"input\" name=\"external_client_id\" placeholder=\"Inserisci l'Account ID\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Hostaway<\/button><\/div><\/div><\/div>\n    ","help":"\n        <div class=\"slide slide-1\">\n            <p><a target=\"_blank\" href=\"https:\/\/dashboard.hostaway.com\/login\" > Accedi a Hostaway <\/a><\/p>\n        <\/div>\n        <div class=\"slide slide-2\">\n            <p>Vai su \"Hostaway API\" in \"Setting\" nel men\u00f9 a sinistra<\/p>\n        <\/div>\n        <div class=\"slide slide-2\">\n            <p>Se non ricordi la tua API secret key, genera una nuova cliccando su \"Generate API secret key\". Copia e incolla la tua \"API secret key\" e l' \"Account ID\" nei campi corrispondenti in questa pagina.<\/p>\n        <\/div>\n    ","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/hostay.svg","contentTitle":"Come effettuare la connessione tra Hostaway e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/lsqJOm-TsIg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Il software per case vacanza Hostaway vi aiuta a far crescere la vostra attivit\u00e0 di gestione di case vacanza automatizzando e semplificando tutti gli aspetti della vostra attivit\u00e0 su Airbnb, Vrbo, Booking.com, Expedia e altri.<\/p><p><a href=\"https:\/\/www.hostaway.com\" target=\"_blank\">https:\/\/www.hostaway.com<\/a><\/p>"},"Hostify":{"config":{"path":"hostify","form_field":{"api_key":"api_key","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-hostify\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">API token<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"Inserisci l'API Token\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Hostify<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione nel tuo account di <a href=\"https:\/\/app.hostify.com\/\" target=\"_blank\">Hostify<\/a> account<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Clicca nella sezione \"Impostazioni\" e copia la API Key<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Incollala qui.<\/p>\n\t\t<\/div> \n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/hostify-logo.svg","contentTitle":"Come effettuare la connessione tra Hostify e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/lkNjqaFnJtA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Hostify \u00e8 una soluzione all-in-one per la gestione degli affitti turistici - Gestite centinaia di propriet\u00e0 e migliaia di prenotazioni con strumenti e risorse efficaci. <\/p><p><a href=\"https:\/\/hostify.com\" target=\"_blank\">https:\/\/hostify.com<\/a><\/p>"},"Hoteliga":{"config":{"path":"hoteliga","form_field":{"external_username":"external_username","external_password":"external_password","external_domain":"external_domain","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-hoteliga\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">External username<\/label><input type=\"text\" data-testid=\"input\" name=\"external_username\" placeholder=\"Inserisci l'username\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">External password<\/label><input type=\"text\" data-testid=\"input\" name=\"external_password\" placeholder=\" Inserisci la password\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">External domain<\/label><input type=\"text\" data-testid=\"input\" name=\"external_domain\" placeholder=\"Inserisci domain\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Hoteliga<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/hoteliga_logo.png","contentTitle":"Come effettuare la connessione tra Hoteliga e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/vecg8jggrqk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Hoteliga \u00e8 una piattaforma di gestione affidabile e conveniente per hotel e appartamenti turistici - una soluzione all-in-one. <\/p><p><a href=\"https:\/\/www.hoteliga.com\" target=\"_blank\">https:\/\/www.hoteliga.com<\/a><\/p>"},"Lodgify":{"config":{"path":"lodgify","form_field":{"api_key":"api_key","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-lodgify\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">API token<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"Inserisci l'API Token\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Lodgify<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione nel tuo account di Lodgify<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Vai alla sezione \"Impostazioni\"<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Seleziona \"API Pubblico\" e copia la API Key<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-4\">\n\t\t\t<p>Incolla qui la API Key.<\/p>\n\t\t<\/div> \n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/logify.svg","contentTitle":"Come effettuare la connessione tra Lodgify e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/4_pz38vRROM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Lodgify si impegna a creare una tecnologia basata sul canale diretto che consente ai proprietari e ai gestori di case vacanza di creare un sito web professionale e di aumentare le prenotazioni dirette, senza commissioni. <\/p><p><a href=\"https:\/\/www.lodgify.com\/es\/\" target=\"_blank\">https:\/\/www.lodgify.com\/es\/<\/a><\/p>"},"Mews":{"config":{"path":"mews","form_field":{"access_token":"access_token","email":"text-gE8dLd","password":"text-1hJwzr","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-mews\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Access token<\/label><input type=\"text\" data-testid=\"input\" name=\"access_token\" placeholder=\"Inserisci l'Access token\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Mews<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione nel tuo account di Mews<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Vai al Men\u00fa Principale > Marketplace<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Fai click su \"Miei Abbonamenti\"<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-4\">\n\t\t\t<p>Cerca l'integrazione di Chekin e fai click su \"Impostazioni\"<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-5\">\n\t\t\t<p>Fai click sulla chiave nell'angolo in alto a destra<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-6\">\n\t\t\t<p>Copia qui l'API Token.<\/p>\n\t\t<\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/mews-logo.svg","contentTitle":"Come effettuare la connessione tra Mews e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/VlTgepMeJKM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Mews \u00e8 un sistema di gestione delle propriet\u00e0 progettato per semplificare e automatizzare tutte le operazioni sia degli albergatori che dei loro ospiti. Dal motore di prenotazione al check-out, dalla reception alla gestione dei profitti, ogni processo \u00e8 reso pi\u00f9 semplice e veloce.<\/p><p><a href=\"https:\/\/www.mews.com\/en\" target=\"_blank\">https:\/\/www.mews.com\/en<\/a><\/p>"},"Rentals United":{"config":{"path":"rentals-united","form_field":{"email":"email","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-rentals-united\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Email di Rentals United<\/label><input type=\"text\" data-testid=\"input\" name=\"email\" placeholder=\"Inserisci la tua mail\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Rentals United<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione nel tuo account di Rentals United<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Clicca su SERVIZI > TROVA SERVIZI > GESTIONE OPERATIVA e fai click su Chekin<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-3\">\n\t\t\t<p> Fai click su \"Connettiti\"<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-4\">\n\t\t\t<p>Torna su queste pagina e inserisci l'indirizzo email del tuo account di RU<\/p>\n\t\t<\/div> \n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/rentalsunited-logo.svg","contentTitle":"Come effettuare la connessione tra Rentals United e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/sm62ZFHpSL4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Rentals United \u00e8 il numero uno al mondo tra i gestionali per case vacanza. Ci occupiamo di tutte le vostre esigenze di distribuzione multicanale e vi aiutiamo a prendere decisioni basate sui dati certi per aumentare le prenotazioni<\/p><p><a href=\"https:\/\/rentalsunited.com\" target=\"_blank\">https:\/\/rentalsunited.com<\/a><\/p>"},"Rentlio":{"config":{"path":"rentlio","form_field":{"api_token":"api_token","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-rentlio\"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">API token<\/label><input type=\"text\" data-testid=\"input\" name=\"api_token\" placeholder=\"Inserisci l'API Token\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Rentlio<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p> Inizia sessione nel tuo account Rentl.io<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Vai alla sezione \"Sviluppatori\" che si trova nel men\u00f9 dell'account<\/p>\n\t\t<\/div> \n\t\t<div class=\"slide slide-3\">\n\t\t\t<p>Copia la API Key e incollala qui<\/p>\n\t\t<\/div> \n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/rentliosvg.svg","contentTitle":"Come effettuare la connessione tra Rentlio e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/yuKJbxIbfPQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Rentlio \u00e8 un sistema di gestione degli immobili e di gestione dei canali di prenotazione che consente di semplificare le operazioni quotidiane, offrire un'esperienza eccellente ai clienti e di aumentare le entrate.<\/p><p><a href=\"https:\/\/rentl.io\" target=\"_blank\">https:\/\/rentl.io<\/a><\/p>"},"Resharmonics":{"config":{"path":"resharmonics","form_field":{"resharmonics_username":"resharmonics_username","core_email":"text-gE8dLd","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","resharmonics_password":"resharmonics_password","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-resharmonics\"><div class=\"form-fields\"><div class=\"from-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Username di Resharmonics<\/label><input type=\"text\" data-testid=\"input\" name=\"resharmonics_username\" placeholder=\"Inserisci l'username\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password di Resharmonics<\/label><input type=\"password\" data-testid=\"input\" name=\"resharmonics_password\" placeholder=\"Inserisci la password di Resharmonics\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"from-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Resharmonics<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p> Scrivi al tuo contatto in Res:Harmonics e chiedigli di inviarti la informazione necessaria per collegarti a Chekin. <\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Completa il formulario con le credenziali API che Res:Harmonics ti ha fornito.<\/p>\n\t\t<\/div> \n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/resharmonics-logo.png","contentTitle":"Come effettuare la connessione tra Res:harmonics e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/ZIuQ3ESvj9Q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Res:harmonics fornisce gli strumenti essenziali per massimizzare le vendite, l'esperienza degli ospiti e ridurre i costi di appartamenti turistici, co-living ed affitti residenziali.<\/p><p><a href=\"https:\/\/www.resharmonics.com\" target=\"_blank\">https:\/\/www.resharmonics.com<\/a><\/p>"},"Smoobu":{"form":"\n\t\t<div class=\"form-custom form-resharmonics\"><div class=\"form-fields has-spacer\"><div class=\"text-center form-group\"><a href=\"https:\/\/login.smoobu.com\/en\/integration\/edit\/5\" target=\"_blank\" class=\"button\" role=\"\">Connetti con Smoobu<\/a> <\/div><\/div><\/div>\n\t","helptitle":"Come collegarsi con Smoobu?","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Clicca su<strong>\"Connetti con Smoobu\".<\/strong> Sarai reindirizzato al tuo account Smoobu<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Clicca su <strong>\"Connetti\".<\/strong> Ti verr\u00e0 inviata una mail con la tua password di Chekin.<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-3\">\n\t\t\t<p><a href=\"https:\/\/dashboard.chekin.com\/login\" target=\"_blank\">Fai login su Chekin.<\/a><\/p>\n\t\t<\/div>\n\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/smoobu-2-1.svg","contentTitle":"Come effettuare la connessione tra Smoobu e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/7IBjUKv70Ao\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Smoobu \u00e8 il software all-in-one per la gestione delle case vacanza che sincronizza automaticamente tutti i portali di prenotazione, come Airbnb, Booking.com, Trip.com, Agoda, Expedia, ecc...il tutto in forma automatica, in modo da non doversi pi\u00f9 preoccupare delle prenotazioni manuali e delle doppie prenotazioni. <\/p><p><a href=\"https:\/\/www.smoobu.com\/es\/\" target=\"_blank\">https:\/\/www.smoobu.com\/es\/<\/a><\/p>","helpInitiator":" "},"Planyo":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/planyo-logo.png","contentTitle":"Come effettuare la connessione tra Planyo e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Lj1fHnT72Bc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Planyo \u00e8 un sistema di prenotazione online che pu\u00f2 essere utilizzato da qualsiasi azienda che accetti prenotazioni: per giorni, notti, ore o minuti, o eventi programmati.<\/p><p><a href=\"https:\/\/www.planyo.com\" target=\"_blank\">https:\/\/www.planyo.com<\/a><\/p>"},"Apaleo":{"config":{"path":"apaleo","form_field":{"core_email":"text-gE8dLd","code":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-apaleo \"><div class=\"form-fields\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con Apaleo<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/apaleo-logo-1.svg","contentTitle":"Come effettuare la connessione tra Apaleo e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/UdKDVOHH1FE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>ll PMS e l'app Store di Apaleo consentono di migliorare l'esperienza degli ospiti e del personale per tutti i tipi di strutture turistiche. Risparmiate tempo e ottimizzate i costi operativi<\/p><p><a href=\"https:\/\/apaleo.com\" target=\"_blank\">https:\/\/apaleo.com<\/a><\/p>"},"BookingSync":{"config":{"path":"bookingsync","form_field":{"access_token":"access_token","core_email":"text-gE8dLd","code":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-bookingsync \"><div class=\"form-fields\"><input type=\"hidden\" data-testid=\"input\" name=\"access_token\" placeholder=\"Access Token\" class=\"form-control is-valid\" value=\"2a6bb99a828ce721df0f63c21cd970b44364161d201c4590df12e44e1a1e5cf5\" autocomplete=\"off\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n\t\t<div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con BookingSync<\/button><\/div><\/div><\/div>\n\t"},"Cloudbeds":{"config":{"path":"pms-integrations\/cloudbeds","form_field":{"access_token":"oauth_code","code":"oauth_code","core_email":"text-gE8dLd","subscription_type":"field-aD7ucdKDH7uqiq3","are_tokens_refetch":"are_tokens_refetch","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-cloudbeds \"><div class=\"form-fields\"><input type=\"hidden\" data-testid=\"input\" name=\"are_tokens_refetch\" placeholder=\"\" class=\"form-control is-valid\" value=\"false\" autocomplete=\"off\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n\t\t<div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con Cloudbeds<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/cloudbeds_logo.svg","contentTitle":"Come effettuare la connessione tra Cloudbeds e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/zUlBKUhQTZY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Cloudbeds \u00e8 il partner tecnologico in pi\u00f9 rapida crescita del settore alberghiero. Combina strumenti per ottimizzare l'operativit\u00e0, il revenue, il marketing e la crescita delle strutture ricettive con un'ampia gamma di integrazioni di terze parti per aiutare albergatori e property managers<\/p><p><a href=\"https:\/\/www.cloudbeds.com\" target=\"_blank\">https:\/\/www.cloudbeds.com<\/a><\/p>"},"Myvr":{"config":{"path":"myvr","form_field":{"core_email":"text-gE8dLd","code":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-myvr \"><div class=\"form-fields\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n\t\t<div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con MyVR<\/button><\/div><\/div><\/div>\n\t"},"Ownerrez":{"config":{"path":"ownerrez","form_field":{"core_email":"text-gE8dLd","code":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-ownerrez \"><div class=\"form-fields\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n\t\t<div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con OwnerRez<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/owner-logo.png","contentTitle":"Come effettuare la connessione tra OwnerRez e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/nfMVP8UmC_o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>OwnerRez consente di sperimentare la differenza di un gestionale che si occupi di ogni canale di prenotazione, che sia anche PMS e sviluppi siti web per case vacanza eccezionali. A livello internazionale siamo riconosciuti come leader nel settore delle case vacanza per la gestione dei canali, il CRM, il PM, la contabilit\u00e0 e la messaggistica e i siti web.<\/p><p><a href=\"https:\/\/www.ownerreservations.com\" target=\"_blank\">https:\/\/www.ownerreservations.com<\/a><\/p>"},"Octorate":{"config":{"path":"octorate","form_field":{"core_email":"text-gE8dLd","api_key":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","phone":"field-c2xENTMAvcqpurK-intl","access_token":"access_token","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-octorate \"><div class=\"form-fields\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n\t\t<div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con Octorate<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/octorate-logo.png","contentTitle":"Come effettuare la connessione tra Octorate e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/G1cKQ3g5-3Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Octorate \u00e8 una soluzione che vi supporta in modo intuitivo nella gestione, nel miglioramento e nell'automazione dei processi relativi alla vostra struttura ricettiva. <\/p><p><a href=\"https:\/\/octorate.com\" target=\"_blank\">https:\/\/octorate.com<\/a><\/p>"},"Octorate_2":{"config":{"path":"pms-integrations\/octorate","form_field":{"core_email":"text-gE8dLd","api_key":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","phone":"field-c2xENTMAvcqpurK-intl","access_token":"access_token","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n      <div class=\"form-custom form-octorate \"><div class=\"form-fields\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n      <div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con Octorate<\/button><\/div><\/div><\/div>\n  ","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/octorate-logo.png","contentTitle":"Come effettuare la connessione tra Octorate e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/G1cKQ3g5-3Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Octorate \u00e8 una soluzione che vi supporta in modo intuitivo nella gestione, nel miglioramento e nell'automazione dei processi relativi alla vostra struttura ricettiva. <\/p><p><a href=\"https:\/\/octorate.com\" target=\"_blank\">https:\/\/octorate.com<\/a><\/p>"},"Booking":{"config":{"path":"booking","form_field":{"core_email":"text-gE8dLd","access_token":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-booking \"><div class=\"form-fields\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n\t\t<div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con Booking<\/button><\/div><\/div><\/div>\n\t"},"Booking_2":{"config":{"path":"pms-integrations\/booking","form_field":{"core_email":"text-gE8dLd","access_token":"oauth_code","subscription_type":"field-aD7ucdKDH7uqiq3","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-booking \"><div class=\"form-fields\"><div class=\"form-group screen-reader-text\"><div class=\"sc-qXhiz cvmVKB\"><div class=\"sc-pItiW PQBAt\">Email<\/div><input type=\"text\" data-testid=\"input\" name=\"email\" id=\"email-oauth\" placeholder=\"Enter your email\" class=\"form-control is-valid\" value=\"\"><\/div><\/div>\n\t\t<div class=\"is-oauth screen-reader-text\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Password <\/label><input type=\"password\" data-testid=\"input\" name=\"api_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Confirm Password<\/label><input type=\"password\" data-testid=\"input\" name=\"api_password_confirm\" placeholder=\"Confirm Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><\/div><div class=\"form-group\"><button type=\"button\" class=\"sc-jybekq kCpsjP custom-sync_0 btn-oauth\" role=\"\">Connetti con Booking<\/button><\/div><\/div><\/div>\n\t"},"Bookipro":{"config":{"path":"bookipro","form_field":{"api_key":"api_key","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-Guesty \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">URL Bookipro<\/label><input type=\"text\" data-testid=\"input\" name=\"host\" placeholder=\"Enter URL\" class=\"form-control\" value=\"\"><\/div><\/div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Chiave API<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"Introduci la tua API key\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Bookipro<\/button><\/div><\/div><\/div>\n\t","help":"\n\t\t<div class=\"slide slide-1\">\n\t\t\t<p>Inizia sessione nel tuo account Bookipro<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Visita la sezione delle API Key<\/p>\n\t\t<\/div>\n\t\t<div class=\"slide slide-2\">\n\t\t\t<p>Genera un nuovo Token, copialo e incollalo qui.<\/p>\n\t\t<\/div>\n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/logo-bookipro-v2b.png","contentTitle":"Come effettuare la connessione tra Bookipro e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/c6Z2nQzFZgc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Bookipro \u00e8 un software progettato per professionisti degli affitti turistici che soddisfa, sia che affittiate 10 o 4.000 propriet\u00e0, tutte le vostre esigenze di PMS, booking engine, Channel Manager o molti altri servizi.<\/p><p><a href=\"https:\/\/bookipro.com\" target=\"_blank\">https:\/\/bookipro.com<\/a><\/p>"},"Ulyses":{"config":{"path":"pms-integrations\/ulyses","form_field":{"user_domain":"user_domain","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-ulyses \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Ulyses account URL:<\/label><input type=\"text\" name=\"user_domain\" placeholder=\"Enter your URL\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Ulyses Password<\/label><input type=\"text\" name=\"pms_password\" placeholder=\"Enter Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Ulyses<\/button><\/div><\/div><\/div> \n\t","help":"","logo":"https:\/\/onboarding.chekin.com\/wp-content\/uploads\/2022\/05\/Ulyses-logo-1.svg","contentTitle":"Come effettuare la connessione tra Ulyses e Chekin?","content":"<p>Utilizzando Ulyses \u00e8 possibile ridurre al minimo i costi operativi, automatizzare i processi e aumentare le prenotazioni dirette. Iscrivetevi per ricevere informazioni sul software alberghiero pi\u00f9 avanzato dai migliori hotel e catene alberghiere.<\/p><p><a href=\"https:\/\/ulysescloud.com\/es\/home\/\" target=\"_blank\">https:\/\/ulysescloud.com\/es\/home\/<\/a><\/p>"},"Deskline":{"config":{"path":"pms-integrations\/deskline","form_field":{"housings_ids":"housings_ids","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-deskline\"><div class=\"form-fields\"><div class=\"sc-kNZoFW drYvvf\"><div class=\"multi-field-wrapper\"> <div class=\"multi-fields\"><div class=\"form-group housings_ids multi-field\"><div class=\"sc-qXhiz cvmVKB field\"><label class=\"sc-pItiW PQBAt\">Hotel Code<\/label><input type=\"text\" data-testid=\"input\" name=\"housings_ids[]\" placeholder=\"Enter Hotel Code\" class=\"form-control\" value=\"\"><\/div><a href=\"javascript:void(0)\" class=\"remove-field\">X<\/a><\/div><\/div><p class=\" mt-0 mb-0\"><a class=\"add-field\" href=\"javascript:void(0)\">Aggiungi campo<\/a><\/p><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connetti con Deskline<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/wp-content\/uploads\/2023\/03\/Feratel-deskline-logo-300x101.png","contentTitle":"How to connect Deskline with Chekin?","content":"<p>Deskline: the Smart Destination Management system by Feratel is a channel manager, reporting system, brochure management, restaurant guide, guest card, data analysis, statistics, information media, in combination with all levels \u2013 regional office, tourism office, information point and landlord.<\/p><p><a href=\"https:\/\/www.feratel.at\/en\/our-solutions\/destination-management-system\/\" target=\"_blank\">https:\/\/www.feratel.at\/en\/our-solutions\/destination-management-system\/<\/a><\/p>"},"Lavanda":{"config":{"path":"pms-integrations\/lavanda","form_field":{"api_key":"api_key","email":"text-gE8dLd","password":"text-1hJwzr","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-lavanda \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Chiave API<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"Introduci la tua API key\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connect with Lavanda<\/button><\/div><\/div><\/div> \n\t","logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/lavanda-logo.svg","contentTitle":"Come effettuare la connessione tra Lavanda e Chekin?","content":"<p>Lavanda PMS allows you to configure a set of fully-automated leasing and booking journeys, leasing, resident experience, operations and accounting with an hotel style bookings for each property type and stay type.<\/p><p><a href=\"https:\/\/getlavanda.com\" target=\"_blank\">https:\/\/getlavanda.com<\/a><\/p>"},"Avantio":{"config":{"path":"pms-integrations\/avantio","form_field":{"email":"text-gE8dLd","password":"text-1hJwzr","pms_username":"pms_username","pms_password":"pms_password","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-avantio \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">PMS username<\/label><input type=\"text\" data-testid=\"input\" name=\"pms_username\" placeholder=\"Inserisci l'username\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">PMS password<\/label><input type=\"text\" data-testid=\"input\" name=\"pms_password\" placeholder=\" Inserisci la password\" class=\"form-control\" value=\"\"><\/div><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connect with Avantio<\/button><\/div><\/div><\/div> \n\t","logo":"https:\/\/chekin.com\/wp-content\/uploads\/2023\/04\/avantio-orange.png","contentTitle":"Come effettuare la connessione tra Avantio e Chekin?","content":"<p>Avantio \u00e8 un software per case vacanza che fornisce soluzioni tecnologiche dinamiche e innovative basate su cloud ai professionisti che gestiscono un numero significativo di propriet\u00e0.<\/p><p>Per connettersi con Avantio \u00e8 necessario richiedere le credenziali al servizio tecnico: <a href=\"mailto:support@avantio.com\">support@avantio.com<\/a><\/p><p><a href=\"https:\/\/www.avantio.com\" target=\"_blank\">https:\/\/www.avantio.com<\/a><\/p>"},"Verial":{"config":{"path":"pms-integrations\/verial","form_field":{"email":"text-gE8dLd","password":"text-1hJwzr","user_dns":"user_dns","session_nu":"session_nu","phone":"field-c2xENTMAvcqpurK-intl","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-verial \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">User DNS<\/label><input type=\"text\" data-testid=\"input\" name=\"user_dns\" placeholder=\"User DNS\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Session Number<\/label><input type=\"text\" data-testid=\"input\" name=\"session_nu\" placeholder=\"Session Number\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connect with Verial<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/onboarding.chekin.com\/wp-content\/uploads\/2022\/06\/verial.png","contentTitle":"Come effettuare la connessione tra Verial e Chekin?","contentVideo":"","content":"<p>Verial Hotel is an ERP and PMS that allows you to manage all areas of your business. It is a modular solution that, investing just enough, will be able to cover your demand, whether it is a vacation hotel, a hotel for congresses and events, a resort, a spa or a restaurant; the specialization of each module will give you full control over each work area.<\/p><p><a href=\"https:\/\/www.verial.es\/en\/\" target=\"_blank\">https:\/\/www.verial.es\/en\/<\/a><\/p>"},"Amenitiz":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2023\/01\/WORDMARK-AMENITIZ-BLUE-1.svg","contentTitle":"Come effettuare la connessione tra Amenitiz e Chekin?","contentVideo":"","content":"<p>Perch\u00e9 utilizzare sistemi di gestione diversi quando si dispone di un unico sistema in grado di occuparsi di tutto? Amenitiz vi accompagna in una gestione di successo della vostra struttura ricettiva: PMS, Channel Manager, Booking Engine, Website Builder, AmenitizPay, ecc. <\/p><p><a href=\"https:\/\/www.amenitiz.com\/es\" target=\"_blank\">https:\/\/www.amenitiz.com\/es<\/a><\/p>"},"littlehotelier":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/lh-logo_af11eeed.svg","contentTitle":"Come effettuare la connessione tra Little Hotelier e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/DeJsXZ4PZDk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Little Hotelier \u00e8 il fornitore di riferimento per i piccoli albergatori, che vi permette di aumentare le entrate, semplificare l'amministrazione e aiutarvi a controllare tutti gli aspetti della vostra attivit\u00e0.<\/p><p><a href=\"https:\/\/www.siteminder.com\" target=\"_blank\">https:\/\/www.littlehotelier.com\/es\/<\/a><\/p>"},"channelmanager":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/siteminder.svg","contentTitle":"How to connect Siteminder with Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/SpawZtV4eLc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Siteminder \u00e8 la piattaforma di gestione alberghiera leader nel mondo e offre tutto ci\u00f2 che serve per il successo della vostra attivit\u00e0 ricettiva. <\/p><p><a href=\"https:\/\/www.siteminder.com\" target=\"_blank\">https:\/\/www.siteminder.com<\/a><\/p>"},"dataHotel":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/datahotel.png","contentTitle":"Come effettuare la connessione tra Datahotel e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/JwF1kTFmJNk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Datahotel \u00e8 un software di gestione alberghiera con PMS, Booking Engine e Channel Manager integrati. <\/p><p><a href=\"https:\/\/www.datahotel.es\" target=\"_blank\">https:\/\/www.datahotel.es<\/a><\/p>"},"MasterYield":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/masteryield_logo.svg","contentTitle":"Come effettuare la connessione tra MasterYield e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/6OkwOqw-oYM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>MasterYield \u00e8 un software integrato per la gestione di propriet\u00e0 turistiche e del loro revenue, un Channel Manager integrato al PMS con aggiornamenti automatici e un motore di prenotazione senza commissioni.<\/p><p><a href=\"https:\/\/www.masteryield.com\" target=\"_blank\">https:\/\/www.masteryield.com<\/a><\/p>"},"Beds24":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/beds24-log.svg","contentTitle":"Come effettuare la connessione tra Beds24 e Chekin?","contentVideo":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/M8PfpaU90Hc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","content":"<p>Beds24 \u00e8 una pluripremiata soluzione di gestione all-in-one per hotel, B&B, case vacanza, affitti turistici, ostelli, agenzie e property managers <\/p><p><a href=\"https:\/\/beds24.com\" target=\"_blank\">https:\/\/beds24.com<\/a><\/p>"},"Booking Automation":{"logo":"https:\/\/chekin.com\/onboarding\/wp-content\/uploads\/2022\/05\/booking-logo-2.png","contentTitle":"Come effettuare la connessione tra Booking Automation e Chekin?","content":"<p>Booking Automation \u00e8 il Channel Manager e PMS pi\u00f9 potente del settore. Automatizzate le vostre operazioni con la sincronizzazione istantanea di tariffe e disponibilit\u00e0, le comunicazioni automatizzate, la riscossione dei pagamenti, il sito web di prenotazione, l'ottimizzazione dei prezzi e molto altro ancora.<\/p><p><a href=\"https:\/\/www.bookingautomation.com\" target=\"_blank\">https:\/\/www.bookingautomation.com<\/a><\/p>"},"Tommy":{"config":{"path":"pms-integrations\/tommy","form_field":{"email":"text-gE8dLd","password":"text-1hJwzr","pms_username":"pms_username","pms_password":"pms_password","api_key":"api_key","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-tommy \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">TommyBS username<\/label><input type=\"text\" data-testid=\"input\" name=\"pms_username\" placeholder=\"Inserisci l'username\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">TommyBS password<\/label><input type=\"text\" data-testid=\"input\" name=\"pms_password\" placeholder=\"Password\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><\/div><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">API Key<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"API Key\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connect with Tommy BS<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/wp-content\/uploads\/2023\/03\/Tommy-bs-logo.png","contentTitle":"How to connect Tommy with Chekin?","content":"<p>Tommy Booking Support provides an online booking system focused for camp sites , holiday parks and motorhome rentals owner to manage reservations, revenue, reporting and online booking.<\/p><p><a href=\"https:\/\/en.tommybookingsupport.nl\/\" target=\"_blank\">https:\/\/en.tommybookingsupport.nl\/<\/a><\/p>"},"Hostfully":{"config":{"path":"pms-integrations\/hostfully","form_field":{"email":"text-gE8dLd","password":"text-1hJwzr","agency_uid":"api_key","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-hostfully \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Agency UID<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"Agency UID\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connect with Hostfully<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/wp-content\/uploads\/2022\/12\/Hostfully-Primary-Logo-1-300x86.png","contentTitle":"How to connect Hostfully with Chekin?","content":"<p>Hostfully \u00e8 una piattaforma di gestione immobiliare all-in-one che consente ai gestori di case vacanza di organizzare tutti gli aspetti della loro attivit\u00e0 in un unico sistema facile da usare.<\/p><p><a href=\"https:\/\/www.hostfully.com\/\" target=\"_blank\">https:\/\/www.hostfully.com\/<\/a><\/p>"},"avaibook":{"config":{"path":"pms-integrations\/avaibook","form_field":{"email":"text-gE8dLd","password":"text-1hJwzr","api_key":"api_key","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-avaibook \"><div class=\"form-fields\"><div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Chiave API<\/label><input type=\"text\" data-testid=\"input\" name=\"api_key\" placeholder=\"Chiave API\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div><div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connect with Avaibook<\/button><\/div><\/div><\/div>\n\t"},"ABAL_Consulting":{"logo":"https:\/\/chekin.com\/wp-content\/uploads\/2022\/12\/ABAL-Consulting-Logo.jpg","contentTitle":"How to connect ABAL Consulting with Chekin?","content":"<p>At ABAL Consulting we have a mission: to empower hots from anywhere in the world to manage, administer and get the most out of their tourist accommodation businesses in a simple and measurable way. Increase your profitability in a guaranteed way and adapted to your business model<\/p><p><a href=\"https:\/\/www.abalconsulting.com\/\" target=\"_blank\">https:\/\/www.abalconsulting.com\/<\/a><\/p>"},"Track":{"config":{"path":"pms-integrations\/track","form_field":{"email":"text-gE8dLd","password":"text-1hJwzr","sub_domain":"sub_domain","pms_username":"pms_username","pms_password":"pms_password","estimated_range_of_managed_properties":"field-UQwb7oDM9q4lihb"}},"form":"\n\t\t<div class=\"form-custom form-track \"><div class=\"form-fields\">\n\t\t<div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Sub domain<\/label><input type=\"text\" data-testid=\"input\" name=\"sub_domain\" placeholder=\"Enter sub domain\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div> <div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Key<\/label><input type=\"text\" data-testid=\"input\" name=\"pms_username\" placeholder=\"Enter key\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div> <div class=\"form-group\"><div class=\"sc-qXhiz cvmVKB\"><label class=\"sc-pItiW PQBAt\">Secret<\/label><input type=\"text\" data-testid=\"input\" name=\"pms_password\" placeholder=\"Enter secret\" class=\"form-control\" value=\"\" autocomplete=\"off\"><\/div>\n\t\t<div class=\"form-group\"><button type=\"submit\" class=\"sc-kehdeE eujTnD custom-sync\" role=\"\">Connect with track<\/button><\/div><\/div><\/div>\n\t","logo":"https:\/\/chekin.com\/wp-content\/uploads\/2023\/07\/Track.png","contentTitle":"How to connect Track with Chekin?","content":"<p>Track Hospitality Software \u00e8 un sistema di gestione delle propriet\u00e0 (PMS) che aiuta gli hotel, gli ospiti vacanzieri e le altre imprese di ostelli a gestire le loro operazioni. Incluye funciones para la gesti\u00f3n de reservas, invitados, limpieza, mantenimiento y contabilidad. Traccia anche ofrece una variet\u00e0 di integrazioni con altri software, come channel manager e piattaforme di marketing.<\/p><p><a href=\"https:\/\/tnsinc.com\/hospitality-hub\/track\/\" target=\"_blank\">https:\/\/tnsinc.com\/hospitality-hub\/track\/<\/a><\/p>"}};
+		var isOauth=0;
+		</script>
+		
+		
+		<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+		
+		<script>
+			(function($) {
+
+				var Defaults = $.fn.select2.amd.require('select2/defaults');
+
+				$.extend(Defaults.defaults, {
+					searchInputPlaceholder: ''
+				});
+
+				var SearchDropdown = $.fn.select2.amd.require('select2/dropdown/search');
+
+				var _renderSearchDropdown = SearchDropdown.prototype.render;
+
+				SearchDropdown.prototype.render = function(decorated) {
+
+					// invoke parent method
+					var $rendered = _renderSearchDropdown.apply(this, Array.prototype.slice.apply(arguments));
+
+					this.$search.attr('placeholder', this.options.get('searchInputPlaceholder'));
+
+					return $rendered;
+				};
+
+			})(window.jQuery);
+			
+			
+			
+			//Prevent select2 from flipping the dropdown upward
+			
+			(function($) {
+
+				var Defaults = $.fn.select2.amd.require('select2/defaults');
+			  
+			  $.extend(Defaults.defaults, {
+				dropdownPosition: 'auto'
+			  });
+			  
+				var AttachBody = $.fn.select2.amd.require('select2/dropdown/attachBody');
+			  
+			  var _positionDropdown = AttachBody.prototype._positionDropdown;
+			  
+			  AttachBody.prototype._positionDropdown = function() {
+			   
+				var $window = $(window);
+			   
+					var isCurrentlyAbove = this.$dropdown.hasClass('select2-dropdown--above');
+					var isCurrentlyBelow = this.$dropdown.hasClass('select2-dropdown--below');
+			   
+					var newDirection = null;
+			   
+					var offset = this.$container.offset();
+			   
+					offset.bottom = offset.top + this.$container.outerHeight(false);
+					
+					var container = {
+						height: this.$container.outerHeight(false)
+					};
+				
+				container.top = offset.top;
+				container.bottom = offset.top + container.height;
+
+				var dropdown = {
+				  height: this.$dropdown.outerHeight(false)
+				};
+
+				var viewport = {
+				  top: $window.scrollTop(),
+				  bottom: $window.scrollTop() + $window.height()
+				};
+
+				var enoughRoomAbove = viewport.top < (offset.top - dropdown.height);
+				var enoughRoomBelow = viewport.bottom > (offset.bottom + dropdown.height);
+				
+				var css = {
+				  left: offset.left,
+				  top: container.bottom
+				};
+
+				// Determine what the parent element is to use for calciulating the offset
+				var $offsetParent = this.$dropdownParent;
+
+				// For statically positoned elements, we need to get the element
+				// that is determining the offset
+				if ($offsetParent.css('position') === 'static') {
+				  $offsetParent = $offsetParent.offsetParent();
+				}
+
+				var parentOffset = $offsetParent.offset();
+
+				css.top -= parentOffset.top
+				css.left -= parentOffset.left;
+				
+				var dropdownPositionOption = this.options.get('dropdownPosition');
+				
+					if (dropdownPositionOption === 'above' || dropdownPositionOption === 'below') {
+				
+						newDirection = dropdownPositionOption;
+				
+				} else {
+						
+					if (!isCurrentlyAbove && !isCurrentlyBelow) {
+							newDirection = 'below';
+						}
+
+						if (!enoughRoomBelow && enoughRoomAbove && !isCurrentlyAbove) {
+						newDirection = 'above';
+						} else if (!enoughRoomAbove && enoughRoomBelow && isCurrentlyAbove) {
+						newDirection = 'below';
+						}
+				
+				}
+
+				if (newDirection == 'above' ||
+					(isCurrentlyAbove && newDirection !== 'below')) {
+				  css.top = container.top - parentOffset.top - dropdown.height;
+				}
+
+				if (newDirection != null) {
+				  this.$dropdown
+					.removeClass('select2-dropdown--below select2-dropdown--above')
+					.addClass('select2-dropdown--' + newDirection);
+				  this.$container
+					.removeClass('select2-container--below select2-container--above')
+					.addClass('select2-container--' + newDirection);
+				}
+
+				this.$dropdownContainer.css(css);
+			   
+			  };
+			  
+			})(window.jQuery);
+
+		</script>
+		<script>
+			var searchText = "Search...";
+			jQuery(document).ready(function() {
+				jQuery("select.form-control > option[value='']").attr('disabled', 'disabled');
+				jQuery('.js-example-basic-single').select2({
+					searchInputPlaceholder: searchText,
+					dropdownCssClass: "dropdown-search-no",
+					dropdownPosition: 'below'
+				});
+				
+				jQuery('select.your-pms').select2({
+					searchInputPlaceholder: searchText,
+					dropdownCssClass: "dropdown-search",
+					dropdownPosition: 'below',
+					//sorter: data => data.sort((a, b) => a.text.localeCompare(b.text)),
+				});
+
+			}); 
+		</script>
+		
+		 <script>(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+mixpanel.init("8b22e8d7e17f222b03b99ecd808774a4", {batch_requests: true})</script> 
+		<script>
+			var ajaxurl = site_url+'/wp-admin/admin-ajax.php';
+			var utm_source = "";
+			var country_ip = "79.42.51.113";
+			jQuery.get(ajaxurl,{'action': 'getip'}, function (current_ip) { 
+				country_ip = current_ip;
+				console.log(country_ip);
+							});
+		</script>
+		
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172117250-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		 
+		  gtag('config', 'UA-172117250-1');
+		</script>
+		
+		
+		<!-- Global site tag (gtag.js) - Google Ads: 481274774 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-481274774"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'AW-481274774');
+		</script>
+		
+		<!--Optimize START -->
+				<script src="https://www.googleoptimize.com/optimize.js?id=OPT-M6SC8CV"></script>
+		<!--Optimize END -->
+		
+		
+		
+
+		
+		<!-- Facebook START -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '1960527614261773');
+		  fbq('track', 'PageView');
+		</script>
+		
+		<!-- Facebook END -->
+		
+				<!-- Linkedin START -->
+		<script type="text/javascript">
+		_linkedin_partner_id = "3089577";
+		window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+		window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+		</script><script type="text/javascript">
+		(function(){var s = document.getElementsByTagName("script")[0];
+		var b = document.createElement("script");
+		b.type = "text/javascript";b.async = true;
+		b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+		s.parentNode.insertBefore(b, s);})();
+		</script>
+		
+		<!-- Linkedin END -->
+		
+		<!-- Hotjar Tracking Code for https://chekin.com/ -->
+		<script>
+			(function(h,o,t,j,a,r){
+				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				h._hjSettings={hjid:2788074,hjsv:6};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+
+		
+			<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK7Q9R9"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+	</head>
+	<body class="page-template-default page page-id-960 wp-custom-logo wp-embed-responsive  has-page-titlehidden singular missing-post-thumbnail has-no-pagination not-showing-comments show-avatars footer-top-visible">
+		<noscript><img class="lazy" height="1" width="1" style="display:none"
+		  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://www.facebook.com/tr?id=1960527614261773&ev=PageView&noscript=1"
+		/></noscript>
+		<noscript>
+		<img class="lazy" height="1" width="1" style="display:none;" alt="" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://px.ads.linkedin.com/collect/?pid=3089577&fmt=gif" />
+		</noscript>
+		<a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>		
+		<header id="site-header" class="header-footer-group" role="banner">
+
+			<div class="header-inner section-inner">
+				<button type="button" class="button btn-link header-btn-back">Indietro</button>
+				<div class="header-titles-wrapper">
+
+					
+					<div class="header-titles " >
+																							<div class="site-logo faux-heading">
+											<a href="https://chekin.com/it" class="custom-logo-link" rel="home" aria-current="page">
+												<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://chekin.com/wp-content/uploads/2021/05/chekin-logo-new.svg" class="custom-logo lazy" alt="CheKin" decoding="async">
+											</a>
+											<span class="screen-reader-text">CheKin</span>
+										</div>
+																		</div><!-- .header-titles -->
+
+					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"  data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+						<span class="toggle-inner">
+							<span class="toggle-icon">
+								<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewBox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)" /></svg>							</span>
+							<span class="toggle-text">Menu</span>
+							
+						</span>
+					</button><!-- .nav-toggle -->
+
+				</div><!-- .header-titles-wrapper -->
+								<div class="header-navigation-wrapper">
+
+					
+							<nav class="primary-menu-wrapper" aria-label="Horizontal" role="navigation">
+
+								<ul class="primary-menu reset-list-style">
+
+								<li id="menu-item-16108" class="has-btn has-signup menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16108"><a href="https://chekin.com/onboarding/it/">Registrati gratuitamente</a></li>
+<li id="menu-item-16109" class="has-login menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-960 current_page_item menu-item-16109"><a href="https://chekin.com/onboarding/it/login/" aria-current="page">Accedi</a></li>
+<li id="menu-item-wpml-ls-2-it" class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-it wpml-ls-current-language wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-2-it"><a title="Italiano" href="https://chekin.com/onboarding/it/login/"><span class="wpml-ls-native" lang="it">Italiano</span></a><span class="icon"></span>
+<ul class="sub-menu">
+	<li id="menu-item-wpml-ls-2-en" class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-en"><a title="English" href="https://chekin.com/onboarding/en/login/"><span class="wpml-ls-native" lang="en">English</span></a></li>
+	<li id="menu-item-wpml-ls-2-es" class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-es"><a title="Español" href="https://chekin.com/onboarding/login/"><span class="wpml-ls-native" lang="es">Español</span></a></li>
+	<li id="menu-item-wpml-ls-2-de" class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-de wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-de"><a title="Deutsch" href="https://chekin.com/onboarding/de/login/"><span class="wpml-ls-native" lang="de">Deutsch</span></a></li>
+	<li id="menu-item-wpml-ls-2-pt" class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-pt wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-pt"><a title="Português" href="https://chekin.com/onboarding/pt/login/"><span class="wpml-ls-native" lang="pt">Português</span></a></li>
+</ul>
+</li>
+
+								</ul>
+
+							</nav><!-- .primary-menu-wrapper -->
+
+						
+				</div><!-- .header-navigation-wrapper -->
+							</div><!-- .header-inner -->
+
+			
+		</header><!-- #site-header -->
+
+		
+<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
+
+	<div class="menu-modal-inner modal-inner">
+
+		<div class="menu-wrapper section-inner">
+
+			<div class="menu-top">
+
+				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".menu-modal">
+					<span class="toggle-text">Close Menu</span>
+					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>				</button><!-- .nav-toggle -->
+
+				
+					<nav class="mobile-menu" aria-label="Mobile" role="navigation">
+
+						<ul class="modal-menu reset-list-style">
+
+						<li class="has-btn has-signup menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16108"><div class="ancestor-wrapper"><a href="https://chekin.com/onboarding/it/">Registrati gratuitamente</a></div><!-- .ancestor-wrapper --></li>
+<li class="has-login menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-960 current_page_item menu-item-16109"><div class="ancestor-wrapper"><a href="https://chekin.com/onboarding/it/login/" aria-current="page">Accedi</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-it wpml-ls-current-language wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-2-it"><div class="ancestor-wrapper"><a title="Italiano" href="https://chekin.com/onboarding/it/login/"><span class="wpml-ls-native" lang="it">Italiano</span></a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-wpml-ls-2-it > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)" /></svg></button></div><!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-en"><div class="ancestor-wrapper"><a title="English" href="https://chekin.com/onboarding/en/login/"><span class="wpml-ls-native" lang="en">English</span></a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-es"><div class="ancestor-wrapper"><a title="Español" href="https://chekin.com/onboarding/login/"><span class="wpml-ls-native" lang="es">Español</span></a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-de wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-de"><div class="ancestor-wrapper"><a title="Deutsch" href="https://chekin.com/onboarding/de/login/"><span class="wpml-ls-native" lang="de">Deutsch</span></a></div><!-- .ancestor-wrapper --></li>
+	<li class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-pt wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-pt"><div class="ancestor-wrapper"><a title="Português" href="https://chekin.com/onboarding/pt/login/"><span class="wpml-ls-native" lang="pt">Português</span></a></div><!-- .ancestor-wrapper --></li>
+</ul>
+</li>
+
+						</ul>
+
+					</nav>
+
+					
+			</div><!-- .menu-top -->
+
+			<div class="menu-bottom">
+
+				
+			</div><!-- .menu-bottom -->
+
+		</div><!-- .menu-wrapper -->
+
+	</div><!-- .menu-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+
+<main id="site-content" role="main">
+
+	
+<article class="post-960 page type-page status-publish hentry" id="post-960">
+
+	
+	<div data-title="hidden" class="post-inner thin ">
+
+		<div class="entry-content">
+			
+						
+<div class="wp-block-group alignwide sec-login is-layout-constrained wp-block-group-is-layout-constrained"><div class="wp-block-group__inner-container">
+<h1 class="wp-block-heading has-text-align-center title">Bentornati!</h1>
+
+
+
+<p class="has-text-align-center sub-title">Accedete al vostro account e continuate a offrire ai vostri ospiti la miglior esperienza di Check in.</p>
+
+
+<div class="erf-container">
+    <div class="erf-login-container erf-label-top erf-style-rounded-corner erf-layout-one-column" style="">     
+        <div class="erf-message"></div>
+
+                    <form action="" method="post" class="erf-login-form erf-form">
+                <div class="fb-text form-group">
+                    <label for="erf_username" class="fb-text-label">
+                        Email<span class="erf-required">*</span>
+                    </label>
+
+                  					
+					<input required="" placeholder="Inserisci la tua mail" value="" type="text" class="form-control" id="erf_username" name="erf_username">
+                </div>
+
+                <div class="fb-text form-group">
+                    <label for="erf_password" class="fb-text-label">
+                        Password<span class="erf-required">*</span>
+                    </label>
+					                    <input placeholder="Inserisci la tua password" type="password" value="" required="" class="form-control" id="erf_password" name="erf_password"> 
+                </div>
+
+                <div class="fb-text form-group rememberme">
+
+                    <label for="rememberme" class="fb-text-label">
+                        <input name="rememberme"  type="checkbox" id="erf_rememberme" value="forever">
+                        Remember                    </label>
+                </div>
+
+
+                <input type="hidden" name="action" value="erf_login_user"  />
+                <input type="hidden" name="erf_login_nonce" id="erf_login_nonce" value="9ceaaf9ce5" />
+
+                <div class="erf-before-login-btn">
+                                    </div>   
+
+                <div class="erf-external-form-elements">
+                                    </div>   
+                
+                                    <div class="erf-account-switch">
+                        <a class="erf-show-lost-password"  href="javascript:void(0)" title="Lost/Forgot Password?">Hai dimenticato la password?</a>
+                    </div>
+                				<div class="erf-error"></div>
+                <div class="erf-submit-button erf-clearfix">    
+                    <div class="fb-button form-group">
+                        <button type="submit" class="btn btn-default" style="default">Login</button>
+                    </div>
+                </div>
+            </form>
+
+            <form id="erf_login_reload_form" method="POST">
+
+            </form>
+
+            </div>
+            <div class="erf-password-lost-container erf-layoutone-column erf-style-rounded-corner erf-label-top"  style="display:none">
+
+                    <h2>Password recovery</h2>
+                <p class="mb-0">
+                    <label for="erf_user_login">Email per il recupero password</label>
+                </p>
+                <form id="lostpasswordform" class="erf-form erf-reset-password-form" action="" method="post" onkeypress="return event.keyCode != 13;">
+                    <div class="fb-text form-group pt-0">
+                        <input type="email" name="user_login" class="form-control" id="erf_user_login" placeholder="Inserisci la tua mail">
+                    </div>
+                    <div class="erf-error"></div>
+                    <div class="fb-text form-group">
+                        <button type="button" name="submit" class="lostpassword-button erf-reset-password btn btn-default">
+                            Invia link per il recupero                        </button>
+                    </div>
+                    <input type="hidden" name="action" value="erf_lost_password" />
+                    <div class="erf-account-switch erf-clearfix">
+                            <a class="erf-show-login" href="javascript:void(0)">Indietro</a>
+                    </div>
+                </form>
+    </div>
+    
+    <div class="erf-otp-container erf-layoutone-column erf-style-rounded-corner erf-label-top"  style="display:none">
+        <div class="erf-message"></div>
+        <h2>Password recovery</h2>
+        <p>Enter OTP</p>
+        <form id="otpform" class="erf-form erf-otp-form" action="" method="post" onkeypress="return event.keyCode != 13;">
+            <div class="fb-text form-group">
+                <input type="text" name="user_otp" class="form-control" id="erf_user_otp">
+            </div>
+            <div class="erf-error"></div>
+            <div class="fb-text form-group">
+                <button type="button" name="submit" class="otp-button erf-otp btn btn-default">
+                    Submit                </button>
+            </div>
+            <input type="hidden" name="action" value="erf_otp" />
+            <div class="erf-account-switch erf-clearfix">
+                <a class="erf-show-login" href="javascript:void(0)">Back to Login</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="erf-password-update-container erf-layoutone-column erf-style-rounded-corner erf-label-top"  style="display:none">
+        <h2>Password recovery</h2>        
+        <p>Enter a new password below</p>
+        <form id="updatepasswordform" class="erf-form erf-update-password-form" action="" method="post" onkeypress="return event.keyCode != 13;">
+            <div class="fb-text form-group">
+                <label for="user_password" class="fb-text-label">New Password</label>
+                <input type="password" name="user_password" class="form-control" id="erf_user_password">
+            </div>
+            <div class="fb-text form-group">
+                <label for="user_cpassword" class="fb-text-label">Re-enter New Password</label>
+                <input type="password" name="user_cpassword" class="form-control" id="erf_user_cpassword">
+            </div>
+            <div class="erf-error"></div>
+            <div class="fb-text form-group">
+                <button type="button" name="submit" class="updatepassword-button erf-update-password btn btn-default">
+                    Update Password                </button>
+            </div>
+            <input type="hidden" name="action" value="erf_update_password" />
+            <div class="erf-account-switch erf-clearfix">
+                <a class="erf-show-login" href="javascript:void(0)">Back to Login</a>
+            </div>
+        </form>
+    </div>
+</div>    
+
+</div></div>
+					</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+
+</main><!-- #site-content -->
+
+
+
+
+<script type="text/javascript">
+var roomNumberSelectedText = "Numero di camere";
+var propertiesNumberSelectedText = "Numero di alloggi";
+var pms = "";
+
+//jQuery( ".erf-reg-form-container .erf-submit-button" ).after( "<p class='have_acc  pt-0 mb-0'>Hai già un account? <a class='have_acc_link' href='https://chekin.com/onboarding/it/login/'>Login</a></p>" );
+if (pms != 'Smoobu') {
+	jQuery( ".erf-reg-form-container .erf-form-html" ).append( "<p id='free-trial' class='have_acc trial pt-0 mb-0'>Prova gratuita per 14 giorni. </p>" );
+}
+jQuery('.sec-contents .contents .wp-block-group__inner-container').prepend('<button type="button" class="button btn-link header-btn-back">Atrás</button>');
+//jQuery( ".erf-login-container" ).append( "<p class='have_acc dont_haveaccount  pt-0 mb-0'>Non hai un account?  <a class='have_acc_link' href='https://chekin.com/onboarding/it/'>Registrati gratis</a></p>" );
+jQuery( ".erf-login-form.erf-form" ).prepend( "<h2>Login</h2>" );
+
+
+// Hubspot AutoComplete off
+window.addEventListener('message', event => {
+   if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormReady') {
+       jQuery('form input').attr('autocomplete', 'off');
+   }
+   
+});
+
+</script>
+			<footer id="site-footer" role="contentinfo" class="header-footer-group">
+
+				<div class="section-inner">
+
+			
+									
+				</div><!-- .section-inner -->
+
+			</footer><!-- #site-footer -->
+
+		
+
+<script src="https://chekin.com/onboarding/wp-content/themes/chekin2020/assets/slick/slick.min.js?ver=1.5" id="slick-carousel-js"></script>
+<script src="https://chekin.com/onboarding/wp-content/themes/chekin2020/assets/fancybox/jquery.fancybox.min.js?ver=1.5" id="fancybox-carousel-js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXhHGxcKaNND7SOkTmwOsO9VwcoKAEQA4&amp;language=it&amp;callback=initAutocomplete&amp;libraries=places&amp;v=weekly&amp;ver=1.5" id="googleapi-library-js"></script>
+<script src="https://chekin.com/onboarding/wp-content/themes/chekin2020/assets/js/index.js?ver=1699636890" id="chekin2020-js-js" async></script>
+<script src="https://chekin.com/onboarding/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js"></script>
+<script id="moment-js-after">
+moment.updateLocale( 'it_IT', {"months":["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"],"monthsShort":["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"],"weekdays":["domenica","luned\u00ec","marted\u00ec","mercoled\u00ec","gioved\u00ec","venerd\u00ec","sabato"],"weekdaysShort":["Dom","Lun","Mar","Mer","Gio","Ven","Sab"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"j F Y G:i","LLLL":null}} );
+</script>
+<script src="https://chekin.com/onboarding/wp-content/plugins/easy-registration-forms/assets/js/formula-engine.js?ver=2.1.1" id="formula-engine-js"></script>
+<script id="erf-global-js-extra">
+var erf_global = {"ajax_url":"https:\/\/chekin.com\/onboarding\/wp-admin\/admin-ajax.php","my_account":{"sub_del_confirm_msg":"This will delete the submission permanently. Please confirm.","pass_config":{"shortPass":"The password is too short.","badPass":"Weak, try combining letters & numbers.","goodPass":"Medium, try using special characters.","strongPass":"Strong password.","containsUsername":"The password contains the username.","enterPass":"Type your password.","showPercent":false,"showText":true,"animate":true,"animateSpeed":"fast","username":false,"usernamePartialMatch":true,"minimumLength":4}},"parsley":{"defaultMessage":"This value seems to be invalid.","type":{"email":"Questo valore deve essere una email valida.","url":"This value should be a valid url.","number":"This value should be a valid number.","integer":"This value should be a valid integer.","digits":"This value should be digits.","alphanum":"This value should be alphanumeric."},"notblank":"This value should not be blank.","required":"Questo valore \u00e8 obbligatorio.","pattern":"This value seems to be invalid.","min":"This value should be greater than or equal to %s.","max":"This value should be lower than or equal to %s.","range":"This value should be between %s and %s.","minlength":"This value is too short. It should have %s characters or more.","maxlength":"This value is too long. It should have %s characters or fewer.","length":"This value length is invalid. It should be between %s and %s characters long.","mincheck":"You must select at least %s choices.","maxcheck":"You must select %s choices or fewer.","check":"You must select between %s and %s choices.","equalto":"This value should be the same.","date":"Invalid date value","confirmPassword":"These passwords are not similar to each other. Try again?"},"user_fields":[],"logged_in":"0","is_admin":"","js_strings":{"next":"Next","prev":"Previous","loading_edit_form":"Loading Form...","edit_form_load_error":"Unable to load form data.","loading_submission_info":"Loading submission data...","delete_file":"Delete File","other":"Other"},"plan":[],"recaptcha_v":"2","rc_site_key":"","datepicker_defaults":{"closeText":"Chiudi","currentText":"Oggi","monthNames":["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"],"monthNamesShort":["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"],"nextText":"Prossimo","prevText":"Precedente","dayNames":["domenica","luned\u00ec","marted\u00ec","mercoled\u00ec","gioved\u00ec","venerd\u00ec","sabato"],"dayNamesShort":["Dom","Lun","Mar","Mer","Gio","Ven","Sab"],"dayNamesMin":["D","L","M","M","G","V","S"],"firstDay":1,"isRTL":false}};
+</script>
+<script src="https://chekin.com/onboarding/wp-content/plugins/easy-registration-forms/assets/js/erforms-global.js?ver=2.1.1" id="erf-global-js"></script>
+<script src="https://chekin.com/onboarding/wp-content/plugins/easy-registration-forms/assets/js/utility-functions.js?ver=2.1.1" id="erf-util-functions-js"></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+			
+<div class="popup popup-welcome " id="popup-welcome">
+	<div class="popup-inner has-text-center"> 
+		<span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="15.562" height="15.364" viewBox="0 0 15.562 15.364"><defs></defs><g transform="translate(-10.872 -10.735)"><g transform="matrix(0.719, -0.695, 0.695, 0.719, 5.868, 18.068)"><line class="a" y2="17.746" transform="translate(8.725 0)"></line><line class="a" y2="17.748" transform="translate(17.748 9.395) rotate(90)"></line></g></g></svg></span>
+		<figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20110%20110'%3E%3C/svg%3E" data-src="https://chekin.com/onboarding/wp-content/uploads/2022/05/welcome-icon@2x.png" class="welcome-icon lazy" width="110" height="110" alt="" ></figure>
+		<h2 class="title">Benvenuto!</h2>
+		<p>La prima cosa da fare è creare un account Chekin (è facile e veloce):</p>
+		<p><a href="#" class="button">Cominciamo!</a></p>
+		<p class="have_acc  pt-0 mb-0">Hai già un account?  <a class="have_acc_link" href="https://chekin.com/onboarding/it/login/">Login</a></p>
+	</div>
+</div>
+<div class="popup popup-welcome  popup-2fa" id="popup-2fa">
+	<div class="popup-inner"> 
+		<span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="15.562" height="15.364" viewBox="0 0 15.562 15.364"><defs></defs><g transform="translate(-10.872 -10.735)"><g transform="matrix(0.719, -0.695, 0.695, 0.719, 5.868, 18.068)"><line class="a" y2="17.746" transform="translate(8.725 0)"></line><line class="a" y2="17.748" transform="translate(17.748 9.395) rotate(90)"></line></g></g></svg></span>
+		 
+		<h2>Two-step authentication</h2>
+		<p>To continue please enter 6-digit verification code sent to your account email.</p>
+		
+		<input type="hidden" value="" name="otp_token" >
+		<input type="hidden" value="" name="otp_type" >
+		<input type="hidden" value="" name="otp_code" >
+		<div class="otp-input-fields">
+			<input type="number" class="otp__digit otp__field__1">
+			<input type="number" class="otp__digit otp__field__2">
+			<input type="number" class="otp__digit otp__field__3">
+			<input type="number" class="otp__digit otp__field__4">
+			<input type="number" class="otp__digit otp__field__5">
+			<input type="number" class="otp__digit otp__field__6">
+		</div>
+		<p class="has-text-center">Didn't recieve the code? <a href="#" class="resend-code-link">Resend code</a></p>
+		<p><a href="#" class="button btn-2fa-auth">Continue</a></p>
+		<p class="error-msg erf-error has-text-center"></p>
+		<p class="have_acc  pt-0 mb-0">Can't access to your account?  <a class="have_acc_link" href="mailto:support@chekin.com">Contact Support</a></p>
+		<div class="process"><span class="erf-loader"></span> Logging in</div>
+		
+	</div>
+</div>
+	
+
+<div class="popup popup-contact" id="popup-contact">
+      <div class="popup-inner">
+        <span class="close"><img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://chekin.com/wp-content/uploads/2021/06/close.svg" alt=""/></span>
+         <img class="popup-logo lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://f.hubspotusercontent10.net/hubfs/8776616/Logo%20nuevo%20azul-1.png" alt="Welcome to chekin. We will contact you ASAP.">
+		 
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+                region: "na1",
+                portalId: "8776616",
+                formId: "838eeb8d-6509-41c8-93a3-188ef922016b"        });
+        </script>
+
+      </div>
+  </div>
+  
+		<script>
+			function camelize(str) {
+			   // Split the string at all space characters
+			   return str.split('_')
+				  // get rid of any extra spaces using trim
+				  .map(a => a.trim())
+				  // Convert first char to upper case for each word
+				  .map(a => a[0].toUpperCase() + a.substring(1))
+				  // Join all the strings back together
+				  .join(" ")
+			}
+			erf_global.js_strings.next="Continuare";
+			erf_global.js_strings.prev="Indietro";
+			jQuery('.custom-password').attr('type', 'password');
+			
+			let url = new URL(window.location.href);
+			let code = url.searchParams.get("code");
+			
+			let state = url.searchParams.get("state");
+			let are_tokens_refetched = false;
+			
+			var collaborator_token = url.searchParams.get("collaborator_token");
+			var collaborator_email = url.searchParams.get("email");
+			var manager_subscription_type = url.searchParams.get("manager_subscription_type");
+			//console.log(collaborator_email);
+			
+			jQuery(document).ready(function(){
+				if(collaborator_token){
+							
+					jQuery('.customSyncForm').append('<input type="hidden" data-testid="input" name="collaborator_token"  placeholder="Collaborator token" class="form-control is-valid" value="'+collaborator_token+'">');
+					
+					if(collaborator_email){
+						jQuery('[name="text-gE8dLd"]').val(collaborator_email).trigger('change').addClass('erf-disabled');
+					}
+					if(manager_subscription_type != ''){
+						jQuery('.your-pms, [name="pmsSelected"]').val('Chekin').trigger('change');
+						jQuery('.your-property-type').val(manager_subscription_type).trigger('change')
+					}
+					
+				}
+				if(state){
+					jQuery('.erf-container').fadeIn();
+					//console.log(state);
+					let stateResult = state.split(",");
+					
+					
+					if(stateResult[2] != undefined && stateResult[2] == '1'){
+						jQuery('[name="are_tokens_refetched"]').val(stateResult[2]);
+						are_tokens_refetched = true;
+						console.log(stateResult[2]);
+						
+						
+					}
+					 
+					if(are_tokens_refetched){
+						
+						if(stateResult[1] != undefined){
+							jQuery('[name="text-gE8dLd"]').val(stateResult[0].replace(' ', '+'));
+							console.log(stateResult[0]);
+						}
+						if(code){
+							jQuery('.customSyncForm').append('<input type="hidden" data-testid="input" name="oauth_code"  placeholder="code" class="form-control is-valid" value="'+code+'">');
+						}  
+						
+						if(stateResult[3] != undefined && stateResult[3] != ''){
+							let currentPMS = stateResult[3];
+							console.log(camelize(currentPMS));
+							//jQuery('.your-pms, [name="pmsSelected"]').val('Cloudbeds').trigger('change'); // should be dynamic
+							var currentPMSVal = camelize(currentPMS);
+							if(currentPMS == 'bookingsync'){
+								currentPMSVal = 'BookingSync'
+							}
+							jQuery('.your-pms, [name="pmsSelected"]').val(currentPMSVal).trigger('change'); // should be dynamic
+						}
+						
+						
+						jQuery('body').addClass('are_tokens_refetched');
+					}else{
+						jQuery('body').removeClass('are_tokens_refetched');
+					}
+					
+				} 
+				
+				
+				if(code && are_tokens_refetched == false && collaborator_token == null){
+					console.log(url);
+					
+					// Autofill form
+					if(localStorage.getItem("formData")){
+						let getFormData = JSON.parse(localStorage.getItem("formData"));
+						for(let i=0;i<getFormData.length;i++){
+							if(jQuery("[name='"+getFormData[i]['name']+"']").attr('type') == 'radio'){
+								jQuery("[name='"+getFormData[i]['name']+"']").each(function(){
+									if(jQuery(this).val() == getFormData[i]['value']){
+										jQuery(this).prop('checked', 'true').trigger('change');
+									}
+								});
+							}else{
+								jQuery("[name='"+getFormData[i]['name']+"']").val(getFormData[i]['value']).trigger('change');
+							}
+							
+						}
+						jQuery("[name='field-c2xENTMAvcqpurK'], [name='field-c2xENTMAvcqpurK-intl']").val(getFormData[4]['value']).trigger('change');
+						
+						setTimeout(function(){ 
+							//jQuery('.your-room-number-input').val(localStorage.getItem("yourRoomNumber")).trigger('change');
+						}, 100);
+						
+						jQuery('.steps .status .current').html('2');
+						// Auto Submmit for steps
+						setTimeout(function(){ 
+							jQuery('.your-property-type').trigger('change');
+							//jQuery('.erf-reg-form-container .erf-form').submit();
+							jQuery('.erf-container').fadeIn();
+							// Make One step registration
+							//jQuery('.erf-form-nav[current-page-index="1"] button[type="submit"]').trigger('click');
+							jQuery('.erf-submit-button button[type="submit"], .erf-form-nav[current-page-index="0"] button[type="submit"], .sync-custom-btn').trigger('click');
+							jQuery('.customSyncForm').append('<input type="hidden" data-testid="input" name="oauth_code"  placeholder="code" class="form-control is-valid" value="'+code+'">');
+							jQuery('.customSyncForm').append('<input type="hidden" data-testid="input" name="header_referer"  placeholder="code" class="form-control is-valid" value="'+window.location.href+'">');
+							isOauth=1;
+							jQuery('.btn-oauth').trigger('click');
+							
+							
+							jQuery('.steps li').eq(0).removeClass('current');
+							jQuery('.steps li').eq(0).addClass('active');
+							jQuery('.steps li').eq(1).removeClass('current');
+							jQuery('.steps li').eq(1).addClass('active');
+							
+							jQuery('.sec-contents-sm').removeClass('active');
+							
+						}, 800);
+					}
+				}
+				// Autofill form on session START
+
+				// Detect referrer if language
+				var isReferrer = 1;
+				var referrer = document.referrer;
+				console.log('Referrer: ' + referrer);
+				
+				if(referrer.indexOf(site_url) != -1){
+					//alert(site_url + " found");
+					isReferrer = 0;
+				}else{
+					//alert(site_url + "not found");
+					isReferrer = 1; 
+				}
+
+
+				 if(code == null && sessionStorage.getItem("formData") && are_tokens_refetched == false && collaborator_token == null && isReferrer == 0){
+						let getFormData = JSON.parse(sessionStorage.getItem("formData"));
+						for(let i=0;i<getFormData.length;i++){
+							if(jQuery("[name='"+getFormData[i]['name']+"']").attr('type') == 'radio'){
+								jQuery("[name='"+getFormData[i]['name']+"']").each(function(){
+									if(jQuery(this).val() == getFormData[i]['value']){
+										jQuery(this).prop('checked', 'true').trigger('change');
+									}
+								});
+							}else{
+								jQuery("[name='"+getFormData[i]['name']+"']").val(getFormData[i]['value']).trigger('change');
+							}
+							
+						}
+						jQuery("[name='field-c2xENTMAvcqpurK'], [name='field-c2xENTMAvcqpurK-intl']").val(getFormData[4]['value']).trigger('change');
+						
+						setTimeout(function(){ 
+							jQuery('.your-room-number-input').val(sessionStorage.getItem("yourRoomNumber")).trigger('change');
+						}, 100);
+						
+						jQuery('.steps .status .current').html('2');
+						// Auto Submmit for steps
+						// Switch OFF Submit	
+						/*setTimeout(function(){ 
+							jQuery('.your-pms').trigger('change');
+							//jQuery('.erf-reg-form-container .erf-form').submit();
+							jQuery('.erf-container').fadeIn();
+							
+							// Make One step registration
+							//jQuery('.erf-form-nav[current-page-index="1"] button[type="submit"]').trigger('click');
+							jQuery('.erf-submit-button button[type="submit"], .erf-form-nav[current-page-index="0"] button[type="submit"]').trigger('click');
+							//jQuery('.form-custom  .is-oauth').append('<input type="hidden" data-testid="input" name="oauth_code"  placeholder="code" class="form-control is-valid" value="'+code+'">');
+							//jQuery('.form-custom  .is-oauth').append('<input type="hidden" data-testid="input" name="header_referer"  placeholder="code" class="form-control is-valid" value="'+window.location.href+'">');
+						//	isOauth=1;
+							jQuery('.btn-oauth').trigger('click');
+							
+							jQuery('.steps li').eq(0).removeClass('current');
+							jQuery('.steps li').eq(0).addClass('active');
+							jQuery('.steps li').eq(1).addClass('current');
+							jQuery('.steps li').eq(1).removeClass('active'); 
+							
+							jQuery('.sec-contents-sm').removeClass('active');
+							
+						}, 800);*/
+						setTimeout(function(){ 
+							jQuery('.erf-reg-form-container input[type="text"], .erf-reg-form-container input[type="email"], .erf-reg-form-container input[type="number"], .erf-reg-form-container input[type="tel"],  .erf-reg-form-container select, .erf-reg-form-container textarea').trigger('change');
+							jQuery('.erf-reg-form-container .radio input[type="radio"]').trigger('blur');
+						}, 800);
+					}else{
+						console.log('Autofill not needed!');
+						localStorage.clear();
+						sessionStorage.clear()
+						
+					}
+				// Autofill form on session END
+			});
+			
+			jQuery(window).on('load', function(){
+				if( $('#field-HVpYpoXbPAgBsST').length && sessionStorage.getItem('integration') ){
+					$('#field-HVpYpoXbPAgBsST').val( sessionStorage.getItem('integration') )
+    				$('#field-HVpYpoXbPAgBsST').trigger( 'change' )	
+				}
+			})
+		</script>
+	
+
+		
+	
+ 
+            
+	<script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script><script async src="https://chekin.com/onboarding/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 28/177 objects using Disk
+Page Caching using Disk: Enhanced 
+Lazy Loading
+
+Served from: chekin.com @ 2023-11-10 17:21:31 by W3 Total Cache
+-->

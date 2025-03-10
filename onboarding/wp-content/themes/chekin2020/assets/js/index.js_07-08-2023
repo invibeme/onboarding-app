@@ -1,0 +1,2459 @@
+var currentTab = 0; // Current tab is set to be the first tab (0)
+if(document.getElementsByClassName("tab").length){
+	showTab(currentTab); // Display the current tab
+}
+function showTab(n) {
+  // This function will display the specified tab of the form...
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  //... and fix the Previous/Next buttons:
+  if (n == 0) {
+   // document.getElementById("prevBtn").style.display = "none";
+  } else {
+  //  document.getElementById("prevBtn").style.display = "inline";
+  }
+  if (n == (x.length - 1)) {
+  //  document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+   // document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  //... and run a function that will display the correct step indicator:
+  fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+  // This function will figure out which tab to display
+  var x = document.getElementsByClassName("tab");
+  // Exit the function if any field in the current tab is invalid:
+  if (n == 1 && !validateForm()) return false;
+  // Hide the current tab:
+  x[currentTab].style.display = "none";
+  // Increase or decrease the current tab by 1:
+  currentTab = currentTab + n;
+  // if you have reached the end of the form...
+  if (currentTab >= x.length) {
+    // ... the form gets submitted:
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  // Otherwise, display the correct tab:
+  showTab(currentTab);
+  jQuery('.has-slides').slick("refresh");
+  if(jQuery('.step.active').find('.btn-back').length){
+	  jQuery('.header-btn-back').addClass('active');
+  }else{
+	  jQuery('.header-btn-back').removeClass('active');
+  }
+}
+
+function validateForm() {
+  // This function deals with validation of the form fields
+  var x, y, i, valid = true;
+ /* x = document.getElementsByClassName("tab");
+  y = x[currentTab].getElementsByTagName("input");
+  // A loop that checks every input field in the current tab:
+  for (i = 0; i < y.length; i++) {
+    // If a field is empty...
+    if (y[i].value == "") {
+      // add an "invalid" class to the field:
+      y[i].className += " invalid";
+      // and set the current valid status to false
+      valid = false;
+    }
+  }
+  // If the valid status is true, mark the step as finished and valid:
+  if (valid) {
+    document.getElementsByClassName("step")[currentTab].className += " finish";
+  }*/
+  return valid; // return the valid status 
+}
+
+function fixStepIndicator(n) {
+  // This function removes the "active" class of all steps...
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  //... and adds the "active" class on the current step:
+  x[n].className += " active";
+}
+ 
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+let curr_url = new URL(window.location.href);
+var utm_source = curr_url.search; //url.searchParams.get("utm_source");
+//console.log(utm_source);
+
+var urlPMS = curr_url.searchParams.get("pms");
+console.log(urlPMS);
+
+function changeUrl(title, url) { 
+	var url = register_page_url+url;
+	if(utm_source != ''){
+		url +=utm_source;
+	}
+	
+ 
+    
+	if (typeof(history.pushState) != "undefined") {  
+        var obj = { Title: title, Url: url };  
+        history.pushState(obj, obj.Title, obj.Url); 
+    } else {  
+        console.log("Browser does not support HTML5.");  
+    } 
+	
+	// Set the path to '/' and track the page
+	// reference : https://legacydocs.hubspot.com/docs/methods/tracking_code_api/set_page_path
+	var path = url.replace(window.location.origin, "");
+	
+	var _hsq = window._hsq = window._hsq || [];
+	_hsq.push(['setPath', path]);
+	_hsq.push(['trackPageView']);
+	
+	//hotjar event
+	hj('stateChange', path);
+	//console.log('Path: '+path);
+	
+} 
+
+window.onpopstate = function(e) {
+   //console.log(e);
+   console.log(e.state.Url);
+   var pageIndex = jQuery('.erf-form-nav').attr('current-page-index');
+   console.log(pageIndex);
+   
+   jQuery('.header-btn-back').trigger('click');
+   jQuery('.your-pms').trigger('change');
+  // jQuery('.erf-container .erf-form .erf-form-nav .erf-submit-button.erf-nav-prev').trigger('click');
+  // jQuery('.erf-form-nav [type="submit"]').trigger('click');
+  
+   
+};
+ 
+ 
+ 
+ 
+//var dashboard_URL = 'https://dashboard-ng.chekintest.xyz/?user=';
+var dashboard_URL = 'https://dashboard.chekin.com/?user=';
+isOauth = 0;
+
+jQuery(document).ready(function(){
+	
+	var TITLE = document.title;
+	jQuery('.erf-form').prepend('<input type="hidden" name="lang" value="'+jQuery('html').attr('lang')+'" >');
+	
+	function urlPMS_UpdateField(){
+		//jQuery('.your-property-type').val('HOU').trigger('change');
+		//jQuery('.your-room-number-input').val('12').trigger('change');
+		jQuery('.your-pms').val(urlPMS).trigger('change');
+		jQuery('.your-pms').closest('.form-group').addClass('form-group-your-pms');
+	}
+	if(urlPMS){
+		jQuery('body').addClass('has-urlpms urlpms-'+urlPMS.toLowerCase());
+		jQuery('.erf-form').prepend('<input type="hidden" name="urlpms" value="'+urlPMS+'">');
+		//jQuery('.your-property-type, .your-room-number-input').closest('.form-group').hide();
+		//jQuery('.has-urlpms .erf-page.erf-page-0>.form-group.erf-text, .has-urlpms .erf-page.erf-page-0>.form-group.erf-tel').remove();
+		jQuery('#popup-welcome').addClass('active');
+		urlPMS_UpdateField();
+	}
+	
+	jQuery('.popup .close').on('click', function(e){
+		e.preventDefault();
+		jQuery(this).closest('.popup').removeClass('active');
+	});
+	
+	jQuery('.popup-welcome .button').on('click', function(e){
+		e.preventDefault();
+		jQuery('#popup-welcome').removeClass('active');
+		jQuery('.erf-reg-form-container [type="email"]').focus()
+	});
+	
+	setTimeout(function(){ 
+		
+		
+		if(jQuery('.erf-form .erf-password .pass-eye').length == 0){
+			jQuery('.erf-form .erf-password').append('<a href="javascript:void(0)" class="pass-eye">Show Password</a>');
+		}
+		if(jQuery('#erf_password').next('.pass-eye').length == 0){
+			jQuery('#erf_password').after('<a href="javascript:void(0)" class="pass-eye">Show Password</a>');
+		}
+		
+		jQuery('#erf_password').closest('.form-group').addClass('erf-password ');
+		jQuery('body').on('click', '.erf-form .pass-eye', function(){
+			jQuery(this).toggleClass('active');
+			var inputType = jQuery(this).closest('.erf-password').find('input');
+			if(inputType.attr('type') == 'password'){
+				inputType.attr('type', 'text');
+			}else{
+				inputType.attr('type', 'password')
+			}
+		});
+		
+		if(url.searchParams.get("code")){
+			
+		}else{
+			var pathName = window.location.pathname;
+			if(pathName == '/onboarding/' || pathName == '/onboarding/es/' || pathName == '/onboarding/it/' || pathName == '/onboarding/ca/' || pathName == '/onboarding/en/' || pathName == '/onboarding/pt/'){
+				changeUrl(TITLE, 'register-form/');
+				
+			}
+			jQuery('.erf-container').fadeIn();
+			jQuery('[name="lang"]').val(jQuery('html').attr('lang'));
+			
+			jQuery('.steps li').eq(0).addClass('current');
+			jQuery('.steps li').eq(0).removeClass('active');
+			jQuery('.steps li').eq(1).removeClass('current active');
+			
+			jQuery('.sec-contents-sm').addClass('active');
+			
+			// add plu minus
+			jQuery('.erf-reg-form-container input[type=number]').after('<span class="plus"></span><span class="miinus"></span>');
+			
+			if(urlPMS){
+				urlPMS_UpdateField();	
+			}
+		}
+		
+	}, 10);
+	
+	jQuery('input[name="field-c2xENTMAvcqpurK"]').on('change', function(){
+		if(jQuery(this).val().length){
+			jQuery('.intl-tel-input').addClass('is-valid');
+		}else{
+			jQuery('.intl-tel-input').removeClass('is-valid');
+		}
+	})
+	// multi field for "Short name"
+	function multiField(){
+		var counter = 0;
+		jQuery('.multi-field-wrapper, .customSyncForm .multi-field-wrapper').each(function() {
+			var $wrapper = jQuery('.multi-fields', this);
+			jQuery(".add-field", $(this)).click(function(e) {
+				counter++;
+				jQuery('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).find('input').val('').focus();
+			});
+			jQuery('.multi-field .remove-field', $wrapper).click(function() {
+				if (jQuery('.multi-field', $wrapper).length > 1)
+					jQuery(this).parent('.multi-field').remove();
+					counter--;
+			});
+		});
+	}
+	multiField();
+	
+	
+	// FormData
+	jQuery('.erf-reg-form-container .erf-form, .erf-reg-form-container .erf-form .form-control').on('change', function(){
+		var fromData = jQuery(".erf-reg-form-container .erf-form.erf-front-form").serializeArray();
+		localStorage.setItem("formData",JSON.stringify(fromData));
+		sessionStorage.setItem("formData",JSON.stringify(fromData));
+		localStorage.removeItem('token');
+		sessionStorage.removeItem('token');
+	});
+	
+	jQuery('.your-room-number-input').on('keyup', function(){
+		var yourRoomNumber = jQuery('.your-room-number-input').val();
+		localStorage.setItem("yourRoomNumber",yourRoomNumber);
+		sessionStorage.setItem("yourRoomNumber",yourRoomNumber); 
+	}); 
+	
+	// Hubspot autofill START
+	jQuery(".erf-reg-form-container input.name").on('keyup change',function(e){
+		jQuery('.hbspt-form input[name="firstname"]').val(jQuery(this).val()).trigger('change');
+	});
+	jQuery(".erf-reg-form-container input[name='text-gE8dLd']").on('keyup change',function(e){
+		jQuery('.hbspt-form input[name="email"]').val(jQuery(this).val()).trigger('change');
+	});
+	jQuery(".erf-reg-form-container input[name='text-1hJwzr']").on('keyup change',function(e){
+		//jQuery('.hbspt-form input[name="contrasena_onboarding"]').val(jQuery(this).val()).trigger('change');
+	});
+	jQuery(".erf-reg-form-container input.phone").on('keyup change',function(e){
+		jQuery('.hbspt-form input[name="phone"]').val(jQuery('.intl-tel-input.separate-dial-code .selected-dial-code').text()+jQuery(this).val()).trigger('change');
+	});
+	jQuery(".erf-reg-form-container .your-reference").on('change',function(e){
+		jQuery('.hbspt-form [name="como_nos_conociste_"]').val(jQuery(this).val()).trigger('change');
+	});
+	
+	jQuery('.erf-reg-form-container .radio input[type="radio"]').on('change',function(e){
+		var val = jQuery('.radio input[type="radio"]:checked').val()
+		jQuery('.hbspt-form input[name="using_pms"]').prop('checked', false);
+		
+		if(val == 'yes'){
+			jQuery('.hbspt-form input[name="using_pms"][value="Yes"]').prop('checked', true);
+		}else{
+			jQuery('.hbspt-form input[name="using_pms"][value="No"]').prop('checked', true);
+			//jQuery('.hbspt-form [name="integracion_pms"][value=""]').prop('checked', true);
+			jQuery('[name="pms_actualizado"]').val('')
+		}
+		
+	});
+	
+	jQuery(".erf-reg-form-container .your-pms").on('change',function(e){
+		var val = jQuery('.erf-reg-form-container .your-pms').val()
+		//jQuery('.hbspt-form [name="integracion_pms"]').prop('checked', false);
+		jQuery('[name="pms_actualizado"]').val(val);
+		
+		/*if(jQuery('.hbspt-form [name="integracion_pms"][value="'+val+'"]').length){
+			jQuery('.hbspt-form [name="integracion_pms"][value="'+val+'"]').prop('checked', true);
+		}else{
+			jQuery('.hbspt-form [name="integracion_pms"][value=""]').prop('checked', true);
+		}*/
+	});
+	
+	jQuery(".erf-reg-form-container .your-property-type").on('change',function(e){
+		
+		var hbVal = 'Other';
+		var val = jQuery(this).val();
+		if(val == 'HOU'){
+			hbVal = 'VACATION RENTAL';	
+		}else if(val == 'HOT'){
+			hbVal = 'HOTEL/CAMPING';	
+		}
+		
+		jQuery('.hbspt-form [name="property_type"]').val(hbVal).trigger('change');
+		/*
+		jQuery('.hbspt-form [name="property_type"] option').attr('selected','');
+		jQuery('.hbspt-form [name="property_type"] option[value=Other]').attr('selected','selected');*/
+		
+	});
+	 jQuery(".erf-reg-form-container .your-room-number-input").on('keyup change',function(e){
+		jQuery('.hbspt-form input[name="number_of_units"]').val(jQuery(this).val()).trigger('change');
+	});
+	
+	//jQuery('.hbspt-form input[type="submit"]').trigger('click');
+	// Hubspot autofill END
+ 
+	
+	jQuery('#your-pms').on('change', function(){
+		var yourPms = jQuery(this).val();
+		if(yourPms == "Other PMS"){
+			jQuery('#other-pms').removeClass('d-none');
+		}else{
+			jQuery('#other-pms').addClass('d-none');
+		}
+	});
+	
+	jQuery('.has-slides').slick({
+	  infinite: false,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  nextArrow: '#get-api-next',
+	  prevArrow: '#get-api-prev',
+	});
+	jQuery('.has-slides').on('init', function(event, slick, currentSlide, nextSlide){
+	  console.log('has-slides init');
+	  jQuery('.slide-nav .counter .current-slide-count').html(nextSlide+1);
+	  jQuery('.slide-nav .counter .total-slide-count').html(slick.slideCount);
+	});
+	jQuery('.has-slides').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+	  //console.log(slick.slideCount);
+	  jQuery('.slide-nav .counter .current-slide-count').html(nextSlide+1);
+	  jQuery('.slide-nav .counter .total-slide-count').html(slick.slideCount);
+	}); 
+	
+	jQuery('.get-api-focus').on('click', function(e){
+		//e.preventDefault();
+		jQuery('.get-api').addClass('active');
+		jQuery('body').addClass('get-api-active');
+	});
+	
+	jQuery('.get-api .get-api-close').on('click', function(e){
+		e.preventDefault();
+		jQuery('.get-api').removeClass('active');
+		jQuery('body').removeClass('get-api-active');
+	});
+	
+	/*jQuery('.header-btn-back').on('click', function(){
+		jQuery('.step.active').find('.btn-back').trigger('click');
+	});*/
+	jQuery('body').on('click', '.go-to-pms-selection', function(e){
+		e.preventDefault(0);
+		jQuery(this).closest('form').find('.erf-nav-prev').trigger('click');
+		jQuery('.your-pms').select2('open');
+	})
+
+	jQuery('input.your-other-pms').closest('.form-group').addClass('screen-reader-text form-group-other-pms');
+	
+	jQuery('.pms-switch').on('change', function(){
+		var switchVal = jQuery(this).val();
+		console.log(switchVal); 
+	    if(switchVal == 'yes'){
+			jQuery('.your-pms').closest('.form-group').addClass('show');
+			jQuery('.your-pms, [name="pmsSelected"]').val('').trigger('change');
+		}else{
+			jQuery('.your-pms, [name="pmsSelected"]').val('Chekin').trigger('change');
+			jQuery('.your-pms').closest('.form-group').removeClass('show');
+		}
+	});
+	
+	jQuery('.your-pms').closest('.form-group').addClass('your-pms-group');
+	if(jQuery('.pms-switch:checked').val() == 'yes'){
+		jQuery('.your-pms').closest('.form-group').addClass('show');
+	}
+	
+	var yourPMS_selected = jQuery('.your-pms').val();
+	jQuery('.your-pms').on('change', function(){
+		yourPMS_selected = jQuery(this).val();
+		jQuery('input[name="pmsSelected"]').val(yourPMS_selected);
+		//jQuery('#current-pms').html(yourPMS_selected);
+		
+		//
+		if(yourPMS_selected == "Others PMS"){
+			jQuery('input.your-other-pms').closest('.form-group').removeClass('screen-reader-text');
+		}else{
+			jQuery('input.your-other-pms').closest('.form-group').addClass('screen-reader-text');
+		}
+		
+		if(yourPMS_selected == 'Apaleo' || yourPMS_selected == 'Booking' || yourPMS_selected == 'Booking_2' || yourPMS_selected == 'BookingSync' || yourPMS_selected == 'Cloudbeds' || yourPMS_selected == 'TESTING' || yourPMS_selected == 'Myvr' || yourPMS_selected == 'Octorate' || yourPMS_selected == 'Ownerrez' || yourPMS_selected == 'Smoobu' || yourPMS_selected == 'Planyo'){
+			jQuery('body').addClass('is-oauth-pms');
+		}else{
+			jQuery('body').removeClass('is-oauth-pms');
+		}
+		console.log(yourPMS_selected);
+
+	})
+	
+	var customSyncForm = chekinforms[yourPMS_selected];
+	
+	if(urlPMS){
+		// New Content START
+		var pmsContent = '';
+		if(customSyncForm.contentTitle && customSyncForm.contentVideo){
+			pmsContent += '<h2>'+customSyncForm.contentTitle+'</h2>'; 
+		}
+		if(customSyncForm.contentVideo){
+			//pmsContent += '<video width="320" height="240" controls> <source src="'+customSyncForm.contentVideo+'" type="video/mp4"> </video>'; 
+			pmsContent += '<div class="video">'+customSyncForm.contentVideo+'</div>';
+		}
+		if(customSyncForm.logo){
+			jQuery('.erf-container').prepend('<h2 class="has-text-align-center current-urlpms-cont"><img src="'+customSyncForm.logo+'" class="pms-logo" alt="" > <span class="d-inline-block sync_texttop">Create account in Chekin</span></h2>');
+			pmsContent += '<img src="'+customSyncForm.logo+'" class="pms-logo" alt="" >';  
+		}
+		if(customSyncForm.content){
+			pmsContent += customSyncForm.content; 
+		}
+		if(pmsContent){
+			jQuery('.pms-content').remove();
+			jQuery('.sec-contents .contents .wp-block-group__inner-container').prepend('<div class="pms-content">'+pmsContent+'</div>');
+		}else{
+			jQuery('.pms-content').remove();
+		}
+		
+		// New Content END
+	}
+	
+	// Property type
+	var yourPropertyType_selected = "HOT";
+	jQuery('body').addClass('has-hot');
+	jQuery('.your-property-type').on('change', function(){
+		yourPropertyType_selected = jQuery(this).val();
+		if(yourPropertyType_selected.toLowerCase() == 'hot'){
+			jQuery('body').addClass('has-hot');
+			jQuery('body').removeClass('has-hou');
+			jQuery('.your-room-number-input').prev('label').html(roomNumberSelectedText)
+		}else{
+			jQuery('body').removeClass('has-hot');
+			jQuery('body').addClass('has-hou');
+			jQuery('.your-room-number-input').prev('label').html(propertiesNumberSelectedText)
+		}
+		jQuery('.your-room-number').select2("destroy").val('').removeClass('is-valid').select2({
+				searchInputPlaceholder: searchText,
+				dropdownCssClass: "dropdown-search-no",
+				dropdownPosition: 'below'
+			});
+		console.log(yourPropertyType_selected);
+		
+	})
+	var roomNumber_Selected = jQuery('.your-room-number-input').val();
+	jQuery('.your-room-number-input').on('change', function(){	
+		roomNumber_Selected = jQuery(this).val();
+		jQuery('input[name="roomNumberSelected"]').val(roomNumber_Selected);
+	});
+	// Phone number search
+	jQuery('body').on('click', '.intl-tel-input.allow-dropdown.separate-dial-code', function(){
+		jQuery('.erf-form .countrySearch').remove();
+		//jQuery('.intl-tel-input.allow-dropdown.separate-dial-code').before('<span class="countrySearch"><input id="countryCodeSearch" type="text" class="form-control" placeholder="Search code"></span>');
+		//jQuery('#country-listbox').prepend('<li class="countrySearch"><input id="countryCodeSearch" type="text" class="form-control" placeholder="Search code"></li>');
+	}); 
+	jQuery('#country-listbox li.countrySearch').on('click', function(e){
+       // e.preventDefault();
+		//e.stopPropagation();
+	});
+	
+	jQuery("body").on("keyup", '#countryCodeSearch', function(e) {
+		//e.stopPropagation();
+		var value = jQuery(this).val().toLowerCase();
+		jQuery("#country-listbox > li").filter(function() {
+			jQuery(this).toggle(jQuery(this).text().toLowerCase().indexOf(value) > -1)
+		});
+	});
+	
+	// Input plus / minus START
+	jQuery('body').on('click', '.erf-reg-form-container .erf-number .plus', function(){
+
+	  var input = jQuery(this).closest('div').find('input'),
+		inputValue = Number(input.val()) + 1
+
+	  input.val( inputValue )
+	  input.trigger('change').focus();
+	})
+	// Plus press and hold
+	var increaseVal;
+	jQuery('body').on('mousedown', '.erf-reg-form-container .erf-number .plus', function(){
+		var input = jQuery(this).closest('div').find('input');
+		
+		increaseVal = setInterval(function(){
+			
+			inputValue = Number(input.val()) + 1;
+
+			input.val( inputValue ).focus();
+			//input.trigger('change');
+			// console.log('Value: ' + inputValue);
+			
+		}, 300);
+	})
+
+	jQuery('body').on('mouseup', '.erf-reg-form-container .erf-number .plus', function(){
+		var input = jQuery(this).closest('div').find('input');
+		input.trigger('change').focus();
+	   clearInterval(increaseVal);
+	})
+
+	jQuery('body').on('click', '.erf-reg-form-container .erf-number .miinus', function(){
+
+	  var input = $(this).closest('div').find('input'),
+		min = input.attr('min'),
+		inputValue = isNaN(input.val()) || ( Number(input.val()) <= min ) ? min : Number(input.val()) - 1
+
+	 input.val( inputValue ) ;
+	  input.trigger('change').focus();
+	})
+	
+	// Minus press and hold
+	var decreaseVal;
+	jQuery('body').on('mousedown', '.erf-reg-form-container .erf-number .miinus', function(){
+		var input = $(this).closest('div').find('input');
+		min = input.attr('min');
+		
+		decreaseVal = setInterval(function(){
+			inputValue = isNaN(input.val()) || ( Number(input.val()) <= min ) ? min : Number(input.val()) - 1
+
+			input.val( inputValue ) 
+			//input.trigger('change')
+			// console.log('Value: ' + inputValue);
+			
+		}, 300);
+	})
+	jQuery('body').on('mouseup', '.erf-reg-form-container .erf-number .miinus', function(){
+		var input = $(this).closest('div').find('input');
+		input.trigger('change');
+	   clearInterval(decreaseVal);
+	})
+	// Input plus / minus END
+	
+	
+	jQuery('body').on('mouseup', '.erf-container .erf-form .erf-form-nav[current-page-index="1"] .erf-submit-button.erf-nav-prev', function(){
+		changeUrl('TITLE', 'register-form/');
+		jQuery('.header-btn-back').removeClass('active');
+		jQuery('.steps .status .current').html('1');
+		
+		jQuery('.steps li').eq(0).addClass('current');
+		jQuery('.steps li').eq(0).removeClass('active');
+		jQuery('.steps li').eq(1).removeClass('current');
+		jQuery('.steps li').eq(1).removeClass('active');
+		
+		jQuery('.sec-contents-sm').addClass('active');
+	});
+	jQuery('body').on('mouseup', '.erf-container .erf-form .erf-form-nav[current-page-index="2"] .erf-submit-button.erf-nav-prev', function(){
+		changeUrl('Property Info', 'property-info/');
+		jQuery('.steps .status .current').html('2');
+		jQuery('.steps li').eq(0).removeClass('current');
+		jQuery('.steps li').eq(0).addClass('active');
+		jQuery('.steps li').eq(1).addClass('current');
+		jQuery('.steps li').eq(1).removeClass('active');
+		
+		jQuery('.sec-contents-sm').removeClass('active');
+		
+	});
+	// steps click START
+	jQuery('body').on('click', '.steps li.active:first-child', function(){
+		if(jQuery('.header-btn-back').is(":visible")){
+			jQuery('.header-btn-back').click();
+		}
+		setTimeout(function(){
+			if(jQuery('.header-btn-back').is(":visible")){
+				jQuery('.header-btn-back').click();
+			}
+		}, 100)
+		
+	});
+	jQuery('body').on('click', '.steps li.active:nth-child(2)', function(){
+		if(jQuery('.header-btn-back').is(":visible")){
+			jQuery('.header-btn-back').click();
+		}
+	});
+	// steps click END
+	jQuery('body').on('click', '.header-btn-back', function(e){
+		e.preventDefault(0);
+		var curentStep = jQuery('.erf-container .erf-form .erf-form-nav').attr('current-page-index')
+		jQuery('.erf-container .erf-form .erf-form-nav .erf-submit-button.erf-nav-prev').trigger('click');
+		if(curentStep == '2'){
+			changeUrl('Property Info', 'property-info/');
+			jQuery('.steps .status .current').html('2');
+			
+			jQuery('.steps li').eq(0).removeClass('current');
+			jQuery('.steps li').eq(0).addClass('active');
+			jQuery('.steps li').eq(1).addClass('current');
+			jQuery('.steps li').eq(1).removeClass('active');
+			
+			jQuery('.sec-contents-sm').removeClass('active');
+		}else if(curentStep == '1'){
+			changeUrl('TITLE', 'register-form/');
+			jQuery('.header-btn-back').removeClass('active');
+			jQuery('.steps .status .current').html('1');
+			jQuery('.steps li').eq(0).addClass('current');
+			jQuery('.steps li').eq(0).removeClass('active');
+			jQuery('.steps li').eq(1).removeClass('current');
+			jQuery('.steps li').eq(1).removeClass('active');
+			
+			jQuery('.sec-contents-sm').addClass('active');
+		}
+		jQuery('.your-pms').trigger('change');
+		console.log(curentStep);
+		
+	})
+	
+	// check PMS
+	var originPMS = yourPMS_selected;
+	var currentPmsCont = jQuery('.current-pms-cont').html();
+	var get_api_key_cont = jQuery('.get_api_key_cont .action a').html();
+	var get_api_h2 = jQuery('#get-api h2').html();
+	var textProcessing = jQuery('.text-processing').html();
+	
+	if(yourPMS_selected == "I don't use a PMS" || yourPMS_selected == "Others PMS" || yourPMS_selected == "Chekin"){
+		originPMS = 'Chekin';
+	}
+	
+	// check if invalid field
+	jQuery('body').on("click", '.erf-form-nav[current-page-index="0"] button[type="submit"], .erf-submit-button button[type="submit"]', function(e){
+		e.preventDefault();
+		localStorage.removeItem('token');
+		sessionStorage.removeItem('token');
+		
+		//alert('worked!');	
+		if(urlPMS){
+			urlPMS_UpdateField();
+			//setTimeout(function(){ jQuery('.erf-form-nav[current-page-index="1"] button[type="submit"]').trigger('click');}, 100);
+			
+		}
+		
+		// collaborator_token
+		console.log(collaborator_token);
+		if(collaborator_token){
+			createAcountAPI();
+			jQuery('body').addClass('are_tokens_refetched');
+		}else{
+			jQuery('body').removeClass('are_tokens_refetched');
+			var regName = jQuery('input.name').val();
+			var regEmail = jQuery('[name="text-gE8dLd"]').val();
+			var RegPass = jQuery('[name="text-1hJwzr"]').val();
+			var regError = '';
+			
+			if(regName.length == 0 ){
+				regError = 'Name requred';
+			}else if(regEmail.length == 0 ){
+				regError = 'Email requred';
+			}else if(RegPass.length == 0){
+				regError = 'Pass requred';
+			}
+			console.log(regError);
+			
+			
+			jQuery(this).closest('form').submit();
+			
+			if(jQuery('.parsley-error').length < 1 && collaborator_token == null){	
+				if(regError.length == 0){
+					jQuery('.header-btn-back').addClass('active');
+					
+					
+					//jQuery('.hbspt-form input[type="submit"]').trigger('click');
+					changeUrl('Property Info', 'property-info/');
+					jQuery('.steps .status .current').html('2');
+					
+					jQuery('.steps li').eq(0).removeClass('current');
+					jQuery('.steps li').eq(0).addClass('active');
+					jQuery('.steps li').eq(1).addClass('current');
+					jQuery('.steps li').eq(1).removeClass('active');
+					
+					jQuery('.sec-contents-sm').removeClass('active');
+					
+					//if(localStorage.getItem("UserData") != '1'){
+						mixpanel.track('Onboarding - UserData', {
+						  'utm_source': utm_source,
+						  'email': jQuery('input[name="text-gE8dLd"]').val(),
+						  'name': jQuery('input[name="text-VdkIuH"]').val(),
+						  'phone_number': jQuery('input[name="field-c2xENTMAvcqpurK"]').val(),
+						  'country_ip': country_ip,
+						});
+						console.log('Onboarding - UserData');
+						//localStorage.setItem("UserData", '1');
+					//}
+					mixpanel.identify(jQuery('input[name="text-gE8dLd"]').val());
+					mixpanel.people.set({ "$name": jQuery('input[name="text-VdkIuH"]').val(), "$email": jQuery('input[name="text-gE8dLd"]').val() });
+				}
+			}
+			console.log('Validation chek');
+	
+	
+	//jQuery('body').on("click", '.erf-form-nav[current-page-index="1"] button[type="submit"]', function(e){
+		jQuery('.header-btn-back').addClass('active');
+		if(yourPMS_selected == "I don't use a PMS" || yourPMS_selected == "Others PMS" || yourPMS_selected == "Chekin" || yourPMS_selected == 'Beds24' || yourPMS_selected == 'Booking Automation' || yourPMS_selected == 'dataHotel'  || yourPMS_selected ==  'Planyo'){
+			changeUrl('Before Start', 'before-start/');
+			jQuery('.steps li').eq(0).removeClass('current');
+			jQuery('.steps li').eq(0).addClass('active');
+			jQuery('.steps li').eq(1).removeClass('current');
+			jQuery('.steps li').eq(1).addClass('active');
+			
+			jQuery('.sec-contents-sm').removeClass('active');
+		}else{
+			//changeUrl('PMS Type', 'pms-type/');
+			changeUrl(TITLE, 'register-form/');
+			jQuery('.steps li').eq(0).removeClass('current');
+			jQuery('.steps li').eq(0).addClass('active');
+			jQuery('.steps li').eq(1).addClass('current');
+			jQuery('.steps li').eq(1).removeClass('active');
+			
+			jQuery('.sec-contents-sm').removeClass('active');
+		}
+		if(jQuery('.parsley-error').length < 1){
+			//if(localStorage.getItem("HousingsData") != '1'){ 
+				mixpanel.track('Onboarding - HousingsData', {
+				  'utm_source': utm_source,
+				  'email': jQuery('input[name="text-gE8dLd"]').val(),
+				  'name': jQuery('input[name="text-VdkIuH"]').val(),
+				  'phone_number': jQuery('input[name="field-c2xENTMAvcqpurK"]').val(),
+				  'country_ip': country_ip,
+				  'type_of_properties': jQuery('select[name="field-aD7ucdKDH7uqiq3"]').val(),
+				  'range_of_number_of_properties': jQuery('select[name="field-UQwb7oDM9q4lihb"]').val(),
+				  'origin': originPMS,
+				});
+				console.log('Onboarding - HousingsData')
+				//localStorage.setItem("HousingsData", '1');
+			//}
+			mixpanel.identify(jQuery('input[name="text-gE8dLd"]').val());
+			mixpanel.people.set({ "$name": jQuery('input[name="text-VdkIuH"]').val(), "$email": jQuery('input[name="text-gE8dLd"]').val() });
+		}
+		jQuery('.current-pms-cont .text-sync').removeClass('d-none');
+		jQuery('.current-pms-cont .text-create ').addClass('d-none');
+			
+		isOauth = 0;
+		let customSyncForm = chekinforms[yourPMS_selected];
+		//jQuery('.erf-page.erf-page-2 [class*="field"]').addClass('screen-reader-text').hide();
+		jQuery('.erf-page.erf-page-1 [class*="field"]').addClass('screen-reader-text').hide();
+		if( yourPMS_selected =='' || yourPMS_selected == "I don't use a PMS" || yourPMS_selected == "Others PMS"){
+			jQuery('.current-pms-cont').html('Creating your account');
+		}else{
+			
+			jQuery('.current-pms-cont').html(currentPmsCont);
+			//jQuery('#current-pms').html(yourPMS_selected);
+			jQuery('#current-pms').html(jQuery('.your-pms').find('option:selected').text());
+			//jQuery('.current-pms-cont').html('<span class="d-inline-block sync_texttop">Sync your <strong id="current-pms">'+yourPMS_selected+'</strong> account <br> <small class="action"> <a href="javascript:void(0)" class="go-to-pms-selection">Change PMS</a></small></span>');
+		}
+		// check if PMS available
+		//if((yourPMS_selected in chekinforms)){
+		if((yourPMS_selected in chekinforms)){
+			// New Content START
+			var pmsContent = '';
+			var pmsContent = '<h2>'+chekinforms.PMS_TITLE+'</h2>';
+			if(customSyncForm.contentTitle && customSyncForm.contentVideo){
+				pmsContent += '<h3>'+customSyncForm.contentTitle+'</h3>'; 
+			}
+			if(customSyncForm.contentVideo){
+				//pmsContent += '<video width="320" height="240" controls> <source src="'+customSyncForm.contentVideo+'" type="video/mp4"> </video>'; 
+				pmsContent += '<div class="video">'+customSyncForm.contentVideo+'</div>';
+			}
+			if(customSyncForm.logo){
+				jQuery('.current-pms-cont').prepend('<img src="'+customSyncForm.logo+'" class="pms-logo" alt="" ></h2>');
+				pmsContent += '<img src="'+customSyncForm.logo+'" class="pms-logo" alt="" >';  
+			}
+			if(customSyncForm.content){
+				pmsContent += customSyncForm.content; 
+			}
+			if(pmsContent){
+				jQuery('.pms-content').remove();
+				jQuery('.sec-contents .contents .wp-block-group__inner-container').prepend('<div class="pms-content"><button type="button" class="button btn-link header-btn-back active">Atrás</button>'+pmsContent+'</div>');
+			}else{
+				jQuery('.pms-content').remove();
+				jQuery('.has-cta').removeClass('active');
+			}
+			// New Content END
+		}
+		if((yourPMS_selected in chekinforms) && customSyncForm.form != undefined){
+			jQuery('#customSyncForm').html(customSyncForm.form);
+			multiField();
+			//console.log(customSyncForm.help);
+			//jQuery('#get-api').show();
+			if(customSyncForm.helpInitiator){
+				jQuery('.get_api_key_cont .action a').html(customSyncForm.helpInitiator);
+			}else{
+				jQuery('.get_api_key_cont .action a').html(get_api_key_cont);
+			}
+			if(customSyncForm.helptitle){
+				jQuery('#get-api h2').html(customSyncForm.helptitle);
+			}else{
+				jQuery('#get-api h2').html(get_api_h2);
+			}
+			if(customSyncForm.help){
+				jQuery('#get-api, .get_api_key_cont').show();
+				jQuery('.has-slides').slick("unslick");
+				jQuery('#apihelp').html('');
+				jQuery('#apihelp').html(customSyncForm.help);
+				setTimeout(function(){ 
+					jQuery('.has-slides').slick({
+					  infinite: false,
+					  slidesToShow: 1,
+					  slidesToScroll: 1,
+					  nextArrow: '#get-api-next',
+					  prevArrow: '#get-api-prev',
+					});
+					jQuery('.has-slides').slick('slickGoTo', 0);
+				}, 30);
+				
+			}else{
+				jQuery('#get-api, .get_api_key_cont').hide();
+				
+			}
+			jQuery('.current-pms-cont .action').show();
+			
+			
+		}else{
+			e.preventDefault();
+			jQuery('.curl-error').remove();
+			jQuery('#get-api, .get_api_key_cont').hide();
+			let formData = jQuery(".erf-form.erf-front-form").serializeArray();
+			
+			setTimeout(function(){ 
+				//jQuery(".erf-form.erf-front-form").submit();  
+				//jQuery(".erf-form.erf-front-form").submit();
+				
+				//signupAjaxAction(formData);	
+				createAcountAPI();
+				
+			}, 10);
+			jQuery('#customSyncForm').html('<p class="processing text-center"><span class="erf-loader ml-0 mt-0 mb-5"></span> <br> '+textProcessing+'</p>'); 
+			jQuery('.current-pms-cont .action').hide();
+			jQuery('.current-pms-cont .text-sync').addClass('d-none');
+			jQuery('.current-pms-cont .text-create ').removeClass('d-none');
+			console.log('submitted manually!');
+			
+		}
+		//console.log(customSyncForm.form);
+	//}) to make a one step Registration function
+	 	}
+	}); 
+	// use here
+	//oAuth
+	
+	function oAuth(){
+		isOauth = 0;
+		//let email_oauth= jQuery('#email-oauth').val(); // Removed email field from 3rd screen
+		let email_oauth= jQuery('input[name="text-gE8dLd"]').val();
+		//let REDIRECT_URL= 'https://onboarding.chekin.com/';
+		let REDIRECT_URL= site_url;
+		let accommodationType = yourPropertyType_selected
+		let authURL = '';
+		
+		
+		
+		
+		
+		
+		
+		
+		if(yourPMS_selected == 'Apaleo'){
+			//let APALEO_CLIENT_ID= 'VDYU-AC-1234567890QWERTY1'
+			let APALEO_CLIENT_ID='GAMF-AC-A21EF2584D004511BB8E6C06792D1A';
+			//authURL = 'https://identity.apaleo.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26scope%3Doffline_access%2520setup.read%2520reservations.read%2520accounting.read%26client_id%3D'+APALEO_CLIENT_ID+'%26redirect_uri%3D'+REDIRECT_URL+'%26state%3D'+email_oauth+','+accommodationType;
+			
+			
+			authURL = encodeURI('https://identity.apaleo.com/connect/authorize?response_type=code&scope=offline_access setup.read reservations.manage reservations.read accounting.read&client_id='+APALEO_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&state='+email_oauth+','+accommodationType);
+			
+		}else if(yourPMS_selected == 'BookingSync'){
+			//let BOOKINGSYNC_CLIENT_ID = '466b246b3efc95ac8d5334bf1bc368502043ff8378fec42d80bf2df265d93494';//'GAMF-AC-466b246b3efc95ac8d5334bf1bc368502043ff8378fec42d80bf2df265d93494';
+			let BOOKINGSYNC_CLIENT_ID='466b246b3efc95ac8d5334bf1bc368502043ff8378fec42d80bf2df265d93494'; // production
+			
+			//authURL = 'https://www.bookingsync.com/oauth/authorize?client_id='+BOOKINGSYNC_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&response_type=code&scope=bookings_read%20bookings_write_owned%20bookings_write%20clients_read%20clients_write%20rentals_read&state='+email_oauth+','+accommodationType;
+			
+			authURL = 'https://www.bookingsync.com/oauth/authorize?client_id='+BOOKINGSYNC_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&response_type=code&scope=bookings_read%20bookings_write%20clients_read%20clients_write%20rentals_read&state='+email_oauth+','+accommodationType; 
+			
+		}else if(yourPMS_selected == 'Cloudbeds'){
+			//let CLOUDBEDS_CLIENT_ID = 'chekin_test_CR7gBI2Uku1amorJSdM6FGXH';
+			let CLOUDBEDS_CLIENT_ID='chekin_nVIvagj8AG24TqpsruKy1P7F'; // production
+			
+			authURL = 'https://hotels.cloudbeds.com/api/v1.1/oauth?client_id='+CLOUDBEDS_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&response_type=code&scope=read%3Aguest+write%3Aguest+read%3Ahotel+read%3Apayment+read%3Areservation+write%3Areservation+read%3Aroom+write%3Aroom&state='+email_oauth+','+accommodationType+',0';
+		}else if(yourPMS_selected == 'TESTING'){
+			//let CLOUDBEDS_CLIENT_ID = 'chekin_test_CR7gBI2Uku1amorJSdM6FGXH';
+			let CLOUDBEDS_CLIENT_ID='chekin_nVIvagj8AG24TqpsruKy1P7F'; // production
+			
+			authURL = 'https://hotels.cloudbeds.com/api/v1.1/oauth?client_id='+CLOUDBEDS_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&response_type=code&scope=read%3Aguest+write%3Aguest+read%3Ahotel+read%3Apayment+read%3Areservation+write%3Areservation+read%3Aroom+write%3Aroom&state='+email_oauth+','+accommodationType+',0';
+		}else if(yourPMS_selected == 'Myvr'){
+			//let MYVR_CLIENT_ID = 'd135100a58e188981d001edc70610c55';
+			let MYVR_CLIENT_ID='d135100a58e188981d001edc70610c55'; // production
+			
+			authURL = 'https://developer.myvr.com/oauth/auth/?response_type=code&client_id='+MYVR_CLIENT_ID+'&scope=property_read_write,reservation_read_write&redirect_uri='+REDIRECT_URL+'&state='+email_oauth+','+accommodationType;
+		}else if(yourPMS_selected == 'Ownerrez'){
+			//let OWNERREZ_CLIENT_ID = 'c_6h5li3yi84u7gpb9kl7aoo59wlo5px8z';
+			let OWNERREZ_CLIENT_ID='c_ca8tozyniufmiqb03tqmiskjpa4l99c1'; // production
+			authURL = 'https://secure.ownerreservations.com/oauth/authorize?response_type=code&client_id='+OWNERREZ_CLIENT_ID+'&state='+email_oauth+','+accommodationType;
+		}else if(yourPMS_selected == 'Octorate'){
+			let OCTORATE_CLIENT_ID = 'c4e1158569ae46958ca835e0c326b164';
+			/*authURL = 'https://admin.octorate.com/octobook/identity/oauth.xhtml?client_id='+OCTORATE_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&state='+email_oauth+','+accommodationType;
+			*/
+			authURL = 'https://admin.octorate.com/octobook/identity/oauth.xhtml?client_id=c4e1158569ae46958ca835e0c326b164&redirect_uri=https://chekin.com/onboarding/&state=something_crypted';
+			
+		}else if(yourPMS_selected == 'Booking'){
+			//let BOOKING_CLIENT_ID = 'b3f9ec40e358aa31db5bd5102a3795a4';
+			let BOOKING_CLIENT_ID='40779cde13ca4a6ce74194cf29df1722'; // production
+			authURL = 'https://hub-api.booking.com/v1/oauth2/authorize?response_type=code&client_id='+BOOKING_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&state='+email_oauth+','+accommodationType;
+		}else if(yourPMS_selected == 'Booking_2'){
+			//let BOOKING_CLIENT_ID = 'b3f9ec40e358aa31db5bd5102a3795a4';
+			let BOOKING_CLIENT_ID='40779cde13ca4a6ce74194cf29df1722'; // production
+			authURL = 'https://hub-api.booking.com/v1/oauth2/authorize?response_type=code&client_id='+BOOKING_CLIENT_ID+'&redirect_uri='+REDIRECT_URL+'&state='+email_oauth+','+accommodationType;
+		}
+		
+		
+		
+		if(email_oauth != ''){ 
+			console.log(authURL);
+			/*var winInstance = window.open(authURL);
+			var interval = setInterval(function(){
+				
+				if(winInstance && winInstance.location.origin+'/'==REDIRECT_URL){
+					console.log(winInstance)
+					let url = new URL(winInstance.location.href);
+					let code = url.searchParams.get("code");
+					
+					if(code){
+						jQuery('.form-custom  .is-oauth').append('<input type="hidden" data-testid="input" name="oauth_code"  placeholder="code" class="form-control is-valid" value="'+code+'">');
+					}
+					
+
+					clearInterval(interval);
+					winInstance.close();
+					//jQuery('.customSyncForm .is-oauth').removeClass('screen-reader-text');
+					//jQuery('body input[name="api_password"]').focus();
+					isOauth = 1;
+					jQuery('.btn-oauth').trigger('click');
+				}
+			},1000)*/
+			window.location.href = authURL;
+		}else{
+			console.log('Email is required!');
+		}
+	}
+	jQuery('body').on('click', '.btn-oauth', function(){
+		jQuery('.btn-oauth').addClass('erf-disabled').append('<span class="erf-loader"></span>');
+		if(isOauth==0){
+			oAuth();
+		}else{
+			jQuery('.btn-oauth').removeClass('erf-disabled').find('.erf-loader').remove();
+			
+			let api_password =jQuery("input[name='api_password']").val();
+			let api_password_confirm =jQuery("input[name='api_password_confirm']").val();
+			
+			let error="";
+			/*
+			if(api_password.length<1){
+				error = "Please enter a valid password"
+			}else if(api_password_confirm.length<1){
+				error = "Please enter confirm password"
+			}else if(api_password!=api_password_confirm){
+				error="Password and confirm password must be same"
+			}*/
+			
+			if(error==''){
+				jQuery('.btn-oauth').addClass('erf-disabled').append('<span class="erf-loader"></span>');
+				createAcountAPI();
+			}else{
+				jQuery('.btn-oauth').removeClass('erf-disabled').find('.erf-loader').remove();
+				//show error in UI
+				console.log(error);
+				
+			}
+		}
+		
+	});
+	// Ajax Signup
+	function signupAjaxAction(formData){
+		let erf_username = jQuery('input[name="text-gE8dLd"]').val();
+		
+		if(jQuery('.your-pms').val() == 'Rentals United'){
+			erf_username = jQuery('.customSyncForm input[name="email"]').val();
+		}  
+		console.log(erf_username);
+		let erf_password = jQuery('input[name="text-1hJwzr"]').val();
+		$.ajax({
+			type: 'POST',
+			url: site_url+"/wp-admin/admin-ajax.php",
+			data: formData,
+			success: function(msg){
+				//redirect into dashboard
+				//window.location = site_url+"/dashboard/";
+				//loginAjaxAction(erf_username, erf_password);
+				pmsLogin(erf_username, erf_password);
+				console.log(msg, "Auto signup")
+			},
+			error:function(er){
+				//alert
+				console.log(er, "Signup ERROR")
+			}  
+		});
+	}
+	//Ajax Login
+	function loginAjaxAction(erf_username, erf_password){
+		
+		$.ajax({
+			type: 'POST',
+			url: site_url+"/wp-admin/admin-ajax.php",
+			data: {
+				erf_username:erf_username,
+				erf_password:erf_password,
+				action: 'erf_login_user',
+				erf_login_nonce: '735b5e7d14'
+			},
+			success: function(msg){
+				//redirect into dashboard
+				let loginToken = localStorage.getItem("token");
+				if(loginToken){
+					//window.location = site_url+"/dashboard/?user="+loginToken;
+					localStorage.removeItem('formData');
+					if(yourPMS_selected == '5STELLE' || yourPMS_selected == 'AQHOLDER' || yourPMS_selected == 'BRILLANTEZ' || yourPMS_selected == 'GUESTCENTRIX' || yourPMS_selected == 'EASYREZ' || yourPMS_selected == 'FRONT2GO' || yourPMS_selected == 'GOLDENUP' || yourPMS_selected == 'HOTELTIME' || yourPMS_selected == 'IBELSA' || yourPMS_selected == 'INNKEYPMS' || yourPMS_selected == 'MISTERBOOKING' || yourPMS_selected == 'NEWBOOK' || yourPMS_selected == 'OCCUPANCYPLUS' || yourPMS_selected == 'PRENO' || yourPMS_selected == 'RDPWIN' || yourPMS_selected == 'ROOMRACCOON' || yourPMS_selected == 'ROOMRANGER' || yourPMS_selected == 'SHALOM' || yourPMS_selected == 'SIRVOY' || yourPMS_selected == 'THAISHOTELS' || yourPMS_selected == 'TKSYSTEM' || yourPMS_selected == 'VHP' || yourPMS_selected == 'WINHMS' || yourPMS_selected == 'WINHOTEL' || yourPMS_selected == 'XENIA' || yourPMS_selected == 'ZAVIA' || yourPMS_selected == 'SMARTFX' || yourPMS_selected == 'littlehotelier' || yourPMS_selected == 'channelmanager'){ 
+						window.location = dashboard_URL+loginToken+'&siteminder-modal=true';  
+					}else{
+						window.location = dashboard_URL+loginToken;
+					}
+					
+					
+				}else{
+					//window.location = site_url+"/dashboard/";
+				}
+				console.log(msg, "Auto login")
+			},
+			error:function(er){
+				//alert
+				console.log(er, "ERROR")
+			}  
+		});
+	}
+	function createAcountAPI(){
+		setTimeout( function(){
+		if(jQuery('.erf-reg-form-container .parsley-error').length < 1 ){
+		
+		let formData = jQuery(".erf-form.erf-front-form").serializeArray();
+		changeUrl('Before Start', 'before-start/');
+		jQuery('.steps li').eq(0).removeClass('current');
+		jQuery('.steps li').eq(0).addClass('active');
+		jQuery('.steps li').eq(1).removeClass('current');
+		jQuery('.steps li').eq(1).addClass('active');
+		
+		jQuery('.sec-contents-sm').removeClass('active');
+		//Ajax call
+			jQuery('.curl-error').remove();
+			
+			jQuery('.current-pms-cont .action').hide();
+			jQuery('.current-pms-cont .text-sync').addClass('d-none');
+			jQuery('.current-pms-cont .text-create ').removeClass('d-none');
+			jQuery('.header-btn-back').removeClass('active');
+			$.ajax({
+				type: 'POST',
+				url: site_url+"/forms/formAction.php",
+				//data: {keyToken:key_token,passToken:pass_token,ownerToken:owner_token,pms:yourPMS_selected},
+				data: formData,
+				success: function(msg){
+					console.log(msg);
+					//jQuery(".erf-login-form.erf-form").submit();
+					
+					if(msg.status == false){
+						//alert("ERROR: "+msg.curl_response);
+						jQuery('.custom-sync, .form-custom button[type="submit"]').removeClass('erf-disabled').find('.erf-loader').remove();
+						jQuery('.btn-oauth').removeClass('erf-disabled').find('.erf-loader').remove();
+						jQuery('.erf-reg-form-container form').prepend("<div id='curl-error' class='error curl-error erf-field-error text-center'><b>ERROR:</b> "+msg.message+"</div>");
+						
+						jQuery('.current-pms-cont .action').show();
+						jQuery('.current-pms-cont .text-sync').removeClass('d-none');
+						jQuery('.current-pms-cont .text-create ').addClass('d-none');
+						jQuery('.header-btn-back').addClass('active');
+						isOauth = 0;
+						jQuery('body').removeClass('are_tokens_refetched collaborator_token');
+						if(collaborator_token == null && are_tokens_refetched == false){
+							//changeUrl('PMS Type', 'pms-type/');
+							changeUrl(TITLE, 'register-form/');
+							jQuery('.customSyncForm .processing').html('<br>');  
+							jQuery('.steps li').eq(0).removeClass('current');
+							jQuery('.steps li').eq(0).addClass('active');
+							jQuery('.steps li').eq(1).addClass('current');
+							jQuery('.steps li').eq(1).removeClass('active');
+
+							jQuery('.sec-contents-sm').removeClass('active');
+						}else{
+							changeUrl('PMS Type', 'register-form/');
+							jQuery('.header-btn-back').removeClass('active');
+							jQuery('.steps li').eq(0).addClass('current');
+							jQuery('.steps li').eq(0).removeClass('active');
+							jQuery('.steps li').eq(1).removeClass('current');
+							jQuery('.steps li').eq(1).removeClass('active');
+							
+							jQuery('.sec-contents-sm').addClass('active');
+						}
+					}else{
+						let token = 'curl_response' in msg && 'api_key' in msg.curl_response ?  msg.curl_response.api_key :"";
+						if(token!=""){
+							localStorage.setItem("token",token);
+						}
+						//jQuery(".erf-form.erf-front-form").submit();
+						//if(localStorage.getItem("UserRegistered") != '1'){
+							mixpanel.track('Onboarding - UserRegistered', {
+							  'utm_source': utm_source,
+							  'email': jQuery('input[name="text-gE8dLd"]').val(),
+							  'name': jQuery('input[name="text-VdkIuH"]').val(),
+							  'phone_number': jQuery('input[name="field-c2xENTMAvcqpurK"]').val(),
+							  'country_ip': country_ip,
+							  'type_of_properties': jQuery('select[name="field-aD7ucdKDH7uqiq3"]').val(),
+							  'range_of_number_of_properties': jQuery('select[name="field-UQwb7oDM9q4lihb"]').val(),
+							  'origin': originPMS,
+							});
+							console.log('Onboarding - UserRegistered');
+							//localStorage.setItem("UserRegistered", '1');
+						//}
+						
+						mixpanel.alias(jQuery('input[name="text-gE8dLd"]').val());
+						
+						// create mixpanle user
+						mixpanel.identify(jQuery('input[name="text-gE8dLd"]').val());
+						mixpanel.people.set({ "$name": jQuery('input[name="text-VdkIuH"]').val(), "$email": jQuery('input[name="text-gE8dLd"]').val() });
+						
+						//Thank you page conversions
+						gtag('event', 'conversion', {'send_to': 'AW-481274774/fFP3CPDDl_IBEJbXvuUB'});
+						
+						jQuery('body').prepend('<img src="https://ct.capterra.com/capterra_tracker.gif?vid=2144807&vkey=dec23324135d0a08fa030758821e46a0" alt="" />');
+						
+						console.log('Event: Thank you page conversions');
+						
+						//signupAjaxAction(formData);
+						if(are_tokens_refetched){
+							if(msg.curl_response.token){
+								//jQuery( document ).ajaxComplete(function() {
+									console.log( "Redirecting to dashboard" );
+									window.location = dashboard_URL+msg.curl_response.token;
+								//});
+							}
+						}else{
+							console.log('submit hb form and login');
+							jQuery('.hbspt-form input[type="submit"]').trigger('click'); 
+							
+							signupAjaxAction(formData);
+						}
+						
+						//collaborator_token
+						if(collaborator_token){
+							if(msg.curl_response.token){
+								//jQuery( document ).ajaxComplete(function() {
+									console.log( "Redirecting to dashboard" );
+									window.location = dashboard_URL+msg.curl_response.token;
+								//});
+							}
+						} 
+
+						
+					} 
+				},
+				error:function(er){
+					console.log("error", er);
+					jQuery('.custom-sync, .form-custom button[type="submit"]').removeClass('erf-disabled').find('.erf-loader').remove();
+					jQuery('.btn-oauth').removeClass('erf-disabled').find('.erf-loader').remove();
+					if(are_tokens_refetched == false || collaborator_token == null){
+						jQuery('.customSyncForm .processing ').html('<br>');
+					}
+					jQuery('.current-pms-cont .action').show();
+					jQuery('.current-pms-cont .text-sync').removeClass('d-none');
+					jQuery('.current-pms-cont .text-create ').addClass('d-none');
+					jQuery('.header-btn-back').addClass('active');
+					//changeUrl('PMS Type', 'pms-type/');
+					changeUrl(TITLE, 'register-form/');
+					
+					jQuery('.steps li').eq(0).removeClass('current');
+					jQuery('.steps li').eq(0).addClass('active');
+					jQuery('.steps li').eq(1).addClass('current');
+					jQuery('.steps li').eq(1).removeClass('active');
+					
+					jQuery('.sec-contents-sm').removeClass('active');
+					 					
+				}  
+			});
+		}
+		}, 100);		
+	}
+	
+	function pmsLogin(erf_username, erf_password){
+			jQuery('.curl-error').remove();
+			$.ajax({
+			type: 'POST',
+			url: site_url+"/apilogin.php",
+			data:{
+				erf_username:erf_username,
+				erf_password:erf_password,
+				action: 'erf_login_user',
+				erf_login_nonce: '735b5e7d14'
+			},//jQuery(".erf-login-form.erf-form").serializeArray(),
+			success: function(msg){
+				if(msg.curl_response.token){
+					localStorage.setItem("token", msg.curl_response.token);
+					let loginToken = localStorage.getItem("token");
+					if(loginToken){
+						//window.location = site_url+"/dashboard/?user="+loginToken;
+						localStorage.removeItem('formData');
+						
+						
+						
+						jQuery( document ).ajaxComplete(function() {
+							console.log( "Triggered ajaxComplete handler." );
+							if(yourPMS_selected == '5STELLE' || yourPMS_selected == 'AQHOLDER' || yourPMS_selected == 'BRILLANTEZ' || yourPMS_selected == 'GUESTCENTRIX' || yourPMS_selected == 'EASYREZ' || yourPMS_selected == 'FRONT2GO' || yourPMS_selected == 'GOLDENUP' || yourPMS_selected == 'HOTELTIME' || yourPMS_selected == 'IBELSA' || yourPMS_selected == 'INNKEYPMS' || yourPMS_selected == 'MISTERBOOKING' || yourPMS_selected == 'NEWBOOK' || yourPMS_selected == 'OCCUPANCYPLUS' || yourPMS_selected == 'PRENO' || yourPMS_selected == 'RDPWIN' || yourPMS_selected == 'ROOMRACCOON' || yourPMS_selected == 'ROOMRANGER' || yourPMS_selected == 'SHALOM' || yourPMS_selected == 'SIRVOY' || yourPMS_selected == 'THAISHOTELS' || yourPMS_selected == 'TKSYSTEM' || yourPMS_selected == 'VHP' || yourPMS_selected == 'WINHMS' || yourPMS_selected == 'WINHOTEL' || yourPMS_selected == 'XENIA' || yourPMS_selected == 'ZAVIA' || yourPMS_selected == 'SMARTFX' || yourPMS_selected == 'littlehotelier' || yourPMS_selected == 'channelmanager'){
+								window.location = dashboard_URL+loginToken+'&siteminder-modal=true';  
+							}else{
+								window.location = dashboard_URL+loginToken;
+							}
+						});
+						
+						
+					}else{
+						jQuery('.custom-sync, .form-custom button[type="submit"]').removeClass('erf-disabled').find('.erf-loader').remove();		
+						
+						jQuery('.erf-reg-form-container form').prepend("<div id='curl-error' class='error curl-error erf-field-error text-center'><b>ERROR:</b> "+msg.curl_response.non_field_errors[0]+"</div>")
+					}
+				}
+				
+			},
+			error:function(er){
+				console.log("error", er); 
+				jQuery('.erf-login-form.erf-form .btn.btn-default').removeClass('erf-disabled').find('.erf-loader').remove();
+			}  
+		});
+	}
+	
+	jQuery('body').on("click", '.custom-sync, .form-custom button[type="submit"]', function(e){
+		e.preventDefault();
+		
+		let key_token = jQuery('input[name="key_token"]').val();
+		let pass_token = jQuery('input[name="pass_token"]').val();
+		let owner_token = jQuery('input[name="owner_token"]').val();
+
+		let error= "";
+		if(key_token == ""){
+			error = "Key token is required";
+		}else if(pass_token ==""){
+		   error = "Pass token is required";
+		}else if(owner_token==""){
+			error ="Owner token is required";
+		}
+		
+		if(error!=""){
+			jQuery('.erf-reg-form-container form').prepend("<div id='curl-error' class='error curl-error erf-field-error text-center'><b>ERROR:</b>"+error+"</div>");
+			return false;
+		}else{
+			jQuery('.custom-sync, .form-custom button[type="submit"]').addClass('erf-disabled').append('<span class="erf-loader"></span>');	
+			createAcountAPI();
+		}
+
+		
+		
+	});
+	// Reset Password
+	jQuery('.lostpassword-button.erf-reset-password').addClass('screen-reader-text').after('<button type="button" name="custom-submit" class="custom-lostpassword-button ">'+jQuery('.lostpassword-button.erf-reset-password').text()+'</button>');
+	
+	jQuery('body').on('click', '.custom-lostpassword-button', function(e){
+		e.preventDefault();
+		jQuery('#lostpasswordform').on('submit', function(e){
+			e.preventDefault();
+			return false;
+		})
+		
+		let user_login = jQuery('input[name="user_login"]');
+		let errorRecover = "";
+		if(user_login.val() == ""){
+			errorRecover = "Email is required";
+			user_login.addClass('parsley-error');
+			
+			if(user_login.next('.parsley-errors-list').length == 0){
+				user_login.after('<ul class="parsley-errors-list filled"><li class="parsley-required">This value is required.</li></ul>');
+			}
+			//erf_global.parsley.required
+		}else{
+			user_login.removeClass('parsley-error');
+			user_login.next('.parsley-errors-list').remove();
+		}
+		
+		
+		
+		jQuery('.custom-lostpassword-button').addClass('erf-disabled').append('<span class="erf-loader"></span>');
+		let formData = jQuery("#lostpasswordform").serializeArray();
+		jQuery('.curl-error, .curl-success').remove();
+		
+		if(errorRecover.length == 0){
+			
+			$.ajax({
+					type: 'POST',
+					url: site_url+"/apiresetpassword.php",
+					//data: {keyToken:key_token,passToken:pass_token,ownerToken:owner_token,pms:yourPMS_selected},
+					data: formData,
+					success: function(msg){
+						console.log(msg);
+						jQuery('.custom-lostpassword-button').removeClass('erf-disabled').find('.erf-loader').remove();	
+						if(msg.status){
+							jQuery('.custom-lostpassword-button').after(("<div id='curl-success' class='success curl-success erf-field-success text-center mt-30'>"+msg.curl_response.details+"</div>"));
+						}else{
+							jQuery('.custom-lostpassword-button').after(("<div id='curl-success' class='success curl-success erf-field-success-error  text-center mt-30'>"+msg.curl_response+"</div>"));
+						}
+					},
+					error:function(er){
+						console.log(er);	
+						jQuery('.custom-lostpassword-button').removeClass('erf-disabled').find('.erf-loader').remove();	
+						jQuery('.custom-lostpassword-button').after(("<div id='curl-error' class='error curl-error erf-field-error text-center mt-20'><b>ERROR:</b> "+msg.curl_response.details+"</div>")); 
+					}  
+				});
+		}else{
+			jQuery('.custom-lostpassword-button').removeClass('erf-disabled').find('.erf-loader').remove();	
+		}
+		return 0;
+	});
+	
+	//are_tokens_refetched
+	console.log(are_tokens_refetched);
+	if(are_tokens_refetched){
+		setTimeout(function(){ 
+			createAcountAPI();
+		}, 800);
+	}
+	/* 2FA START */
+	var otp_inputs = document.querySelectorAll(".otp__digit")
+	var mykey = "0123456789".split("")
+	otp_inputs.forEach((_)=>{
+	  _.addEventListener("keyup", handle_next_input)
+	})
+	function handle_next_input(event){
+	  let current = event.target
+	  let index = parseInt(current.classList[1].split("__")[2])
+	  current.value = event.key
+	  
+	  if(event.keyCode == 8 && index > 1){
+		current.previousElementSibling.focus()
+	  }
+	  if(index < 6 && mykey.indexOf(""+event.key+"") != -1){
+		var next = current.nextElementSibling;
+		next.focus()
+	  }
+	  var _finalKey = ""
+	  for(let {value} of otp_inputs){
+		  _finalKey += value
+	  }
+	  if(_finalKey.length == 6){
+		//document.querySelector("#_otp").classList.replace("_notok", "_ok")
+		//document.querySelector("#_otp").innerText = _finalKey
+		console.log(_finalKey);
+		jQuery('input[name="otp_code"]').val(_finalKey);
+	  }else{
+		//document.querySelector("#_otp").classList.replace("_ok", "_notok")
+		//document.querySelector("#_otp").innerText = _finalKey
+	  }
+	}
+	
+
+	/* 2FA END */
+	
+	/* CTA START */
+	jQuery('.has-cta a').on('click', function(e){
+		e.preventDefault();
+		jQuery('#popup-contact').addClass('active');
+		return 0;
+	})
+	/* CTA END */
+	
+}); 
+function logoutAction(actionUrl){
+	jQuery.ajax({
+		type: 'GET',
+		url:actionUrl,
+		success: function(msg){
+		//remove token from local
+		localStorage.removeItem('token');
+		window.location.href = site_url+'/login/';	 
+		}  
+	});
+}
+/*
+let loginToken = localStorage.getItem('token');
+if(loginToken){
+	localStorage.removeItem('formData');
+	window.location = dashboard_URL+loginToken
+}*/
+
+// Submit form on enter
+document.addEventListener("keyup", function(event) {
+	if(jQuery('.erf-container .erf-form .erf-submit-button button').length){
+		if (event.keyCode === 13) {		
+		   jQuery('.erf-container .erf-form .erf-submit-button button').trigger('click');
+		}
+	}
+});
+
+
+
+
+// API 
+jQuery(document).ready(function(){
+	// logout
+	jQuery('.primary-menu li.logout > a').on('click', function(e){
+		e.preventDefault();
+		let logoutUrl = jQuery(this).attr('href');
+		logoutAction(logoutUrl);
+	});
+	jQuery('body').on('mouseup', '.erf-container .erf-form .erf-form-nav .erf-submit-button', function(){
+		//jQuery('.has-slides').slick("refresh");
+	}); 
+		
+
+	jQuery('body').on('blur change', '.form-control', function(){
+		if( jQuery(this).val() != ''){
+			   jQuery(this).addClass('is-valid');
+		}else{
+			jQuery(this).removeClass('is-valid');
+		}
+	});
+	
+	
+	
+	jQuery("a.sync-btn").on("click",function(e){
+		e.preventDefault();
+		let formData = jQuery(".erf-form.erf-front-form").serializeArray();
+		//external API Callback
+		jQuery('.curl-error').remove();
+		$.ajax({
+			type: 'POST',
+			url: window.location.origin+"/apicall.php",
+			data:formData,
+			success: function(msg){
+				console.log(msg)
+				if(msg.status == false){
+					//alert("ERROR: "+msg.curl_response);
+					
+					jQuery('.erf-reg-form-container form').prepend("<div id='curl-error' class='error curl-error erf-field-error text-center'><b>ERROR:</b> "+msg.curl_response+"</div>")
+				}else{
+					jQuery(".erf-form.erf-front-form").submit();
+				}
+			},
+			error:function(er){
+				console.log("error", er); 
+			} 
+		});
+		
+		//Form Submit
+	});
+	
+	// login form 
+	/*
+	jQuery('input[name="erf_username"], input[name="erf_password"], input[name="user_login"]').on('blur', function(){
+		if(jQuery(this).val() != ''){
+			jQuery(this).removeClass('parsley-error').addClass('is-valid');
+			jQuery(this).next('.parsley-errors-list').remove();
+		}else{
+			jQuery(this).addClass('parsley-error').removeClass('is-valid');
+			if(jQuery(this).next('.parsley-errors-list').length == 0){
+				jQuery(this).after('<ul class="parsley-errors-list filled"><li class="parsley-required">'+erf_global.parsley.required+'</li></ul>');
+				 
+			}
+		}
+	});
+	*/
+	
+	jQuery(".resend-code-link, .popup-2fa .close").on('click', function(e){
+		e.preventDefault();
+		jQuery('input[name="otp_token"]').val('');
+		jQuery('input[name="otp_type"]').val('');
+		jQuery('input[name="otp_code"]').val('');
+	});
+	
+	jQuery(".popup-2fa .close").on('click', function(e){
+		jQuery('.erf-login-form.erf-form .btn.btn-default .erf-loader').remove();	
+		jQuery('.erf-login-form.erf-form .btn.btn-default').removeClass('erf-disabled');
+	});
+	
+	jQuery(".erf-login-form.erf-form .btn.btn-default, .btn-2fa-auth, .resend-code-link").on('click', function(e){
+		e.preventDefault();
+		
+		let erf_username = jQuery('input[name="erf_username"]');
+		let erf_password = jQuery('input[name="erf_password"]');
+		let otp_token = jQuery('input[name="otp_token"]').val();
+		let otp_type = jQuery('input[name="otp_type"]').val();
+		let otp_code = jQuery('input[name="otp_code"]').val();
+
+		let errorLogin = "";
+		
+		if(erf_username.val() == ""){
+			errorLogin = "Email is required";
+			erf_username.addClass('parsley-error');
+			if(erf_username.next('.parsley-errors-list').length == 0){
+				erf_username.after('<ul class="parsley-errors-list filled"><li class="parsley-required">'+erf_global.parsley.required+'</li></ul>');
+			}
+			
+			//erf_global.parsley.required
+		}else{
+			erf_username.removeClass('parsley-error');
+			erf_username.next('.parsley-errors-list').remove();
+		}
+		
+		if(erf_password.val() ==""){
+		   errorLogin = "Password is required";
+		   erf_password.addClass('parsley-error');
+		   if(erf_password.next('.parsley-errors-list').length == 0){
+				erf_password.after('<ul class="parsley-errors-list filled"><li class="parsley-required">'+erf_global.parsley.required+'</li></ul>');
+		   }
+		}else{
+			erf_password.removeClass('parsley-error');
+			erf_username.next('.parsley-errors-list').remove();
+		}
+		console.log(errorLogin);
+
+			
+		jQuery('.erf-login-form.erf-form .btn.btn-default .erf-loader').remove();	
+		jQuery('.erf-login-form.erf-form .btn.btn-default').addClass('erf-disabled').append('<span class="erf-loader"></span>');
+		jQuery('.erf-form .curl-error').remove();
+		
+		if(otp_code != ''){
+			jQuery('.popup-2fa .process').addClass('active');
+			
+			jQuery('.popup-2fa .error-msg').hide();
+		}else{
+			jQuery('.popup-2fa .process').removeClass('active');
+		}
+		
+		var formData = jQuery(".erf-login-form.erf-form").serializeArray();
+		formData.push({ name: "otp_token", value: otp_token });
+		formData.push({ name: "otp_type", value: otp_type });
+		formData.push({ name: "code", value: otp_code });
+		
+		if(errorLogin.length == 0){ 
+			$.ajax({
+				type: 'POST',
+				url: site_url+"/apilogin.php",
+				data:formData,
+				success: function(msg){
+					console.log(msg);
+					 
+			
+					//msg.curl_response.otp_token;
+					//msg.curl_response.otp_type;
+					//msg.curl_response.errors;
+					
+					if(msg.curl_response.status_code == 400){
+						jQuery('.popup-2fa .process').removeClass('active');
+						jQuery('.popup-2fa .error-msg').html(msg.curl_response.errors[0].message).show();
+						
+					}else if(msg.curl_response.otp_token && msg.curl_response.otp_type){
+						
+						/* 2FA START */
+						console.log(msg.curl_response.otp_type);
+						
+						// show email code popup
+						jQuery('#popup-2fa').addClass('active');
+						jQuery('input[name="otp_token"]').val(msg.curl_response.otp_token);
+						jQuery('input[name="otp_type"]').val(msg.curl_response.otp_type);
+						jQuery('.otp-input-fields [type=number]').val('');
+						jQuery('.otp-input-fields [type=number]:first-child').focus();
+						jQuery('.popup-2fa .error-msg').hide();
+						
+						/* 2FA END */
+						
+					}else if(msg.curl_response.token){
+						localStorage.setItem("token", msg.curl_response.token);
+						localStorage.removeItem('formData');
+						window.location = dashboard_URL+msg.curl_response.token;
+						
+					}else{
+						jQuery('.erf-form').append("<div id='curl-error' class='error curl-error erf-field-error text-center'>"+msg.curl_response.non_field_errors[0]+"</div>");
+						jQuery('.erf-login-form.erf-form .btn.btn-default').removeClass('erf-disabled').find('.erf-loader').remove();
+						jQuery('.popup-2fa .process').removeClass('active');
+					}
+					// WordPress Login START
+					/*$.ajax({
+						type: 'POST',
+						url: site_url+"/wp-admin/admin-ajax.php",
+						data:jQuery(".erf-login-form.erf-form").serializeArray(),
+						success: function(msg){
+							let loginToken = localStorage.getItem("token");
+							if(loginToken){
+								//window.location = site_url+"/dashboard/?user="+loginToken;
+								localStorage.removeItem('formData');
+								window.location = dashboard_URL+loginToken;
+							}	
+						},
+						error:function(er){
+							console.log("error", er); 
+							jQuery('.erf-login-form.erf-form .btn.btn-default').removeClass('erf-disabled').find('.erf-loader').remove();
+						}  
+					});*/
+					// WordPress Login END
+					
+					
+					//jQuery(".erf-login-form.erf-form").submit();
+					//window.location = window.location.origin+"/?user="+msg.curl_response.token
+					
+				},
+				error:function(er){
+					console.log("error", er); 
+					jQuery('.erf-login-form.erf-form .btn.btn-default').removeClass('erf-disabled').find('.erf-loader').remove();
+				}  
+			});
+		}else{
+			//jQuery('.erf-form').append("<div id='curl-error' class='error curl-error erf-field-error text-center'>"+errorLogin+"</div>");
+			jQuery('.erf-login-form.erf-form .btn.btn-default').removeClass('erf-disabled').find('.erf-loader').remove();
+			
+		}
+		return 0;
+	})
+	 
+	/*if(window.location.pathname =="/login/"){
+		//let loginToken = 'apilogintoken' in window.localStorage ? window.localStorage.apilogintoken : "";
+		let loginToken = localStorage.getItem("token");
+		if(loginToken){
+			window.location = dashboard_URL+loginToken;
+			
+		}
+	}
+	*/
+	
+	jQuery('body.touch-enabled .primary-menu > li.menu-item-has-children > a').on('click', function(e){
+		e.preventDefault();
+		return 0;
+	})
+});
+
+
+
+
+
+
+var chekin2020 = chekin2020 || {};
+
+// Set a default value for scrolled.
+chekin2020.scrolled = 0;
+
+// polyfill closest
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill
+if ( ! Element.prototype.closest ) {
+	Element.prototype.closest = function( s ) {
+		var el = this;
+
+		do {
+			if ( el.matches( s ) ) {
+				return el;
+			}
+
+			el = el.parentElement || el.parentNode;
+		} while ( el !== null && el.nodeType === 1 );
+
+		return null;
+	};
+}
+
+// polyfill forEach
+// https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill
+if ( window.NodeList && ! NodeList.prototype.forEach ) {
+	NodeList.prototype.forEach = function( callback, thisArg ) {
+		var i;
+		var len = this.length;
+
+		thisArg = thisArg || window;
+
+		for ( i = 0; i < len; i++ ) {
+			callback.call( thisArg, this[ i ], i, this );
+		}
+	};
+}
+
+// event "polyfill"
+chekin2020.createEvent = function( eventName ) {
+	var event;
+	if ( typeof window.Event === 'function' ) {
+		event = new Event( eventName );
+	} else {
+		event = document.createEvent( 'Event' );
+		event.initEvent( eventName, true, false );
+	}
+	return event;
+};
+
+// matches "polyfill"
+// https://developer.mozilla.org/es/docs/Web/API/Element/matches
+if ( ! Element.prototype.matches ) {
+	Element.prototype.matches =
+		Element.prototype.matchesSelector ||
+		Element.prototype.mozMatchesSelector ||
+		Element.prototype.msMatchesSelector ||
+		Element.prototype.oMatchesSelector ||
+		Element.prototype.webkitMatchesSelector ||
+		function( s ) {
+			var matches = ( this.document || this.ownerDocument ).querySelectorAll( s ),
+				i = matches.length;
+			while ( --i >= 0 && matches.item( i ) !== this ) {}
+			return i > -1;
+		};
+}
+
+
+// Add a class to the body for when touch is enabled for browsers that don't support media queries
+// for interaction media features. Adapted from <https://codepen.io/Ferie/pen/vQOMmO>.
+chekin2020.touchEnabled = {
+
+	init: function() {
+		var matchMedia = function() {
+			// Include the 'heartz' as a way to have a non-matching MQ to help terminate the join. See <https://git.io/vznFH>.
+			var prefixes = [ '-webkit-', '-moz-', '-o-', '-ms-' ];
+			var query = [ '(', prefixes.join( 'touch-enabled),(' ), 'heartz', ')' ].join( '' );
+			return window.matchMedia && window.matchMedia( query ).matches;
+		};
+
+		if ( ( 'ontouchstart' in window ) || ( window.DocumentTouch && document instanceof window.DocumentTouch ) || matchMedia() ) {
+			document.body.classList.add( 'touch-enabled' );
+		}
+	}
+}; // chekin2020.touchEnabled
+
+/*	-----------------------------------------------------------------------------------------------
+	Cover Modals
+--------------------------------------------------------------------------------------------------- */
+
+chekin2020.coverModals = {
+
+	init: function() {
+		if ( document.querySelector( '.cover-modal' ) ) {
+			// Handle cover modals when they're toggled.
+			this.onToggle();
+
+			// When toggled, untoggle if visitor clicks on the wrapping element of the modal.
+			this.outsideUntoggle();
+
+			// Close on escape key press.
+			this.closeOnEscape();
+
+			// Hide and show modals before and after their animations have played out.
+			this.hideAndShowModals();
+		}
+	},
+
+	// Handle cover modals when they're toggled.
+	onToggle: function() {
+		document.querySelectorAll( '.cover-modal' ).forEach( function( element ) {
+			element.addEventListener( 'toggled', function( event ) {
+				var modal = event.target,
+					body = document.body;
+
+				if ( modal.classList.contains( 'active' ) ) {
+					body.classList.add( 'showing-modal' );
+				} else {
+					body.classList.remove( 'showing-modal' );
+					body.classList.add( 'hiding-modal' );
+
+					// Remove the hiding class after a delay, when animations have been run.
+					setTimeout( function() {
+						body.classList.remove( 'hiding-modal' );
+					}, 500 );
+				}
+			} );
+		} );
+	},
+
+	// Close modal on outside click.
+	outsideUntoggle: function() {
+		document.addEventListener( 'click', function( event ) {
+			var target = event.target;
+			var modal = document.querySelector( '.cover-modal.active' );
+
+			// if target onclick is <a> with # within the href attribute
+			if ( event.target.tagName.toLowerCase() === 'a' && event.target.hash.includes( '#' ) && modal !== null ) {
+				// untoggle the modal
+				this.untoggleModal( modal );
+				// wait 550 and scroll to the anchor
+				setTimeout( function() {
+					var anchor = document.getElementById( event.target.hash.slice( 1 ) );
+					anchor.scrollIntoView();
+				}, 550 );
+			}
+
+			if ( target === modal ) {
+				this.untoggleModal( target );
+			}
+		}.bind( this ) );
+	},
+
+	// Close modal on escape key press.
+	closeOnEscape: function() {
+		document.addEventListener( 'keydown', function( event ) {
+			if ( event.keyCode === 27 ) {
+				event.preventDefault();
+				document.querySelectorAll( '.cover-modal.active' ).forEach( function( element ) {
+					this.untoggleModal( element );
+				}.bind( this ) );
+			}
+		}.bind( this ) );
+	},
+
+	// Hide and show modals before and after their animations have played out.
+	hideAndShowModals: function() {
+		var _doc = document,
+			_win = window,
+			modals = _doc.querySelectorAll( '.cover-modal' ),
+			htmlStyle = _doc.documentElement.style,
+			adminBar = _doc.querySelector( '#wpadminbar' );
+
+		function getAdminBarHeight( negativeValue ) {
+			var height,
+				currentScroll = _win.pageYOffset;
+
+			if ( adminBar ) {
+				height = currentScroll + adminBar.getBoundingClientRect().height;
+
+				return negativeValue ? -height : height;
+			}
+
+			return currentScroll === 0 ? 0 : -currentScroll;
+		}
+
+		function htmlStyles() {
+			var overflow = _win.innerHeight > _doc.documentElement.getBoundingClientRect().height;
+
+			return {
+				'overflow-y': overflow ? 'hidden' : 'scroll',
+				position: 'fixed',
+				width: '100%',
+				top: getAdminBarHeight( true ) + 'px',
+				left: 0
+			};
+		}
+
+		// Show the modal.
+		modals.forEach( function( modal ) {
+			modal.addEventListener( 'toggle-target-before-inactive', function( event ) {
+				var styles = htmlStyles(),
+					offsetY = _win.pageYOffset,
+					paddingTop = ( Math.abs( getAdminBarHeight() ) - offsetY ) + 'px',
+					mQuery = _win.matchMedia( '(max-width: 600px)' );
+
+				if ( event.target !== modal ) {
+					return;
+				}
+
+				Object.keys( styles ).forEach( function( styleKey ) {
+					htmlStyle.setProperty( styleKey, styles[ styleKey ] );
+				} );
+
+				_win.chekin2020.scrolled = parseInt( styles.top, 10 );
+
+				if ( adminBar ) {
+					_doc.body.style.setProperty( 'padding-top', paddingTop );
+
+					if ( mQuery.matches ) {
+						if ( offsetY >= getAdminBarHeight() ) {
+							modal.style.setProperty( 'top', 0 );
+						} else {
+							modal.style.setProperty( 'top', ( getAdminBarHeight() - offsetY ) + 'px' );
+						}
+					}
+				}
+
+				modal.classList.add( 'show-modal' );
+			} );
+
+			// Hide the modal after a delay, so animations have time to play out.
+			modal.addEventListener( 'toggle-target-after-inactive', function( event ) {
+				if ( event.target !== modal ) {
+					return;
+				}
+
+				setTimeout( function() {
+					var clickedEl = chekin2020.toggles.clickedEl;
+
+					modal.classList.remove( 'show-modal' );
+
+					Object.keys( htmlStyles() ).forEach( function( styleKey ) {
+						htmlStyle.removeProperty( styleKey );
+					} );
+
+					if ( adminBar ) {
+						_doc.body.style.removeProperty( 'padding-top' );
+						modal.style.removeProperty( 'top' );
+					}
+
+					if ( clickedEl !== false ) {
+						clickedEl.focus();
+						clickedEl = false;
+					}
+
+					_win.scrollTo( 0, Math.abs( _win.chekin2020.scrolled + getAdminBarHeight() ) );
+
+					_win.chekin2020.scrolled = 0;
+				}, 500 );
+			} );
+		} );
+	},
+
+	// Untoggle a modal.
+	untoggleModal: function( modal ) {
+		var modalTargetClass,
+			modalToggle = false;
+
+		// If the modal has specified the string (ID or class) used by toggles to target it, untoggle the toggles with that target string.
+		// The modal-target-string must match the string toggles use to target the modal.
+		if ( modal.dataset.modalTargetString ) {
+			modalTargetClass = modal.dataset.modalTargetString;
+
+			modalToggle = document.querySelector( '*[data-toggle-target="' + modalTargetClass + '"]' );
+		}
+
+		// If a modal toggle exists, trigger it so all of the toggle options are included.
+		if ( modalToggle ) {
+			modalToggle.click();
+
+			// If one doesn't exist, just hide the modal.
+		} else {
+			modal.classList.remove( 'active' );
+		}
+	}
+
+}; // chekin2020.coverModals
+
+/*	-----------------------------------------------------------------------------------------------
+	Intrinsic Ratio Embeds
+--------------------------------------------------------------------------------------------------- */
+
+chekin2020.intrinsicRatioVideos = {
+
+	init: function() {
+		this.makeFit();
+
+		window.addEventListener( 'resize', function() {
+			this.makeFit();
+		}.bind( this ) );
+	},
+
+	makeFit: function() {
+		document.querySelectorAll( 'iframe, object, video' ).forEach( function( video ) {
+			var ratio, iTargetWidth,
+				container = video.parentNode;
+
+			// Skip videos we want to ignore.
+			if ( video.classList.contains( 'intrinsic-ignore' ) || video.parentNode.classList.contains( 'intrinsic-ignore' ) ) {
+				return true;
+			}
+
+			if ( ! video.dataset.origwidth ) {
+				// Get the video element proportions.
+				video.setAttribute( 'data-origwidth', video.width );
+				video.setAttribute( 'data-origheight', video.height );
+			}
+
+			iTargetWidth = container.offsetWidth;
+
+			// Get ratio from proportions.
+			ratio = iTargetWidth / video.dataset.origwidth;
+
+			// Scale based on ratio, thus retaining proportions.
+			video.style.width = iTargetWidth + 'px';
+			video.style.height = ( video.dataset.origheight * ratio ) + 'px';
+		} );
+	}
+
+}; // chekin2020.instrinsicRatioVideos
+
+/*	-----------------------------------------------------------------------------------------------
+	Modal Menu
+--------------------------------------------------------------------------------------------------- */
+chekin2020.modalMenu = {
+
+	init: function() {
+		// If the current menu item is in a sub level, expand all the levels higher up on load.
+		this.expandLevel();
+		this.keepFocusInModal();
+	},
+
+	expandLevel: function() {
+		var modalMenus = document.querySelectorAll( '.modal-menu' );
+
+		modalMenus.forEach( function( modalMenu ) {
+			var activeMenuItem = modalMenu.querySelector( '.current-menu-item' );
+
+			if ( activeMenuItem ) {
+				chekin2020FindParents( activeMenuItem, 'li' ).forEach( function( element ) {
+					var subMenuToggle = element.querySelector( '.sub-menu-toggle' );
+					if ( subMenuToggle ) {
+						chekin2020.toggles.performToggle( subMenuToggle, true );
+					}
+				} );
+			}
+		} );
+	},
+
+	keepFocusInModal: function() {
+		var _doc = document;
+
+		_doc.addEventListener( 'keydown', function( event ) {
+			var toggleTarget, modal, selectors, elements, menuType, bottomMenu, activeEl, lastEl, firstEl, tabKey, shiftKey,
+				clickedEl = chekin2020.toggles.clickedEl;
+
+			if ( clickedEl && _doc.body.classList.contains( 'showing-modal' ) ) {
+				toggleTarget = clickedEl.dataset.toggleTarget;
+				selectors = 'input, a, button';
+				modal = _doc.querySelector( toggleTarget );
+
+				elements = modal.querySelectorAll( selectors );
+				elements = Array.prototype.slice.call( elements );
+
+				if ( '.menu-modal' === toggleTarget ) {
+					menuType = window.matchMedia( '(min-width: 1000px)' ).matches;
+					menuType = menuType ? '.expanded-menu' : '.mobile-menu';
+
+					elements = elements.filter( function( element ) {
+						return null !== element.closest( menuType ) && null !== element.offsetParent;
+					} );
+
+					elements.unshift( _doc.querySelector( '.close-nav-toggle' ) );
+
+					bottomMenu = _doc.querySelector( '.menu-bottom > nav' );
+
+					if ( bottomMenu ) {
+						bottomMenu.querySelectorAll( selectors ).forEach( function( element ) {
+							elements.push( element );
+						} );
+					}
+				}
+
+				lastEl = elements[ elements.length - 1 ];
+				firstEl = elements[0];
+				activeEl = _doc.activeElement;
+				tabKey = event.keyCode === 9;
+				shiftKey = event.shiftKey;
+
+				if ( ! shiftKey && tabKey && lastEl === activeEl ) {
+					event.preventDefault();
+					firstEl.focus();
+				}
+
+				if ( shiftKey && tabKey && firstEl === activeEl ) {
+					event.preventDefault();
+					lastEl.focus();
+				}
+			}
+		} );
+	}
+}; // chekin2020.modalMenu
+
+/*	-----------------------------------------------------------------------------------------------
+	Primary Menu
+--------------------------------------------------------------------------------------------------- */
+
+chekin2020.primaryMenu = {
+
+	init: function() {
+		this.focusMenuWithChildren();
+	},
+
+	// The focusMenuWithChildren() function implements Keyboard Navigation in the Primary Menu
+	// by adding the '.focus' class to all 'li.menu-item-has-children' when the focus is on the 'a' element.
+	focusMenuWithChildren: function() {
+		// Get all the link elements within the primary menu.
+		var links, i, len,
+			menu = document.querySelector( '.primary-menu-wrapper' );
+
+		if ( ! menu ) {
+			return false;
+		}
+
+		links = menu.getElementsByTagName( 'a' );
+
+		// Each time a menu link is focused or blurred, toggle focus.
+		for ( i = 0, len = links.length; i < len; i++ ) {
+			links[i].addEventListener( 'focus', toggleFocus, true );
+			links[i].addEventListener( 'blur', toggleFocus, true );
+		}
+
+		//Sets or removes the .focus class on an element.
+		function toggleFocus() {
+			var self = this;
+
+			// Move up through the ancestors of the current link until we hit .primary-menu.
+			while ( -1 === self.className.indexOf( 'primary-menu' ) ) {
+				// On li elements toggle the class .focus.
+				if ( 'li' === self.tagName.toLowerCase() ) {
+					if ( -1 !== self.className.indexOf( 'focus' ) ) {
+						self.className = self.className.replace( ' focus', '' );
+					} else {
+						self.className += ' focus';
+					}
+				}
+				self = self.parentElement;
+			}
+		}
+	}
+}; // chekin2020.primaryMenu
+
+/*	-----------------------------------------------------------------------------------------------
+	Toggles
+--------------------------------------------------------------------------------------------------- */
+
+chekin2020.toggles = {
+
+	clickedEl: false,
+
+	init: function() {
+		// Do the toggle.
+		this.toggle();
+
+		// Check for toggle/untoggle on resize.
+		this.resizeCheck();
+
+		// Check for untoggle on escape key press.
+		this.untoggleOnEscapeKeyPress();
+	},
+
+	performToggle: function( element, instantly ) {
+		var target, timeOutTime, classToToggle,
+			self = this,
+			_doc = document,
+			// Get our targets.
+			toggle = element,
+			targetString = toggle.dataset.toggleTarget,
+			activeClass = 'active';
+
+		// Elements to focus after modals are closed.
+		if ( ! _doc.querySelectorAll( '.show-modal' ).length ) {
+			self.clickedEl = _doc.activeElement;
+		}
+
+		if ( targetString === 'next' ) {
+			target = toggle.nextSibling;
+		} else {
+			target = _doc.querySelector( targetString );
+		}
+
+		// Trigger events on the toggle targets before they are toggled.
+		if ( target.classList.contains( activeClass ) ) {
+			target.dispatchEvent( chekin2020.createEvent( 'toggle-target-before-active' ) );
+		} else {
+			target.dispatchEvent( chekin2020.createEvent( 'toggle-target-before-inactive' ) );
+		}
+
+		// Get the class to toggle, if specified.
+		classToToggle = toggle.dataset.classToToggle ? toggle.dataset.classToToggle : activeClass;
+
+		// For cover modals, set a short timeout duration so the class animations have time to play out.
+		timeOutTime = 0;
+
+		if ( target.classList.contains( 'cover-modal' ) ) {
+			timeOutTime = 10;
+		}
+
+		setTimeout( function() {
+			var focusElement,
+				subMenued = target.classList.contains( 'sub-menu' ),
+				newTarget = subMenued ? toggle.closest( '.menu-item' ).querySelector( '.sub-menu' ) : target,
+				duration = toggle.dataset.toggleDuration;
+
+			// Toggle the target of the clicked toggle.
+			if ( toggle.dataset.toggleType === 'slidetoggle' && ! instantly && duration !== '0' ) {
+				chekin2020MenuToggle( newTarget, duration );
+			} else {
+				newTarget.classList.toggle( classToToggle );
+			}
+
+			// If the toggle target is 'next', only give the clicked toggle the active class.
+			if ( targetString === 'next' ) {
+				toggle.classList.toggle( activeClass );
+			} else if ( target.classList.contains( 'sub-menu' ) ) {
+				toggle.classList.toggle( activeClass );
+			} else {
+				// If not, toggle all toggles with this toggle target.
+				_doc.querySelector( '*[data-toggle-target="' + targetString + '"]' ).classList.toggle( activeClass );
+			}
+
+			// Toggle aria-expanded on the toggle.
+			chekin2020ToggleAttribute( toggle, 'aria-expanded', 'true', 'false' );
+
+			if ( self.clickedEl && -1 !== toggle.getAttribute( 'class' ).indexOf( 'close-' ) ) {
+				chekin2020ToggleAttribute( self.clickedEl, 'aria-expanded', 'true', 'false' );
+			}
+
+			// Toggle body class.
+			if ( toggle.dataset.toggleBodyClass ) {
+				_doc.body.classList.toggle( toggle.dataset.toggleBodyClass );
+			}
+
+			// Check whether to set focus.
+			if ( toggle.dataset.setFocus ) {
+				focusElement = _doc.querySelector( toggle.dataset.setFocus );
+
+				if ( focusElement ) {
+					if ( target.classList.contains( activeClass ) ) {
+						focusElement.focus();
+					} else {
+						focusElement.blur();
+					}
+				}
+			}
+
+			// Trigger the toggled event on the toggle target.
+			target.dispatchEvent( chekin2020.createEvent( 'toggled' ) );
+
+			// Trigger events on the toggle targets after they are toggled.
+			if ( target.classList.contains( activeClass ) ) {
+				target.dispatchEvent( chekin2020.createEvent( 'toggle-target-after-active' ) );
+			} else {
+				target.dispatchEvent( chekin2020.createEvent( 'toggle-target-after-inactive' ) );
+			}
+		}, timeOutTime );
+	},
+
+	// Do the toggle.
+	toggle: function() {
+		var self = this;
+
+		document.querySelectorAll( '*[data-toggle-target]' ).forEach( function( element ) {
+			element.addEventListener( 'click', function( event ) {
+				event.preventDefault();
+				self.performToggle( element );
+			} );
+		} );
+	},
+
+	// Check for toggle/untoggle on screen resize.
+	resizeCheck: function() {
+		if ( document.querySelectorAll( '*[data-untoggle-above], *[data-untoggle-below], *[data-toggle-above], *[data-toggle-below]' ).length ) {
+			window.addEventListener( 'resize', function() {
+				var winWidth = window.innerWidth,
+					toggles = document.querySelectorAll( '.toggle' );
+
+				toggles.forEach( function( toggle ) {
+					var unToggleAbove = toggle.dataset.untoggleAbove,
+						unToggleBelow = toggle.dataset.untoggleBelow,
+						toggleAbove = toggle.dataset.toggleAbove,
+						toggleBelow = toggle.dataset.toggleBelow;
+
+					// If no width comparison is set, continue.
+					if ( ! unToggleAbove && ! unToggleBelow && ! toggleAbove && ! toggleBelow ) {
+						return;
+					}
+
+					// If the toggle width comparison is true, toggle the toggle.
+					if (
+						( ( ( unToggleAbove && winWidth > unToggleAbove ) ||
+							( unToggleBelow && winWidth < unToggleBelow ) ) &&
+							toggle.classList.contains( 'active' ) ) ||
+						( ( ( toggleAbove && winWidth > toggleAbove ) ||
+							( toggleBelow && winWidth < toggleBelow ) ) &&
+							! toggle.classList.contains( 'active' ) )
+					) {
+						toggle.click();
+					}
+				} );
+			} );
+		}
+	},
+
+	// Close toggle on escape key press.
+	untoggleOnEscapeKeyPress: function() {
+		document.addEventListener( 'keyup', function( event ) {
+			if ( event.key === 'Escape' ) {
+				document.querySelectorAll( '*[data-untoggle-on-escape].active' ).forEach( function( element ) {
+					if ( element.classList.contains( 'active' ) ) {
+						element.click();
+					}
+				} );
+			}
+		} );
+	}
+
+}; // chekin2020.toggles
+
+/**
+ * Is the DOM ready?
+ *
+ * This implementation is coming from https://gomakethings.com/a-native-javascript-equivalent-of-jquerys-ready-method/
+ *
+ * @param {Function} fn Callback function to run.
+ */
+function chekin2020DomReady( fn ) {
+	if ( typeof fn !== 'function' ) {
+		return;
+	}
+
+	if ( document.readyState === 'interactive' || document.readyState === 'complete' ) {
+		return fn();
+	}
+
+	document.addEventListener( 'DOMContentLoaded', fn, false );
+}
+
+chekin2020DomReady( function() {
+	chekin2020.toggles.init();              // Handle toggles.
+	chekin2020.coverModals.init();          // Handle cover modals.
+	chekin2020.intrinsicRatioVideos.init(); // Retain aspect ratio of videos on window resize.
+	chekin2020.modalMenu.init();            // Modal Menu.
+	chekin2020.primaryMenu.init();          // Primary Menu.
+	chekin2020.touchEnabled.init();         // Add class to body if device is touch-enabled.
+} );
+
+/*	-----------------------------------------------------------------------------------------------
+	Helper functions
+--------------------------------------------------------------------------------------------------- */
+
+/* Toggle an attribute ----------------------- */
+
+function chekin2020ToggleAttribute( element, attribute, trueVal, falseVal ) {
+	if ( trueVal === undefined ) {
+		trueVal = true;
+	}
+	if ( falseVal === undefined ) {
+		falseVal = false;
+	}
+	if ( element.getAttribute( attribute ) !== trueVal ) {
+		element.setAttribute( attribute, trueVal );
+	} else {
+		element.setAttribute( attribute, falseVal );
+	}
+}
+
+/**
+ * Toggle a menu item on or off.
+ *
+ * @param {HTMLElement} target
+ * @param {number} duration
+ */
+function chekin2020MenuToggle( target, duration ) {
+	var initialParentHeight, finalParentHeight, menu, menuItems, transitionListener,
+		initialPositions = [],
+		finalPositions = [];
+
+	if ( ! target ) {
+		return;
+	}
+
+	menu = target.closest( '.menu-wrapper' );
+
+	// Step 1: look at the initial positions of every menu item.
+	menuItems = menu.querySelectorAll( '.menu-item' );
+
+	menuItems.forEach( function( menuItem, index ) {
+		initialPositions[ index ] = { x: menuItem.offsetLeft, y: menuItem.offsetTop };
+	} );
+	initialParentHeight = target.parentElement.offsetHeight;
+
+	target.classList.add( 'toggling-target' );
+
+	// Step 2: toggle target menu item and look at the final positions of every menu item.
+	target.classList.toggle( 'active' );
+
+	menuItems.forEach( function( menuItem, index ) {
+		finalPositions[ index ] = { x: menuItem.offsetLeft, y: menuItem.offsetTop };
+	} );
+	finalParentHeight = target.parentElement.offsetHeight;
+
+	// Step 3: close target menu item again.
+	// The whole process happens without giving the browser a chance to render, so it's invisible.
+	target.classList.toggle( 'active' );
+
+	/*
+	 * Step 4: prepare animation.
+	 * Position all the items with absolute offsets, at the same starting position.
+	 * Shouldn't result in any visual changes if done right.
+	 */
+	menu.classList.add( 'is-toggling' );
+	target.classList.toggle( 'active' );
+	menuItems.forEach( function( menuItem, index ) {
+		var initialPosition = initialPositions[ index ];
+		if ( initialPosition.y === 0 && menuItem.parentElement === target ) {
+			initialPosition.y = initialParentHeight;
+		}
+		menuItem.style.transform = 'translate(' + initialPosition.x + 'px, ' + initialPosition.y + 'px)';
+	} );
+
+	/*
+	 * The double rAF is unfortunately needed, since we're toggling CSS classes, and
+	 * the only way to ensure layout completion here across browsers is to wait twice.
+	 * This just delays the start of the animation by 2 frames and is thus not an issue.
+	 */
+	requestAnimationFrame( function() {
+		requestAnimationFrame( function() {
+			/*
+			 * Step 5: start animation by moving everything to final position.
+			 * All the layout work has already happened, while we were preparing for the animation.
+			 * The animation now runs entirely in CSS, using cheap CSS properties (opacity and transform)
+			 * that don't trigger the layout or paint stages.
+			 */
+			menu.classList.add( 'is-animating' );
+			menuItems.forEach( function( menuItem, index ) {
+				var finalPosition = finalPositions[ index ];
+				if ( finalPosition.y === 0 && menuItem.parentElement === target ) {
+					finalPosition.y = finalParentHeight;
+				}
+				if ( duration !== undefined ) {
+					menuItem.style.transitionDuration = duration + 'ms';
+				}
+				menuItem.style.transform = 'translate(' + finalPosition.x + 'px, ' + finalPosition.y + 'px)';
+			} );
+			if ( duration !== undefined ) {
+				target.style.transitionDuration = duration + 'ms';
+			}
+		} );
+
+		// Step 6: finish toggling.
+		// Remove all transient classes when the animation ends.
+		transitionListener = function() {
+			menu.classList.remove( 'is-animating' );
+			menu.classList.remove( 'is-toggling' );
+			target.classList.remove( 'toggling-target' );
+			menuItems.forEach( function( menuItem ) {
+				menuItem.style.transform = '';
+				menuItem.style.transitionDuration = '';
+			} );
+			target.style.transitionDuration = '';
+			target.removeEventListener( 'transitionend', transitionListener );
+		};
+
+		target.addEventListener( 'transitionend', transitionListener );
+	} );
+}
+
+/**
+ * Traverses the DOM up to find elements matching the query.
+ *
+ * @param {HTMLElement} target
+ * @param {string} query
+ * @return {NodeList} parents matching query
+ */
+function chekin2020FindParents( target, query ) {
+	var parents = [];
+
+	// Recursively go up the DOM adding matches to the parents array.
+	function traverse( item ) {
+		var parent = item.parentNode;
+		if ( parent instanceof HTMLElement ) {
+			if ( parent.matches( query ) ) {
+				parents.push( parent );
+			}
+			traverse( parent );
+		}
+	}
+
+	traverse( target );
+
+	return parents;
+}

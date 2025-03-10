@@ -1,0 +1,28 @@
+[19-Jul-2024 21:56:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php on line 17
+[23-Jul-2024 19:20:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php on line 17
+[16-Dec-2024 21:17:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php on line 17
+[16-Jan-2025 15:31:39 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php on line 17
+[16-Jan-2025 15:31:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php on line 17
+[16-Jan-2025 15:31:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php on line 17
+[17-Jan-2025 05:37:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/fmbasste/public_html/onboarding/wp-content/themes/chekin2020/index.php on line 17

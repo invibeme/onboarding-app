@@ -18,20 +18,37 @@ node_modules/
 vendor/
 
 # Ignore cache, upgrade, and uploads directories
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
+chekin.com/wp-content/cache/
+chekin.com/wp-content/upgrade/
+chekin.com/wp-content/uploads/
+
+chekin.com/onboarding/wp-content/cache/
+chekin.com/onboarding/wp-content/upgrade/
 
 # Ignore all plugins except specific ones
-wp-content/plugins/*
-!wp-content/plugins/wp-rocket/
-!wp-content/plugins/advanced-custom-fields-pro/
-!wp-content/plugins/sitepress-multilingual-cms/
-!wp-content/plugins/wp-postviews/
-!wp-content/plugins/wp-seo-multilingual/
-!wp-content/plugins/wpml-media-translation/
-!wp-content/plugins/wpml-string-translation/
+chekin.com/wp-content/plugins/*
+chekin.com/onboarding/wp-content/plugins/*
+
+!chekin.com/wp-content/plugins/wp-rocket/
+!chekin.com/wp-content/plugins/advanced-custom-fields-pro/
+!chekin.com/wp-content/plugins/sitepress-multilingual-cms/
+!chekin.com/wp-content/plugins/wp-postviews/
+!chekin.com/wp-content/plugins/wp-seo-multilingual/
+!chekin.com/wp-content/plugins/wpml-media-translation/
+!chekin.com/wp-content/plugins/wpml-string-translation/
+
+!chekin.com/onboarding/wp-content/plugins/sitepress-multilingual-cms/
+!chekin.com/onboarding/wp-content/plugins/wp-seo-multilingual/
+!chekin.com/onboarding/wp-content/plugins/wpml-media-translation/
+!chekin.com/onboarding/wp-content/plugins/wpml-string-translation/
 
 # Ignore WordPress core files (optional, if using Git for custom development)
-wp-admin/
-wp-includes/
+chekin.com/wp-admin/
+chekin.com/wp-includes/
+
+chekin.com/onboarding/wp-admin/
+chekin.com/onboarding/wp-includes/
+
+# Ignore environment configuration files
+chekin.com/wp-config.php
+chekin.com/onboarding/wp-config.php
